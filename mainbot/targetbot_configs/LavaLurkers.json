@@ -1,0 +1,45 @@
+{
+  "targeting": [
+    {
+      "keepDistanceRange": 1,
+      "name": "Ravenous Lava Lurker, Feral Sphinx, Sphinx, Lamassu",
+      "faceMonster": false,
+      "anchor": false,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "regex": "^ravenous lava lurker$|^feral sphinx$|^sphinx$|^lamassu$",
+      "lureMax": 5,
+      "lure": false,
+      "delayFrom": 1,
+      "danger": 5,
+      "rpSafe": false,
+      "dynamicLureDelay": true,
+      "rePosition": false,
+      "diamondArrows": false,
+      "lureMin": 4,
+      "dynamicLure": true,
+      "priority": 5,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureDelay": 500,
+      "dontLoot": true,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "maxDistance": 10,
+      "rePositionAmount": 5,
+      "anchorRange": 3
+    }
+  ],
+  "looting": {
+    "containers": [
+
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "items": [
+
+    ],
+    "everyItem": false
+  }
+}

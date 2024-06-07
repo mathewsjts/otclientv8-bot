@@ -1,0 +1,125 @@
+{
+  "currentBotProfile": 1,
+  "AttackBot": [
+    {
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "pvpMode": false,
+      "Rotate": false,
+      "name": "Profile #1",
+      "ignoreMana": true,
+      "Cooldown": true,
+      "attackTable": [
+        {
+          "minHp": 0,
+          "description": "[Ball] 2+ Any Creatures: rune 3202, area (0%-100%)",
+          "category": 2,
+          "spell": "spell name",
+          "enabled": true,
+          "patternCategory": 2,
+          "pattern": 3,
+          "cooldown": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "maxHp": 100,
+          "orMore": true,
+          "itemId": 3202,
+          "count": 2,
+          "monsters": true,
+          "mana": 1
+        },
+        {
+          "minHp": 0,
+          "description": "[3 Sqm] 1+ Any Creatures: exori frigo, targeted (0%-100%)",
+          "category": 1,
+          "spell": "exori frigo",
+          "enabled": true,
+          "patternCategory": 1,
+          "pattern": 3,
+          "cooldown": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "maxHp": 100,
+          "orMore": true,
+          "itemId": 0,
+          "count": 1,
+          "monsters": true,
+          "mana": 1
+        }
+      ],
+      "enabled": true,
+      "Kills": false
+    },
+    {
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "pvpMode": false,
+      "Rotate": false,
+      "name": "Profile #2",
+      "ignoreMana": true,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "Kills": false
+    },
+    {
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "pvpMode": false,
+      "Rotate": false,
+      "name": "Profile #3",
+      "ignoreMana": true,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "Kills": false
+    },
+    {
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "pvpMode": false,
+      "Rotate": false,
+      "name": "Profile #4",
+      "ignoreMana": true,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "Kills": false
+    },
+    {
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "pvpMode": false,
+      "Rotate": false,
+      "name": "Profile #5",
+      "ignoreMana": true,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "Kills": false
+    }
+  ]
+}

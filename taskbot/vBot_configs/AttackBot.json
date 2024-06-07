@@ -1,0 +1,162 @@
+{
+  "AttackBot": [
+    {
+      "attackTable": [
+        {
+          "pattern": 3,
+          "mana": 40,
+          "description": "[3 Sqm] 1+ Creatures: exori flam, targeted (0%-100%)",
+          "monsters": [
+            "brimstone bug",
+            "wailing widow",
+            "lancer beetle",
+            "wyvern",
+            "terramite",
+            "tarantula",
+            "crocodile"
+          ],
+          "category": 1,
+          "spell": "exori flam",
+          "orMore": true,
+          "creatures": "brimstone bug, wailing widow, lancer beetle, wyvern, terramite, tarantula, crocodile",
+          "tooltip": "brimstone bug, wailing widow, lancer beetle, wyvern, terramite, tarantula, crocodile",
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 1,
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "itemId": 0
+        },
+        {
+          "pattern": 3,
+          "mana": 40,
+          "description": "[3 Sqm] 1+ Creatures: exori frigo, targeted (0%-100%)",
+          "monsters": [
+            "merlkin",
+            "kongra",
+            "sibang"
+          ],
+          "category": 1,
+          "spell": "exori frigo",
+          "orMore": true,
+          "creatures": "merlkin, kongra, sibang",
+          "tooltip": "merlkin, kongra, sibang",
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 1,
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "itemId": 0
+        },
+        {
+          "pattern": 3,
+          "mana": 40,
+          "description": "[3 Sqm] 1+ Creatures: exori vis, targeted (0%-100%)",
+          "monsters": [
+            "crystal spider",
+            "quara hydromancer scout",
+            "quara pincher scout",
+            "quara predator scout",
+            "ice golem",
+            "crocodile"
+          ],
+          "category": 1,
+          "spell": "exori vis",
+          "orMore": true,
+          "creatures": "crystal spider, quara hydromancer scout, quara pincher scout, quara predator scout, ice golem, crocodile",
+          "tooltip": "crystal spider, quara hydromancer scout, quara pincher scout, quara predator scout, ice golem, crocodile",
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 1,
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "itemId": 0
+        }
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #1",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": true,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #2",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #3",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #4",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #5",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    }
+  ],
+  "currentBotProfile": 1
+}

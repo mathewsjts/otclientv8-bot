@@ -1,0 +1,45 @@
+{
+  "looting": {
+    "items": [
+
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "lureDelay": 750,
+      "lureMin": 2,
+      "maxDistance": 10,
+      "anchorRange": 3,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "rePositionAmount": 5,
+      "lureMax": 4,
+      "regex": "^black sphinx acolyte$|^burning gladiator$|^priestess of the wild sun$",
+      "dynamicLureDelay": true,
+      "priority": 5,
+      "dynamicLure": true,
+      "keepDistance": false,
+      "danger": 5,
+      "chase": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "closeLure": false,
+      "faceMonster": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "diamondArrows": false,
+      "delayFrom": 3,
+      "anchor": false,
+      "closeLureAmount": 3,
+      "rePosition": false,
+      "name": "Black Sphinx Acolyte, Burning Gladiator,  Priestess Of The Wild Sun",
+      "rpSafe": false
+    }
+  ]
+}

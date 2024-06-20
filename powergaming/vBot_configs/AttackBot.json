@@ -1,0 +1,177 @@
+{
+  "AttackBot": [
+    {
+      "Visible": true,
+      "name": "Profile #1",
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+        {
+          "orMore": true,
+          "mana": 50,
+          "spell": "exori vis",
+          "pattern": 3,
+          "description": "[3 Sqm] 1+ Creatures: exori vis, targeted (0%-100%)",
+          "maxHp": 100,
+          "enabled": true,
+          "tooltip": "quara mantassin scout, water elemental",
+          "patternCategory": 1,
+          "monsters": [
+            "quara mantassin scout",
+            "water elemental"
+          ],
+          "minHp": 0,
+          "cooldown": 1,
+          "count": 1,
+          "creatures": "quara mantassin scout, water elemental",
+          "category": 1,
+          "itemId": 0
+        },
+        {
+          "description": "[3 Sqm] 1+ Creatures: exori flam, targeted (0%-100%)",
+          "mana": 1,
+          "spell": "exori flam",
+          "pattern": 3,
+          "orMore": true,
+          "patternCategory": 1,
+          "enabled": true,
+          "tooltip": "corym charlatan, corym skirmisher, corym vanguard",
+          "category": 1,
+          "monsters": [
+            "corym charlatan",
+            "corym skirmisher",
+            "corym vanguard"
+          ],
+          "minHp": 0,
+          "cooldown": 1,
+          "count": 1,
+          "creatures": "corym charlatan, corym skirmisher, corym vanguard",
+          "maxHp": 100,
+          "itemId": 0
+        },
+        {
+          "itemId": 0,
+          "mana": 1,
+          "spell": "exori min flam",
+          "pattern": 3,
+          "maxHp": 100,
+          "category": 1,
+          "enabled": true,
+          "tooltip": "cave rat, spider, poison spider, bug, swamp troll, skeleton",
+          "count": 1,
+          "monsters": [
+            "cave rat",
+            "spider",
+            "poison spider",
+            "bug",
+            "swamp troll",
+            "skeleton"
+          ],
+          "cooldown": 1,
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "cave rat, spider, poison spider, bug, swamp troll, skeleton",
+          "description": "[3 Sqm] 1+ Creatures: exori min flam, targeted (0%-100%)",
+          "orMore": true
+        },
+        {
+          "orMore": true,
+          "mana": 1,
+          "spell": "exevo dis flam hur",
+          "pattern": 10,
+          "description": "[Big Wave] 1+ Creatures: exevo dis flam hur, absolute (0%-100%)",
+          "maxHp": 100,
+          "enabled": true,
+          "tooltip": "bug",
+          "patternCategory": 4,
+          "monsters": [
+            "bug"
+          ],
+          "minHp": 0,
+          "cooldown": 1,
+          "count": 1,
+          "creatures": "bug",
+          "category": 5,
+          "itemId": 0
+        }
+      ],
+      "enabled": true,
+      "pvpMode": false,
+      "Kills": false,
+      "Rotate": false
+    },
+    {
+      "Visible": true,
+      "name": "Profile #2",
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "pvpMode": false,
+      "Kills": false,
+      "Rotate": false
+    },
+    {
+      "Visible": true,
+      "name": "Profile #3",
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "pvpMode": false,
+      "Kills": false,
+      "Rotate": false
+    },
+    {
+      "Visible": true,
+      "name": "Profile #4",
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "pvpMode": false,
+      "Kills": false,
+      "Rotate": false
+    },
+    {
+      "Visible": true,
+      "name": "Profile #5",
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "enabled": false,
+      "pvpMode": false,
+      "Kills": false,
+      "Rotate": false
+    }
+  ],
+  "currentBotProfile": 1
+}

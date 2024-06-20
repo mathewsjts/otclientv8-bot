@@ -1,8 +1,7 @@
 {
-  "currentHealBotProfile": 1,
   "ConditionPanel": {
     "curseCost": 80,
-    "cureBleed": false,
+    "enabled": false,
     "bleedCost": 45,
     "cureBurn": false,
     "burnCost": 30,
@@ -10,12 +9,10 @@
     "electrifyCost": 22,
     "cureParalyse": false,
     "paralyseCost": 40,
-    "paralyseSpell": "utani hur",
     "holdHaste": false,
     "hasteCost": 40,
     "hasteSpell": "utani hur",
     "holdUtamo": false,
-    "enabled": false,
     "holdUtana": false,
     "utanaCost": 440,
     "holdUtura": false,
@@ -26,112 +23,123 @@
     "curePosion": false,
     "poisonCost": 20,
     "utamoCost": 40,
-    "cureCurse": false
+    "cureCurse": false,
+    "paralyseSpell": "utani hur",
+    "cureBleed": false
   },
   "healbot": [
     {
+      "Visible": true,
+      "Interval": true,
+      "MessageDelay": false,
+      "Delay": true,
+      "itemTable": [
+        {
+          "enabled": true,
+          "value": 65,
+          "index": 2,
+          "origin": "MP%",
+          "item": 23373,
+          "sign": "<"
+        },
+        {
+          "item": 238,
+          "value": 99,
+          "index": 1,
+          "origin": "MP%",
+          "enabled": true,
+          "sign": "<"
+        }
+      ],
+      "name": "Profile #1",
+      "Conditions": true,
       "spellTable": [
         {
           "sign": "<",
-          "origin": "HP%",
           "value": 90,
-          "index": 1,
-          "spell": "exura vita",
           "cost": 100,
-          "enabled": true
+          "spell": "exura vita",
+          "origin": "HP%",
+          "enabled": true,
+          "index": 1
         },
         {
           "sign": ">",
-          "origin": "MP%",
           "value": 95,
-          "index": 2,
-          "spell": "adeta res",
           "cost": 20,
-          "enabled": true
-        }
-      ],
-      "Cooldown": true,
-      "Conditions": true,
-      "Visible": true,
-      "Interval": true,
-      "MessageDelay": false,
-      "Delay": true,
-      "name": "Profile #1",
-      "itemTable": [
-        {
-          "sign": "<",
+          "spell": "adeta res",
           "origin": "MP%",
-          "item": 238,
-          "index": 1,
-          "value": 99,
-          "enabled": true
+          "enabled": true,
+          "index": 2
         }
       ],
-      "enabled": true
+      "enabled": true,
+      "Cooldown": true
     },
     {
-      "spellTable": [
-
-      ],
-      "Cooldown": true,
-      "Conditions": true,
       "Visible": true,
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
+      "itemTable": [
+
+      ],
       "name": "Profile #2",
-      "itemTable": [
-
-      ],
-      "enabled": false
-    },
-    {
+      "Conditions": true,
       "spellTable": [
 
       ],
-      "Cooldown": true,
-      "Conditions": true,
+      "enabled": false,
+      "Cooldown": true
+    },
+    {
       "Visible": true,
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
+      "itemTable": [
+
+      ],
       "name": "Profile #3",
-      "itemTable": [
-
-      ],
-      "enabled": false
-    },
-    {
+      "Conditions": true,
       "spellTable": [
 
       ],
-      "Cooldown": true,
-      "Conditions": true,
+      "enabled": false,
+      "Cooldown": true
+    },
+    {
       "Visible": true,
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
+      "itemTable": [
+
+      ],
       "name": "Profile #4",
-      "itemTable": [
-
-      ],
-      "enabled": false
-    },
-    {
+      "Conditions": true,
       "spellTable": [
 
       ],
-      "Cooldown": true,
-      "Conditions": true,
+      "enabled": false,
+      "Cooldown": true
+    },
+    {
       "Visible": true,
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
-      "name": "Profile #5",
       "itemTable": [
 
       ],
-      "enabled": false
+      "name": "Profile #5",
+      "Conditions": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "Cooldown": true
     }
-  ]
+  ],
+  "currentHealBotProfile": 1
 }

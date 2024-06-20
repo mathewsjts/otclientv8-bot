@@ -1,0 +1,30 @@
+{
+  "containers": {
+    "height": 170,
+    "lootBag": false,
+    "forceOpen": true,
+    "enabled": true,
+    "list": [
+      {
+        "item": 2854,
+        "items": [
+
+        ],
+        "enabled": true,
+        "min": true,
+        "value": "main"
+      },
+      {
+        "item": 2853,
+        "items": [
+
+        ],
+        "enabled": true,
+        "min": true,
+        "value": "rookgaard"
+      }
+    ],
+    "sort": false,
+    "purse": false
+  }
+}

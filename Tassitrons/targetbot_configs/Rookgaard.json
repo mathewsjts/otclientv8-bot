@@ -1,0 +1,57 @@
+{
+  "looting": {
+    "items": [
+
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "lureMin": 9,
+      "maxDistance": 3,
+      "lureCount": 5,
+      "avoidAttacks": false,
+      "lureMax": 9,
+      "dynamicLureDelay": false,
+      "priority": 1,
+      "danger": 1,
+      "lureDelay": 250,
+      "lureCavebot": true,
+      "dontLoot": false,
+      "dynamicLure": false,
+      "lure": false,
+      "chase": false,
+      "keepDistanceRange": 1,
+      "keepDistance": false,
+      "name": "Cat, Chicken",
+      "regex": "^cat$|^chicken$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 9,
+      "maxDistance": 10,
+      "lureCount": 5,
+      "avoidAttacks": false,
+      "lureMax": 9,
+      "chase": false,
+      "priority": 1,
+      "danger": 1,
+      "keepDistance": false,
+      "lureCavebot": true,
+      "dontLoot": false,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "dynamicLure": false,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "name": "Bug",
+      "regex": "^bug$"
+    }
+  ]
+}

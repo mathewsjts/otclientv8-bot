@@ -1,0 +1,151 @@
+{
+  "looting": {
+    "minCapacity": 0,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false,
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      },
+      {
+        "count": 1,
+        "id": 9668
+      },
+      {
+        "count": 1,
+        "id": 10311
+      },
+      {
+        "count": 1,
+        "id": 3428
+      },
+      {
+        "count": 1,
+        "id": 7386
+      },
+      {
+        "count": 1,
+        "id": 3415
+      },
+      {
+        "count": 1,
+        "id": 7454
+      },
+      {
+        "count": 1,
+        "id": 7436
+      },
+      {
+        "count": 1,
+        "id": 3391
+      },
+      {
+        "count": 0,
+        "id": 5885
+      },
+      {
+        "count": 1,
+        "id": 9662
+      }
+    ],
+    "maxDanger": 10
+  },
+  "targeting": [
+    {
+      "lureCount": 5,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "priority": 0,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "maxDistance": 1,
+      "danger": 0,
+      "anchor": false,
+      "regex": "^.*$",
+      "lureMax": 3,
+      "chase": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "diamondArrows": false,
+      "rePosition": false,
+      "name": "*",
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lure": false,
+      "keepDistanceRange": 1,
+      "lureCavebot": true
+    },
+    {
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "priority": 3,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false,
+      "dontLoot": false,
+      "maxDistance": 10,
+      "danger": 3,
+      "anchor": false,
+      "chase": true,
+      "lureMax": 3,
+      "keepDistanceRange": 1,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "lure": false,
+      "rePosition": false,
+      "name": "Mutated Rat, Mutated Bat, Mutated Tiger",
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "regex": "^mutated rat$|^mutated bat$|^mutated tiger$",
+      "closeLureAmount": 3,
+      "closeLure": false,
+      "diamondArrows": false,
+      "lureCavebot": false
+    },
+    {
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "priority": 10,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false,
+      "dontLoot": false,
+      "maxDistance": 10,
+      "danger": 10,
+      "anchor": false,
+      "keepDistanceRange": 1,
+      "lureMax": 3,
+      "diamondArrows": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "closeLure": false,
+      "rePosition": false,
+      "name": "Undead Gladiator",
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "regex": "^undead gladiator$",
+      "closeLureAmount": 3,
+      "lure": false,
+      "chase": true,
+      "lureCavebot": false
+    }
+  ]
+}

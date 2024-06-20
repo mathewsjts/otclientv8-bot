@@ -1,0 +1,1024 @@
+{
+  "BotServerChannel": "5213562235110",
+  "combobot": {
+    "attackSpellEnabled": false,
+    "attackLeaderTargetEnabled": false,
+    "shootLeader": "",
+    "onCastEnabled": false,
+    "followLeaderEnabled": false,
+    "commandsEnabled": true,
+    "serverEnabled": false,
+    "onSayEnabled": false,
+    "attack": "",
+    "enabled": false,
+    "spell": "",
+    "onShootEnabled": false,
+    "attackItemToggle": false,
+    "serverTriggers": true,
+    "item": 3155,
+    "sayPhrase": "",
+    "serverLeaderTarget": false,
+    "serverLeader": "",
+    "sayLeader": "",
+    "follow": "",
+    "castLeader": ""
+  },
+  "extras": {
+    "rope": 9596,
+    "pathfinding": true,
+    "timers": true,
+    "machete": 9596,
+    "separatePm": false,
+    "reUse": false,
+    "gotoMaxDistance": 30,
+    "reachable": false,
+    "holdMwall": true,
+    "checkPlayer": false,
+    "looting": 40,
+    "suppliesControl": false,
+    "useAll": "space",
+    "joinBot": false,
+    "lootLast": true,
+    "holdMwHot": "F5",
+    "nextBackpack": true,
+    "shovel": 9596,
+    "lootDelay": 200,
+    "talkDelay": 1000,
+    "autoOpenDoors": true,
+    "holdWgHot": "F6",
+    "scythe": 9596,
+    "oberon": true,
+    "huntRoutes": 50,
+    "antiKick": false,
+    "title": true,
+    "stake": false,
+    "killUnder": 1,
+    "highlightTarget": true,
+    "height": 360,
+    "bless": true
+  },
+  "foodItems": [
+    {
+      "count": 1,
+      "id": 3582
+    },
+    {
+      "count": 1,
+      "id": 3577
+    }
+  ],
+  "specialDeposit": {
+    "height": 380,
+    "items": [
+
+    ]
+  },
+  "dropper": {
+    "enabled": false,
+    "trashItems": [
+      {
+        "count": 1,
+        "id": 283
+      },
+      {
+        "count": 1,
+        "id": 284
+      },
+      {
+        "count": 1,
+        "id": 285
+      }
+    ],
+    "useItems": [
+      {
+        "count": 1,
+        "id": 21203
+      },
+      {
+        "count": 1,
+        "id": 14758
+      }
+    ],
+    "capItems": [
+      {
+        "count": 1,
+        "id": 21175
+      }
+    ]
+  },
+  "caveBot": {
+    "backOffline": false,
+    "backTrainers": false,
+    "forceRefill": false,
+    "backStop": false
+  },
+  "analyzers": {
+    "lootChannel": true,
+    "customPrices": [
+
+    ],
+    "trackedLoot": [
+
+    ],
+    "trackedBoss": [
+
+    ],
+    "outfits": {
+      "Golden Servant Replica": {
+        "addons": 0,
+        "feet": 0,
+        "type": 396,
+        "auxType": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "Cosmic Energy Prism B": {
+        "addons": 0,
+        "feet": 0,
+        "type": 128,
+        "body": 0,
+        "legs": 0,
+        "auxType": 24113,
+        "mount": 0,
+        "head": 0
+      },
+      "Mummy": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "auxType": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 65,
+        "head": 0
+      },
+      "Corrupted Soul": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 355,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Quara Trainer": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "auxType": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 20,
+        "head": 0
+      },
+      "Cursed Prospector": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "auxType": 0,
+        "mount": 0,
+        "body": 19,
+        "type": 1268,
+        "head": 0
+      },
+      "Ghoul": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 18,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Flimsy Lost Soul": {
+        "addons": 1,
+        "feet": 0,
+        "legs": 0,
+        "auxType": 0,
+        "mount": 0,
+        "body": 26,
+        "type": 1268,
+        "head": 0
+      },
+      "Soulcatcher": {
+        "addons": 0,
+        "feet": 0,
+        "type": 128,
+        "auxType": 11053,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "Iron Servant": {
+        "addons": 0,
+        "feet": 0,
+        "type": 395,
+        "auxType": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "Thief": {
+        "addons": 3,
+        "feet": 18,
+        "legs": 88,
+        "auxType": 0,
+        "mount": 1388,
+        "body": 27,
+        "type": 1332,
+        "head": 114
+      },
+      "Draken Spellweaver": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 0,
+        "type": 340,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Stalker": {
+        "addons": 0,
+        "feet": 114,
+        "legs": 95,
+        "auxType": 0,
+        "mount": 0,
+        "body": 116,
+        "type": 128,
+        "head": 78
+      },
+      "Mean Lost Soul": {
+        "addons": 1,
+        "feet": 0,
+        "legs": 0,
+        "auxType": 0,
+        "mount": 0,
+        "body": 14,
+        "type": 1268,
+        "head": 0
+      },
+      "Dragon Wrath": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 0,
+        "type": 351,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Tribal": {
+        "addons": 3,
+        "feet": 95,
+        "mount": 405,
+        "body": 94,
+        "type": 1331,
+        "auxType": 0,
+        "legs": 0,
+        "head": 97
+      },
+      "El Bananero": {
+        "addons": 3,
+        "feet": 114,
+        "mount": 1019,
+        "body": 124,
+        "type": 1332,
+        "auxType": 0,
+        "legs": 76,
+        "head": 83
+      },
+      "Cosmic Energy Prism C": {
+        "addons": 0,
+        "feet": 0,
+        "type": 128,
+        "body": 0,
+        "legs": 0,
+        "auxType": 24113,
+        "mount": 0,
+        "head": 0
+      },
+      "Lizard High Guard": {
+        "addons": 0,
+        "feet": 0,
+        "type": 337,
+        "auxType": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "Druid's Apparition": {
+        "addons": 0,
+        "feet": 95,
+        "mount": 0,
+        "body": 48,
+        "type": 148,
+        "auxType": 0,
+        "legs": 114,
+        "head": 114
+      },
+      "Mutated Tiger": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 0,
+        "type": 318,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Courage Leech": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 1315,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "An Astral Glyph": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 24225,
+        "type": 128,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Evil Prospector": {
+        "addons": 1,
+        "feet": 0,
+        "mount": 0,
+        "body": 13,
+        "type": 1268,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Draken Warmaster": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 0,
+        "type": 334,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Lloyd": {
+        "addons": 0,
+        "feet": 0,
+        "type": 940,
+        "auxType": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "The Last Lore Keeper": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 0,
+        "type": 939,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "The Time Guardian": {
+        "addons": 0,
+        "feet": 0,
+        "type": 945,
+        "auxType": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "Vibrant Phantom": {
+        "addons": 0,
+        "feet": 91,
+        "mount": 0,
+        "body": 85,
+        "type": 1302,
+        "auxType": 0,
+        "legs": 88,
+        "head": 85
+      },
+      "Ghost": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 48,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Cloak of Terror": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 1299,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Abada Kadabra": {
+        "addons": 3,
+        "feet": 114,
+        "mount": 1388,
+        "body": 124,
+        "type": 1332,
+        "auxType": 0,
+        "legs": 76,
+        "head": 83
+      },
+      "Dragon Servant": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 0,
+        "type": 39,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "The Astral Source": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 24228,
+        "type": 128,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Cosmic Energy Prism D": {
+        "addons": 0,
+        "feet": 0,
+        "type": 128,
+        "body": 0,
+        "legs": 0,
+        "auxType": 24113,
+        "mount": 0,
+        "head": 0
+      },
+      "Alsanna Thos": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "auxType": 13,
+        "mount": 0,
+        "body": 0,
+        "type": 128,
+        "head": 0
+      },
+      "Melting Frozen Horror": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 261,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Kaitron": {
+        "addons": 3,
+        "feet": 0,
+        "mount": 851,
+        "body": 114,
+        "type": 760,
+        "auxType": 0,
+        "legs": 114,
+        "head": 0
+      },
+      "Dragon Egg": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 128,
+        "auxType": 25077,
+        "legs": 0,
+        "head": 0
+      },
+      "Dragon Trainer": {
+        "addons": 0,
+        "feet": 0,
+        "type": 34,
+        "auxType": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "Lady Tenebris": {
+        "addons": 2,
+        "feet": 94,
+        "type": 433,
+        "auxType": 0,
+        "legs": 38,
+        "body": 95,
+        "mount": 0,
+        "head": 57
+      },
+      "Diamond Servant Replica": {
+        "addons": 0,
+        "feet": 0,
+        "type": 397,
+        "auxType": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0
+      },
+      "Wish": {
+        "addons": 3,
+        "feet": 82,
+        "mount": 1104,
+        "body": 126,
+        "type": 1324,
+        "auxType": 0,
+        "legs": 126,
+        "head": 126
+      },
+      "Shadow Tentacle": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 681,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "A Shielded Astral Glyph": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "auxType": 24226,
+        "type": 128,
+        "body": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Haizor": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 48,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      },
+      "Cosmic Energy Prism A": {
+        "addons": 0,
+        "feet": 0,
+        "type": 128,
+        "body": 0,
+        "legs": 0,
+        "auxType": 24113,
+        "mount": 0,
+        "head": 0
+      },
+      "Soul of Dragonking Zyrtarch": {
+        "addons": 0,
+        "feet": 0,
+        "mount": 0,
+        "body": 0,
+        "type": 938,
+        "auxType": 0,
+        "legs": 0,
+        "head": 0
+      }
+    },
+    "rarityFrames": true
+  },
+  "cavebotSell": [
+    {
+      "count": 1,
+      "id": 23544
+    },
+    {
+      "count": 1,
+      "id": 3081
+    }
+  ],
+  "bestHit": 5916,
+  "EquipperPanel": {
+    "bosses": [
+
+    ],
+    "enabled": false,
+    "rules": [
+
+    ]
+  },
+  "caveBotTasker": {
+    "max": 0,
+    "monster": "",
+    "inProgress": false,
+    "count": 0,
+    "taskName": ""
+  },
+  "_configs": {
+    "cavebot_configs": {
+      "enabled": false,
+      "selected": "Demons"
+    },
+    "targetbot_configs": {
+      "enabled": true,
+      "selected": "all"
+    }
+  },
+  "_icons": {
+    "Golden Outfit": {
+      "y": 0.14591700133869,
+      "x": 0.0077683615819209
+    },
+    "Elemental Damage": {
+      "y": 0.45,
+      "x": 0.01
+    },
+    "Fearless Mount": {
+      "y": 0.59839357429719,
+      "x": 0.0042372881355932
+    },
+    "Boost Physical": {
+      "y": 0.15394912985274,
+      "x": 0.048022598870056
+    },
+    "Paralyze": {
+      "y": 0.18206157965194,
+      "x": 0.93926553672316,
+      "enabled": false
+    },
+    "SoulWar XP": {
+      "y": 0.06425702811245,
+      "x": 0.048728813559322
+    },
+    "Drunk": {
+      "y": 0.46586345381526,
+      "x": 0.050847457627119
+    },
+    "Egg Spawn": {
+      "y": 0.45,
+      "x": 0.21
+    },
+    "Fly Mount": {
+      "y": 0.68540829986613,
+      "x": 0.042372881355932
+    },
+    "Discoverer": {
+      "y": 0.05,
+      "x": 0.01
+    },
+    "Mana Regen": {
+      "y": 0.22222222222222,
+      "x": 0.01271186440678
+    },
+    "Dummy Training": {
+      "y": 0.048192771084337,
+      "x": 0.084745762711864
+    },
+    "Assassin": {
+      "y": 0.060240963855422,
+      "x": 0.086864406779661
+    },
+    "Store Discount Mount": {
+      "y": 0.41231593038822,
+      "x": 0.088276836158192
+    },
+    "Drommedary Mount": {
+      "y": 0.59170013386881,
+      "x": 0.087570621468927
+    },
+    "Camelizer": {
+      "y": 0.2235609103079,
+      "x": 0.046610169491525
+    },
+    "Freeze Mount": {
+      "y": 0.5140562248996,
+      "x": 0.048022598870056
+    },
+    "Boost Physical Mount": {
+      "y": 0.51271753681392,
+      "x": 0.089689265536723
+    },
+    "Damage Boost Mount": {
+      "y": 0.85,
+      "x": 0.31
+    },
+    "ML Debuff": {
+      "y": 0.38152610441767,
+      "x": 0.052966101694915
+    },
+    "Witch": {
+      "y": 0.22623828647925,
+      "x": 0.087570621468927
+    },
+    "Earth Boost Mount": {
+      "y": 0.54484605087015,
+      "x": 0.05225988700565
+    },
+    "Damage Protection": {
+      "y": 0.14725568942436,
+      "x": 0.088276836158192
+    },
+    "Ice Boost Mount": {
+      "y": 0.71084337349398,
+      "x": 0.088276836158192
+    },
+    "Manaleech Mount": {
+      "y": 0.68406961178046,
+      "x": 0.087570621468927
+    },
+    "Loot": {
+      "y": 0.060240963855422,
+      "x": 0.011299435028249
+    },
+    "XP Mount": {
+      "y": 0.4190093708166,
+      "x": 0.048022598870056
+    },
+    "Loot Mount": {
+      "y": 0.42034805890228,
+      "x": 0.0049435028248588
+    },
+    "Store Discount": {
+      "y": 0.046854082998661,
+      "x": 0.048728813559322
+    },
+    "Drunk Immunity Mount": {
+      "y": 0.59303882195448,
+      "x": 0.044491525423729
+    },
+    "Mana Leech": {
+      "y": 0.45,
+      "x": 0.11
+    }
+  },
+  "checkVersion": 1668515786,
+  "renameContainers": {
+    "purse": true,
+    "enabled": false,
+    "height": 170,
+    "list": [
+      {
+        "items": [
+          3081,
+          3048
+        ],
+        "value": "Main Backpack",
+        "item": 9601,
+        "min": false,
+        "enabled": true
+      },
+      {
+        "items": [
+          3161,
+          3180
+        ],
+        "value": "Runes",
+        "item": 2866,
+        "min": true,
+        "enabled": true
+      },
+      {
+        "items": [
+          3031,
+          3035,
+          3043
+        ],
+        "value": "Money",
+        "item": 2871,
+        "min": true,
+        "enabled": true
+      },
+      {
+        "items": [
+
+        ],
+        "value": "Purse",
+        "item": 23396,
+        "min": true,
+        "enabled": true
+      }
+    ]
+  },
+  "followingTarget": "Beatricy",
+  "BOTserver": {
+    "manaInfo": true,
+    "mwallInfo": true,
+    "mwalls": [
+
+    ],
+    "outfit": false,
+    "broadcasts": true,
+    "vocation": true,
+    "enabled": true
+  },
+  "pushmax": {
+    "pushMaxRuneId": 3188,
+    "mwallBlockId": 2128,
+    "pushDelay": 1060,
+    "enabled": true,
+    "pushMaxKey": "PageUp"
+  },
+  "alarms": {
+    "privateMsg": [
+
+    ],
+    "customMessage": {
+      "value": ""
+    },
+    "flashClient": [
+
+    ],
+    "lowMana": {
+      "value": 20
+    },
+    "creatureDetected": [
+
+    ],
+    "damageTaken": [
+
+    ],
+    "playerAttack": [
+
+    ],
+    "ignoreFriends": [
+
+    ],
+    "defaultMsg": [
+
+    ],
+    "playerDetected": [
+
+    ],
+    "lowHealth": {
+      "value": 20
+    },
+    "creatureName": {
+      "value": ""
+    }
+  },
+  "_macros": {
+    "": false,
+    "Training Rotation": true,
+    "Train ML": false,
+    "Hold Target": false
+  },
+  "moneyItems": [
+    {
+      "count": 1,
+      "id": 3031
+    },
+    {
+      "count": 1,
+      "id": 3035
+    }
+  ],
+  "playerList": {
+    "enemyList": [
+
+    ],
+    "outfits": false,
+    "groupMembers": true,
+    "friendList": [
+
+    ],
+    "highlight": false,
+    "marks": false,
+    "blackList": [
+
+    ]
+  },
+  "newHealer": {
+    "vocations": [
+
+    ],
+    "groups": [
+
+    ],
+    "enabled": false,
+    "conditions": {
+      "party": true,
+      "knights": true,
+      "friends": false,
+      "botserver": false,
+      "paladins": true,
+      "druids": false,
+      "sorcerers": false,
+      "guild": false
+    },
+    "customPlayers": [
+
+    ],
+    "priorities": [
+      {
+        "custom": true,
+        "enabled": false,
+        "name": "Custom Spell"
+      },
+      {
+        "strong": true,
+        "enabled": true,
+        "name": "Exura Gran Sio"
+      },
+      {
+        "normal": true,
+        "enabled": true,
+        "name": "Exura Sio"
+      },
+      {
+        "enabled": true,
+        "name": "Exura Gran Mas Res",
+        "area": true
+      },
+      {
+        "health": true,
+        "enabled": true,
+        "name": "Health Item"
+      },
+      {
+        "enabled": true,
+        "name": "Mana Item",
+        "mana": true
+      }
+    ],
+    "settings": [
+      {
+        "type": "HealItem",
+        "text": "Mana Item ",
+        "value": 268
+      },
+      {
+        "type": "HealScroll",
+        "text": "Item Range: ",
+        "value": 6
+      },
+      {
+        "type": "HealItem",
+        "text": "Health Item ",
+        "value": 3160
+      },
+      {
+        "type": "HealScroll",
+        "text": "Mas Res Players: ",
+        "value": 2
+      },
+      {
+        "type": "HealScroll",
+        "text": "Heal Friend at: ",
+        "value": 80
+      },
+      {
+        "type": "HealScroll",
+        "text": "Use Gran Sio at: ",
+        "value": 80
+      },
+      {
+        "type": "HealScroll",
+        "text": "Min Player HP%: ",
+        "value": 80
+      },
+      {
+        "type": "HealScroll",
+        "text": "Min Player MP%: ",
+        "value": 50
+      }
+    ]
+  },
+  "autoTradeMessage": "I'm using OTClientV8!",
+  "autoEquip": [
+    {
+      "item1": 3052,
+      "title": "Auto Equip",
+      "item2": 3089,
+      "on": false,
+      "slot": 9
+    },
+    {
+      "item1": 0,
+      "title": "Auto Equip",
+      "item2": 0,
+      "on": false,
+      "slot": 0
+    }
+  ],
+  "bestHeal": 5998
+}

@@ -1,0 +1,91 @@
+{
+  "looting": {
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      },
+      {
+        "count": 1,
+        "id": 32926
+      }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 0,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2872
+      },
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "useSpellAttack": false,
+      "lureDelay": 250,
+      "lureMin": 1,
+      "minMana": 200,
+      "avoidAttacks": false,
+      "lureMax": 3,
+      "dynamicLureDelay": false,
+      "groupRuneAttackDelay": 5000,
+      "danger": 1,
+      "runeAttackDelay": 2000,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "useGroupAttackRune": false,
+      "groupRuneAttackRadius": 1,
+      "groupAttackIgnorePlayers": false,
+      "faceMonster": false,
+      "maxDistance": 10,
+      "groupAttackIgnoreParty": false,
+      "groupAttackDelay": 5000,
+      "useGroupAttack": false,
+      "attackRune": 0,
+      "attackSpell": "",
+      "chase": true,
+      "groupAttackRadius": 1,
+      "keepDistanceRange": 1,
+      "useRuneAttack": false,
+      "groupAttackRune": 0,
+      "groupAttackSpell": "",
+      "lureCount": 1,
+      "name": "Gnarlhound",
+      "minManaGroup": 1500,
+      "priority": 1,
+      "attackSpellDelay": 2500,
+      "lure": false,
+      "keepDistance": false,
+      "groupRuneAttackTargets": 2,
+      "groupAttackTargets": 2,
+      "dynamicLure": false,
+      "regex": "^gnarlhound$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 9,
+      "maxDistance": 10,
+      "lureCount": 5,
+      "avoidAttacks": false,
+      "lureMax": 9,
+      "dynamicLureDelay": false,
+      "priority": 1,
+      "keepDistanceRange": 1,
+      "keepDistance": false,
+      "lureCavebot": true,
+      "dontLoot": true,
+      "name": "Insect Swarm, Sandcrawler",
+      "lure": false,
+      "lureDelay": 250,
+      "danger": 1,
+      "chase": false,
+      "dynamicLure": false,
+      "regex": "^insect swarm$|^sandcrawler$"
+    }
+  ]
+}

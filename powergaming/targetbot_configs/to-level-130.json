@@ -1,0 +1,109 @@
+{
+  "looting": {
+    "containers": [
+      {
+        "id": 2854,
+        "count": 1
+      }
+    ],
+    "items": [
+      {
+        "id": 3031,
+        "count": 88
+      },
+      {
+        "id": 3035,
+        "count": 1
+      },
+      {
+        "id": 3032,
+        "count": 1
+      },
+      {
+        "id": 237,
+        "count": 1
+      },
+      {
+        "id": 3029,
+        "count": 1
+      },
+      {
+        "id": 3028,
+        "count": 1
+      },
+      {
+        "id": 281,
+        "count": 1
+      },
+      {
+        "id": 282,
+        "count": 1
+      }
+    ],
+    "everyItem": false,
+    "minCapacity": 0,
+    "maxDanger": 10
+  },
+  "targeting": [
+    {
+      "chase": false,
+      "anchor": false,
+      "keepDistance": false,
+      "regex": "^quara mantassin scout$",
+      "lureMin": 1,
+      "lure": false,
+      "lureDelay": 250,
+      "maxDistance": 1,
+      "danger": 0,
+      "dontLoot": true,
+      "closeLure": false,
+      "lureCavebot": true,
+      "name": "Quara Mantassin Scout",
+      "dynamicLure": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dynamicLureDelay": false,
+      "delayFrom": 2,
+      "priority": 0,
+      "diamondArrows": false,
+      "rePosition": false,
+      "avoidAttacks": false,
+      "faceMonster": false,
+      "rpSafe": false,
+      "lureCount": 5,
+      "lureMax": 3,
+      "closeLureAmount": 3
+    },
+    {
+      "chase": true,
+      "anchor": false,
+      "keepDistance": false,
+      "regex": "^water elemental$",
+      "lureMin": 1,
+      "lure": false,
+      "lureDelay": 250,
+      "maxDistance": 10,
+      "danger": 3,
+      "dontLoot": false,
+      "closeLure": false,
+      "lureCavebot": false,
+      "name": "Water Elemental",
+      "dynamicLure": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dynamicLureDelay": false,
+      "delayFrom": 2,
+      "priority": 3,
+      "diamondArrows": false,
+      "rePosition": false,
+      "avoidAttacks": false,
+      "faceMonster": false,
+      "rpSafe": false,
+      "lureCount": 1,
+      "lureMax": 3,
+      "closeLureAmount": 3
+    }
+  ]
+}

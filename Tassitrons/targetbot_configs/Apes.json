@@ -1,0 +1,121 @@
+{
+  "looting": {
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      },
+      {
+        "count": 1,
+        "id": 5883
+      },
+      {
+        "count": 1,
+        "id": 266
+      },
+      {
+        "count": 1,
+        "id": 268
+      },
+      {
+        "count": 1,
+        "id": 3348
+      }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "lureMax": 3,
+      "chase": true,
+      "priority": 1,
+      "danger": 1,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "dynamicLure": false,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "name": "Kongra",
+      "regex": "^kongra$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 9,
+      "maxDistance": 5,
+      "lureCount": 5,
+      "avoidAttacks": false,
+      "lureMax": 9,
+      "dynamicLureDelay": false,
+      "priority": 0,
+      "keepDistanceRange": 1,
+      "keepDistance": false,
+      "lureCavebot": true,
+      "dontLoot": true,
+      "name": "Centipede, Bug, Spider, Terror Bird, Cobra, Bat, Snake, Tiger, Crocodile, Slime",
+      "lure": false,
+      "lureDelay": 250,
+      "danger": 1,
+      "chase": false,
+      "dynamicLure": false,
+      "regex": "^centipede$|^bug$|^spider$|^terror bird$|^cobra$|^bat$|^snake$|^tiger$|^crocodile$|^slime$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "lureMax": 3,
+      "chase": true,
+      "priority": 10,
+      "danger": 1,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "dynamicLure": false,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "name": "Merlkin",
+      "regex": "^merlkin$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "lureMax": 3,
+      "chase": true,
+      "priority": 5,
+      "danger": 1,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "dynamicLure": false,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "name": "Sibang",
+      "regex": "^sibang$"
+    }
+  ]
+}

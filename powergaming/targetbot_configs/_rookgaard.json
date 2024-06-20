@@ -1,0 +1,75 @@
+{
+  "looting": {
+    "everyItem": false,
+    "items": [
+
+    ],
+    "containers": [
+
+    ],
+    "maxDanger": 0,
+    "minCapacity": 0
+  },
+  "targeting": [
+    {
+      "lureMin": 1,
+      "delayFrom": 2,
+      "maxDistance": 10,
+      "danger": 1,
+      "closeLureAmount": 3,
+      "lureCavebot": true,
+      "lureCount": 5,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "regex": "^bug$",
+      "faceMonster": true,
+      "rpSafe": false,
+      "dontLoot": false,
+      "closeLure": false,
+      "rePosition": false,
+      "anchor": false,
+      "dynamicLure": false,
+      "dynamicLureDelay": false,
+      "diamondArrows": false,
+      "avoidAttacks": false,
+      "name": "Bug",
+      "lureDelay": 250,
+      "chase": false,
+      "lure": false,
+      "keepDistance": false,
+      "priority": 1,
+      "lureMax": 3
+    },
+    {
+      "lureMin": 1,
+      "dynamicLure": false,
+      "maxDistance": 3,
+      "danger": 0,
+      "closeLureAmount": 3,
+      "lureCavebot": true,
+      "lureCount": 8,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "priority": 0,
+      "dynamicLureDelay": false,
+      "faceMonster": false,
+      "closeLure": false,
+      "dontLoot": false,
+      "rePosition": false,
+      "lure": false,
+      "anchor": false,
+      "rpSafe": false,
+      "regex": "^cat$|^chicken$|^rat$",
+      "diamondArrows": false,
+      "lureDelay": 250,
+      "name": "Cat, Chicken, Rat",
+      "keepDistanceRange": 1,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "lureMax": 3
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-[]
+{
+  "targeting": [
+
+  ],
+  "looting": {
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "everyItem": false,
+    "containers": [
+
+    ],
+    "items": [
+      {
+        "id": 22730,
+        "count": 15
+      }
+    ]
+  }
+}

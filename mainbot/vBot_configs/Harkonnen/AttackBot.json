@@ -1,0 +1,203 @@
+{
+  "currentBotProfile": 1,
+  "AttackBot": [
+    {
+      "name": "Profile #1",
+      "enabled": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "Kills": false,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+        {
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "hero",
+          "orMore": true,
+          "description": "[3 Sqm] 1+ Creatures: exori mort, targeted (0%-100%)",
+          "count": 1,
+          "tooltip": "hero",
+          "spell": "exori mort",
+          "enabled": true,
+          "maxHp": 100,
+          "pattern": 3,
+          "monsters": [
+            "hero"
+          ],
+          "mana": 1,
+          "itemId": 0,
+          "category": 1,
+          "cooldown": 1
+        },
+        {
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "undead gladiator",
+          "orMore": true,
+          "maxHp": 100,
+          "monsters": [
+            "undead gladiator"
+          ],
+          "tooltip": "undead gladiator",
+          "spell": "exori frigo",
+          "count": 1,
+          "enabled": true,
+          "pattern": 3,
+          "description": "[3 Sqm] 1+ Creatures: exori frigo, targeted (0%-100%)",
+          "mana": 1,
+          "itemId": 0,
+          "category": 1,
+          "cooldown": 1
+        },
+        {
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "mutated tiger",
+          "orMore": true,
+          "maxHp": 100,
+          "monsters": [
+            "mutated tiger"
+          ],
+          "tooltip": "mutated tiger",
+          "spell": "exori mort",
+          "count": 1,
+          "enabled": true,
+          "pattern": 3,
+          "description": "[3 Sqm] 1+ Creatures: exori mort, targeted (0%-100%)",
+          "mana": 1,
+          "itemId": 0,
+          "category": 1,
+          "cooldown": 1
+        },
+        {
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "monster names",
+          "count": 1,
+          "maxHp": 100,
+          "monsters": true,
+          "tooltip": false,
+          "spell": "exori vis",
+          "cooldown": 1,
+          "enabled": true,
+          "orMore": true,
+          "pattern": 3,
+          "mana": 1,
+          "itemId": 0,
+          "category": 1,
+          "description": "[3 Sqm] 1+ Any Creatures: exori vis, targeted (0%-100%)"
+        },
+        {
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "monster names",
+          "orMore": true,
+          "maxHp": 100,
+          "monsters": true,
+          "tooltip": false,
+          "spell": "exori frigo",
+          "count": 1,
+          "enabled": true,
+          "pattern": 3,
+          "description": "[3 Sqm] 1+ Any Creatures: exori frigo, targeted (0%-100%)",
+          "mana": 20,
+          "itemId": 0,
+          "category": 1,
+          "cooldown": 1
+        },
+        {
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "monster names",
+          "orMore": true,
+          "maxHp": 100,
+          "monsters": true,
+          "tooltip": false,
+          "spell": "exori flam",
+          "count": 1,
+          "enabled": true,
+          "pattern": 3,
+          "description": "[3 Sqm] 1+ Any Creatures: exori flam, targeted (0%-100%)",
+          "mana": 1,
+          "itemId": 0,
+          "category": 1,
+          "cooldown": 1
+        }
+      ],
+      "Cooldown": true,
+      "Rotate": false
+    },
+    {
+      "name": "Profile #2",
+      "enabled": false,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "Kills": false,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "Rotate": false
+    },
+    {
+      "name": "Profile #3",
+      "enabled": false,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "Kills": false,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "Rotate": false
+    },
+    {
+      "name": "Profile #4",
+      "enabled": false,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "Kills": false,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "Rotate": false
+    },
+    {
+      "name": "Profile #5",
+      "enabled": false,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "Kills": false,
+      "BlackListSafe": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "Rotate": false
+    }
+  ]
+}

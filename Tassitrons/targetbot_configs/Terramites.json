@@ -1,0 +1,71 @@
+{
+  "looting": {
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      },
+      {
+        "count": 1,
+        "id": 32926
+      }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2872
+      },
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "lureMax": 3,
+      "chase": true,
+      "priority": 1,
+      "danger": 1,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "dynamicLure": false,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "name": "Terramite",
+      "regex": "^terramite$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 9,
+      "maxDistance": 10,
+      "lureCount": 5,
+      "avoidAttacks": false,
+      "lureMax": 9,
+      "chase": false,
+      "priority": 0,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "lureCavebot": true,
+      "dontLoot": true,
+      "name": "Insect Swarm, Sandcrawler",
+      "lure": false,
+      "keepDistance": false,
+      "danger": 1,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "regex": "^insect swarm$|^sandcrawler$"
+    }
+  ]
+}

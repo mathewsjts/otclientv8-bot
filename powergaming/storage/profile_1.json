@@ -1,0 +1,538 @@
+{
+  "cavebotSell": [
+    {
+      "id": 3003,
+      "count": 1
+    },
+    {
+      "id": 3457,
+      "count": 1
+    },
+    {
+      "id": 3308,
+      "count": 1
+    },
+    {
+      "id": 3456,
+      "count": 1
+    },
+    {
+      "id": 3453,
+      "count": 1
+    }
+  ],
+  "newHealer": {
+    "groups": [
+
+    ],
+    "conditions": {
+      "druids": false,
+      "botserver": false,
+      "paladins": true,
+      "friends": false,
+      "sorcerers": false,
+      "party": true,
+      "knights": true,
+      "guild": false
+    },
+    "customPlayers": [
+
+    ],
+    "priorities": [
+      {
+        "enabled": false,
+        "custom": true,
+        "name": "Custom Spell"
+      },
+      {
+        "enabled": true,
+        "strong": true,
+        "name": "Exura Gran Sio"
+      },
+      {
+        "normal": true,
+        "enabled": true,
+        "name": "Exura Sio"
+      },
+      {
+        "enabled": true,
+        "area": true,
+        "name": "Exura Gran Mas Res"
+      },
+      {
+        "enabled": true,
+        "health": true,
+        "name": "Health Item"
+      },
+      {
+        "enabled": true,
+        "mana": true,
+        "name": "Mana Item"
+      }
+    ],
+    "vocations": [
+
+    ],
+    "enabled": false,
+    "settings": [
+      {
+        "text": "Mana Item ",
+        "value": 268,
+        "type": "HealItem"
+      },
+      {
+        "text": "Item Range: ",
+        "value": 6,
+        "type": "HealScroll"
+      },
+      {
+        "text": "Health Item ",
+        "value": 3160,
+        "type": "HealItem"
+      },
+      {
+        "text": "Mas Res Players: ",
+        "value": 2,
+        "type": "HealScroll"
+      },
+      {
+        "text": "Heal Friend at: ",
+        "value": 80,
+        "type": "HealScroll"
+      },
+      {
+        "text": "Use Gran Sio at: ",
+        "value": 80,
+        "type": "HealScroll"
+      },
+      {
+        "text": "Min Player HP%: ",
+        "value": 80,
+        "type": "HealScroll"
+      },
+      {
+        "text": "Min Player MP%: ",
+        "value": 50,
+        "type": "HealScroll"
+      }
+    ]
+  },
+  "combobot": {
+    "attackSpellEnabled": false,
+    "onShootEnabled": false,
+    "attackItemToggle": false,
+    "sayLeader": "",
+    "shootLeader": "",
+    "commandsEnabled": true,
+    "serverEnabled": false,
+    "sayPhrase": "",
+    "serverLeaderTarget": false,
+    "onSayEnabled": false,
+    "serverTriggers": true,
+    "onCastEnabled": false,
+    "item": 3155,
+    "attackLeaderTargetEnabled": false,
+    "serverLeader": "",
+    "castLeader": "",
+    "attack": "",
+    "enabled": false,
+    "follow": "",
+    "followLeaderEnabled": false,
+    "spell": ""
+  },
+  "EquipperPanel": {
+    "bosses": [
+
+    ],
+    "rules": [
+
+    ],
+    "enabled": false
+  },
+  "caveBotTasker": {
+    "monster": "",
+    "taskName": "",
+    "inProgress": false,
+    "max": 0,
+    "count": 0
+  },
+  "extras": {
+    "pathfinding": true,
+    "bless": false,
+    "reachable": true,
+    "talkDelay": 800,
+    "joinBot": false,
+    "autoOpenDoors": true,
+    "killUnder": 1,
+    "separatePm": true,
+    "oberon": true,
+    "reUse": false,
+    "nextBackpack": true,
+    "shovel": 3457,
+    "rope": 3003,
+    "machete": 3308,
+    "lootLast": true,
+    "holdWgHot": "F6",
+    "holdMwHot": "F5",
+    "looting": 40,
+    "useAll": "space",
+    "antiKick": true,
+    "suppliesControl": true,
+    "highlightTarget": true,
+    "checkPlayer": false,
+    "gotoMaxDistance": 127,
+    "scythe": 3453,
+    "stake": false,
+    "huntRoutes": 300,
+    "holdMwall": true,
+    "timers": true,
+    "lootDelay": 200,
+    "title": false
+  },
+  "autoEquip": [
+    {
+      "on": false,
+      "item1": 0,
+      "item2": 0,
+      "slot": 1,
+      "title": "Auto Equip"
+    },
+    {
+      "on": false,
+      "item1": 0,
+      "item2": 0,
+      "slot": 0,
+      "title": "Auto Equip"
+    }
+  ],
+  "checkVersion": 1718896941,
+  "moneyItems": [
+    {
+      "id": 3031,
+      "count": 1
+    },
+    {
+      "id": 3035,
+      "count": 1
+    },
+    {
+      "id": 3043,
+      "count": 1
+    }
+  ],
+  "analyzers": {
+    "rarityFrames": true,
+    "customPrices": [
+
+    ],
+    "trackedLoot": [
+
+    ],
+    "outfits": {
+      "Bug": {
+        "mount": 0,
+        "type": 45,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Cave Rat": {
+        "mount": 0,
+        "type": 56,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Spider": {
+        "mount": 0,
+        "type": 30,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Corym Charlatan": {
+        "mount": 0,
+        "type": 532,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 116,
+        "body": 97,
+        "auxType": 0,
+        "head": 0
+      },
+      "Corym Vanguard": {
+        "mount": 0,
+        "type": 534,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 101,
+        "body": 0,
+        "auxType": 0,
+        "head": 101
+      },
+      "Rat": {
+        "mount": 0,
+        "type": 21,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Chicken": {
+        "mount": 0,
+        "type": 111,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Poison Spider": {
+        "mount": 0,
+        "type": 36,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Corym Skirmisher": {
+        "mount": 0,
+        "type": 533,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 101,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Cat": {
+        "mount": 0,
+        "type": 276,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      },
+      "Swamp Troll": {
+        "mount": 0,
+        "type": 76,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "auxType": 0,
+        "head": 0
+      }
+    },
+    "trackedBoss": [
+
+    ],
+    "lootChannel": true
+  },
+  "alarms": {
+    "playerAttack": [
+
+    ],
+    "privateMsg": [
+
+    ],
+    "customMessage": {
+      "value": ""
+    },
+    "defaultMsg": [
+
+    ],
+    "ignoreFriends": [
+
+    ],
+    "flashClient": [
+
+    ],
+    "creatureDetected": [
+
+    ],
+    "damageTaken": [
+
+    ],
+    "playerDetected": [
+
+    ],
+    "lowHealth": {
+      "value": 20
+    },
+    "lowMana": {
+      "value": 20
+    },
+    "creatureName": {
+      "value": ""
+    }
+  },
+  "foodItems": [
+    {
+      "id": 3582,
+      "count": 1
+    },
+    {
+      "id": 3577,
+      "count": 1
+    },
+    {
+      "id": 3723,
+      "count": 1
+    },
+    {
+      "id": 3607,
+      "count": 1
+    },
+    {
+      "id": 3585,
+      "count": 1
+    },
+    {
+      "id": 3592,
+      "count": 1
+    },
+    {
+      "id": 3600,
+      "count": 1
+    },
+    {
+      "id": 3601,
+      "count": 1
+    },
+    {
+      "id": 3587,
+      "count": 1
+    },
+    {
+      "id": 3586,
+      "count": 1
+    },
+    {
+      "id": 17821,
+      "count": 1
+    },
+    {
+      "id": 17820,
+      "count": 1
+    },
+    {
+      "id": 3578,
+      "count": 1
+    }
+  ],
+  "BotServerChannel": "5763954330186",
+  "dropper": {
+    "enabled": true,
+    "trashItems": [
+      {
+        "id": 285,
+        "count": 1
+      },
+      {
+        "id": 283,
+        "count": 0
+      },
+      {
+        "id": 284,
+        "count": 0
+      }
+    ],
+    "capItems": [
+
+    ],
+    "useItems": [
+
+    ]
+  },
+  "bestHit": 96,
+  "BOTserver": {
+    "mwallInfo": true,
+    "manaInfo": true,
+    "broadcasts": true,
+    "mwalls": [
+
+    ],
+    "vocation": true,
+    "outfit": false
+  },
+  "pushmax": {
+    "pushMaxRuneId": 3188,
+    "pushMaxKey": "PageUp",
+    "enabled": false,
+    "pushDelay": 1060,
+    "mwallBlockId": 2128
+  },
+  "_macros": {
+    "": true,
+    "Exchange money": true,
+    "Eat Food": true
+  },
+  "autoTradeMessage": "",
+  "caveBot": {
+    "backTrainers": false,
+    "backOffline": false,
+    "backStop": false,
+    "forceRefill": false
+  },
+  "_configs": {
+    "cavebot_configs": {
+      "enabled": true,
+      "selected": "to-level-50"
+    },
+    "targetbot_configs": {
+      "enabled": true,
+      "selected": "to-level-50"
+    }
+  },
+  "playerList": {
+    "friendList": [
+
+    ],
+    "blackList": [
+
+    ],
+    "outfits": false,
+    "marks": false,
+    "enemyList": [
+
+    ],
+    "groupMembers": true,
+    "highlight": false
+  },
+  "specialDeposit": {
+    "last": false,
+    "height": 380,
+    "items": [
+
+    ]
+  },
+  "bestHeal": 4027
+}

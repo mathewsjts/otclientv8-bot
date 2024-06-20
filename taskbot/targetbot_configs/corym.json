@@ -1,0 +1,85 @@
+{
+  "looting": {
+    "minCapacity": 0,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false,
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      },
+      {
+        "count": 1,
+        "id": 3035
+      }
+    ],
+    "maxDanger": 10
+  },
+  "targeting": [
+    {
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "priority": 1,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false,
+      "dontLoot": false,
+      "maxDistance": 10,
+      "danger": 1,
+      "anchor": false,
+      "chase": false,
+      "lureMax": 3,
+      "keepDistanceRange": 1,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "lure": false,
+      "rePosition": false,
+      "name": "Corym Charlatan, Corym Skirmisher, Corym Vanguard",
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "regex": "^corym charlatan$|^corym skirmisher$|^corym vanguard$",
+      "closeLureAmount": 3,
+      "closeLure": false,
+      "diamondArrows": false,
+      "lureCavebot": false
+    },
+    {
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "priority": 1,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false,
+      "dontLoot": false,
+      "maxDistance": 10,
+      "danger": 1,
+      "anchor": false,
+      "regex": "^stonerefiner$",
+      "lureMax": 3,
+      "chase": true,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "diamondArrows": false,
+      "rePosition": false,
+      "name": "Stonerefiner",
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lure": false,
+      "keepDistanceRange": 1,
+      "lureCavebot": false
+    }
+  ]
+}

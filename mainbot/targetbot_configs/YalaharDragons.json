@@ -1,75 +1,81 @@
 {
   "looting": {
-    "items": [
-
-    ],
-    "maxDanger": 10,
-    "minCapacity": 100,
+    "minCapacity": 0,
     "containers": [
-
+      {
+        "count": 1,
+        "id": 2854
+      }
     ],
-    "everyItem": false
+    "everyItem": false,
+    "items": [
+      {
+        "count": 66,
+        "id": 3031
+      }
+    ],
+    "maxDanger": 10
   },
   "targeting": [
     {
-      "lureDelay": 750,
-      "lureMin": 3,
-      "maxDistance": 10,
-      "anchorRange": 3,
       "lureCount": 1,
-      "avoidAttacks": false,
-      "rePositionAmount": 5,
-      "lureMax": 7,
-      "regex": "^dragon$|^serpent spawn$|^hydra$",
-      "chase": true,
-      "priority": 5,
-      "keepDistance": false,
-      "closeLure": false,
-      "danger": 5,
-      "keepDistanceRange": 1,
       "lure": false,
-      "dynamicLureDelay": false,
-      "dynamicLure": false,
+      "anchorRange": 3,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
       "faceMonster": false,
-      "lureCavebot": false,
       "dontLoot": true,
-      "diamondArrows": false,
-      "delayFrom": 3,
+      "maxDistance": 10,
+      "danger": 5,
       "anchor": false,
-      "closeLureAmount": 3,
+      "diamondArrows": false,
+      "lureMax": 7,
+      "rePositionAmount": 5,
+      "delayFrom": 3,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "regex": "^dragon$|^serpent spawn$|^hydra$",
       "rePosition": false,
       "name": "Dragon, Serpent Spawn, Hydra",
-      "rpSafe": false
+      "lureMin": 3,
+      "dynamicLure": false,
+      "lureDelay": 750,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "priority": 5,
+      "keepDistanceRange": 1,
+      "lureCavebot": false
     },
     {
-      "lureDelay": 250,
-      "lureMin": 0,
-      "maxDistance": 1,
-      "anchorRange": 3,
       "lureCount": 5,
-      "avoidAttacks": false,
       "rePositionAmount": 5,
-      "lureMax": 30,
-      "rpSafe": false,
-      "chase": false,
-      "priority": 0,
-      "name": "*",
-      "keepDistance": false,
+      "anchorRange": 3,
       "keepDistanceRange": 1,
-      "danger": 0,
-      "dynamicLureDelay": false,
-      "delayFrom": 2,
-      "closeLure": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
       "faceMonster": false,
-      "lureCavebot": true,
       "dontLoot": true,
-      "diamondArrows": false,
-      "lure": false,
+      "maxDistance": 1,
+      "danger": 0,
       "anchor": false,
-      "closeLureAmount": 3,
+      "regex": "^.*$",
+      "lureMax": 30,
+      "lure": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "diamondArrows": false,
       "rePosition": false,
+      "name": "*",
+      "lureMin": 0,
       "dynamicLure": false,
-      "regex": "^.*$"
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "priority": 0,
+      "chase": false,
+      "lureCavebot": true
     }
   ]
 }

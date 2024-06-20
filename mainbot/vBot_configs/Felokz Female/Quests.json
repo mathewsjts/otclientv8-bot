@@ -1,0 +1,11 @@
+{
+  "quests": {
+    "Tibia Tales": {
+      "missions": {
+        "Hidden Threats": "You have met Corym Servant. He told you the true story of enslaved corym working under terrible conditions. You have agreed to help him planing a riot. First you have to liberate his comrades."
+      },
+      "id": 64,
+      "completed": false
+    }
+  }
+}

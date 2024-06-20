@@ -1,0 +1,123 @@
+{
+  "looting": {
+    "items": [
+      {
+        "count": 0,
+        "id": 9692
+      }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "lureMax": 3,
+      "chase": true,
+      "priority": 1,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "name": "Terramite",
+      "lure": false,
+      "keepDistance": false,
+      "danger": 1,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "regex": "^terramite$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "lureMax": 9,
+      "chase": false,
+      "priority": 1,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "lureCavebot": true,
+      "dontLoot": true,
+      "name": "bug, bear, wasp, snake",
+      "lure": false,
+      "keepDistance": false,
+      "danger": 1,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "regex": "^bug$|^bear$|^wasp$|^snake$"
+    },
+    {
+      "lureDelay": 250,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "anchorRange": 3,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "rePositionAmount": 5,
+      "lureMax": 3,
+      "rpSafe": false,
+      "chase": false,
+      "priority": 1,
+      "name": "Lancer Beetle",
+      "keepDistance": true,
+      "keepDistanceRange": 2,
+      "danger": 1,
+      "dynamicLureDelay": false,
+      "delayFrom": 2,
+      "closeLure": false,
+      "faceMonster": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "diamondArrows": false,
+      "lure": false,
+      "anchor": false,
+      "closeLureAmount": 3,
+      "rePosition": true,
+      "dynamicLure": false,
+      "regex": "^lancer beetle$"
+    },
+    {
+      "lureDelay": 250,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "anchorRange": 3,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "rePositionAmount": 5,
+      "lureMax": 3,
+      "regex": "^wailing widow$",
+      "chase": false,
+      "priority": 1,
+      "keepDistance": true,
+      "closeLure": false,
+      "danger": 1,
+      "keepDistanceRange": 2,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "faceMonster": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "diamondArrows": false,
+      "delayFrom": 2,
+      "anchor": false,
+      "closeLureAmount": 3,
+      "rePosition": false,
+      "name": "Wailing Widow",
+      "rpSafe": false
+    }
+  ]
+}

@@ -1,0 +1,1001 @@
+{
+  "rope": 9596,
+  "supplyRetries": 0,
+  "playerStatus": {
+    "Zefiro": {
+      "quests": {
+        "Bigfoot's Burden": {
+          "id": 5,
+          "completed": false
+        },
+        "Killing in the Name of...": {
+          "id": 12,
+          "completed": false
+        },
+        "The New Frontier": {
+          "id": 25,
+          "completed": false
+        }
+      },
+      "tasks": {
+        "Crocodiles": {
+          "total": 300,
+          "hunted": 300
+        },
+        "Apes": {
+          "hunted": 300,
+          "total": 300
+        },
+        "WailingWidows": {
+          "total": 400,
+          "hunted": 400
+        },
+        "Tarantulas": {
+          "hunted": 300,
+          "total": 300
+        },
+        "Gnarlhounds": {
+          "total": 300,
+          "hunted": 300
+        },
+        "Terramites": {
+          "hunted": 300,
+          "total": 300
+        },
+        "LancerBeetles": {
+          "total": 300,
+          "hunted": 300
+        }
+      }
+    },
+    "Beatricy": {
+      "quests": {
+        "Bigfoot's Burden": {
+          "id": 5,
+          "completed": false
+        },
+        "Outfit and Addon Quests": {
+          "id": 13,
+          "completed": false
+        },
+        "The Thieves Guild": {
+          "id": 28,
+          "completed": false
+        },
+        "Cults of Tibia": {
+          "id": 40,
+          "completed": false
+        },
+        "Factions": {
+          "id": 8,
+          "completed": false
+        },
+        "Blood Brothers": {
+          "id": 54,
+          "completed": false
+        },
+        "The Ancient Tombs": {
+          "id": 17,
+          "completed": false
+        },
+        "Dangerous Depths": {
+          "id": 41,
+          "completed": false
+        },
+        "The Hidden City of Beregar (completed)": {
+          "id": 22,
+          "completed": false
+        },
+        "Forgotten Knowledge": {
+          "id": 38,
+          "completed": false
+        },
+        "The White Raven Monastery": {
+          "id": 32,
+          "completed": false
+        },
+        "In Service of Yalahar": {
+          "completed": false,
+          "id": 11
+        },
+        "Barbarian Test Quest": {
+          "id": 6,
+          "completed": false
+        },
+        "Oramond": {
+          "id": 37,
+          "completed": false
+        },
+        "In Service of Yalahar (completed)": {
+          "id": 11,
+          "completed": false
+        },
+        "The Hidden City of Beregar": {
+          "completed": false,
+          "id": 22
+        },
+        "Secret Service": {
+          "id": 16,
+          "completed": false
+        },
+        "The Ice Islands Quest (completed)": {
+          "id": 23,
+          "completed": false
+        },
+        "The Dream Courts": {
+          "id": 52,
+          "completed": false
+        },
+        "The Shattered Isles": {
+          "id": 27,
+          "completed": false
+        },
+        "The Order of the Lion": {
+          "id": 55,
+          "completed": false
+        },
+        "Friends and Traders": {
+          "id": 9,
+          "completed": false
+        },
+        "Grimvale": {
+          "id": 47,
+          "completed": false
+        },
+        "Killing in the Name of...": {
+          "id": 12,
+          "completed": false
+        },
+        "The Queen of the Banshees (completed)": {
+          "id": 30,
+          "completed": false
+        },
+        "The Ultimate Challenges (completed)": {
+          "id": 31,
+          "completed": false
+        },
+        "The Inquisition": {
+          "completed": false,
+          "id": 24
+        },
+        "The Explorer Society": {
+          "id": 1,
+          "completed": false
+        },
+        "Tibia Tales": {
+          "id": 33,
+          "completed": false
+        },
+        "Barbarian Test Quest (completed)": {
+          "id": 6,
+          "completed": false
+        },
+        "Threatened Dreams": {
+          "id": 42,
+          "completed": false
+        },
+        "The Ice Islands Quest": {
+          "id": 23,
+          "completed": false
+        },
+        "Liquid Black Quest": {
+          "id": 46,
+          "completed": false
+        },
+        "The Queen of the Banshees": {
+          "completed": false,
+          "id": 30
+        },
+        "The Inquisition (completed)": {
+          "id": 24,
+          "completed": false
+        },
+        "The New Frontier": {
+          "id": 25,
+          "completed": false
+        }
+      },
+      "tasks": {
+        "SerpentSpawns": {
+          "hunted": 250,
+          "total": 800
+        },
+        "Medusas": {
+          "hunted": 95,
+          "total": 500
+        }
+      }
+    },
+    "Fiora": {
+      "quests": {
+        "The New Frontier": {
+          "id": 25,
+          "completed": false
+        },
+        "Killing in the Name of...": {
+          "id": 12,
+          "completed": false
+        }
+      },
+      "tasks": [
+
+      ]
+    },
+    "Van Helsing": {
+      "quests": {
+        "The Explorer Society": {
+          "completed": false,
+          "id": 1
+        },
+        "Killing in the Name of...": {
+          "completed": false,
+          "id": 12
+        },
+        "The New Frontier": {
+          "completed": false,
+          "id": 25
+        }
+      },
+      "tasks": {
+        "Apes": {
+          "hunted": 300,
+          "total": 300
+        },
+        "WailingWidows": {
+          "total": 400,
+          "hunted": 400
+        },
+        "Tarantulas": {
+          "hunted": 300,
+          "total": 300
+        },
+        "Gnarlhounds": {
+          "total": 300,
+          "hunted": 300
+        },
+        "LancerBeetles": {
+          "total": 300,
+          "hunted": 300
+        },
+        "Crocodiles": {
+          "total": 300,
+          "hunted": 300
+        },
+        "MutatedRats": {
+          "hunted": 400,
+          "total": 400
+        },
+        "Wyverns": {
+          "total": 300,
+          "hunted": 0
+        },
+        "QuaraScouts": {
+          "hunted": 400,
+          "total": 400
+        },
+        "Terramites": {
+          "hunted": 300,
+          "total": 300
+        },
+        "GiantSpiders": {
+          "total": 500,
+          "hunted": 0
+        },
+        "Nightmares": {
+          "total": 400,
+          "hunted": 0
+        }
+      }
+    },
+    "Zack": {
+      "quests": {
+        "The New Frontier": {
+          "completed": false,
+          "id": 25
+        },
+        "Killing in the Name of...": {
+          "completed": false,
+          "id": 12
+        }
+      },
+      "tasks": {
+        "Apes": {
+          "total": 300,
+          "hunted": 0
+        }
+      }
+    },
+    "Rooker Sad": {
+      "quests": [
+
+      ],
+      "tasks": [
+
+      ]
+    },
+    "Bertrandino": {
+      "quests": {
+        "The Explorer Society": {
+          "id": 1,
+          "completed": false
+        },
+        "The New Frontier": {
+          "id": 25,
+          "completed": false
+        },
+        "Killing in the Name of...": {
+          "id": 12,
+          "completed": false
+        }
+      },
+      "tasks": {
+        "UnderwaterQuara": {
+          "hunted": 63,
+          "total": 600
+        },
+        "GiantSpiders": {
+          "hunted": 1,
+          "total": 500
+        }
+      }
+    },
+    "Heitor": {
+      "quests": {
+        "The New Frontier": {
+          "completed": false,
+          "id": 25
+        },
+        "Killing in the Name of...": {
+          "completed": false,
+          "id": 12
+        }
+      },
+      "tasks": {
+        "GiantSpiders": {
+          "total": 500,
+          "hunted": 0
+        }
+      }
+    },
+    "Tester": {
+      "quests": [
+
+      ],
+      "tasks": [
+
+      ]
+    }
+  },
+  "currentHealBotProfile": 1,
+  "foodItems": [
+    {
+      "id": 3582,
+      "count": 1
+    },
+    {
+      "id": 3725,
+      "count": 1
+    },
+    {
+      "id": 3577,
+      "count": 1
+    },
+    {
+      "id": 3600,
+      "count": 1
+    },
+    {
+      "id": 3601,
+      "count": 1
+    },
+    {
+      "id": 3607,
+      "count": 1
+    },
+    {
+      "id": 3592,
+      "count": 1
+    },
+    {
+      "id": 3585,
+      "count": 1
+    },
+    {
+      "id": 3723,
+      "count": 1
+    }
+  ],
+  "isUsing": false,
+  "serverMembers": "[\"Beatricy\",\"Van Helsing\",\"Zack Dron\"]",
+  "containersClosed": false,
+  "supplies": {
+    "imbues": false,
+    "item6": 0,
+    "item4": 0,
+    "item5Max": 0,
+    "item3": 0,
+    "item3Min": 0,
+    "item1Min": 0,
+    "item7Max": 0,
+    "item6Max": 0,
+    "item2": 0,
+    "item1Max": 0,
+    "item6Min": 0,
+    "potionBp": 0,
+    "SoftBoots": false,
+    "item2Min": 0,
+    "item1": 0,
+    "item5Min": 0,
+    "item4Max": 0,
+    "capValue": 0,
+    "item4Min": 0,
+    "item2Max": 0,
+    "item3Max": 0,
+    "staminaSwitch": false,
+    "item5": 0,
+    "staminaValue": 900,
+    "capSwitch": false,
+    "sortSupplies": true,
+    "item7": 0,
+    "runeBp": 0,
+    "ammoBp": 34332
+  },
+  "shovel": 9596,
+  "jewelleryEquipper": {
+    "ringMin": 0,
+    "ammyValue": "HP",
+    "valueAmmy": false,
+    "ringEnabled": false,
+    "ammyMin": 30,
+    "ammySwitch": true,
+    "ringMax": 100,
+    "valueRing": false,
+    "ringId": 3048,
+    "ringValue": "HP",
+    "safeMin": 30,
+    "ammyId": 3081,
+    "ringSwitch": true,
+    "ammyMax": 80,
+    "safe": false
+  },
+  "attackbot": [
+    {
+      "attackTable": [
+        {
+          "attack": "exori frigo",
+          "category": 6,
+          "model": 2,
+          "dist": 5,
+          "enabled": false,
+          "minMonsters": 1,
+          "manaCost": 1,
+          "cd": 1,
+          "pvp": false,
+          "index": 1
+        },
+        {
+          "attack": "exori flam",
+          "category": 6,
+          "model": 2,
+          "dist": 4,
+          "index": 2,
+          "manaCost": 1,
+          "pvp": false,
+          "cd": 1000,
+          "enabled": false,
+          "minMonsters": 1
+        },
+        {
+          "attack": "exori flam",
+          "category": 6,
+          "model": 2,
+          "dist": 4,
+          "manaCost": 1,
+          "index": 3,
+          "enabled": true,
+          "cd": 2000,
+          "minMonsters": 1,
+          "pvp": false
+        },
+        {
+          "attack": "exevo gran gran tera",
+          "category": 2,
+          "model": 3,
+          "dist": 4,
+          "index": 4,
+          "minMonsters": 5,
+          "manaCost": 70,
+          "cd": 1,
+          "pvp": false,
+          "enabled": false
+        },
+        {
+          "attack": "exevo gran gran tera",
+          "category": 2,
+          "model": 3,
+          "dist": 1,
+          "index": 5,
+          "minMonsters": 5,
+          "manaCost": 50,
+          "cd": 1,
+          "pvp": false,
+          "enabled": false
+        },
+        {
+          "attack": "exevo gran gran tera",
+          "category": 2,
+          "model": 3,
+          "dist": 4,
+          "index": 6,
+          "minMonsters": 5,
+          "manaCost": 50,
+          "cd": 2000,
+          "pvp": false,
+          "enabled": false
+        },
+        {
+          "attack": "exevo gran gran tera",
+          "category": 2,
+          "model": 3,
+          "dist": 3,
+          "minMonsters": 2,
+          "pvp": false,
+          "index": 7,
+          "cd": 10000,
+          "enabled": false,
+          "manaCost": 1
+        }
+      ],
+      "Visible": false,
+      "BlackListSafe": false,
+      "name": "Profile #1",
+      "Kills": false,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": false,
+      "enabled": false,
+      "KillsAmount": 1,
+      "ignoreMana": true
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "BlackListSafe": false,
+      "name": "Profile #2",
+      "Kills": false,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "ignoreMana": true
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "BlackListSafe": false,
+      "name": "Profile #3",
+      "Kills": false,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "ignoreMana": true
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "BlackListSafe": false,
+      "name": "Profile #4",
+      "Kills": false,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "ignoreMana": true
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "BlackListSafe": false,
+      "name": "Profile #5",
+      "Kills": false,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "ignoreMana": true
+    }
+  ],
+  "scythe": 9596,
+  "bestHit": 1983,
+  "inboxContainerOpen": false,
+  "trashItems": [
+    {
+      "count": 1,
+      "id": 283
+    },
+    {
+      "count": 1,
+      "id": 284
+    },
+    {
+      "count": 1,
+      "id": 285
+    },
+    {
+      "count": 1,
+      "id": 20131
+    },
+    {
+      "count": 1,
+      "id": 236
+    },
+    {
+      "count": 1,
+      "id": 8082
+    },
+    {
+      "count": 1,
+      "id": 8061
+    }
+  ],
+  "advancedFriendHealer": {
+    "spellName": "exura sio",
+    "itemHeal": true,
+    "minFriendHp": 40,
+    "id": 3160,
+    "spellHeal": true,
+    "distance": 8,
+    "enabled": false,
+    "minMana": 60
+  },
+  "targetBotTargets": 1,
+  "autoTradeMessage": "Buy Osyluth Legs and Osyluth Boots",
+  "autoEquip": [
+    {
+      "item1": 3052,
+      "title": "Auto Equip",
+      "item2": 3089,
+      "on": false,
+      "slot": 9
+    },
+    {
+      "item1": 0,
+      "title": "Auto Equip",
+      "item2": 0,
+      "on": false,
+      "slot": 0
+    }
+  ],
+  "ConditionPanel": {
+    "cureBurn": false,
+    "curseCost": 80,
+    "electrifyCost": 22,
+    "ignoreInPz": true,
+    "bleedCost": 45,
+    "cureCurse": false,
+    "holdHaste": true,
+    "curePosion": false,
+    "hasteSpell": "utani hur",
+    "uturaType": "",
+    "burnCost": 30,
+    "cureBleed": false,
+    "holdUtura": false,
+    "paralyseSpell": "exura vita",
+    "hasteCost": 120,
+    "cureParalyse": false,
+    "poisonCost": 20,
+    "utamoCost": 40,
+    "enabled": true,
+    "uturaCost": 100,
+    "cureElectrify": false,
+    "holdUtamo": false,
+    "paralyseCost": 160,
+    "utanaCost": 440,
+    "holdUtana": false,
+    "stopHaste": false
+  },
+  "playerList": {
+    "enemyList": [
+
+    ],
+    "outfits": false,
+    "friendList": [
+
+    ],
+    "groupMembers": true,
+    "blackList": [
+
+    ],
+    "marks": false
+  },
+  "targebotDanger": 0,
+  "BotServerChannel": "5357384290251",
+  "machete": 9596,
+  "lootItemsCount": 0,
+  "_macros": {
+    "": false,
+    "Eat Food": true,
+    "Click ReUse": false,
+    "Auto open doors": false,
+    "Stake Bodies": false,
+    "Exchange money": true,
+    "Drop Items": true,
+    "Use Items": true,
+    "Send message on trade": true
+  },
+  "lowCapDrop": [
+    {
+      "count": 1,
+      "id": 21175
+    }
+  ],
+  "TargetBotLure": true,
+  "containersReset": false,
+  "lootContainerOpen": false,
+  "sellAllCap": 0,
+  "pushmax": {
+    "pushMaxRuneId": 3188,
+    "mwallBlockId": 2128,
+    "pushDelay": 1060,
+    "enabled": false,
+    "pushMaxKey": "PageUp"
+  },
+  "healbot": [
+    {
+      "MessageDelay": false,
+      "Visible": true,
+      "Interval": true,
+      "Delay": true,
+      "Conditions": true,
+      "Cooldown": true,
+      "spellTable": [
+        {
+          "enabled": true,
+          "index": 1,
+          "origin": "HP%",
+          "spell": "exura gran",
+          "sign": "<",
+          "value": 60,
+          "cost": 70
+        },
+        {
+          "enabled": true,
+          "index": 2,
+          "origin": "HP%",
+          "spell": "exura",
+          "sign": "<",
+          "value": 80,
+          "cost": 20
+        },
+        {
+          "enabled": false,
+          "index": 3,
+          "origin": "HP%",
+          "spell": "exura",
+          "sign": "<",
+          "value": 90,
+          "cost": 20
+        },
+        {
+          "enabled": true,
+          "index": 4,
+          "origin": "MP%",
+          "spell": "exura gran",
+          "sign": ">",
+          "value": 95,
+          "cost": 70
+        },
+        {
+          "enabled": false,
+          "index": 5,
+          "origin": "HP%",
+          "spell": "utura",
+          "sign": "<",
+          "value": 85,
+          "cost": 100
+        }
+      ],
+      "enabled": true,
+      "name": "Profile #1",
+      "itemTable": [
+        {
+          "sign": "<",
+          "origin": "HP%",
+          "value": 40,
+          "item": 266,
+          "index": 1,
+          "enabled": true
+        },
+        {
+          "sign": "<",
+          "origin": "MP%",
+          "value": 30,
+          "item": 268,
+          "index": 2,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "MessageDelay": false,
+      "Visible": true,
+      "Interval": true,
+      "Delay": true,
+      "Conditions": true,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "name": "Profile #2",
+      "itemTable": [
+
+      ]
+    },
+    {
+      "MessageDelay": false,
+      "Visible": true,
+      "Interval": true,
+      "Delay": true,
+      "Conditions": true,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "name": "Profile #3",
+      "itemTable": [
+
+      ]
+    },
+    {
+      "MessageDelay": false,
+      "Visible": true,
+      "Interval": true,
+      "Delay": true,
+      "Conditions": true,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "name": "Profile #4",
+      "itemTable": [
+
+      ]
+    },
+    {
+      "MessageDelay": false,
+      "Visible": true,
+      "Interval": true,
+      "Delay": true,
+      "Conditions": true,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "name": "Profile #5",
+      "itemTable": [
+
+      ]
+    }
+  ],
+  "useItems": [
+    {
+      "count": 1,
+      "id": 21203
+    },
+    {
+      "count": 1,
+      "id": 14758
+    },
+    {
+      "count": 1,
+      "id": 6558
+    },
+    {
+      "count": 1,
+      "id": 3585
+    }
+  ],
+  "combobot": {
+    "attackSpellEnabled": false,
+    "attackLeaderTargetEnabled": false,
+    "shootLeader": "",
+    "serverTriggers": true,
+    "serverLeaderTarget": false,
+    "commandsEnabled": true,
+    "serverEnabled": false,
+    "onSayEnabled": false,
+    "attack": "",
+    "enabled": false,
+    "spell": "",
+    "onShootEnabled": false,
+    "attackItemToggle": false,
+    "onCastEnabled": false,
+    "item": 3155,
+    "sayPhrase": "",
+    "followLeaderEnabled": false,
+    "serverLeader": "",
+    "sayLeader": "",
+    "follow": "",
+    "castLeader": ""
+  },
+  "targetBotLureMax": 9,
+  "clearing": false,
+  "caveBotTasker": {
+    "max": 0,
+    "monster": "",
+    "inProgress": false,
+    "count": 0,
+    "taskName": ""
+  },
+  "_configs": {
+    "cavebot_configs": {
+      "selected": "TaskManager_old",
+      "enabled": false
+    },
+    "targetbot_configs": {
+      "selected": "Rookgaard2",
+      "enabled": true
+    }
+  },
+  "currentBotProfile": 1,
+  "isUsingPotion": false,
+  "bestHeal": 9213,
+  "BOTserver": {
+    "manaInfo": true,
+    "mwallInfo": true,
+    "mwalls": [
+
+    ]
+  },
+  "lootStatus": "",
+  "depositDone": false,
+  "alarms": {
+    "playerDetected": false,
+    "creatureDetected": false,
+    "healthBelow": false,
+    "playerAttack": false,
+    "manaBelow": false,
+    "healthValue": 40,
+    "manaValue": 50,
+    "enabled": false,
+    "playerDetectedLogout": false,
+    "privateMessage": false
+  },
+  "posCheckRetries": 0,
+  "targetBotDynamicLureDelayValue": 250,
+  "currentStack": 0,
+  "stopSearch": false,
+  "quiverManager": {
+    "arrows": false,
+    "boltsId": 35849,
+    "arrowsId": 35848,
+    "bolts": false
+  }
+}

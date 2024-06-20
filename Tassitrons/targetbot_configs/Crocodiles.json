@@ -1,0 +1,63 @@
+{
+  "looting": {
+    "items": [
+      {
+        "count": 1,
+        "id": 10301
+      }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 20,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "lureMax": 3,
+      "chase": true,
+      "priority": 10,
+      "danger": 1,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "dontLoot": true,
+      "dynamicLure": false,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "name": "Crocodile",
+      "regex": "^crocodile$"
+    },
+    {
+      "faceMonster": false,
+      "lureMin": 9,
+      "maxDistance": 5,
+      "lureCount": 5,
+      "avoidAttacks": false,
+      "lureMax": 9,
+      "chase": false,
+      "priority": 0,
+      "danger": 1,
+      "keepDistance": false,
+      "lureCavebot": true,
+      "dontLoot": true,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "dynamicLure": false,
+      "keepDistanceRange": 1,
+      "lureDelay": 250,
+      "name": "Crab, Tortoise, Blood Crab, Bug, Spider, Slime, Wasp, Terror Bird, Cobra, Snake, Swamp Troll, Centipede",
+      "regex": "^crab$|^tortoise$|^blood crab$|^bug$|^spider$|^slime$|^wasp$|^terror bird$|^cobra$|^snake$|^swamp troll$|^centipede$"
+    }
+  ]
+}

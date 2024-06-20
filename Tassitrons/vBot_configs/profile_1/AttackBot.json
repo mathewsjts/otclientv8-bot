@@ -1,0 +1,222 @@
+{
+  "AttackBot": [
+    {
+      "attackTable": [
+        {
+          "itemId": 0,
+          "mana": 40,
+          "minHp": 0,
+          "monsters": true,
+          "category": 1,
+          "spell": "exori gran hur",
+          "count": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 6000,
+          "maxHp": 100,
+          "orMore": true,
+          "description": "[5 Sqm] 1+ Any Creatures: exori gran hur, targeted (0%-100%)",
+          "pattern": 5
+        },
+        {
+          "itemId": 0,
+          "mana": 40,
+          "minHp": 0,
+          "monsters": true,
+          "category": 1,
+          "spell": "exeta hur",
+          "count": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 1,
+          "maxHp": 100,
+          "orMore": true,
+          "description": "[1 Sqm] 1+ Any Creatures: exeta hur, targeted (0%-100%)",
+          "pattern": 1
+        }
+      ],
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": true,
+      "name": "Profile #1",
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+        {
+          "itemId": 0,
+          "mana": 1,
+          "minHp": 0,
+          "monsters": [
+            "dragon trainer",
+            " orc trainer"
+          ],
+          "category": 5,
+          "spell": "exevo gran gran tera",
+          "count": 1,
+          "creatures": "dragon trainer, orc trainer",
+          "tooltip": "dragon trainer, orc trainer",
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 20000,
+          "maxHp": 100,
+          "orMore": false,
+          "description": "[3x3 Wave] 1 Creatures: exevo gran gran tera, absolute (0%-100%)",
+          "pattern": 2
+        },
+        {
+          "itemId": 0,
+          "mana": 1,
+          "minHp": 0,
+          "monsters": [
+            "dragon trainer",
+            " orc trainer"
+          ],
+          "category": 5,
+          "spell": "Exevo Tera Hur",
+          "count": 1,
+          "creatures": "dragon trainer, orc trainer",
+          "tooltip": "dragon trainer, orc trainer",
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 1000,
+          "maxHp": 100,
+          "orMore": false,
+          "description": "[3x3 Wave] 1 Creatures: Exevo Tera Hur, absolute (0%-100%)",
+          "pattern": 2
+        },
+        {
+          "itemId": 0,
+          "mana": 1,
+          "minHp": 0,
+          "monsters": [
+            "dragon trainer",
+            " orc trainer"
+          ],
+          "category": 5,
+          "spell": "exevo gran frigo hur",
+          "count": 1,
+          "creatures": "dragon trainer, orc trainer",
+          "tooltip": "dragon trainer, orc trainer",
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 1000,
+          "maxHp": 100,
+          "orMore": false,
+          "description": "[3x3 Wave] 1 Creatures: exevo gran frigo hur, absolute (0%-100%)",
+          "pattern": 2
+        }
+      ],
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "PvpSafe": false,
+      "AntiRsRange": 5,
+      "pvpMode": true,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": true,
+      "name": "Profile #2",
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+        {
+          "description": "[Adjacent] 2+ Any Creatures: uber exori, absolute (0%-100%)",
+          "mana": 65,
+          "orMore": true,
+          "monsters": true,
+          "category": 5,
+          "spell": "uber exori",
+          "pattern": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 1,
+          "maxHp": 100,
+          "count": 2,
+          "minHp": 0,
+          "itemId": 0
+        },
+        {
+          "description": "[Adjacent] 2+ Any Creatures: exori gran, absolute (0%-100%)",
+          "mana": 66,
+          "orMore": true,
+          "monsters": true,
+          "category": 5,
+          "spell": "exori gran",
+          "pattern": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 1,
+          "maxHp": 100,
+          "count": 2,
+          "minHp": 0,
+          "itemId": 0
+        }
+      ],
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": true,
+      "name": "Profile #3",
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": false,
+      "name": "Profile #4",
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": false,
+      "name": "Profile #5",
+      "BlackListSafe": false
+    }
+  ],
+  "currentBotProfile": 3
+}

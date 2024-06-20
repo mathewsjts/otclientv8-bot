@@ -1,5 +1,6 @@
 setDefaultTab("Cave")
 local panelName = "supplies"
+
 if not SuppliesConfig[panelName] or SuppliesConfig[panelName].item1 then
   SuppliesConfig[panelName] = {
     currentProfile = "Default",
@@ -487,4 +488,18 @@ Supplies.getFullData = function()
   }
 
   return data
+end
+
+Supplies.setupSupplies = function(items)
+  SuppliesWindow.items:destroyChildren()
+  for _, data in pairs(items) do
+    local widget = addItemPanel()
+    widget:setId(data.id)
+    widget.id:setItemId(tonumber(data.id))
+    widget.min:setText(data.min)
+    widget.max:setText(data.max)
+    widget.avg:setText(data.avg)
+  end
+  addItemPanel()
+  vBotConfigSave("supply")
 end

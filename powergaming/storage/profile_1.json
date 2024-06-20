@@ -185,9 +185,9 @@
     "stake": false,
     "huntRoutes": 300,
     "holdMwall": true,
-    "timers": true,
+    "title": false,
     "lootDelay": 200,
-    "title": false
+    "timers": true
   },
   "autoEquip": [
     {
@@ -230,124 +230,124 @@
     ],
     "outfits": {
       "Bug": {
-        "mount": 0,
+        "auxType": 0,
         "type": 45,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Cave Rat": {
-        "mount": 0,
+        "auxType": 0,
         "type": 56,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Spider": {
-        "mount": 0,
+        "auxType": 0,
         "type": 30,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Corym Charlatan": {
-        "mount": 0,
+        "auxType": 0,
         "type": 532,
-        "aura": 0,
+        "body": 97,
         "addons": 0,
         "feet": 0,
         "legs": 116,
-        "body": 97,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Corym Vanguard": {
-        "mount": 0,
+        "auxType": 0,
         "type": 534,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 101,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 101
       },
       "Rat": {
-        "mount": 0,
+        "auxType": 0,
         "type": 21,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Chicken": {
-        "mount": 0,
+        "auxType": 0,
         "type": 111,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Poison Spider": {
-        "mount": 0,
+        "auxType": 0,
         "type": 36,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Corym Skirmisher": {
-        "mount": 0,
+        "auxType": 0,
         "type": 533,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 101,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Cat": {
-        "mount": 0,
+        "auxType": 0,
         "type": 276,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       },
       "Swamp Troll": {
-        "mount": 0,
+        "auxType": 0,
         "type": 76,
-        "aura": 0,
+        "body": 0,
         "addons": 0,
         "feet": 0,
         "legs": 0,
-        "body": 0,
-        "auxType": 0,
+        "aura": 0,
+        "mount": 0,
         "head": 0
       }
     },
@@ -491,24 +491,24 @@
     "mwallBlockId": 2128
   },
   "_macros": {
-    "": true,
+    "": false,
     "Exchange money": true,
     "Eat Food": true
   },
-  "autoTradeMessage": "",
   "caveBot": {
     "backTrainers": false,
     "backOffline": false,
     "backStop": false,
     "forceRefill": false
   },
+  "autoTradeMessage": "",
   "_configs": {
     "cavebot_configs": {
-      "enabled": true,
+      "enabled": false,
       "selected": "to-level-50"
     },
     "targetbot_configs": {
-      "enabled": true,
+      "enabled": false,
       "selected": "to-level-50"
     }
   },

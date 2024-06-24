@@ -6,7 +6,7 @@ CaveBot.Extensions.BuyItem.setup = function()
 		local npcName = data[1]:trim()
 		local itemId = tonumber(data[2]:trim())
 		local itemAmountToHave = tonumber(data[3]:trim())
-		local defaultDelay = 750
+		local defaultDelay = 600
 
 		if not CaveBot.ReachNPC(npcName) then
 			return "retry"
@@ -21,7 +21,7 @@ CaveBot.Extensions.BuyItem.setup = function()
 		local itemAmountBuy = itemAmountToHave - itemAmount(itemId)
 		NPC.buy(itemId, itemAmountBuy)
 
-		CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
+		CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping") + defaultDelay)
 		return true
 	end)
 

@@ -1,0 +1,81 @@
+{
+  "looting": {
+    "everyItem": false,
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      }
+    ],
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 0
+  },
+  "targeting": [
+    {
+      "lureMin": 1,
+      "delayFrom": 2,
+      "maxDistance": 5,
+      "danger": 3,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "regex": "^cave rat$|^spider$|^wolf$",
+      "faceMonster": false,
+      "rpSafe": false,
+      "dontLoot": false,
+      "closeLure": false,
+      "rePosition": false,
+      "anchor": false,
+      "dynamicLure": false,
+      "dynamicLureDelay": false,
+      "diamondArrows": false,
+      "avoidAttacks": false,
+      "name": "Cave Rat, Spider, Wolf",
+      "lureDelay": 250,
+      "chase": true,
+      "lure": false,
+      "keepDistance": false,
+      "priority": 3,
+      "lureMax": 3
+    },
+    {
+      "lureMin": 1,
+      "delayFrom": 2,
+      "maxDistance": 10,
+      "danger": 8,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "regex": "^bug$|^poison spider$|^swamp troll$|^skeleton$",
+      "faceMonster": false,
+      "rpSafe": false,
+      "dontLoot": false,
+      "closeLure": false,
+      "rePosition": false,
+      "anchor": false,
+      "dynamicLure": false,
+      "dynamicLureDelay": false,
+      "diamondArrows": false,
+      "avoidAttacks": false,
+      "name": "Bug, Poison Spider, Swamp Troll, Skeleton",
+      "lureDelay": 250,
+      "chase": true,
+      "lure": false,
+      "keepDistance": false,
+      "priority": 8,
+      "lureMax": 3
+    }
+  ]
+}

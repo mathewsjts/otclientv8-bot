@@ -13,10 +13,10 @@ CaveBot.Extensions.BuyItem.setup = function()
 		end
 
 		if not NPC.isTrading() then
-      CaveBot.OpenNpcTrade()
-      CaveBot.delay(storage.extras.talkDelay*2)
-      return "retry"
-    end
+			CaveBot.OpenNpcTrade()
+			CaveBot.delay(storage.extras.talkDelay*2)
+			return "retry"
+		end
 
 		local itemAmountBuy = itemAmountToHave - itemAmount(itemId)
 		NPC.buy(itemId, itemAmountBuy)

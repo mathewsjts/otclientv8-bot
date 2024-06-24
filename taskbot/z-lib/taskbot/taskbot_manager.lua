@@ -26,16 +26,16 @@ TaskBot.getNextTasks = function()
 			local isCompleted = TaskBot.isTaskCompleted(task)
 			local alreadyInProgress = table.find(TaskBot.tasksInProgress, task)
 			local hasLevel = (
-				TaskBot.taskRequirements[task].maxLevel >= playerLevel and
-				TaskBot.taskRequirements[task].minLevel <= playerLevel
-			)
-			if hasLevel and numberOfTasksToRequest > 0 and not isCompleted and not alreadyInProgress then
-				table.insert(tasksToRequest, value)
-				numberOfTasksToRequest = numberOfTasksToRequest - 1
-			end
+			TaskBot.taskRequirements[task].maxLevel >= playerLevel and
+			TaskBot.taskRequirements[task].minLevel <= playerLevel
+		)
+		if hasLevel and numberOfTasksToRequest > 0 and not isCompleted and not alreadyInProgress then
+			table.insert(tasksToRequest, value)
+			numberOfTasksToRequest = numberOfTasksToRequest - 1
 		end
 	end
-	return tasksToRequest
+end
+return tasksToRequest
 end
 
 TaskBot.getCurrentTask = function()
@@ -74,19 +74,11 @@ TaskBot.jumpCurrentTask = function()
 	end
 end
 
-TaskBot.loadConfig = function(name, label)
+TaskBot.loadConfig = function(name)
 	if not name then return false end
 	local configName = name:gsub(" ", "")
-	CaveBot.setOff()
 	TargetBot.setCurrentProfile(configName)
 	CaveBot.setCurrentProfile(configName)
-	CaveBot.setOff()
-	schedule(1000, function()
-		if label and type(label) == "string" then
-			CaveBot.gotoLabel(label)
-		end
-		CaveBot.setOn()
-	end)
 end
 
 local function botReconnect()
@@ -154,7 +146,7 @@ TaskBot.selectUnsetedCharacter = function()
 end
 
 TaskBot.joinGrizzlyQuest = function()
-  if not TaskBot.hasQuestStarted() then
+	if not TaskBot.hasQuestStarted() then
 		local npc_name = "Grizzly Adams"
 		local npc = getCreatureByName(npc_name)
 
@@ -162,27 +154,27 @@ TaskBot.joinGrizzlyQuest = function()
 			print("CaveBot[TaskBot]: NPC not found.")
 			return false
 		end
-	
+
 		if not CaveBot.ReachNPC(npc_name) then
 			return "retry"
 		end
 
 		CaveBot.Conversation("hi", "join", "yes")
 		CaveBot.ConversationDelay(3)
-  end
+	end
 
-  return true
+	return true
 end
 
 TaskBot.reportTask = function()
 	local npc_name = "Grizzly Adams"
 	local npc = getCreatureByName(npc_name)
-  TaskBot.taskCurrent = nil
+	TaskBot.taskCurrent = nil
 
-  if not npc then
-    print("CaveBot[TaskBot]: NPC not found.")
-    return false
-  end
+	if not npc then
+		print("CaveBot[TaskBot]: NPC not found.")
+		return false
+	end
 
 	if not CaveBot.ReachNPC(npc_name) then
 		return "retry"
@@ -190,7 +182,7 @@ TaskBot.reportTask = function()
 
 	CaveBot.Conversation("hi", "report")
 	CaveBot.ConversationDelay(2)
-  return true
+	return true
 end
 
 TaskBot.requestTasks = function(tasks)
@@ -205,7 +197,7 @@ TaskBot.requestTasks = function(tasks)
 			print("CaveBot[TaskBot]: NPC not found.")
 			return false
 		end
-	
+
 		if not CaveBot.ReachNPC(npc_name) then
 			return "retry"
 		end

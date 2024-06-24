@@ -2,7 +2,8 @@ TaskBot.taskList = {
 	"Crocodiles",
 	"Tarantulas",
 	"Gnarhounds",
-	"Terramites"
+	"Terramites",
+	-- "Quara Scouts",
 }
 
 TaskBot.taskRequirements = {
@@ -17,5 +18,8 @@ TaskBot.taskRequirements = {
 	},
 	Terramites = {
 		minLevel = 0, maxLevel = 49
-	}
+	},
+	-- QuaraScouts = {
+	-- 	minLevel = 50, maxLevel = 79
+	-- },
 }

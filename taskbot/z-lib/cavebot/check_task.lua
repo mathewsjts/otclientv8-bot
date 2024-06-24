@@ -11,7 +11,7 @@ CaveBot.Extensions.CheckTask.setup = function()
 		end
 
 		CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
-		TaskBot.loadConfig("-TaskBotManager", "tasker")
+		TaskBot.loadConfig("-TaskBotManager")
 		return true
 	end)
 

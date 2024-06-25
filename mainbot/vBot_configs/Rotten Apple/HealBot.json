@@ -1,17 +1,14 @@
 {
   "ConditionPanel": {
-    "curseCost": 80,
-    "enabled": false,
-    "bleedCost": 45,
     "cureBurn": false,
     "burnCost": 30,
     "cureElectrify": false,
     "electrifyCost": 22,
     "cureParalyse": false,
     "paralyseCost": 40,
-    "holdHaste": false,
-    "hasteCost": 40,
-    "hasteSpell": "utani hur",
+    "holdHaste": true,
+    "hasteCost": 100,
+    "hasteSpell": "utani gran hur",
     "holdUtamo": false,
     "holdUtana": false,
     "utanaCost": 440,
@@ -25,120 +22,123 @@
     "utamoCost": 40,
     "cureCurse": false,
     "paralyseSpell": "utani hur",
-    "cureBleed": false
+    "cureBleed": false,
+    "enabled": true,
+    "curseCost": 80,
+    "bleedCost": 45
   },
   "healbot": [
     {
-      "Visible": true,
-      "Interval": true,
-      "MessageDelay": false,
-      "Delay": true,
-      "itemTable": [
-        {
-          "enabled": true,
-          "value": 65,
-          "index": 2,
-          "origin": "MP%",
-          "item": 23373,
-          "sign": "<"
-        },
-        {
-          "item": 238,
-          "value": 99,
-          "index": 1,
-          "origin": "MP%",
-          "enabled": true,
-          "sign": "<"
-        }
-      ],
-      "name": "Profile #1",
       "Conditions": true,
       "spellTable": [
         {
-          "sign": "<",
-          "value": 90,
-          "cost": 100,
           "spell": "exura vita",
           "origin": "HP%",
+          "index": 1,
+          "sign": "<",
           "enabled": true,
-          "index": 1
+          "value": 90,
+          "cost": 100
         },
         {
-          "sign": ">",
-          "value": 95,
-          "cost": 20,
           "spell": "adeta res",
           "origin": "MP%",
+          "index": 2,
+          "sign": ">",
           "enabled": true,
-          "index": 2
+          "value": 95,
+          "cost": 20
         }
       ],
+      "Cooldown": true,
       "enabled": true,
-      "Cooldown": true
-    },
-    {
       "Visible": true,
+      "name": "Profile #1",
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
       "itemTable": [
+        {
+          "index": 2,
+          "sign": "<",
+          "value": 65,
+          "item": 23373,
+          "origin": "MP%",
+          "enabled": true
+        },
+        {
+          "origin": "MP%",
+          "sign": "<",
+          "value": 99,
+          "item": 238,
+          "index": 1,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "Conditions": true,
+      "spellTable": [
 
       ],
+      "Cooldown": true,
+      "enabled": false,
+      "Visible": true,
       "name": "Profile #2",
-      "Conditions": true,
-      "spellTable": [
-
-      ],
-      "enabled": false,
-      "Cooldown": true
-    },
-    {
-      "Visible": true,
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
       "itemTable": [
 
+      ]
+    },
+    {
+      "Conditions": true,
+      "spellTable": [
+
       ],
+      "Cooldown": true,
+      "enabled": false,
+      "Visible": true,
       "name": "Profile #3",
-      "Conditions": true,
-      "spellTable": [
-
-      ],
-      "enabled": false,
-      "Cooldown": true
-    },
-    {
-      "Visible": true,
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
       "itemTable": [
 
+      ]
+    },
+    {
+      "Conditions": true,
+      "spellTable": [
+
       ],
+      "Cooldown": true,
+      "enabled": false,
+      "Visible": true,
       "name": "Profile #4",
-      "Conditions": true,
-      "spellTable": [
-
-      ],
-      "enabled": false,
-      "Cooldown": true
-    },
-    {
-      "Visible": true,
       "Interval": true,
       "MessageDelay": false,
       "Delay": true,
       "itemTable": [
 
-      ],
-      "name": "Profile #5",
+      ]
+    },
+    {
       "Conditions": true,
       "spellTable": [
 
       ],
+      "Cooldown": true,
       "enabled": false,
-      "Cooldown": true
+      "Visible": true,
+      "name": "Profile #5",
+      "Interval": true,
+      "MessageDelay": false,
+      "Delay": true,
+      "itemTable": [
+
+      ]
     }
   ],
   "currentHealBotProfile": 1

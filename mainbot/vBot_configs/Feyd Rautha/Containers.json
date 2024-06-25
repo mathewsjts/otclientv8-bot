@@ -1,0 +1,45 @@
+{
+  "containers": {
+    "enabled": true,
+    "purse": true,
+    "height": 170,
+    "list": [
+      {
+        "item": 2854,
+        "value": "main",
+        "enabled": true,
+        "min": true,
+        "items": [
+
+        ]
+      },
+      {
+        "item": 7343,
+        "value": "tools",
+        "enabled": true,
+        "min": true,
+        "items": [
+
+        ]
+      },
+      {
+        "item": 23396,
+        "value": "purse",
+        "enabled": true,
+        "min": true,
+        "items": [
+
+        ]
+      },
+      {
+        "item": 23721,
+        "value": "quickloot",
+        "enabled": true,
+        "min": true,
+        "items": [
+
+        ]
+      }
+    ]
+  }
+}

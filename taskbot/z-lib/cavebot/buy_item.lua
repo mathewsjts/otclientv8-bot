@@ -19,6 +19,9 @@ CaveBot.Extensions.BuyItem.setup = function()
 		end
 
 		local itemAmountBuy = itemAmountToHave - itemAmount(itemId)
+		if itemAmountBuy < 1 then
+			return true
+		end
 		NPC.buy(itemId, itemAmountBuy)
 
 		CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping") + defaultDelay)

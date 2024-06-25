@@ -11,7 +11,7 @@ local function convertOldConfig(config)
   if config and config.items then
     return config
   end -- config is new
-
+  
   local newConfig = {
     items = {},
     capSwitch = config.capSwitch,
@@ -21,7 +21,7 @@ local function convertOldConfig(config)
     capValue = config.capValue,
     staminaValue = config.staminaValue
   }
-
+  
   local items = {
     config.item1,
     config.item2,
@@ -46,7 +46,7 @@ local function convertOldConfig(config)
     config.item5Max,
     config.item6Max
   }
-
+  
   for i, item in ipairs(items) do
     if item > 100 then
       local min = mins[i]
@@ -58,7 +58,7 @@ local function convertOldConfig(config)
       }
     end
   end
-
+  
   return newConfig
 end
 
@@ -87,17 +87,17 @@ end
 function getEmptyItemPanels()
   local panel = SuppliesWindow.items
   local count = 0
-
+  
   for i, child in ipairs(panel:getChildren()) do
     count = child:getId() == "blank" and count + 1 or count
   end
-
+  
   return count
 end
 
 function deleteFirstEmptyPanel()
   local panel = SuppliesWindow.items
-
+  
   for i, child in ipairs(panel:getChildren()) do
     if child:getId() == "blank" then
       child:destroy()
@@ -108,7 +108,7 @@ end
 
 function clearEmptyPanels()
   local panel = SuppliesWindow.items
-
+  
   if panel:getChildCount() > 1 then
     if getEmptyItemPanels() > 1 then
       deleteFirstEmptyPanel()
@@ -124,14 +124,14 @@ function addItemPanel()
   local min = panel.min
   local max = panel.max
   local avg = panel.avg
-
+  
   panel:setId("blank")
   item:setShowCount(false)
-
+  
   item.onItemChange = function(widget)
     local id = widget:getItemId()
     local panelId = panel:getId()
-
+    
     -- empty, verify
     if id < 100 then
       config.items[panelId] = nil
@@ -139,25 +139,25 @@ function addItemPanel()
       clearEmptyPanels() -- clear empty panels if any
       return
     end
-
+    
     -- itemId was not changed, ignore
     if tonumber(panelId) == id then
       return
     end
-
+    
     -- check if isnt already added
     if config[tostring(id)] then
       warn("vBot[Drop Tracker]: Item already added!")
       widget:setItemId(0)
       return
     end
-
+    
     -- new item id
     config.items[tostring(id)] = config.items[tostring(id)] or {} -- min, max, avg
     panel:setId(id)
     addItemPanel() -- add new panel
   end
-
+  
   return panel
 end
 
@@ -165,17 +165,17 @@ SuppliesWindow = UI.createWindow("SuppliesWindow")
 SuppliesWindow:hide()
 
 UI.Button(
-  "Supply Settings",
-  function()
-    SuppliesWindow:setVisible(not SuppliesWindow:isVisible())
-  end
+"Supply Settings",
+function()
+  SuppliesWindow:setVisible(not SuppliesWindow:isVisible())
+end
 )
 
 -- load settings
 local function loadSettings()
   -- panels
   SuppliesWindow.items:destroyChildren()
-
+  
   for id, data in pairs(config.items) do
     local widget = addItemPanel()
     widget:setId(id)
@@ -185,7 +185,7 @@ local function loadSettings()
     widget.avg:setText(data.avg)
   end
   addItemPanel() -- add empty panel
-
+  
   -- switches and values
   SuppliesWindow.capSwitch:setOn(config.capSwitch)
   SuppliesWindow.SoftBoots:setOn(config.SoftBoots)
@@ -202,7 +202,7 @@ SuppliesWindow.onVisibilityChange = function(widget, visible)
     local currentProfile = SuppliesConfig[panelName].currentProfile
     SuppliesConfig[panelName][currentProfile].items = {}
     local parent = SuppliesWindow.items
-
+    
     -- items
     for i, panel in ipairs(parent:getChildren()) do
       if panel.id:getItemId() > 100 then
@@ -210,7 +210,7 @@ SuppliesWindow.onVisibilityChange = function(widget, visible)
         local min = panel.min:getValue()
         local max = panel.max:getValue()
         local avg = panel.avg:getValue()
-
+        
         SuppliesConfig[panelName][currentProfile].items[id] = {
           min = min,
           max = max,
@@ -218,14 +218,14 @@ SuppliesWindow.onVisibilityChange = function(widget, visible)
         }
       end
     end
-
+    
     vBotConfigSave("supply")
   end
 end
 
 local function refreshProfileList()
   local profiles = SuppliesConfig[panelName]
-
+  
   SuppliesWindow.profiles:destroyChildren()
   for k, v in pairs(profiles) do
     if type(v) == "table" then
@@ -243,33 +243,33 @@ local function refreshProfileList()
       end
       label.onDoubleClick = function(widget)
         local window =
-          modules.client_textedit.show(
-          widget,
-          {title = "Set Profile Name", description = "Enter a new name for selected profile"}
-        )
-        schedule(
-          50,
-          function()
-            window:raise()
-            window:focus()
-          end
-        )
+        modules.client_textedit.show(
+        widget,
+        {title = "Set Profile Name", description = "Enter a new name for selected profile"}
+      )
+      schedule(
+      50,
+      function()
+        window:raise()
+        window:focus()
       end
-      label.onClick = function()
-        SuppliesConfig[panelName].currentProfile = label:getText()
-        config = SuppliesConfig[panelName][label:getText()]
-        loadSettings()
-        vBotConfigSave("supply")
-      end
-      label.onTextChange = function(widget, text)
-        currentProfile = text
-        SuppliesConfig[panelName].currentProfile = text
-        profiles[text] = profiles[k]
-        profiles[k] = nil
-        vBotConfigSave("supply")
-      end
-    end
+    )
   end
+  label.onClick = function()
+    SuppliesConfig[panelName].currentProfile = label:getText()
+    config = SuppliesConfig[panelName][label:getText()]
+    loadSettings()
+    vBotConfigSave("supply")
+  end
+  label.onTextChange = function(widget, text)
+    currentProfile = text
+    SuppliesConfig[panelName].currentProfile = text
+    profiles[text] = profiles[k]
+    profiles[k] = nil
+    vBotConfigSave("supply")
+  end
+end
+end
 end
 refreshProfileList()
 
@@ -342,7 +342,7 @@ SuppliesWindow.increment.onClick = function(widget)
     if panel.id:getItemId() > 100 then
       local max = panel.max:getValue()
       local avg = panel.avg:getValue()
-
+      
       if avg > 0 then
         panel.max:setText(max + avg)
       end
@@ -355,7 +355,7 @@ SuppliesWindow.decrement.onClick = function(widget)
     if panel.id:getItemId() > 100 then
       local max = panel.max:getValue()
       local avg = panel.avg:getValue()
-
+      
       if avg > 0 then
         panel.max:setText(math.max(0, max - avg)) -- dont go below 0
       end
@@ -389,7 +389,7 @@ Supplies.getItemsData = function()
       local min = panel.min:getValue()
       local max = panel.max:getValue()
       local avg = panel.avg:getValue()
-
+      
       t[id] = {
         min = min,
         max = max,
@@ -397,14 +397,14 @@ Supplies.getItemsData = function()
       }
     end
   end
-
+  
   return t
 end
 
 Supplies.isSupplyItem = function(id)
   local data = Supplies.getItemsData()
   id = tostring(id)
-
+  
   if data[id] then
     return data[id]
   else
@@ -414,17 +414,17 @@ end
 
 Supplies.hasEnough = function()
   local data = Supplies.getItemsData()
-
+  
   for id, values in pairs(data) do
     id = tonumber(id)
     local minimum = values.min
     local current = player:getItemsCount(id) or 0
-
+    
     if current < minimum then
       return {id=id, amount=current}
     end
   end
-
+  
   return true
 end
 
@@ -433,7 +433,7 @@ hasSupplies = Supplies.hasEnough
 Supplies.setAverageValues = function(data)
   for id, amount in pairs(data) do
     local widget = SuppliesWindow.items[id]
-
+    
     if widget then
       widget.avg:setText(amount)
     end
@@ -444,7 +444,7 @@ Supplies.addSupplyItem = function(id, min, max, avg)
   if not id then
     return
   end
-
+  
   local widget = addItemPanel()
   widget:setId(id)
   widget.id:setItemId(tonumber(id))
@@ -468,6 +468,20 @@ Supplies.getFullData = function()
     items = Supplies.getItemsData(),
     additional = Supplies.getAdditionalData()
   }
-
+  
   return data
+end
+
+Supplies.setupSupplies = function(items)
+  SuppliesWindow.items:destroyChildren()
+  for _, data in pairs(items) do
+    local widget = addItemPanel()
+    widget:setId(data.id)
+    widget.id:setItemId(tonumber(data.id))
+    widget.min:setText(data.min)
+    widget.max:setText(data.max)
+    widget.avg:setText(data.avg)
+  end
+  addItemPanel()
+  vBotConfigSave("supply")
 end

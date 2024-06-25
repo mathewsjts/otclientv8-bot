@@ -1,81 +1,81 @@
 {
+  "targeting": [
+    {
+      "rpSafe": false,
+      "lureMax": 3,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "priority": 5,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "regex": "^tarantula$",
+      "closeLure": false,
+      "lureCavebot": false,
+      "lureCount": 8,
+      "diamondArrows": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dynamicLureDelay": false,
+      "chase": false,
+      "faceMonster": false,
+      "keepDistance": false,
+      "avoidAttacks": false,
+      "dontLoot": false,
+      "lure": false,
+      "name": "Tarantula",
+      "maxDistance": 3,
+      "danger": 5,
+      "lureDelay": 250,
+      "anchor": false,
+      "delayFrom": 2
+    },
+    {
+      "rpSafe": false,
+      "lureMax": 3,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "avoidAttacks": false,
+      "rePosition": false,
+      "lureCavebot": true,
+      "lureCount": 8,
+      "anchor": false,
+      "rePositionAmount": 5,
+      "lure": false,
+      "keepDistanceRange": 5,
+      "dynamicLureDelay": false,
+      "chase": false,
+      "faceMonster": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "dontLoot": true,
+      "priority": 0,
+      "anchorRange": 3,
+      "maxDistance": 3,
+      "danger": 0,
+      "name": "Poison Spider, Centipede, Spider, Skunk, Toad, Wasp, Terror Bird, Panda",
+      "diamondArrows": false,
+      "regex": "^poison spider$|^centipede$|^spider$|^skunk$|^toad$|^wasp$|^terror bird$|^panda$"
+    }
+  ],
   "looting": {
-    "items": [
-      {
-        "id": 3031,
-        "count": 1
-      }
-    ],
-    "maxDanger": 10,
-    "minCapacity": 0,
     "everyItem": false,
     "containers": [
       {
         "id": 2854,
         "count": 1
       }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 0,
+    "items": [
+      {
+        "id": 3031,
+        "count": 1
+      }
     ]
-  },
-  "targeting": [
-    {
-      "chase": false,
-      "lure": false,
-      "keepDistance": false,
-      "priority": 5,
-      "anchor": false,
-      "maxDistance": 3,
-      "danger": 5,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "rpSafe": false,
-      "regex": "^tarantula$",
-      "lureCavebot": false,
-      "lureCount": 8,
-      "name": "Tarantula",
-      "rePositionAmount": 5,
-      "anchorRange": 3,
-      "keepDistanceRange": 1,
-      "dontLoot": false,
-      "lureMax": 3,
-      "faceMonster": false,
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "diamondArrows": false,
-      "rePosition": false,
-      "avoidAttacks": false
-    },
-    {
-      "chase": false,
-      "lure": false,
-      "keepDistance": false,
-      "priority": 0,
-      "dontLoot": true,
-      "maxDistance": 3,
-      "danger": 0,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "rpSafe": false,
-      "regex": "^poison spider$|^centipede$|^spider$|^skunk$|^toad$|^wasp$|^terror bird$|^panda$",
-      "lureCavebot": true,
-      "lureCount": 8,
-      "name": "Poison Spider, Centipede, Spider, Skunk, Toad, Wasp, Terror Bird, Panda",
-      "rePositionAmount": 5,
-      "anchorRange": 3,
-      "keepDistanceRange": 5,
-      "diamondArrows": false,
-      "lureMax": 3,
-      "faceMonster": false,
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "anchor": false,
-      "rePosition": false,
-      "avoidAttacks": false
-    }
-  ]
+  }
 }

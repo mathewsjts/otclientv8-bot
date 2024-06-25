@@ -1,81 +1,81 @@
 {
+  "targeting": [
+    {
+      "rpSafe": false,
+      "lureMax": 3,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "priority": 5,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "regex": "^crocodile$|^tortoise$",
+      "closeLure": false,
+      "lureCavebot": false,
+      "lureCount": 8,
+      "diamondArrows": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dynamicLureDelay": false,
+      "chase": true,
+      "faceMonster": false,
+      "keepDistance": false,
+      "avoidAttacks": false,
+      "dontLoot": false,
+      "lure": false,
+      "name": "Crocodile, Tortoise",
+      "maxDistance": 3,
+      "danger": 5,
+      "lureDelay": 250,
+      "anchor": false,
+      "delayFrom": 2
+    },
+    {
+      "rpSafe": false,
+      "lureMax": 3,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "priority": 0,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "regex": "^crab$|^blood crab$|^bug$|^spider$|^slime$|^wasp$|^terror bird$|^cobra$|^snake$|^swamp troll$|^centipede$",
+      "closeLure": false,
+      "lureCavebot": true,
+      "lureCount": 8,
+      "diamondArrows": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 5,
+      "dynamicLureDelay": false,
+      "chase": false,
+      "faceMonster": false,
+      "keepDistance": false,
+      "avoidAttacks": false,
+      "dontLoot": true,
+      "lure": false,
+      "name": "Crab, Blood Crab, Bug, Spider, Slime, Wasp, Terror Bird, Cobra, Snake, Swamp Troll, Centipede",
+      "maxDistance": 3,
+      "danger": 0,
+      "lureDelay": 250,
+      "anchor": false,
+      "delayFrom": 2
+    }
+  ],
   "looting": {
-    "items": [
-      {
-        "id": 3031,
-        "count": 1
-      }
-    ],
-    "maxDanger": 10,
-    "minCapacity": 0,
     "everyItem": false,
     "containers": [
       {
         "id": 2854,
         "count": 1
       }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 0,
+    "items": [
+      {
+        "id": 3031,
+        "count": 1
+      }
     ]
-  },
-  "targeting": [
-    {
-      "chase": true,
-      "lure": false,
-      "keepDistance": false,
-      "priority": 5,
-      "anchor": false,
-      "maxDistance": 3,
-      "danger": 5,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "rpSafe": false,
-      "regex": "^crocodile$",
-      "lureCavebot": false,
-      "lureCount": 8,
-      "name": "Crocodile",
-      "rePositionAmount": 5,
-      "anchorRange": 3,
-      "keepDistanceRange": 1,
-      "dontLoot": false,
-      "lureMax": 3,
-      "faceMonster": false,
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "diamondArrows": false,
-      "rePosition": false,
-      "avoidAttacks": false
-    },
-    {
-      "chase": false,
-      "lure": false,
-      "keepDistance": false,
-      "priority": 0,
-      "dontLoot": true,
-      "maxDistance": 3,
-      "danger": 0,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "rpSafe": false,
-      "regex": "^crab$|^tortoise$|^blood crab$|^bug$|^spider$|^slime$|^wasp$|^terror bird$|^cobra$|^snake$|^swamp troll$|^centipede$",
-      "lureCavebot": true,
-      "lureCount": 8,
-      "name": "Crab, Tortoise, Blood Crab, Bug, Spider, Slime, Wasp, Terror Bird, Cobra, Snake, Swamp Troll, Centipede",
-      "rePositionAmount": 5,
-      "anchorRange": 3,
-      "keepDistanceRange": 5,
-      "avoidAttacks": false,
-      "lureMax": 3,
-      "faceMonster": false,
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "anchor": false,
-      "rePosition": false,
-      "diamondArrows": false
-    }
-  ]
+  }
 }

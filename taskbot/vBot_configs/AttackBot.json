@@ -54,15 +54,17 @@
             "terramite",
             "tarantula",
             "crocodile",
-            "gnarhound"
+            "gnarhound",
+            "tortoise",
+            "blood crab"
           ],
-          "tooltip": "terramite, tarantula, crocodile, gnarhound"
+          "tooltip": "terramite, tarantula, crocodile, gnarhound, tortoise, blood crab"
         },
         {
           "minHp": 0,
           "patternCategory": 1,
           "cooldown": 1,
-          "creatures": "tortoise, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton",
+          "creatures": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab",
           "enabled": true,
           "orMore": true,
           "maxHp": 100,
@@ -75,6 +77,7 @@
           "spell": "exori min flam",
           "monsters": [
             "tortoise",
+            "crocodile",
             "blood crab",
             "centipede",
             "slime",
@@ -85,9 +88,10 @@
             "rat",
             "spider",
             "swamp troll",
-            "skeleton"
+            "skeleton",
+            "crab"
           ],
-          "tooltip": "tortoise, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton"
+          "tooltip": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab"
         }
       ],
       "pvpMode": false,

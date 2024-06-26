@@ -2,10 +2,6 @@
   "AttackBot": [
     {
       "PvpSafe": true,
-      "pvpMode": false,
-      "Cooldown": true,
-      "Rotate": false,
-      "name": "Profile #1",
       "attackTable": [
         {
           "description": "[3 Sqm] 1+ Any Creatures: exori vis, targeted (0%-100%)",
@@ -26,81 +22,85 @@
           "monsters": true
         }
       ],
-      "KillsAmount": 1,
-      "enabled": true,
+      "Cooldown": true,
+      "Rotate": false,
+      "name": "Profile #1",
       "ignoreMana": true,
+      "KillsAmount": 1,
+      "pvpMode": false,
+      "Kills": false,
       "BlackListSafe": false,
       "AntiRsRange": 5,
       "Visible": true,
-      "Kills": false
+      "enabled": true
     },
     {
       "PvpSafe": true,
-      "pvpMode": false,
+      "attackTable": [
+
+      ],
       "Cooldown": true,
       "Rotate": false,
       "name": "Profile #2",
-      "attackTable": [
-
-      ],
-      "KillsAmount": 1,
-      "enabled": false,
       "ignoreMana": true,
+      "KillsAmount": 1,
+      "pvpMode": false,
+      "Kills": false,
       "BlackListSafe": false,
       "AntiRsRange": 5,
       "Visible": true,
-      "Kills": false
+      "enabled": false
     },
     {
       "PvpSafe": true,
-      "pvpMode": false,
+      "attackTable": [
+
+      ],
       "Cooldown": true,
       "Rotate": false,
       "name": "Profile #3",
-      "attackTable": [
-
-      ],
-      "KillsAmount": 1,
-      "enabled": false,
       "ignoreMana": true,
+      "KillsAmount": 1,
+      "pvpMode": false,
+      "Kills": false,
       "BlackListSafe": false,
       "AntiRsRange": 5,
       "Visible": true,
-      "Kills": false
+      "enabled": false
     },
     {
       "PvpSafe": true,
-      "pvpMode": false,
+      "attackTable": [
+
+      ],
       "Cooldown": true,
       "Rotate": false,
       "name": "Profile #4",
-      "attackTable": [
-
-      ],
-      "KillsAmount": 1,
-      "enabled": false,
       "ignoreMana": true,
+      "KillsAmount": 1,
+      "pvpMode": false,
+      "Kills": false,
       "BlackListSafe": false,
       "AntiRsRange": 5,
       "Visible": true,
-      "Kills": false
+      "enabled": false
     },
     {
       "PvpSafe": true,
-      "pvpMode": false,
-      "Cooldown": true,
-      "Rotate": false,
-      "name": "Profile #5",
       "attackTable": [
 
       ],
-      "KillsAmount": 1,
-      "enabled": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "name": "Profile #5",
       "ignoreMana": true,
+      "KillsAmount": 1,
+      "pvpMode": false,
+      "Kills": false,
       "BlackListSafe": false,
       "AntiRsRange": 5,
       "Visible": true,
-      "Kills": false
+      "enabled": false
     }
   ],
   "currentBotProfile": 1

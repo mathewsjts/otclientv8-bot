@@ -1,0 +1,147 @@
+{
+  "hpitem1": {
+    "max": 50,
+    "title": "HP%",
+    "subType": 0,
+    "item": 236,
+    "min": 0,
+    "on": false
+  },
+  "_macros": {
+    "": false,
+    "Auto Buff spell": false,
+    "eat food": true,
+    "anti paralyze": false,
+    "haste": false,
+    "Atk Closest Target": false,
+    "Exchange money": true,
+    "Anti Kick": true,
+    "faster healing": false,
+    "Send message on trade": false
+  },
+  "autoEquip": [
+    {
+      "item1": 3052,
+      "title": "Auto Equip",
+      "item2": 3089,
+      "on": false,
+      "slot": 9
+    },
+    {
+      "item1": 0,
+      "title": "Auto Equip",
+      "item2": 0,
+      "on": false,
+      "slot": 0
+    },
+    {
+      "item1": 0,
+      "title": "Auto Equip",
+      "item2": 0,
+      "on": false,
+      "slot": 0
+    },
+    {
+      "item1": 0,
+      "title": "Auto Equip",
+      "item2": 0,
+      "on": false,
+      "slot": 0
+    }
+  ],
+  "ingame_hotkeys": "\n--buy supplies\n\n-- config nome do npc, quantidade de pot e id dos itens\nlocal npcName = \"Ethan\"\nlocal maxMp = 800\nlocal maxHp = 200\nlocal mpId = 268\nlocal hpId = 7643\n\n-- não mexer abaixo\nlocal npc = getCreatureByName(npcName)\nlocal totalMp = 100\nlocal totalHp = 100\n\nif not npc then \n  return false\nend\n\nif retries > 10 then\n  return false\nend\n\nlocal pos = player:getPosition()\nlocal npcPos = npc:getPosition()\n\nif math.max(math.abs(pos.x - npcPos.x), math.abs(pos.y - npcPos.y)) > 3 then\n  autoWalk(npcPos, { precision=1 })\n  delay(500)\n  return \"retry\"\nend\n\nif not NPC.isTrading() then\n  NPC.say(\"hi\")\n  schedule(2000, function() NPC.say(\"trade\") end) \n  delay(2000)\n  return \"retry\"\nend\n\nfor _, container in pairs(getContainers()) do\n    for _, item in ipairs(container:getItems()) do\n        if (item:getId() == mpId) then\n            totalMp = totalMp + item:getCount()\n        end\n        if (item:getId() == hpId) then\n            totalHp = totalHp + item:getCount()\n        end\n    end\nend\n\ndelay(5000)\n\nlocal mpToBuy = maxMp - totalMp\nlocal hpToBuy = maxHp - totalHp\n\nlocal mpLoops = math.ceil(mpToBuy/100)\nlocal hpLoops = math.ceil(hpToBuy/100)\n\nfor i = 1, mpLoops, 1 do\n  if (i < mpLoops) then\n    mpToBuy = mpToBuy - 100\n    schedule(((i * 2) * 1000), function() NPC.buy(mpId, 100) end)\n  else\n    schedule(((i * 2) * 1000), function() NPC.buy(mpId, mpToBuy) end)\n  end\nend\n\nlocal buyManaDelay = (mpLoops+2)*2000\n\ndelay(buyManaDelay)\n\nfor i = 1, hpLoops, 1 do\n  if (i < hpLoops) then\n    hpToBuy = hpToBuy - 100\n    schedule((((i * 2) * 1000)+buyManaDelay), function() NPC.buy(hpId, 100) end)\n  else\n    schedule((((i * 2) * 1000)+buyManaDelay), function() NPC.buy(hpId, hpToBuy) end)\n  end\nend\n\ndelay((buyManaDelay+hpLoops+2)*1)\n\nreturn true",
+  "healing2": {
+    "max": 88,
+    "title": "HP%",
+    "on": false,
+    "min": 50,
+    "text": "exura"
+  },
+  "ingame_macros": "local creatureId = 0\n\nmacro(100, \"Keep Attack\", key, function()\n  if g_game.getFollowingCreature() then\n    creatureId = 0\n    return\n  end\n  local creature = g_game.getAttackingCreature()\n  if creature then\n    creatureId = creature:getId()\n  elseif creatureId > 0 then\n    local target = getCreatureById(creatureId)\n    if target then\n      attack(target)\n      delay(500)\n    end\n  end\nend, parent)\n\n\n\nlocal monsterList = {}\nlocal whitelistMonsters = {\"emberwing\", \"skullfrost\", \"groovebeast\", \"thundergiant\", \"blistering fire elemental\", \"frozen\"}\n\nmacro(100, \"Atk Closest Target\", function()\n  if g_game.isAttacking() then\n    return\n  end\n  for _,mob in ipairs(getSpectators(posz())) do\n    if mob:isMonster() and not table.find(whitelistMonsters, mob:getName():lower()) then\n      table.insert(monsterList, {monster = mob, distance = getDistanceBetween(pos(), mob:getPosition())})\n    end\n  end\n  table.sort(monsterList, function(a,b) return a.distance < b.distance end)\n  if not g_game.isAttacking() and monsterList[1] then\n    g_game.attack(monsterList[1].monster)\n  end\n  monsterList = {}\nend)\n\n\n\n\nlocal hpPercent = 75\nmacro(50, \"faster healing\",  function()\n  if (hppercent() <= hpPercent) then\n  say(storage.HealText)\nend\nend)\naddTextEdit(\"HealText\", storage.HealText or \"exura vita\", function(widget, text) \nstorage.HealText = text\nend)\n\n\n\nfunction autoBuffSpell(parent)\n  local lastBuffSpell = 0\n  macro(100, \"Auto Buff spell\", nil, function()\n    if not hasPartyBuff() or now > lastBuffSpell + 90000 then\n      if saySpell(storage.autoBuffText, 2000) then\n        lastBuffSpell = now\n      end\n    end\n  end, parent)\n  addTextEdit(\"autoBuffText\", storage.autoBuffText or \"utito tempo san\", function(widget, text)    \n    storage.autoBuffText = text\n  end, parent)\nend\nautoBuffSpell(batTab)",
+  "hasteSpell": "utani hur",
+  "manaitem2": {
+    "max": 50,
+    "title": "MP%",
+    "subType": 0,
+    "item": 3157,
+    "min": 0,
+    "on": false
+  },
+  "autoBuffText": "utito tempo",
+  "_configs": {
+    "targetbot_configs": {
+      "enabled": true,
+      "selected": "tasker"
+    },
+    "cavebot_configs": {
+      "selected": "tasker",
+      "enabled": false
+    }
+  },
+  "healing1": {
+    "max": 50,
+    "title": "HP%",
+    "on": true,
+    "min": 0,
+    "text": "exura vita"
+  },
+  "foodItems": [
+    {
+      "count": 1,
+      "id": 3582
+    },
+    {
+      "count": 1,
+      "id": 3577
+    },
+    {
+      "count": 0,
+      "id": 3725
+    },
+    {
+      "count": 0,
+      "id": 3723
+    }
+  ],
+  "dropItems": [
+    {
+      "id": 283,
+      "count": 1
+    },
+    {
+      "id": 284,
+      "count": 1
+    },
+    {
+      "id": 285,
+      "count": 1
+    }
+  ],
+  "manaTrain": {
+    "max": 100,
+    "title": "MP%",
+    "on": false,
+    "min": 0,
+    "text": "utevo lux"
+  },
+  "manaitem1": {
+    "max": 50,
+    "title": "MP%",
+    "subType": 0,
+    "item": 237,
+    "min": 0,
+    "on": true
+  },
+  "hpitem2": {
+    "max": 80,
+    "title": "HP%",
+    "subType": 0,
+    "item": 23375,
+    "min": 0,
+    "on": false
+  },
+  "manaShield": "utamo vita",
+  "autoTradeMessage": "I'm using OTClientV8!",
+  "antiParalyze": "utani hur",
+  "HealText": "exura ico"
+}

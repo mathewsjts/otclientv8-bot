@@ -1,45 +1,55 @@
 {
   "looting": {
-    "items": [
-
-    ],
-    "maxDanger": 10,
-    "minCapacity": 100,
     "containers": [
-
+      {
+        "count": 1,
+        "id": 2854
+      }
     ],
-    "everyItem": false
+    "everyItem": false,
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      },
+      {
+        "count": 1,
+        "id": 3577
+      }
+    ],
+    "minCapacity": 0,
+    "maxDanger": 10
   },
   "targeting": [
     {
-      "lure": false,
-      "maxDistance": 10,
-      "danger": 1,
-      "lureMax": 3,
-      "lureMin": 1,
-      "delayFrom": 2,
-      "name": "Rat trainer",
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "rePosition": false,
-      "lureCavebot": false,
-      "lureCount": 1,
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "anchor": false,
-      "regex": "^rat trainer$",
-      "faceMonster": false,
-      "dontLoot": false,
-      "rpSafe": false,
-      "diamondArrows": false,
+      "lureMax": 3,
+      "lureMin": 1,
+      "delayFrom": 2,
       "dynamicLureDelay": false,
-      "chase": true,
+      "name": "Ravenous Lava Lurker",
+      "rePosition": false,
+      "regex": "^ravenous lava lurker$",
+      "rpSafe": false,
+      "dontLoot": true,
+      "diamondArrows": false,
+      "lure": false,
+      "dynamicLure": false,
+      "lureCavebot": false,
+      "faceMonster": false,
+      "chase": false,
       "avoidAttacks": false,
       "keepDistance": false,
-      "dynamicLure": false,
       "lureDelay": 250,
-      "priority": 1
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "maxDistance": 10,
+      "priority": 1,
+      "danger": 1,
+      "lureCount": 1,
+      "anchor": false
     }
   ]
 }

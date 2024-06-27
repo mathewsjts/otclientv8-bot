@@ -1,0 +1,94 @@
+{
+  "targeting": [
+    {
+      "danger": 1,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "name": "Giant Spider, Defiler",
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "regex": "^giant spider$|^defiler$",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "rpSafe": false,
+      "priority": 1,
+      "rePosition": false,
+      "diamondArrows": false,
+      "faceMonster": false,
+      "anchor": false,
+      "dontLoot": false,
+      "lureMax": 3,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "dynamicLureDelay": false,
+      "lureDelay": 250,
+      "delayFrom": 2,
+      "lure": false,
+      "maxDistance": 4
+    },
+    {
+      "danger": 0,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "name": "Tortoise, Crab, Blood Crab, Thronback Tortoise, Crocodile, Toad, Nomad, Azure Frog, Green Frog, Crimson Frog",
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": true,
+      "lureCount": 5,
+      "maxDistance": 3,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "lure": true,
+      "priority": 0,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "faceMonster": false,
+      "anchor": false,
+      "dynamicLureDelay": false,
+      "chase": false,
+      "lureMax": 3,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "diamondArrows": false,
+      "dontLoot": true,
+      "regex": "^tortoise$|^crab$|^blood crab$|^thronback tortoise$|^crocodile$|^toad$|^nomad$|^azure frog$|^green frog$|^crimson frog$",
+      "rePosition": false,
+      "rpSafe": false
+    }
+  ],
+  "looting": {
+    "maxDanger": 10,
+    "minCapacity": 0,
+    "containers": [
+
+    ],
+    "everyItem": false,
+    "items": [
+      {
+        "count": 1,
+        "id": 3039
+      },
+      {
+        "count": 1,
+        "id": 3037
+      },
+      {
+        "count": 1,
+        "id": 6499
+      },
+      {
+        "count": 1,
+        "id": 3034
+      },
+      {
+        "count": 1,
+        "id": 3038
+      }
+    ]
+  }
+}

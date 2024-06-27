@@ -34,7 +34,6 @@ CaveBot.Extensions.InitialSetup.setup = function()
     TargetBot.setCurrentProfile(CaveBot.getCurrentProfile())
 
     if not has_blessings or has_to_refill then
-      TargetBot.setCurrentProfile("__configuration")
       CaveBot.setCurrentProfile("__configuration")
     end
 

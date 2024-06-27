@@ -1,5 +1,11 @@
 {
-  "quests": [
+  "quests": {
+    "Forgotten Knowledge": {
+      "completed": false,
+      "missions": [
 
-  ]
+      ],
+      "id": 15
+    }
+  }
 }

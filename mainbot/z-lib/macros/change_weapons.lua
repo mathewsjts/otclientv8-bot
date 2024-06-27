@@ -1,20 +1,41 @@
-macro(250, "change weapons", function()
-    local health_percent = 5
-    local weapon_kill = 33039
+-- IDs das armas (ajuste conforme necessário)
+local initialWeaponId = 3282  -- ID da arma inicial
+local secondaryWeaponId = 3283  -- ID da segunda arma
 
-    if not g_game.getAttackingCreature() then
+macro(250, "Troca de Armas", function()
+    local player = g_game.getLocalPlayer()
+
+    -- Verifica se o jogador está conectado
+    if not player then
         return
     end
 
-    local creature = g_game.getAttackingCreature()
+    -- Obtém o alvo atual
+    local target = player:getTarget()
 
-    if creature:getHealthPercent() > health_percent and itemAmount(storage_custom.weapon_id) > 0 and getLeft():getId() ~= storage_custom.weapon_id then
-        g_game.move(findItem(storage_custom.weapon_id), {x=65535, y=SlotLeft, z=0}, 1)
+    -- Verifica se há um alvo
+    if not target then
         return
     end
 
-    if creature:getHealthPercent() < health_percent and itemAmount(weapon_kill) > 0 and getLeft():getId() ~= weapon_kill then
-        g_game.move(findItem(weapon_kill), {x=65535, y=SlotLeft, z=0}, 1)
+    -- Verifica se o alvo é uma criatura (monstro)
+    if not target:isMonster() then
         return
     end
-  end)
+
+    -- Obtém a porcentagem de HP do alvo
+    local targetHpPercent = target:getHealthPercent()
+
+    -- Troca de armas com base na porcentagem de HP do alvo
+    if targetHpPercent <= 5 then
+        -- Troca para a segunda arma se o HP do alvo estiver abaixo de 5%
+        if player:getInventoryItem(GAME_WEAPON_SLOT).getId() ~= secondaryWeaponId then
+            g_game.equipItem(player:getInventoryItem(GAME_BACKPACK).getItem(secondaryWeaponId), GAME_WEAPON_SLOT)
+        end
+    else
+        -- Troca para a arma inicial se o HP do alvo estiver acima de 5%
+        if player:getInventoryItem(GAME_WEAPON_SLOT).getId() ~= initialWeaponId then
+            g_game.equipItem(player:getInventoryItem(GAME_BACKPACK).getItem(initialWeaponId), GAME_WEAPON_SLOT)
+        end
+    end
+end)

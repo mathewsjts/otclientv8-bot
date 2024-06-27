@@ -2,6 +2,8 @@
   "supplies": {
     "currentProfile": "Default",
     "Default": {
+      "capValue": "50",
+      "capSwitch": true,
       "items": {
         "268": {
           "min": 65,

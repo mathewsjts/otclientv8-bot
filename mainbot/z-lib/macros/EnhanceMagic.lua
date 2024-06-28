@@ -1,4 +1,4 @@
-macro(10000, "adeta res", function()
+macro(10000, "Enhance Magic", function()
   if not isInPz() then
     cast("adeta res")
   end

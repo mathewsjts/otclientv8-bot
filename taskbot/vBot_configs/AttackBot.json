@@ -39,7 +39,7 @@
           "minHp": 0,
           "patternCategory": 1,
           "cooldown": 1,
-          "creatures": "terramite, tarantula, crocodile, gnarhound, tortoise, blood crab, terror bird",
+          "creatures": "terramite, tarantula, crocodile, gnarhound, tortoise, blood crab, terror bird, slime",
           "enabled": true,
           "orMore": true,
           "maxHp": 100,
@@ -57,9 +57,10 @@
             "gnarhound",
             "tortoise",
             "blood crab",
-            "terror bird"
+            "terror bird",
+            "Slime"
           ],
-          "tooltip": "terramite, tarantula, crocodile, gnarhound, tortoise, blood crab, terror bird"
+          "tooltip": "terramite, tarantula, crocodile, gnarhound, tortoise, blood crab, terror bird, slime"
         },
         {
           "minHp": 0,

@@ -12,11 +12,109 @@
 ]]
 
 -- here you can fix incorrect bosses names in cooldown messages
-local BOSSES = {
-  -- {in message, correct one}
-  {"Scarlet Etzel", "Scarlett Etzel"},
-  {"Leiden", "Ravenous Hunger"},
-  {"Urmahlulu", "Urmahlullu"}
+local bossData = {
+  ["Abyssador"] = 20,
+  ["Ghulosh"] = 20,
+  ["Gorzindel"] = 20,
+  ["Grand Master Oberon"] = 20,
+  ["Lokathmor"] = 20,
+  ["Mazzinor"] = 20,
+  ["The Blazing Rose"] = 20,
+  ["The Lily of Night"] = 20,
+  ["The Scourge Of Oblivion"] = 20,
+  ["Amenef The Burning"] = 20,
+  ["Brain Head"] = 20,
+  ["Brokul"] = 20,
+  ["Deathstrike"] = 20,
+  ["Drume"] = 20,
+  ["Gnomevil"] = 20,
+  ["Goshnar's Cruelty"] = 20,
+  ["Goshnar's Greed"] = 20,
+  ["Goshnar's Hatred"] = 20,
+  ["Goshnar's Malice"] = 20,
+  ["Goshnar's Spite"] = 20,
+  ["Irgix the Flimsy"] = 20,
+  ["Katex Blood Tongue"] = 20,
+  ["Lady Tenebris"] = 20,
+  ["Lloyd"] = 20,
+  ["Melting Frozen Horror"] = 20,
+  ["Neferi The Spy"] = 20,
+  ["Sister Hetai"] = 20,
+  ["Soul of Dragonking Zyrtarch"] = 20,
+  ["Srezz Yellow Eyes"] = 20,
+  ["Thaian"] = 20,
+  ["The Enraged Thorn Knight"] = 20,
+  ["The Freezing Time Guardian"] = 20,
+  ["The Time Guardian"] = 20,
+  ["The Dread Maiden"] = 20,
+  ["The Fear Feaster"] = 20,
+  ["The Flaming Orchid"] = 20,
+  ["The Pale Worm"] = 20,
+  ["The Unwelcome"] = 20,
+  ["Unaz the Mean"] = 20,
+  ["Utua Stone Sting"] = 20,
+  ["Yirkas Blue Scales"] = 20,
+  ["Essence of Malice"] = 20,
+  ["Black Vixen"] = 20,
+  ["Bloodback"] = 20,
+  ["Darkfang"] = 20,
+  ["Ravenous Hunger"] = 20,
+  ["Shadowpelt"] = 20,
+  ["Sharpclaw"] = 20,
+  ["The False God"] = 20,
+  ["The Sandking"] = 20,
+  ["The Souldespoiler"] = 20,
+  ["The Source Of Corruption"] = 20,
+  ["The Unarmored Voidborn"] = 20,
+  ["Count Vlarkorth"] = 20,
+  ["Duke Krule"] = 20,
+  ["Earl Osam"] = 20,
+  ["King Zelos"] = 20,
+  ["Lord Azaram"] = 20,
+  ["Scarlett Etzel"] = 20,
+  ["Sir Baeloc"] = 20,
+  ["Urmahlullu the Weakened"] = 20,
+  ["Anomaly"] = 20,
+  ["Eradicator"] = 20,
+  ["Outburst"] = 20,
+  ["Realityquake"] = 20,
+  ["Rupture"] = 20,
+  ["Mazoran"] = 48,
+  ["Plagirath"] = 48,
+  ["Ragiaz"] = 48,
+  ["Razzagorn"] = 48,
+  ["Shulgrax"] = 48,
+  ["Tarbaz"] = 48,
+  ["Zamulosh"] = 48,
+  ["Faceless Bane"] = 20,
+  ["The Nightmare Beast"] = 20,
+  ["The Diamond Blossom"] = 20,
+  ["The Blazing Time Guardian"] = 20,
+  ["Vok the Freakish"] = 20,
+  ["Sir Nictros"] = 20,
+  ["Ancient Spawn of Morgathla"] = 20,
+  ["Gelidrazah the Frozen"] = 20,
+  ["Kalyassa"] = 20,
+  ["Tazhadur"] = 20,
+  ["Alptramun"] = 20,
+  ["Ferumbras Mortal Shell"] = 336,
+  ["Goshnar's Megalomania"] = 72,
+  ["Grorlam"] = 20,
+  ["Izcandar Champion of Summer"] = 20,
+  ["Izcandar Champion of Winter"] = 20,
+  ["Izcandar the Banished"] = 20,
+  ["Malofur Mangrinder"] = 20,
+  ["Maxxenius"] = 20,
+  ["Plagueroot"] = 20,
+  ["The First Dragon"] = 20,
+  ["The Handmaiden"] = 20,
+  ["The Last Lore Keeper"] = 336,
+  ["The Percht Queen"] = 20,
+  ["Tyrn"] = 20,
+  ["World Devourer"] = 336,
+  ["Zorvorax"] = 20,
+  ["Tentugly's Head"] = 20,
+  ["Ratmiral Blackwhiskers"] = 20
 }
 
 vBot.CaveBotData = vBot.CaveBotData or {
@@ -279,28 +377,29 @@ for bossName, dueTime in pairs(storage.analyzers.trackedBoss) do
   createBossPanel(bossName, dueTime)
 end
 
-local bossRegex = [[You (?:can|may) challenge ([\w\W]*) again in ([\d]*)]]
-onTalk(function(name, level, mode, text, channelId, pos)
-  if mode == 34 then
-    local re = regexMatch(text, bossRegex)
-    local name = re and re[1] and re[1][2]
-    local cd = re and re[1] and re[1][3]
+onCreatureDisappear(function(creature)
+  local name = creature:getName()
+  if creature:getHealthPercent() ~= 0 then return end
+  local pos = creature:getPosition()
+  if pos.z ~= posz() then return end
+  local tile = g_map.getTile(pos)
+  local tilePos = tile:getPosition()
+  local pPos = player:getPosition()
 
-    for i=1,#BOSSES do
-      local bad = BOSSES[i][1]
-      local good = BOSSES[i][2]
+  if not tile then return end
+  if math.abs(pPos.x-tilePos.x) >= 6 or math.abs(pPos.y-tilePos.y) >= 6 then return end
+  
+  local cd = bossData[name]
+  if not cd then return end
+  cd = cd * 60 * 60 -- cd in seconds    
 
-      if name == bad then
-        name = good
-      end
-    end
+  storage.analyzers.trackedBoss[name] = os.time() + cd
+  createBossPanel(name, os.time() + cd)
+end)
 
-    if not cd then return end
-
-    cd = tonumber(cd) * 60 * 60 -- cd in seconds
-
-    storage.analyzers.trackedBoss[name] = os.time() + cd
-    createBossPanel(name, os.time() + cd)
+macro(59000, function()
+  for bossName, dueTime in pairs(storage.analyzers.trackedBoss) do
+    createBossPanel(bossName, dueTime)
   end
 end)
 
@@ -710,7 +809,7 @@ end
 niceTimeFormat = function(v, seconds) -- v in seconds
   local hours = string.format("%02.f", math.floor(v/3600))
   local mins = string.format("%02.f", math.floor(v/60 - (hours*60)))
-  local secs = string.format("%02.f", math.floor(math.mod(v, 60)))
+  local secs = string.format("%02.f", math.floor(math.fmod(v, 60)))
 
   local final = string.format('%s:%s%s',hours,mins,seconds and ":"..secs or "")
  return final

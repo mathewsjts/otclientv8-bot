@@ -2,10 +2,22 @@ CaveBot.Extensions.CheckTask = {}
 
 CaveBot.Extensions.CheckTask.setup = function()
 	CaveBot.registerAction("CheckTask", "#ffffff", function(value)
-		local data = string.split(value, ",")
+		local dataList = string.split(value, ",")
+		local labelName = dataList[1]:trim()
 
-		for _, taskName in ipairs(data) do
+		local tasksList = {}
+
+		for index, task in ipairs(dataList) do
+			if index > 1 then
+				table.insert(tasksList, task:trim())
+			end
+		end
+
+		for _, taskName in ipairs(tasksList) do
 			if not TaskBot.isTaskCompleted(taskName) then
+				if labelName ~= '_' then
+					CaveBot.gotoLabel(labelName)
+				end
 				return false
 			end
 		end

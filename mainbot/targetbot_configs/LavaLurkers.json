@@ -19,7 +19,7 @@
       "lureMax": 4,
       "lureMin": 2,
       "delayFrom": 1,
-      "lureDelay": 500,
+      "lureDelay": 650,
       "closeLure": false,
       "closeLureAmount": 3,
       "rpSafe": false,

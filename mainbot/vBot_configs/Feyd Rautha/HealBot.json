@@ -23,7 +23,7 @@
     "poisonCost": 20,
     "cureCurse": false,
     "hasteCost": 100,
-    "enabled": true,
+    "enabled": false,
     "holdUtamo": false,
     "utamoCost": 40
   },
@@ -49,7 +49,16 @@
           "spell": "exura gran",
           "value": 90,
           "index": 2,
-          "enabled": true
+          "enabled": false
+        },
+        {
+          "cost": 20,
+          "sign": "<",
+          "origin": "HP%",
+          "enabled": true,
+          "spell": "exura",
+          "value": 90,
+          "index": 3
         },
         {
           "cost": 340,
@@ -58,7 +67,7 @@
           "enabled": true,
           "spell": "adeta res",
           "value": 98,
-          "index": 3
+          "index": 4
         }
       ],
       "name": "Profile #1",

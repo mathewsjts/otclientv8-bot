@@ -91,7 +91,6 @@ end
 local waitTill = 0
 local waitingForContainer = nil
 local status = ""
-local lastFoodConsumption = 0
 
 TargetBot.Looting.getStatus = function()
   return status
@@ -229,11 +228,10 @@ TargetBot.Looting.lootContainer = function(lootContainers, container)
       if item.lootTries < 5 then -- if can't be looted within 0.5s then skip it
         return TargetBot.Looting.lootItem(lootContainers, item)
       end
-    elseif storage.foodItems and storage.foodItems[1] and lastFoodConsumption + 5000 < now then
+    elseif storage.foodItems and storage.foodItems[1] then
       for _, food in ipairs(storage.foodItems) do
         if item:getId() == food.id then
           g_game.use(item)
-          lastFoodConsumption = now
           return
         end
       end

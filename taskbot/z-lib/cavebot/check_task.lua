@@ -23,7 +23,11 @@ CaveBot.Extensions.CheckTask.setup = function()
 		end
 
 		CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
-		TaskBot.loadConfig("-TaskBotManager")
+		
+		if labelName == '_' then
+			TaskBot.loadConfig("-TaskBotManager")
+		end
+		
 		return true
 	end)
 

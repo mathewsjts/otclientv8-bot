@@ -1,11 +1,11 @@
 {
-  "macro_rune_maker": false,
+  "ingame_hotkeys": "macro(10000, \"adeta res\", function()\n  if not isInPz() then\n    cast(\"adeta res\")\n  end\nend)\nmacro(250, \"rune maker\", function()\n  if not isInPz() and freecap() > 100 then\n    local runes_list = {\n      gfb = { id = 3191, casting = \"adori mas flam\" },\n      ava = { id = 3161, casting = \"adori mas frigo\" },\n      tds = { id = 3202, casting = \"adori mas vis\" },\n      ssr = { id = 3175, casting = \"adori mas tera\" }\n    }\n    local rune_maker = \"tds\"\n    local rune_count = itemAmount(runes_list[rune_maker][\"id\"])\n\n    if rune_count < 100 then\n      stg_custom.set_data(\"macro_rune_maker\", true)\n    end\n\n    if rune_count > 350 then\n      stg_custom.set_data(\"macro_rune_maker\", false)\n    end\n\n    if not storage_custom.macro_rune_maker then\n      return\n    end\n\n    if itemAmount(3147) < 1 then\n      cast(\"adori blank\")\n      return\n    end\n    cast(runes_list[rune_maker][\"casting\"])\n  end\nend)\n",
+  "macro_rune_maker": true,
   "last_quickloot": "abyss hammer, demon shield, golden armor, great mana potion, knight legs, magma legs, nightmare blade, platinum coin, rift dagger, rift staff, some grimeleech wings, steel boots, underworld rod, vile axe, wand of voodoo",
   "weapon_id": 35583,
   "loot_seller_cities": [
 
   ],
   "cavebot_profile": "GroundsOfPlague",
-  "ingame_hotkeys": "macro(10000, \"adeta res\", function()\n  if not isInPz() then\n    cast(\"adeta res\")\n  end\nend)\nmacro(250, \"rune maker\", function()\n  if not isInPz() and freecap() > 100 then\n    local runes_list = {\n      gfb = { id = 3191, casting = \"adori mas flam\" },\n      ava = { id = 3161, casting = \"adori mas frigo\" },\n      tds = { id = 3202, casting = \"adori mas vis\" },\n      ssr = { id = 3175, casting = \"adori mas tera\" }\n    }\n    local rune_maker = \"tds\"\n    local rune_count = itemAmount(runes_list[rune_maker][\"id\"])\n\n    if rune_count < 100 then\n      stg_custom.set_data(\"macro_rune_maker\", true)\n    end\n\n    if rune_count > 350 then\n      stg_custom.set_data(\"macro_rune_maker\", false)\n    end\n\n    if not storage_custom.macro_rune_maker then\n      return\n    end\n\n    if itemAmount(3147) < 1 then\n      cast(\"adori blank\")\n      return\n    end\n    cast(runes_list[rune_maker][\"casting\"])\n  end\nend)\n",
   "exercise_id": 34303
 }

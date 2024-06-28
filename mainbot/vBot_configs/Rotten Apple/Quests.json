@@ -1,116 +1,36 @@
 {
   "quests": {
-    "The Ice Islands Quest": {
-      "id": 47,
+    "Forgotten Knowledge": {
       "completed": false,
       "missions": [
 
-      ]
-    },
-    "The Lost Brother (completed)": {
-      "id": 50,
-      "completed": false,
-      "missions": [
-
-      ]
-    },
-    "Killing in the Name of...": {
-      "id": 23,
-      "completed": false,
-      "missions": {
-        "Paw and Fur: Stonecracker": "Try find its hideout and kill it.",
-        "Turmoil of War": "Budrik asked you to kill 5000 minotaurs for him. You already killed 105 minotaurs.",
-        "Paw and Fur: Gorgo": "Try find its hideout and kill it.",
-        "Paw and Fur: The Noxious Spawn": "Try find its hideout and kill it.",
-        "Paw and Fur: Ranger": "You are Ranger of the Paw and Fur hunting elite. You currently have 22 Paw and Fur points.",
-        "Paw and Fur: Paiz the Pauperizer": "Try find its hideout and kill it."
-      }
-    },
-    "Bigfoot's Burden": {
-      "id": 7,
-      "completed": false,
-      "missions": {
-        "Gnome Reputation": "Your reputation in the eyes of gnomekind is 1440.\nYour standing rises at: \nReputation   30 - I \nReputation  120 - II \nReputation  480 - III \nReputation 1440 - IV \n",
-        "Recruitment (completed)": "You are now a true member of the Bigfoot company.",
-        "Gnomish War Hero (Warzone 2)": "Deliver the Gnomevil's hat to gnomission to enter the second warzone for free.",
-        "Gnomish War Hero (Warzone 1)": "Deliver the Deathstrike's snippet to gnomission to enter the first warzone for free."
-      }
-    },
-    "Feaster of Souls": {
-      "id": 13,
-      "completed": false,
-      "missions": {
-        "The Thaian (completed)": "You defeated the Thaian.",
-        "Drain the Brain (completed)": "The Brain Head is dead and the curse is over. Well done!",
-        "Journey to the Netherworld": "After you defeated the Thaian, Spectulus told you about another portal: It is located in Vengoth and could be a gate to a part of the Netherworld called Zarganash."
-      }
-    },
-    "Sea of Light (completed)": {
-      "id": 32,
-      "completed": false,
-      "missions": [
-
-      ]
-    },
-    "The Inquisition (completed)": {
-      "id": 48,
-      "completed": false,
-      "missions": {
-        "Nibelor 2: Ecological Terrorism (completed)": "Go tell Siflind that you released the ants and aks her for mission!",
-        "Nibelor 3: Artful Sabotage": "Siflind gave you a Vial of Paint to use on some Baby Seals. Go back to Tyrsung and follow the shore from Buddel south. Use the Vial of Paint on three of these seals.",
-        "Befriending the Musher (completed)": "You are now a friend of Iskan and can ask him for a passage to Nibelor. You should ask Hjaern in Nibelor if you can help him.",
-        "Nibelor 1: Breaking the Ice (completed)": "You should ask Silfind if you can help her in some matters."
-      }
-    },
-    "Threatened Dreams": {
-      "id": 62,
-      "completed": false,
-      "missions": {
-        "The Investigation": "Investigate the catacombs. Abbot Costello should be interested in information about brother Fugio.",
-        "Access to the Isle of Kings (completed)": "You are a friend of Dalbrect. Since you returned his family brooch he will sail you to the Isle of Kings unless you do something stupid."
-      }
-    },
-    "The White Raven Monastery": {
-      "id": 61,
-      "completed": false,
-      "missions": {
-        "Barbarian Arena - Warlord Mode (completed)": "You have defeated all enemies in this mode.",
-        "The Shadow Nexus (completed)": "nil"
-      }
+      ],
+      "id": 15
     },
     "Barbarian Test Quest (completed)": {
-      "id": 6,
       "completed": false,
       "missions": {
         "Barbarian Test 1: Barbarian Booze (completed)": "You have completed this Test! Talk to Sven about the mead.",
         "Barbarian Test 2: The Bear Hugging (completed)": "You have completed this Test!",
         "Barbarian Test 3: The Mammoth Pushing (completed)": "You have completed this Test! You can now be a citizen of Svargrond!"
-      }
+      },
+      "id": 6
     },
-    "Grave Danger": {
-      "id": 17,
+    "The Explorer Society": {
       "completed": false,
       "missions": {
-        "05 The grave in the Femor Hills (completed)": "The Femor Hills grave was visited.",
-        "02 The grave in the Dark cathedral (completed)": "The Dark cathedral grave was visited.",
-        "03 The grave in Ghostlands": "Find the grave in Ghostlands.",
-        "11 The grave at the orclands entrance (completed)": "The orclands grave was visited.",
-        "* Grave Danger - The Lich Knights": "Prevent the raising of twelve lich knights.\nSanctify the graves yet untouched and destroy any lich knights that might have been raised.\nGraves explored: 7/12",
-        "08 The grave in Vengoth": "Find the grave in Vengoth.",
-        "09 The grave in Darashia": "Find the grave in Darashia.",
-        "The Order of the Cobra": "You have reached a secluded island where an abandoned bastion stands tall. What surprises will this place hold in store, you ask yourself. And what may be the price the curious will have to pay...",
-        "07 The grave in Kilmaresh (completed)": "The Kilmaresh grave was visited.",
-        "12 The grave on the southern ice islands (completed)": "The southern ice islands grave was visited.",
-        "04 The grave in Cormaya": "Find the grave in Cormaya.",
-        "10 The grave in the old Thais temple": "Find the grave in the old Thais temple.",
-        "01 The grave in Edron (completed)": "The Edron grave was visited.",
-        "06 The grave on an isle NE of Ankrahmun (completed)": "The grave on the isle north-east of Ankrahmun was visited."
-      }
+        "The Dream Courts": "The fairy Myzzi asked you to help the reclusive summer and winter elves. She gave you permission to use the portals on Feyrist and Tyrsung to visit the Summer and Winter Court.",
+        "Haunted House": "You found the hiding place of what's behind the haunting, an acient faceless apparition. Find a way to get in its vicinity!\nPart 1: 0/1\nPart 2: 0/1\nPart 3: 0/1\nPart 4: 0/1"
+      },
+      "id": 44
     },
     "In Service of Yalahar": {
-      "id": 22,
       "completed": false,
       "missions": {
+        "Darashia (completed)": "Karith might establish a route to Darashia as soon as he sees five cities as worthy.",
+        "Carlin (completed)": "Karith might establish a route to Carlin as soon as he sees five cities as worthy.",
+        "Mission 10: The Final Battle (completed)": "You have completed the Quest!",
+        "Mission 05: Food or Fight (completed)": "Ask Azerus for a mission.",
         "Mission 06: Frightening Fuel (completed)": "Ask Azerus for a mission.",
         "Mission 07: A Fishy Mission (completed)": "Ask Azerus for a mission.",
         "Ab'Dendriel (completed)": "Karith might establish a route to Ab'Dendriel as soon as he sees five cities as worthy.",
@@ -123,109 +43,189 @@
         "Mission 09: Decision (completed)": "you already decided!",
         "Mission 04: Good to be Kingpin (completed)": "Ask Azerus for a mission.",
         "Searoutes Around Yalahar (completed)": "You convicend Captain Karith of five cities which it might be worth estabilishing a ship route to and he will now sail you to seven cities in total in hope of profit.",
-        "The Way to Yalahar (completed)": "You have delivered the research notes to Wyrdin",
-        "Darashia (completed)": "Karith might establish a route to Darashia as soon as he sees five cities as worthy.",
-        "Carlin (completed)": "Karith might establish a route to Carlin as soon as he sees five cities as worthy.",
-        "Mission 10: The Final Battle (completed)": "You have completed the Quest!",
-        "Mission 05: Food or Fight (completed)": "Ask Azerus for a mission."
-      }
+        "The Way to Yalahar (completed)": "You have delivered the research notes to Wyrdin"
+      },
+      "id": 22
     },
-    "The Explorer Society": {
-      "id": 44,
+    "Grave Danger": {
       "completed": false,
       "missions": {
-        "The Dream Courts": "The fairy Myzzi asked you to help the reclusive summer and winter elves. She gave you permission to use the portals on Feyrist and Tyrsung to visit the Summer and Winter Court.",
-        "Haunted House": "You found the hiding place of what's behind the haunting, an acient faceless apparition. Find a way to get in its vicinity!\nPart 1: 0/1\nPart 2: 0/1\nPart 3: 0/1\nPart 4: 0/1"
-      }
+        "04 The grave in Cormaya": "Find the grave in Cormaya.",
+        "11 The grave at the orclands entrance (completed)": "The orclands grave was visited.",
+        "10 The grave in the old Thais temple": "Find the grave in the old Thais temple.",
+        "* Grave Danger - The Lich Knights": "Prevent the raising of twelve lich knights.\nSanctify the graves yet untouched and destroy any lich knights that might have been raised.\nGraves explored: 7/12",
+        "01 The grave in Edron (completed)": "The Edron grave was visited.",
+        "06 The grave on an isle NE of Ankrahmun (completed)": "The grave on the isle north-east of Ankrahmun was visited.",
+        "09 The grave in Darashia": "Find the grave in Darashia.",
+        "08 The grave in Vengoth": "Find the grave in Vengoth.",
+        "The Order of the Cobra": "You have reached a secluded island where an abandoned bastion stands tall. What surprises will this place hold in store, you ask yourself. And what may be the price the curious will have to pay...",
+        "05 The grave in the Femor Hills (completed)": "The Femor Hills grave was visited.",
+        "07 The grave in Kilmaresh (completed)": "The Kilmaresh grave was visited.",
+        "02 The grave in the Dark cathedral (completed)": "The Dark cathedral grave was visited.",
+        "12 The grave on the southern ice islands (completed)": "The southern ice islands grave was visited.",
+        "03 The grave in Ghostlands": "Find the grave in Ghostlands."
+      },
+      "id": 17
     },
     "Tibia Tales": {
-      "id": 63,
       "completed": false,
       "missions": {
         "Troubled Animals - Creation of Legends (completed)": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist."
-      }
+      },
+      "id": 63
     },
-    "Ferumbras' Ascendant": {
-      "id": 14,
-      "completed": false,
-      "missions": {
-        "Ferumbras' Ascendant - A Weapon to kill a god": "Find the seven parts of the godbreaker, guarded by the minions of the Rusthless Seven."
-      }
-    },
-    "A Pirate's Tail": {
-      "id": 3,
-      "completed": false,
-      "missions": {
-        "A Pirate's Tail": "The Venorean merchant Eustacio gave you some information about recent attacks of pirats all over Tibia. He asked you to help defeating them."
-      }
-    },
-    "The Dream Courts": {
-      "id": 43,
+    "The Secret Library (completed)": {
       "completed": false,
       "missions": [
 
-      ]
+      ],
+      "id": 56
+    },
+    "The Ice Islands Quest": {
+      "completed": false,
+      "missions": [
+
+      ],
+      "id": 47
+    },
+    "The Inquisition (completed)": {
+      "completed": false,
+      "missions": {
+        "Nibelor 1: Breaking the Ice (completed)": "You should ask Silfind if you can help her in some matters.",
+        "Nibelor 3: Artful Sabotage": "Siflind gave you a Vial of Paint to use on some Baby Seals. Go back to Tyrsung and follow the shore from Buddel south. Use the Vial of Paint on three of these seals.",
+        "Befriending the Musher (completed)": "You are now a friend of Iskan and can ask him for a passage to Nibelor. You should ask Hjaern in Nibelor if you can help him.",
+        "Nibelor 2: Ecological Terrorism (completed)": "Go tell Siflind that you released the ants and aks her for mission!"
+      },
+      "id": 48
+    },
+    "The Dream Courts": {
+      "completed": false,
+      "missions": [
+
+      ],
+      "id": 43
+    },
+    "The New Frontier (completed)": {
+      "completed": false,
+      "missions": {
+        "Mission: The Lost Brother (completed)": "You told Tarun about his brother's sad fate. He was very downhearted but gave you his sincere thanks. The beautiful asuri have taken a young man's life and the happiness of another one."
+      },
+      "id": 51
+    },
+    "A Pirate's Tail": {
+      "completed": false,
+      "missions": {
+        "A Pirate's Tail": "The Venorean merchant Eustacio gave you some information about recent attacks of pirats all over Tibia. He asked you to help defeating them."
+      },
+      "id": 3
+    },
+    "Killing in the Name of...": {
+      "completed": false,
+      "missions": {
+        "Paw and Fur: Gorgo": "Try find its hideout and kill it.",
+        "Paw and Fur: The Noxious Spawn": "Try find its hideout and kill it.",
+        "Paw and Fur: Ranger": "You are Ranger of the Paw and Fur hunting elite. You currently have 22 Paw and Fur points.",
+        "Paw and Fur: Stonecracker": "Try find its hideout and kill it.",
+        "Paw and Fur: Paiz the Pauperizer": "Try find its hideout and kill it.",
+        "Turmoil of War": "Budrik asked you to kill 5000 minotaurs for him. You already killed 105 minotaurs."
+      },
+      "id": 23
     },
     "Oramond": {
-      "id": 27,
       "completed": false,
       "missions": {
         "To Take Roots": "Five Juicy roots from the outskirts of Rathleton may already help feed the poor. Try to find a city official to deliver them to or go to the Rathleton poor house.\nRoots harvested: 0/5",
         "The Ancient Sewers": "Repair at least twenty sewer pipes or generators and report back to one of the brothers, Jacob and Elliot. You've repaired 13."
-      }
-    },
-    "Liquid Black Quest": {
-      "id": 26,
-      "completed": false,
-      "missions": {
-        "The First Visitor": "Go back to a gray island and go down a grand staircase to Fiehonja."
-      }
+      },
+      "id": 27
     },
     "The Order of the Lion": {
-      "id": 52,
       "completed": false,
       "missions": {
-        "Mission 06: Days Of Doom (completed)": "You passed the test of Curos. Return to Ongulf and report your mission!",
+        "Mission 01: New Land (completed)": "You already reported Ongulf your success! Ask Ongulf for new mission!",
         "Mission 08: An Offer You Can't Refuse (completed)": "You agreed the Offer.",
         "Mission 10: New Horizons (completed)": "You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!",
         "Mission 09: Mortal Combat (completed)": "Go back to Farmine and talk to Ongulf about your mission.",
         "Mission 04: The Mine Is Mine (completed)": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
         "Mission 03: Strangers in the Night (completed)": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
         "Mission 02: From Kazordoon With Love (completed)": "Return to Ongulf and report your mission!",
+        "Mission 06: Days Of Doom (completed)": "You passed the test of Curos. Return to Ongulf and report your mission!",
         "Mission 07: Messengers Of Peace (completed)": "You found the Lizards!",
-        "Mission 01: New Land (completed)": "You already reported Ongulf your success! Ask Ongulf for new mission!",
         "Mission 05: Getting Things Busy (completed)": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!"
-      }
+      },
+      "id": 52
     },
-    "The New Frontier (completed)": {
-      "id": 51,
+    "The Lost Brother (completed)": {
       "completed": false,
-      "missions": {
-        "Mission: The Lost Brother (completed)": "You told Tarun about his brother's sad fate. He was very downhearted but gave you his sincere thanks. The beautiful asuri have taken a young man's life and the happiness of another one."
-      }
+      "missions": [
+
+      ],
+      "id": 50
     },
     "Kilmaresh": {
-      "id": 24,
       "completed": false,
       "missions": {
+        "Gifts for Moe (completed)": "You found ten sphinx feathers for Moe. Now the sibang will steal the Ring of Secret Thoughts for you.",
         "Fafnar's Wrath (completed)": "The Empress was very pleased to hear that Issavi, the Golden City is safe again. Henceforth, you can be sure to be held in high esteem by the Anuma.",
-        "The Revenge of the Ogres": "When you have opened the grave you have faced a gaping void. It looks like some grave robbers have been here.",
-        "Gifts for Moe (completed)": "You found ten sphinx feathers for Moe. Now the sibang will steal the Ring of Secret Thoughts for you."
-      }
+        "The Revenge of the Ogres": "When you have opened the grave you have faced a gaping void. It looks like some grave robbers have been here."
+      },
+      "id": 24
     },
-    "The Secret Library (completed)": {
-      "id": 56,
+    "Sea of Light (completed)": {
       "completed": false,
       "missions": [
 
-      ]
+      ],
+      "id": 32
     },
-    "Forgotten Knowledge": {
-      "id": 15,
+    "Threatened Dreams": {
       "completed": false,
-      "missions": [
-
-      ]
+      "missions": {
+        "The Investigation": "Investigate the catacombs. Abbot Costello should be interested in information about brother Fugio.",
+        "Access to the Isle of Kings (completed)": "You are a friend of Dalbrect. Since you returned his family brooch he will sail you to the Isle of Kings unless you do something stupid."
+      },
+      "id": 62
+    },
+    "Liquid Black Quest": {
+      "completed": false,
+      "missions": {
+        "The First Visitor": "Go back to a gray island and go down a grand staircase to Fiehonja."
+      },
+      "id": 26
+    },
+    "Ferumbras' Ascendant": {
+      "completed": false,
+      "missions": {
+        "Ferumbras' Ascendant - A Weapon to kill a god": "Find the seven parts of the godbreaker, guarded by the minions of the Rusthless Seven."
+      },
+      "id": 14
+    },
+    "Feaster of Souls": {
+      "completed": false,
+      "missions": {
+        "Journey to the Netherworld": "After you defeated the Thaian, Spectulus told you about another portal: It is located in Vengoth and could be a gate to a part of the Netherworld called Zarganash.",
+        "The Thaian (completed)": "You defeated the Thaian.",
+        "Drain the Brain (completed)": "The Brain Head is dead and the curse is over. Well done!"
+      },
+      "id": 13
+    },
+    "Bigfoot's Burden": {
+      "completed": false,
+      "missions": {
+        "Gnomish War Hero (Warzone 2)": "Deliver the Gnomevil's hat to gnomission to enter the second warzone for free.",
+        "Gnomish War Hero (Warzone 1)": "Deliver the Deathstrike's snippet to gnomission to enter the first warzone for free.",
+        "Recruitment (completed)": "You are now a true member of the Bigfoot company.",
+        "Gnome Reputation": "Your reputation in the eyes of gnomekind is 1440.\nYour standing rises at: \nReputation   30 - I \nReputation  120 - II \nReputation  480 - III \nReputation 1440 - IV \n"
+      },
+      "id": 7
+    },
+    "The White Raven Monastery": {
+      "completed": false,
+      "missions": {
+        "Barbarian Arena - Warlord Mode (completed)": "You have defeated all enemies in this mode.",
+        "The Shadow Nexus (completed)": "nil"
+      },
+      "id": 61
     }
   }
 }

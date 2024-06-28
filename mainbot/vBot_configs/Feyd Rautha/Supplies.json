@@ -1,16 +1,26 @@
 {
   "supplies": {
-    "currentProfile": "Default",
     "Default": {
       "capValue": "50",
-      "capSwitch": true,
+      "capSwitch": false,
       "items": {
+        "3723": {
+          "min": 0,
+          "max": 100,
+          "avg": 0
+        },
         "268": {
           "min": 65,
           "max": 250,
           "avg": 0
+        },
+        "3161": {
+          "min": 100,
+          "max": 900,
+          "avg": 0
         }
       }
-    }
+    },
+    "currentProfile": "Default"
   }
 }

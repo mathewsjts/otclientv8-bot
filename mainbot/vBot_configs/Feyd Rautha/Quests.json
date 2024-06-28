@@ -2,10 +2,10 @@
   "quests": {
     "Forgotten Knowledge": {
       "completed": false,
+      "id": 15,
       "missions": [
 
-      ],
-      "id": 15
+      ]
     }
   }
 }

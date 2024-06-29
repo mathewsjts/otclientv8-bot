@@ -22,6 +22,17 @@ qst_config.set_data = function(key, value)
   vBotConfigSave("quests")
 end
 
+qst_config.is_initialized = function(quest_name)
+  local is_initialized = false
+  for name, quest in pairs(quests_config["quests"]) do
+    if name == quest_name or name == quest_name.." (completed)" then
+      is_initialized = true
+      break
+    end
+  end
+  return is_initialized
+end
+
 qst_config.is_completed = function(quest_name, mission_name)
   local is_completed = false
   for name, quest in pairs(quests_config["quests"]) do

@@ -3,45 +3,45 @@
     "forceOpen": true,
     "height": 170,
     "lootBag": true,
-    "enabled": true,
     "sort": true,
+    "enabled": true,
     "purse": true,
     "list": [
       {
-        "items": [
-
-        ],
-        "min": true,
         "value": "main",
+        "min": true,
+        "enabled": true,
         "item": 2854,
-        "enabled": true
-      },
-      {
         "items": [
 
-        ],
-        "min": true,
+        ]
+      },
+      {
         "value": "tools",
+        "min": true,
+        "enabled": true,
         "item": 7343,
-        "enabled": true
-      },
-      {
         "items": [
 
-        ],
-        "min": true,
+        ]
+      },
+      {
         "value": "purse",
+        "min": true,
+        "enabled": true,
         "item": 23396,
-        "enabled": true
-      },
-      {
         "items": [
 
-        ],
-        "min": true,
+        ]
+      },
+      {
         "value": "quickloot",
+        "min": true,
+        "enabled": true,
         "item": 23721,
-        "enabled": true
+        "items": [
+
+        ]
       }
     ]
   }

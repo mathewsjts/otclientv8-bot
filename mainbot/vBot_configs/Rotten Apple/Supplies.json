@@ -1,6 +1,5 @@
 {
   "supplies": {
-    "currentProfile": "Default",
     "Default": {
       "items": {
         "34303": {
@@ -21,6 +20,7 @@
       },
       "staminaSwitch": true,
       "staminaValue": "2340"
-    }
+    },
+    "currentProfile": "Default"
   }
 }

@@ -58,9 +58,4 @@ for i, file in ipairs(luaFiles) do
   loadScript(file)
 end
 
-setDefaultTab("Main")
-UI.Separator()
-UI.Label("Private Scripts:")
-UI.Separator()
-
 dofile("/z-lib/utils.lua")

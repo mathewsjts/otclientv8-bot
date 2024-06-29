@@ -27,6 +27,9 @@ CaveBot.Extensions.TeleportCity.setup = function()
       ["issavi"] = {x=33921,y=31477,z=5},
     }
     local city_name = value:trim()
+    if city_name == "ab-dendriel" then
+      city_name = "ab'dendriel"
+    end
     local city_coordinate = cities_coordinates[city_name]
     local player_position = player:getPosition()
     local max_distance = 120

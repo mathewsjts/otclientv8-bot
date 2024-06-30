@@ -23,9 +23,9 @@
     "poisonCost": 20,
     "cureCurse": false,
     "hasteCost": 100,
-    "enabled": false,
     "holdUtamo": false,
-    "utamoCost": 40
+    "utamoCost": 40,
+    "enabled": false
   },
   "currentHealBotProfile": 1,
   "healbot": [
@@ -34,66 +34,57 @@
       "Visible": true,
       "spellTable": [
         {
+          "spell": "exura vita",
           "cost": 140,
+          "enabled": true,
           "sign": "<",
           "origin": "HP%",
           "index": 1,
-          "value": 50,
-          "spell": "exura vita",
-          "enabled": true
+          "value": 50
         },
         {
-          "cost": 70,
-          "sign": "<",
-          "origin": "HP%",
           "spell": "exura gran",
-          "value": 90,
-          "index": 2,
-          "enabled": false
-        },
-        {
-          "cost": 20,
+          "cost": 70,
+          "enabled": true,
           "sign": "<",
           "origin": "HP%",
-          "enabled": true,
-          "spell": "exura",
-          "value": 90,
-          "index": 3
+          "index": 2,
+          "value": 90
         },
         {
+          "spell": "adeta res",
           "cost": 340,
+          "enabled": true,
           "sign": ">",
           "origin": "MP%",
-          "enabled": true,
-          "spell": "adeta res",
-          "value": 98,
-          "index": 4
-        }
-      ],
-      "name": "Profile #1",
-      "itemTable": [
-        {
-          "sign": "<",
-          "origin": "MP%",
-          "index": 2,
-          "value": 50,
-          "item": 237,
-          "enabled": true
-        },
-        {
-          "sign": "<",
-          "origin": "MP%",
-          "index": 1,
-          "value": 50,
-          "item": 268,
-          "enabled": true
+          "index": 3,
+          "value": 98
         }
       ],
       "Conditions": true,
       "enabled": true,
-      "MessageDelay": false,
+      "itemTable": [
+        {
+          "index": 2,
+          "enabled": true,
+          "sign": "<",
+          "origin": "MP%",
+          "item": 237,
+          "value": 50
+        },
+        {
+          "index": 1,
+          "enabled": true,
+          "sign": "<",
+          "origin": "MP%",
+          "item": 268,
+          "value": 50
+        }
+      ],
       "Interval": true,
-      "Cooldown": true
+      "MessageDelay": false,
+      "Cooldown": true,
+      "name": "Profile #1"
     },
     {
       "Delay": true,
@@ -101,15 +92,15 @@
       "spellTable": [
 
       ],
-      "name": "Profile #2",
+      "Conditions": true,
+      "enabled": false,
       "itemTable": [
 
       ],
-      "Conditions": true,
-      "enabled": false,
-      "MessageDelay": false,
       "Interval": true,
-      "Cooldown": true
+      "MessageDelay": false,
+      "Cooldown": true,
+      "name": "Profile #2"
     },
     {
       "Delay": true,
@@ -117,15 +108,15 @@
       "spellTable": [
 
       ],
-      "name": "Profile #3",
+      "Conditions": true,
+      "enabled": false,
       "itemTable": [
 
       ],
-      "Conditions": true,
-      "enabled": false,
-      "MessageDelay": false,
       "Interval": true,
-      "Cooldown": true
+      "MessageDelay": false,
+      "Cooldown": true,
+      "name": "Profile #3"
     },
     {
       "Delay": true,
@@ -133,15 +124,15 @@
       "spellTable": [
 
       ],
-      "name": "Profile #4",
+      "Conditions": true,
+      "enabled": false,
       "itemTable": [
 
       ],
-      "Conditions": true,
-      "enabled": false,
-      "MessageDelay": false,
       "Interval": true,
-      "Cooldown": true
+      "MessageDelay": false,
+      "Cooldown": true,
+      "name": "Profile #4"
     },
     {
       "Delay": true,
@@ -149,15 +140,15 @@
       "spellTable": [
 
       ],
-      "name": "Profile #5",
+      "Conditions": true,
+      "enabled": false,
       "itemTable": [
 
       ],
-      "Conditions": true,
-      "enabled": false,
-      "MessageDelay": false,
       "Interval": true,
-      "Cooldown": true
+      "MessageDelay": false,
+      "Cooldown": true,
+      "name": "Profile #5"
     }
   ]
 }

@@ -2,10 +2,8 @@
   "currentBotProfile": 1,
   "AttackBot": [
     {
-      "Visible": true,
-      "Rotate": false,
-      "pvpMode": false,
       "name": "Profile #1",
+      "Visible": true,
       "KillsAmount": 1,
       "ignoreMana": true,
       "Kills": false,
@@ -14,34 +12,50 @@
       "BlackListSafe": false,
       "attackTable": [
         {
-          "creatures": "ravenous lava lurker",
-          "mana": 1,
-          "minHp": 0,
-          "patternCategory": 2,
+          "orMore": true,
+          "description": "[Large Area] 5+ Any Creatures: exevo gran mas vis lux, absolute (0%-100%)",
+          "monsters": true,
+          "tooltip": false,
+          "pattern": 5,
+          "category": 5,
           "maxHp": 100,
           "cooldown": 1,
-          "tooltip": "ravenous lava lurker",
-          "monsters": [
-            "ravenous lava lurker"
-          ],
+          "mana": 1,
+          "itemId": 0,
+          "enabled": true,
+          "count": 5,
+          "creatures": "monster names",
+          "spell": "exevo gran mas vis lux",
+          "minHp": 0,
+          "patternCategory": 4
+        },
+        {
+          "orMore": true,
           "pattern": 3,
+          "monsters": true,
+          "description": "[Ball] 2+ Any Creatures: rune 3161, area (0%-100%)",
+          "tooltip": false,
+          "category": 2,
+          "maxHp": 100,
+          "cooldown": 1,
+          "mana": 1,
           "spell": "spell name",
           "enabled": true,
-          "category": 2,
           "count": 2,
+          "creatures": "monster names",
           "itemId": 3161,
-          "description": "[Ball] 2+ Creatures: rune 3161, area (0%-100%)",
-          "orMore": true
+          "minHp": 0,
+          "patternCategory": 2
         }
       ],
+      "Rotate": false,
       "enabled": true,
-      "Cooldown": true
+      "Cooldown": true,
+      "pvpMode": false
     },
     {
-      "Visible": true,
-      "Rotate": false,
-      "pvpMode": false,
       "name": "Profile #2",
+      "Visible": true,
       "KillsAmount": 1,
       "ignoreMana": true,
       "Kills": false,
@@ -51,14 +65,14 @@
       "attackTable": [
 
       ],
+      "Rotate": false,
       "enabled": false,
-      "Cooldown": true
+      "Cooldown": true,
+      "pvpMode": false
     },
     {
-      "Visible": true,
-      "Rotate": false,
-      "pvpMode": false,
       "name": "Profile #3",
+      "Visible": true,
       "KillsAmount": 1,
       "ignoreMana": true,
       "Kills": false,
@@ -68,14 +82,14 @@
       "attackTable": [
 
       ],
+      "Rotate": false,
       "enabled": false,
-      "Cooldown": true
+      "Cooldown": true,
+      "pvpMode": false
     },
     {
-      "Visible": true,
-      "Rotate": false,
-      "pvpMode": false,
       "name": "Profile #4",
+      "Visible": true,
       "KillsAmount": 1,
       "ignoreMana": true,
       "Kills": false,
@@ -85,14 +99,14 @@
       "attackTable": [
 
       ],
+      "Rotate": false,
       "enabled": false,
-      "Cooldown": true
+      "Cooldown": true,
+      "pvpMode": false
     },
     {
-      "Visible": true,
-      "Rotate": false,
-      "pvpMode": false,
       "name": "Profile #5",
+      "Visible": true,
       "KillsAmount": 1,
       "ignoreMana": true,
       "Kills": false,
@@ -102,8 +116,10 @@
       "attackTable": [
 
       ],
+      "Rotate": false,
       "enabled": false,
-      "Cooldown": true
+      "Cooldown": true,
+      "pvpMode": false
     }
   ]
 }

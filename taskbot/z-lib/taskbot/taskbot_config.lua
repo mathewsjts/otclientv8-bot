@@ -1,11 +1,15 @@
 TaskBot.taskList = {
-	"Crocodiles",
+	-- "Crocodiles",
+	"Gnarlhounds",
 	"Tarantulas",
 	"Terramites",
 }
 
 TaskBot.taskRequirements = {
-	Crocodiles = {
+	-- Crocodiles = {
+	-- 	minLevel = 0, maxLevel = 49
+	-- },
+	Gnarlhounds = {
 		minLevel = 0, maxLevel = 49
 	},
 	Tarantulas = {

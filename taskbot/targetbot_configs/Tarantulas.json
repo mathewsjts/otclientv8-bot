@@ -69,7 +69,7 @@
         "count": 1
       }
     ],
-    "maxDanger": 10,
+    "maxDanger": 100,
     "minCapacity": 0,
     "items": [
       {

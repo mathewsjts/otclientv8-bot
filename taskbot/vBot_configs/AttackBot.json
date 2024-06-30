@@ -15,7 +15,7 @@
           "minHp": 0,
           "patternCategory": 1,
           "cooldown": 1,
-          "creatures": "terramite, tarantula, crocodile, gnarhound, tortoise, blood crab, terror bird, slime",
+          "creatures": "terramite, tarantula, crocodile, gnarlhound, tortoise, blood crab, terror bird, slime",
           "enabled": true,
           "orMore": true,
           "maxHp": 100,
@@ -30,19 +30,19 @@
             "terramite",
             "tarantula",
             "crocodile",
-            "gnarhound",
+            "gnarlhound",
             "tortoise",
             "blood crab",
             "terror bird",
-            "Slime"
+            "slime"
           ],
-          "tooltip": "terramite, tarantula, crocodile, gnarhound, tortoise, blood crab, terror bird, slime"
+          "tooltip": "terramite, tarantula, crocodile, gnarlhound, tortoise, blood crab, terror bird, slime"
         },
         {
           "minHp": 0,
           "patternCategory": 1,
           "cooldown": 1,
-          "creatures": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp",
+          "creatures": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp, sandcrawler",
           "enabled": true,
           "orMore": true,
           "maxHp": 100,
@@ -69,9 +69,10 @@
             "skeleton",
             "crab",
             "panda",
-            "wasp"
+            "wasp",
+            "sandcrawler"
           ],
-          "tooltip": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp"
+          "tooltip": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp, sandcrawler"
         }
       ],
       "pvpMode": false,

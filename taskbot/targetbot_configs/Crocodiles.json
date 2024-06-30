@@ -1,6 +1,6 @@
 {
   "looting": {
-    "maxDanger": 10,
+    "maxDanger": 100,
     "minCapacity": 0,
     "containers": [
       {

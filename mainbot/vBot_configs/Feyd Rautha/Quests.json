@@ -2,17 +2,17 @@
   "quests": {
     "Threatened Dreams": {
       "completed": false,
-      "id": 63,
       "missions": {
         "Troubled Animals - Creation of Legends (completed)": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist."
-      }
+      },
+      "id": 63
     },
     "Forgotten Knowledge": {
       "completed": false,
-      "id": 15,
       "missions": [
 
-      ]
+      ],
+      "id": 15
     }
   }
 }

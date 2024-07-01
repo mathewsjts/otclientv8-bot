@@ -4,9 +4,9 @@
     "Default": {
       "items": {
         "268": {
-          "max": 85,
           "avg": 0,
-          "min": 40
+          "min": 40,
+          "max": 85
         }
       }
     }

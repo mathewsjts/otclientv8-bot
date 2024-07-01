@@ -1,4 +1,753 @@
 {
+  "checkVersion": 1719838647,
+  "_macros": {
+    "": true,
+    "Eat Food": true,
+    "Exchange money": true
+  },
+  "pushmax": {
+    "pushMaxRuneId": 3188,
+    "mwallBlockId": 2128,
+    "pushMaxKey": "PageUp",
+    "pushDelay": 1060,
+    "enabled": false
+  },
+  "extras": {
+    "nextBackpack": true,
+    "title": false,
+    "killUnder": 1,
+    "holdMwHot": "F5",
+    "useAll": "space",
+    "separatePm": true,
+    "lootLast": true,
+    "bless": false,
+    "autoOpenDoors": true,
+    "highlightTarget": true,
+    "checkPlayer": false,
+    "looting": 40,
+    "stake": false,
+    "scythe": 3453,
+    "suppliesControl": false,
+    "gotoMaxDistance": 127,
+    "oberon": true,
+    "machete": 3308,
+    "holdMwall": true,
+    "shovel": 3457,
+    "reachable": false,
+    "lootDelay": 200,
+    "reUse": false,
+    "holdWgHot": "F6",
+    "talkDelay": 800,
+    "antiKick": true,
+    "joinBot": false,
+    "pathfinding": true,
+    "timers": true,
+    "rope": 3003,
+    "huntRoutes": 50
+  },
+  "BotServerChannel": "5168279401865",
+  "teleporterStarted": 1718652302,
+  "playerList": {
+    "marks": false,
+    "groupMembers": true,
+    "outfits": false,
+    "enemyList": [
+
+    ],
+    "highlight": false,
+    "blackList": [
+
+    ],
+    "friendList": [
+
+    ]
+  },
+  "foodItems": [
+    {
+      "count": 1,
+      "id": 3582
+    },
+    {
+      "count": 1,
+      "id": 3577
+    },
+    {
+      "count": 1,
+      "id": 3723
+    },
+    {
+      "count": 1,
+      "id": 3607
+    },
+    {
+      "count": 1,
+      "id": 3585
+    },
+    {
+      "count": 1,
+      "id": 3592
+    },
+    {
+      "count": 1,
+      "id": 3600
+    },
+    {
+      "count": 1,
+      "id": 3601
+    },
+    {
+      "count": 1,
+      "id": 3587
+    },
+    {
+      "count": 1,
+      "id": 3586
+    },
+    {
+      "count": 1,
+      "id": 3578
+    },
+    {
+      "count": 1,
+      "id": 10453
+    }
+  ],
+  "cavebotSell": [
+
+  ],
+  "specialDeposit": {
+    "height": 380,
+    "items": [
+
+    ]
+  },
+  "autoTradeMessage": "",
+  "moneyItems": [
+    {
+      "id": 3031,
+      "count": 1
+    },
+    {
+      "id": 3035,
+      "count": 1
+    }
+  ],
+  "autoEquip": [
+    {
+      "on": false,
+      "item1": 0,
+      "item2": 0,
+      "title": "Auto Equip",
+      "slot": 9
+    },
+    {
+      "on": false,
+      "item1": 0,
+      "item2": 0,
+      "title": "Auto Equip",
+      "slot": 0
+    }
+  ],
+  "caveBotTasker": {
+    "inProgress": false,
+    "taskName": "",
+    "monster": "",
+    "max": 0,
+    "count": 0
+  },
+  "renameContainers": {
+    "enabled": true,
+    "list": [
+      {
+        "item": 2853,
+        "value": "rookgaard",
+        "min": true,
+        "enabled": true,
+        "items": [
+
+        ]
+      },
+      {
+        "item": 2854,
+        "value": "newbie set",
+        "min": true,
+        "enabled": true,
+        "items": [
+
+        ]
+      },
+      {
+        "item": 10324,
+        "value": "main",
+        "min": true,
+        "enabled": true,
+        "items": [
+
+        ]
+      },
+      {
+        "item": 10325,
+        "value": "tools",
+        "min": true,
+        "enabled": true,
+        "items": [
+
+        ]
+      }
+    ],
+    "height": 170,
+    "purse": false
+  },
+  "EquipperPanel": {
+    "enabled": false,
+    "bosses": [
+
+    ],
+    "rules": [
+
+    ]
+  },
+  "BOTserver": {
+    "outfit": false,
+    "vocation": true,
+    "mwallInfo": true,
+    "manaInfo": true,
+    "broadcasts": true,
+    "mwalls": [
+
+    ]
+  },
+  "bestHit": 127,
+  "_configs": {
+    "cavebot_configs": {
+      "enabled": false,
+      "selected": "-TaskBotManager"
+    },
+    "targetbot_configs": {
+      "enabled": true,
+      "selected": "-TaskBotManager"
+    }
+  },
+  "combobot": {
+    "serverLeader": "",
+    "sayPhrase": "",
+    "sayLeader": "",
+    "shootLeader": "",
+    "commandsEnabled": true,
+    "onCastEnabled": false,
+    "follow": "",
+    "serverLeaderTarget": false,
+    "serverEnabled": false,
+    "serverTriggers": true,
+    "onSayEnabled": false,
+    "enabled": false,
+    "item": 3155,
+    "attack": "",
+    "spell": "",
+    "onShootEnabled": false,
+    "followLeaderEnabled": false,
+    "attackSpellEnabled": false,
+    "attackItemToggle": false,
+    "castLeader": "",
+    "attackLeaderTargetEnabled": false
+  },
+  "dropper": {
+    "useItems": [
+
+    ],
+    "trashItems": [
+      {
+        "id": 285,
+        "count": 0
+      },
+      {
+        "id": 283,
+        "count": 0
+      },
+      {
+        "id": 284,
+        "count": 0
+      }
+    ],
+    "capItems": [
+
+    ],
+    "enabled": true
+  },
+  "analyzers": {
+    "rarityFrames": true,
+    "outfits": {
+      "Dwarf Soldier": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 71,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Bat": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 122,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Corym Skirmisher": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 533,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 101
+      },
+      "Swamp Troll": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 76,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Panda": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 123,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Crocodile": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 119,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Snake": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 28,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Corym Vanguard": {
+        "aura": 0,
+        "head": 101,
+        "auxType": 0,
+        "type": 534,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 101
+      },
+      "Tarantula": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 219,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Crab": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 112,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Slime": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 19,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Dwarf Guard": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 70,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Chicken": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 111,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Cat": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 276,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Wasp": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 44,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Terramite": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 346,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Cave Rat": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 56,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Sandcrawler": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 350,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Bug": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 45,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Centipede": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 124,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Poison Spider": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 36,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Stonerefiner": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 1032,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Blood Crab": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 200,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Skunk": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 106,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Spider": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 30,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Terror Bird": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 218,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Gnarlhound": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 341,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Green Frog": {
+        "aura": 0,
+        "head": 69,
+        "auxType": 0,
+        "type": 224,
+        "mount": 0,
+        "body": 66,
+        "addons": 0,
+        "feet": 66,
+        "legs": 69
+      },
+      "Corym Charlatan": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 532,
+        "mount": 0,
+        "body": 97,
+        "addons": 0,
+        "feet": 0,
+        "legs": 116
+      },
+      "Swampling": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 535,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Rat": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 21,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Toad": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 222,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      },
+      "Tortoise": {
+        "aura": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 197,
+        "mount": 0,
+        "body": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0
+      }
+    },
+    "lootChannel": true,
+    "trackedLoot": [
+
+    ],
+    "trackedBoss": [
+
+    ],
+    "customPrices": [
+
+    ]
+  },
+  "newHealer": {
+    "groups": [
+
+    ],
+    "customPlayers": [
+
+    ],
+    "conditions": {
+      "knights": true,
+      "guild": false,
+      "druids": false,
+      "botserver": false,
+      "paladins": true,
+      "friends": false,
+      "sorcerers": false,
+      "party": true
+    },
+    "enabled": false,
+    "priorities": [
+      {
+        "enabled": false,
+        "name": "Custom Spell",
+        "custom": true
+      },
+      {
+        "enabled": true,
+        "name": "Exura Gran Sio",
+        "strong": true
+      },
+      {
+        "normal": true,
+        "name": "Exura Sio",
+        "enabled": true
+      },
+      {
+        "enabled": true,
+        "name": "Exura Gran Mas Res",
+        "area": true
+      },
+      {
+        "enabled": true,
+        "name": "Health Item",
+        "health": true
+      },
+      {
+        "enabled": true,
+        "mana": true,
+        "name": "Mana Item"
+      }
+    ],
+    "settings": [
+      {
+        "value": 268,
+        "text": "Mana Item ",
+        "type": "HealItem"
+      },
+      {
+        "value": 6,
+        "text": "Item Range: ",
+        "type": "HealScroll"
+      },
+      {
+        "value": 3160,
+        "text": "Health Item ",
+        "type": "HealItem"
+      },
+      {
+        "value": 2,
+        "text": "Mas Res Players: ",
+        "type": "HealScroll"
+      },
+      {
+        "value": 80,
+        "text": "Heal Friend at: ",
+        "type": "HealScroll"
+      },
+      {
+        "value": 80,
+        "text": "Use Gran Sio at: ",
+        "type": "HealScroll"
+      },
+      {
+        "value": 80,
+        "text": "Min Player HP%: ",
+        "type": "HealScroll"
+      },
+      {
+        "value": 50,
+        "text": "Min Player MP%: ",
+        "type": "HealScroll"
+      }
+    ],
+    "vocations": [
+
+    ]
+  },
   "alarms": {
     "playerAttack": [
 
@@ -27,771 +776,22 @@
     "playerDetected": [
 
     ],
-    "creatureName": {
-      "value": ""
-    },
     "lowMana": {
       "value": 20
     },
     "lowHealth": {
       "value": 20
     },
-    "enabled": false
-  },
-  "playerList": {
-    "enemyList": [
-
-    ],
-    "outfits": false,
-    "blackList": [
-
-    ],
-    "friendList": [
-
-    ],
-    "marks": false,
-    "highlight": false,
-    "groupMembers": true
-  },
-  "autoEquip": [
-    {
-      "item1": 0,
-      "item2": 0,
-      "on": false,
-      "slot": 9,
-      "title": "Auto Equip"
-    },
-    {
-      "item1": 0,
-      "item2": 0,
-      "on": false,
-      "slot": 0,
-      "title": "Auto Equip"
-    }
-  ],
-  "renameContainers": {
-    "height": 170,
-    "list": [
-      {
-        "value": "rookgaard",
-        "enabled": true,
-        "item": 2853,
-        "items": [
-
-        ],
-        "min": true
-      },
-      {
-        "value": "newbie set",
-        "enabled": true,
-        "item": 2854,
-        "items": [
-
-        ],
-        "min": true
-      },
-      {
-        "value": "main",
-        "enabled": true,
-        "item": 10324,
-        "items": [
-
-        ],
-        "min": true
-      },
-      {
-        "value": "tools",
-        "enabled": true,
-        "item": 10325,
-        "items": [
-
-        ],
-        "min": true
-      }
-    ],
-    "enabled": true,
-    "purse": false
-  },
-  "dropper": {
-    "useItems": [
-
-    ],
-    "trashItems": [
-      {
-        "count": 0,
-        "id": 285
-      },
-      {
-        "count": 0,
-        "id": 283
-      },
-      {
-        "count": 0,
-        "id": 284
-      }
-    ],
-    "enabled": true,
-    "capItems": [
-
-    ]
-  },
-  "EquipperPanel": {
-    "bosses": [
-
-    ],
-    "rules": [
-
-    ],
-    "enabled": false
-  },
-  "analyzers": {
-    "lootChannel": true,
-    "trackedLoot": [
-
-    ],
-    "outfits": {
-      "Dwarf Soldier": {
-        "type": 71,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Bat": {
-        "type": 122,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Corym Skirmisher": {
-        "type": 533,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 101,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Toad": {
-        "type": 222,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Panda": {
-        "type": 123,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Crocodile": {
-        "type": 119,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Snake": {
-        "type": 28,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Swamp Troll": {
-        "type": 76,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Tarantula": {
-        "type": 219,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Crab": {
-        "type": 112,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Slime": {
-        "type": 19,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Dwarf Guard": {
-        "type": 70,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Chicken": {
-        "type": 111,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Cat": {
-        "type": 276,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Wasp": {
-        "type": 44,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Terramite": {
-        "type": 346,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "auxType": 0,
-        "legs": 0,
-        "mount": 0
-      },
-      "Rat": {
-        "type": 21,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Sandcrawler": {
-        "type": 350,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "auxType": 0,
-        "legs": 0,
-        "mount": 0
-      },
-      "Bug": {
-        "type": 45,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Centipede": {
-        "type": 124,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Poison Spider": {
-        "type": 36,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Stonerefiner": {
-        "type": 1032,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Blood Crab": {
-        "type": 200,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Skunk": {
-        "type": 106,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Spider": {
-        "type": 30,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Terror Bird": {
-        "type": 218,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Gnarlhound": {
-        "type": 341,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "auxType": 0,
-        "legs": 0,
-        "mount": 0
-      },
-      "Corym Vanguard": {
-        "type": 534,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 101,
-        "body": 0,
-        "legs": 101,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Green Frog": {
-        "type": 224,
-        "addons": 0,
-        "aura": 0,
-        "feet": 66,
-        "head": 69,
-        "body": 66,
-        "legs": 69,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Tortoise": {
-        "type": 197,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Corym Charlatan": {
-        "type": 532,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 97,
-        "legs": 116,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Cave Rat": {
-        "type": 56,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      },
-      "Swampling": {
-        "type": 535,
-        "addons": 0,
-        "aura": 0,
-        "feet": 0,
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "auxType": 0,
-        "mount": 0
-      }
-    },
-    "customPrices": [
-
-    ],
-    "trackedBoss": [
-
-    ],
-    "rarityFrames": true
-  },
-  "bestHit": 127,
-  "cavebotSell": [
-
-  ],
-  "checkVersion": 1719764857,
-  "pushmax": {
-    "mwallBlockId": 2128,
     "enabled": false,
-    "pushDelay": 1060,
-    "pushMaxRuneId": 3188,
-    "pushMaxKey": "PageUp"
-  },
-  "bestHeal": 352,
-  "specialDeposit": {
-    "height": 380,
-    "items": [
-
-    ]
-  },
-  "moneyItems": [
-    {
-      "count": 1,
-      "id": 3031
-    },
-    {
-      "count": 1,
-      "id": 3035
+    "creatureName": {
+      "value": ""
     }
-  ],
-  "extras": {
-    "lootLast": true,
-    "bless": false,
-    "huntRoutes": 50,
-    "rope": 3003,
-    "nextBackpack": true,
-    "stake": false,
-    "scythe": 3453,
-    "title": false,
-    "machete": 3308,
-    "reUse": false,
-    "lootDelay": 200,
-    "reachable": false,
-    "talkDelay": 800,
-    "autoOpenDoors": true,
-    "highlightTarget": true,
-    "checkPlayer": false,
-    "timers": true,
-    "pathfinding": true,
-    "joinBot": false,
-    "suppliesControl": false,
-    "antiKick": true,
-    "oberon": true,
-    "shovel": 3457,
-    "holdMwall": true,
-    "separatePm": true,
-    "holdMwHot": "F5",
-    "useAll": "space",
-    "holdWgHot": "F6",
-    "killUnder": 1,
-    "gotoMaxDistance": 127,
-    "looting": 40
-  },
-  "caveBotTasker": {
-    "max": 0,
-    "taskName": "",
-    "count": 0,
-    "monster": "",
-    "inProgress": false
-  },
-  "_configs": {
-    "cavebot_configs": {
-      "enabled": true,
-      "selected": "Gnarlhounds"
-    },
-    "targetbot_configs": {
-      "enabled": true,
-      "selected": "Gnarlhounds"
-    }
-  },
-  "newHealer": {
-    "enabled": false,
-    "groups": [
-
-    ],
-    "vocations": [
-
-    ],
-    "settings": [
-      {
-        "value": 268,
-        "type": "HealItem",
-        "text": "Mana Item "
-      },
-      {
-        "value": 6,
-        "type": "HealScroll",
-        "text": "Item Range: "
-      },
-      {
-        "value": 3160,
-        "type": "HealItem",
-        "text": "Health Item "
-      },
-      {
-        "value": 2,
-        "type": "HealScroll",
-        "text": "Mas Res Players: "
-      },
-      {
-        "value": 80,
-        "type": "HealScroll",
-        "text": "Heal Friend at: "
-      },
-      {
-        "value": 80,
-        "type": "HealScroll",
-        "text": "Use Gran Sio at: "
-      },
-      {
-        "value": 80,
-        "type": "HealScroll",
-        "text": "Min Player HP%: "
-      },
-      {
-        "value": 50,
-        "type": "HealScroll",
-        "text": "Min Player MP%: "
-      }
-    ],
-    "customPlayers": [
-
-    ],
-    "conditions": {
-      "paladins": true,
-      "friends": false,
-      "sorcerers": false,
-      "party": true,
-      "knights": true,
-      "guild": false,
-      "druids": false,
-      "botserver": false
-    },
-    "priorities": [
-      {
-        "name": "Custom Spell",
-        "enabled": false,
-        "custom": true
-      },
-      {
-        "name": "Exura Gran Sio",
-        "strong": true,
-        "enabled": true
-      },
-      {
-        "normal": true,
-        "enabled": true,
-        "name": "Exura Sio"
-      },
-      {
-        "name": "Exura Gran Mas Res",
-        "area": true,
-        "enabled": true
-      },
-      {
-        "name": "Health Item",
-        "enabled": true,
-        "health": true
-      },
-      {
-        "name": "Mana Item",
-        "mana": true,
-        "enabled": true
-      }
-    ]
-  },
-  "BOTserver": {
-    "mwallInfo": true,
-    "manaInfo": true,
-    "broadcasts": true,
-    "mwalls": [
-
-    ],
-    "vocation": true,
-    "outfit": false
   },
   "caveBot": {
-    "backOffline": false,
     "backStop": false,
     "forceRefill": false,
-    "backTrainers": false
+    "backTrainers": false,
+    "backOffline": false
   },
-  "BotServerChannel": "5168279401865",
-  "teleporterStarted": 1718652302,
-  "foodItems": [
-    {
-      "id": 3582,
-      "count": 1
-    },
-    {
-      "id": 3577,
-      "count": 1
-    },
-    {
-      "id": 3723,
-      "count": 1
-    },
-    {
-      "id": 3607,
-      "count": 1
-    },
-    {
-      "id": 3585,
-      "count": 1
-    },
-    {
-      "id": 3592,
-      "count": 1
-    },
-    {
-      "id": 3600,
-      "count": 1
-    },
-    {
-      "id": 3601,
-      "count": 1
-    },
-    {
-      "id": 3587,
-      "count": 1
-    },
-    {
-      "id": 3586,
-      "count": 1
-    },
-    {
-      "id": 3578,
-      "count": 1
-    },
-    {
-      "id": 10453,
-      "count": 1
-    }
-  ],
-  "combobot": {
-    "onShootEnabled": false,
-    "followLeaderEnabled": false,
-    "attackSpellEnabled": false,
-    "attackItemToggle": false,
-    "castLeader": "",
-    "attackLeaderTargetEnabled": false,
-    "serverLeader": "",
-    "sayPhrase": "",
-    "sayLeader": "",
-    "shootLeader": "",
-    "commandsEnabled": true,
-    "onCastEnabled": false,
-    "item": 3155,
-    "serverLeaderTarget": false,
-    "enabled": false,
-    "spell": "",
-    "serverEnabled": false,
-    "follow": "",
-    "attack": "",
-    "serverTriggers": true,
-    "onSayEnabled": false
-  },
-  "_macros": {
-    "": true,
-    "Eat Food": true,
-    "Exchange money": true
-  },
-  "autoTradeMessage": ""
+  "bestHeal": 352
 }

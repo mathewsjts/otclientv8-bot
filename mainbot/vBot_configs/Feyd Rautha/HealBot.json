@@ -1,4 +1,5 @@
 {
+  "currentHealBotProfile": 1,
   "ConditionPanel": {
     "holdUtana": false,
     "utanaCost": 440,
@@ -23,132 +24,131 @@
     "poisonCost": 20,
     "cureCurse": false,
     "hasteCost": 100,
-    "holdUtamo": false,
+    "holdUtamo": true,
     "utamoCost": 40,
     "enabled": false
   },
-  "currentHealBotProfile": 1,
   "healbot": [
     {
-      "Delay": true,
-      "Visible": true,
       "spellTable": [
         {
-          "spell": "exura vita",
-          "cost": 140,
-          "enabled": true,
+          "value": 50,
           "sign": "<",
           "origin": "HP%",
           "index": 1,
-          "value": 50
+          "spell": "exura vita",
+          "cost": 140,
+          "enabled": true
         },
         {
-          "spell": "exura gran",
-          "cost": 70,
-          "enabled": true,
+          "value": 90,
           "sign": "<",
           "origin": "HP%",
           "index": 2,
-          "value": 90
+          "spell": "exura gran",
+          "cost": 70,
+          "enabled": true
         },
         {
-          "spell": "adeta res",
-          "cost": 340,
-          "enabled": true,
+          "value": 98,
           "sign": ">",
           "origin": "MP%",
           "index": 3,
-          "value": 98
+          "spell": "adeta res",
+          "cost": 340,
+          "enabled": true
         }
       ],
       "Conditions": true,
+      "name": "Profile #1",
+      "Cooldown": true,
       "enabled": true,
       "itemTable": [
         {
-          "index": 2,
-          "enabled": true,
+          "value": 50,
           "sign": "<",
           "origin": "MP%",
           "item": 237,
-          "value": 50
+          "enabled": true,
+          "index": 2
         },
         {
-          "index": 1,
-          "enabled": true,
+          "value": 50,
           "sign": "<",
           "origin": "MP%",
           "item": 268,
-          "value": 50
+          "enabled": true,
+          "index": 1
         }
       ],
       "Interval": true,
       "MessageDelay": false,
-      "Cooldown": true,
-      "name": "Profile #1"
+      "Delay": true,
+      "Visible": true
     },
     {
-      "Delay": true,
-      "Visible": true,
       "spellTable": [
 
       ],
       "Conditions": true,
+      "name": "Profile #2",
+      "Cooldown": true,
       "enabled": false,
       "itemTable": [
 
       ],
       "Interval": true,
       "MessageDelay": false,
-      "Cooldown": true,
-      "name": "Profile #2"
+      "Delay": true,
+      "Visible": true
     },
     {
-      "Delay": true,
-      "Visible": true,
       "spellTable": [
 
       ],
       "Conditions": true,
+      "name": "Profile #3",
+      "Cooldown": true,
       "enabled": false,
       "itemTable": [
 
       ],
       "Interval": true,
       "MessageDelay": false,
-      "Cooldown": true,
-      "name": "Profile #3"
+      "Delay": true,
+      "Visible": true
     },
     {
-      "Delay": true,
-      "Visible": true,
       "spellTable": [
 
       ],
       "Conditions": true,
+      "name": "Profile #4",
+      "Cooldown": true,
       "enabled": false,
       "itemTable": [
 
       ],
       "Interval": true,
       "MessageDelay": false,
-      "Cooldown": true,
-      "name": "Profile #4"
+      "Delay": true,
+      "Visible": true
     },
     {
-      "Delay": true,
-      "Visible": true,
       "spellTable": [
 
       ],
       "Conditions": true,
+      "name": "Profile #5",
+      "Cooldown": true,
       "enabled": false,
       "itemTable": [
 
       ],
       "Interval": true,
       "MessageDelay": false,
-      "Cooldown": true,
-      "name": "Profile #5"
+      "Delay": true,
+      "Visible": true
     }
   ]
 }

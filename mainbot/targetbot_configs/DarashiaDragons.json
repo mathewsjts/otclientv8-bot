@@ -12,22 +12,22 @@
       "avoidAttacks": false,
       "keepDistance": false,
       "dontLoot": false,
-      "regex": "^ice golem$|^wyvern$|^frost giant$|^crystal spider$",
+      "regex": "^dragon$",
       "keepDistanceRange": 1,
       "maxDistance": 10,
       "danger": 1,
       "anchor": false,
       "diamondArrows": false,
       "priority": 1,
-      "rePosition": false,
-      "dynamicLureDelay": false,
+      "lureMin": 1,
+      "lure": false,
       "rpSafe": false,
       "lureMax": 3,
-      "faceMonster": false,
+      "name": "Dragon",
       "delayFrom": 2,
-      "name": "Ice Golem, Wyvern, Frost Giant, Crystal Spider",
-      "lure": false,
-      "lureMin": 1,
+      "dynamicLureDelay": false,
+      "faceMonster": false,
+      "rePosition": false,
       "dynamicLure": false
     },
     {
@@ -38,26 +38,26 @@
       "lureCount": 5,
       "rePositionAmount": 5,
       "anchorRange": 3,
-      "keepDistanceRange": 1,
+      "chase": false,
       "avoidAttacks": false,
       "keepDistance": false,
-      "faceMonster": false,
-      "regex": "^.*$",
-      "chase": false,
-      "maxDistance": 1,
+      "dontLoot": true,
+      "regex": "^sandcrawler$|^wasp$|^minotaur$|^minotaur arche$|^lion$|^nomad$",
+      "keepDistanceRange": 1,
+      "maxDistance": 5,
       "danger": 0,
       "anchor": false,
       "diamondArrows": false,
       "priority": 0,
-      "rePosition": false,
+      "lureMin": 1,
       "lure": false,
       "rpSafe": false,
-      "lureMax": 30,
-      "dontLoot": true,
+      "lureMax": 3,
+      "name": "Sandcrawler, Wasp, Minotaur, Minotaur Arche, Lion, Nomad",
       "delayFrom": 2,
       "dynamicLureDelay": false,
-      "name": "*",
-      "lureMin": 0,
+      "faceMonster": false,
+      "rePosition": false,
       "dynamicLure": false
     }
   ],
@@ -65,7 +65,15 @@
     "items": [
       {
         "id": 3031,
-        "count": 0
+        "count": 1
+      },
+      {
+        "id": 3416,
+        "count": 1
+      },
+      {
+        "id": 3071,
+        "count": 1
       }
     ],
     "maxDanger": 100,

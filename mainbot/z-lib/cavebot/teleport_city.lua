@@ -19,6 +19,8 @@ CaveBot.Extensions.TeleportCity.setup = function()
       ["svargrond"] = {x=32212,y=31132,z=7},
       ["yalahar"] = {x=32787,y=31276,z=7},
       ["farmine"] = {x=33025,y=31553,z=10},
+      ["farmine1"] = {x=33025,y=31553,z=14},
+      ["farmine2"] = {x=33025,y=31553,z=12},
       ["gray beach"] = {x=33447,y=31323,z=9},
       ["roshamuul"] = {x=0,y=0,z=0},
       ["krailos"] = {x=33657,y=31665,z=8},
@@ -57,6 +59,9 @@ CaveBot.Extensions.TeleportCity.setup = function()
     end
 
     if player_position.z ~= city_coordinate.z or getDistanceBetween(player_position, city_coordinate) > max_distance then
+      if city_name == "farmine1" or city_name == "farmine2" then
+        city_name = "farmine"
+      end
       NPC.say("!tp " .. city_name)
       return "retry"
     end

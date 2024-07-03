@@ -1,5 +1,6 @@
 {
   "supplies": {
+    "currentProfile": "Default",
     "Default": {
       "items": {
         "268": {
@@ -8,7 +9,6 @@
           "avg": 0
         }
       }
-    },
-    "currentProfile": "Default"
+    }
   }
 }

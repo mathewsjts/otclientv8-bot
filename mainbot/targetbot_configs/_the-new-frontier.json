@@ -3,8 +3,8 @@
       "items": [
   
       ],
-      "maxDanger": 10,
-      "minCapacity": 100,
+      "maxDanger": 100,
+      "minCapacity": 0,
       "containers": [
   
       ],

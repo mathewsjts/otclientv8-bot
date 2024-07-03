@@ -1,0 +1,105 @@
+{
+  "looting": {
+    "items": [
+      {
+        "count": 1,
+        "id": 3031
+      },
+      {
+        "count": 1,
+        "id": 3416
+      },
+      {
+        "count": 1,
+        "id": 3071
+      },
+      {
+        "count": 1,
+        "id": 3428
+      },
+      {
+        "count": 1,
+        "id": 3386
+      },
+      {
+        "count": 1,
+        "id": 3280
+      },
+      {
+        "count": 1,
+        "id": 3392
+      }
+    ],
+    "everyItem": false,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0
+  },
+  "targeting": [
+    {
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "priority": 1,
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "regex": "^dragon$|^dragon lord$",
+      "lureCavebot": false,
+      "dynamicLureDelay": false,
+      "lureMax": 3,
+      "chase": true,
+      "delayFrom": 2,
+      "name": "Dragon, Dragon Lord",
+      "avoidAttacks": false,
+      "rePosition": false,
+      "keepDistance": false,
+      "diamondArrows": false,
+      "maxDistance": 10,
+      "danger": 1,
+      "faceMonster": false,
+      "rpSafe": false,
+      "lure": false,
+      "dontLoot": true,
+      "anchor": false,
+      "lureMin": 1,
+      "dynamicLure": false
+    },
+    {
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": true,
+      "lureCount": 5,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "chase": false,
+      "lureMax": 3,
+      "name": "Sandcrawler, Wasp, Minotaur, Minotaur Arche, Lion, Nomad",
+      "faceMonster": false,
+      "dontLoot": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "lure": false,
+      "rePosition": false,
+      "delayFrom": 2,
+      "diamondArrows": false,
+      "maxDistance": 5,
+      "danger": 0,
+      "dynamicLureDelay": false,
+      "regex": "^sandcrawler$|^wasp$|^minotaur$|^minotaur arche$|^lion$|^nomad$",
+      "priority": 0,
+      "rpSafe": false,
+      "anchor": false,
+      "lureMin": 1,
+      "dynamicLure": false
+    }
+  ]
+}

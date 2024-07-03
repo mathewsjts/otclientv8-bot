@@ -1,5 +1,35 @@
 {
-  "quests": [
-
-  ]
+  "quests": {
+    "The New Frontier": {
+      "id": 52,
+      "completed": false,
+      "missions": {
+        "Mission 02: From Kazordoon With Love (completed)": "Return to Ongulf and report your mission!",
+        "Mission 09: Mortal Combat (completed)": "Go back to Farmine and talk to Ongulf about your mission.",
+        "Mission 05: Getting Things Busy (completed)": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
+        "Mission 04: The Mine Is Mine (completed)": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
+        "Mission 08: An Offer You Can't Refuse (completed)": "You agreed the Offer.",
+        "Mission 07: Messengers Of Peace (completed)": "You found the Lizards!",
+        "Mission 03: Strangers in the Night (completed)": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
+        "Mission 06: Days Of Doom (completed)": "You passed the test of Curos. Return to Ongulf and report your mission!",
+        "Mission 01: New Land (completed)": "You already reported Ongulf your success! Ask Ongulf for new mission!"
+      }
+    },
+    "The New Frontier (completed)": {
+      "id": 52,
+      "completed": false,
+      "missions": {
+        "Mission 02: From Kazordoon With Love (completed)": "Return to Ongulf and report your mission!",
+        "Mission 09: Mortal Combat (completed)": "Go back to Farmine and talk to Ongulf about your mission.",
+        "Mission 05: Getting Things Busy (completed)": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
+        "Mission 04: The Mine Is Mine (completed)": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
+        "Mission 08: An Offer You Can't Refuse (completed)": "You agreed the Offer.",
+        "Mission 10: New Horizons (completed)": "You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!",
+        "Mission 07: Messengers Of Peace (completed)": "You found the Lizards!",
+        "Mission 03: Strangers in the Night (completed)": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
+        "Mission 06: Days Of Doom (completed)": "You passed the test of Curos. Return to Ongulf and report your mission!",
+        "Mission 01: New Land (completed)": "You already reported Ongulf your success! Ask Ongulf for new mission!"
+      }
+    }
+  }
 }

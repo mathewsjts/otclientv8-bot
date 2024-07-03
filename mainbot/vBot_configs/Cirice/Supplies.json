@@ -3,14 +3,14 @@
     "currentProfile": "Default",
     "Default": {
       "items": {
-        "268": {
-          "min": 100,
-          "max": 300,
-          "avg": 0
-        },
         "3723": {
           "min": 0,
           "max": 100,
+          "avg": 0
+        },
+        "268": {
+          "min": 100,
+          "max": 300,
           "avg": 0
         }
       }

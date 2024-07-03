@@ -2,8 +2,7 @@
   "currentBotProfile": 1,
   "AttackBot": [
     {
-      "pvpMode": false,
-      "name": "Profile #1",
+      "Cooldown": true,
       "ignoreMana": true,
       "Kills": false,
       "AntiRsRange": 5,
@@ -11,54 +10,68 @@
       "BlackListSafe": false,
       "attackTable": [
         {
-          "patternCategory": 4,
-          "description": "[Large Area] 4+ Creatures: exevo gran mas vis lux, absolute (0%-100%)",
+          "creatures": "monster names",
+          "minHp": 0,
+          "count": 6,
           "orMore": true,
-          "pattern": 5,
-          "tooltip": "kollos,spidris",
           "mana": 1,
-          "monsters": [
-            "kollos",
-            "spidris"
-          ],
-          "enabled": true,
-          "spell": "exevo gran mas vis lux",
-          "count": 4,
           "itemId": 0,
-          "category": 5,
-          "maxHp": 100,
-          "creatures": "kollos,spidris",
           "cooldown": 1,
-          "minHp": 0
+          "patternCategory": 4,
+          "category": 5,
+          "description": "[Large Area] 6+ Any Creatures: exevo gran mas vis, absolute (0%-100%)",
+          "pattern": 5,
+          "enabled": true,
+          "monsters": true,
+          "spell": "exevo gran mas vis",
+          "tooltip": false,
+          "maxHp": 100
         },
         {
-          "patternCategory": 2,
-          "minHp": 0,
-          "itemId": 3161,
-          "pattern": 3,
-          "monsters": true,
-          "mana": 1,
-          "count": 2,
-          "enabled": true,
           "spell": "spell name",
-          "tooltip": false,
-          "cooldown": 1,
-          "category": 2,
-          "maxHp": 100,
-          "creatures": "monster names",
+          "minHp": 0,
+          "count": 2,
           "orMore": true,
-          "description": "[Ball] 2+ Any Creatures: rune 3161, area (0%-100%)"
+          "mana": 1,
+          "itemId": 3161,
+          "cooldown": 1,
+          "patternCategory": 2,
+          "category": 2,
+          "description": "[Ball] 2+ Any Creatures: rune 3161, area (0%-100%)",
+          "pattern": 3,
+          "enabled": true,
+          "monsters": true,
+          "creatures": "monster names",
+          "tooltip": false,
+          "maxHp": 100
         }
       ],
-      "Cooldown": true,
+      "name": "Profile #1",
+      "Visible": true,
       "enabled": true,
       "Rotate": false,
-      "KillsAmount": 1,
-      "Visible": true
+      "pvpMode": false,
+      "KillsAmount": 1
     },
     {
-      "pvpMode": false,
+      "Cooldown": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "AntiRsRange": 5,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "attackTable": [
+
+      ],
       "name": "Profile #2",
+      "Visible": true,
+      "enabled": false,
+      "Rotate": false,
+      "pvpMode": false,
+      "KillsAmount": 1
+    },
+    {
+      "Cooldown": true,
       "ignoreMana": true,
       "Kills": false,
       "AntiRsRange": 5,
@@ -67,15 +80,15 @@
       "attackTable": [
 
       ],
-      "Cooldown": true,
-      "enabled": false,
-      "Rotate": false,
-      "KillsAmount": 1,
-      "Visible": true
-    },
-    {
-      "pvpMode": false,
       "name": "Profile #3",
+      "Visible": true,
+      "enabled": false,
+      "Rotate": false,
+      "pvpMode": false,
+      "KillsAmount": 1
+    },
+    {
+      "Cooldown": true,
       "ignoreMana": true,
       "Kills": false,
       "AntiRsRange": 5,
@@ -84,32 +97,15 @@
       "attackTable": [
 
       ],
-      "Cooldown": true,
-      "enabled": false,
-      "Rotate": false,
-      "KillsAmount": 1,
-      "Visible": true
-    },
-    {
-      "pvpMode": false,
       "name": "Profile #4",
-      "ignoreMana": true,
-      "Kills": false,
-      "AntiRsRange": 5,
-      "PvpSafe": true,
-      "BlackListSafe": false,
-      "attackTable": [
-
-      ],
-      "Cooldown": true,
+      "Visible": true,
       "enabled": false,
       "Rotate": false,
-      "KillsAmount": 1,
-      "Visible": true
+      "pvpMode": false,
+      "KillsAmount": 1
     },
     {
-      "pvpMode": false,
-      "name": "Profile #5",
+      "Cooldown": true,
       "ignoreMana": true,
       "Kills": false,
       "AntiRsRange": 5,
@@ -118,11 +114,12 @@
       "attackTable": [
 
       ],
-      "Cooldown": true,
+      "name": "Profile #5",
+      "Visible": true,
       "enabled": false,
       "Rotate": false,
-      "KillsAmount": 1,
-      "Visible": true
+      "pvpMode": false,
+      "KillsAmount": 1
     }
   ]
 }

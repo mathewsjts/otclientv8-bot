@@ -1,9 +1,9 @@
 {
   "containers": {
     "forceOpen": true,
-    "enabled": true,
-    "height": 170,
     "purse": true,
+    "height": 170,
+    "enabled": true,
     "sort": true,
     "list": [
       {

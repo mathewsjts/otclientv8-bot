@@ -1,0 +1,107 @@
+{
+  "currentBotProfile": 1,
+  "AttackBot": [
+    {
+      "Cooldown": true,
+      "Visible": true,
+      "pvpMode": false,
+      "enabled": true,
+      "PvpSafe": true,
+      "attackTable": [
+        {
+          "pattern": 1,
+          "description": "[1 Sqm] 1+ Any Creatures: exori cruentus, targeted (0%-100%)",
+          "mana": 80,
+          "orMore": true,
+          "itemId": 0,
+          "tooltip": false,
+          "enabled": true,
+          "creatures": "monster names",
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "monsters": true,
+          "cooldown": 1,
+          "category": 1,
+          "spell": "exori cruentus",
+          "patternCategory": 1
+        }
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "name": "Profile #1"
+    },
+    {
+      "Cooldown": true,
+      "Visible": true,
+      "pvpMode": false,
+      "enabled": false,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "name": "Profile #2"
+    },
+    {
+      "Cooldown": true,
+      "Visible": true,
+      "pvpMode": false,
+      "enabled": false,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "name": "Profile #3"
+    },
+    {
+      "Cooldown": true,
+      "Visible": true,
+      "pvpMode": false,
+      "enabled": false,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "name": "Profile #4"
+    },
+    {
+      "Cooldown": true,
+      "Visible": true,
+      "pvpMode": false,
+      "enabled": false,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "name": "Profile #5"
+    }
+  ]
+}

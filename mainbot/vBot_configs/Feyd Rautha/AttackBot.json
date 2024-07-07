@@ -1,125 +1,145 @@
 {
-  "currentBotProfile": 1,
   "AttackBot": [
     {
-      "Cooldown": true,
-      "ignoreMana": true,
-      "Kills": false,
-      "AntiRsRange": 5,
-      "PvpSafe": true,
       "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "name": "Profile #1",
+      "Visible": true,
+      "KillsAmount": 1,
+      "pvpMode": false,
+      "Rotate": false,
+      "enabled": true,
       "attackTable": [
         {
-          "creatures": "monster names",
-          "minHp": 0,
-          "count": 6,
-          "orMore": true,
-          "mana": 1,
           "itemId": 0,
           "cooldown": 1,
           "patternCategory": 4,
-          "category": 5,
-          "description": "[Large Area] 6+ Any Creatures: exevo gran mas vis, absolute (0%-100%)",
           "pattern": 5,
+          "maxHp": 100,
+          "category": 5,
+          "minHp": 0,
+          "spell": "exevo gran mas vis",
+          "description": "[Large Area] 6+ Any Creatures: exevo gran mas vis, absolute (0%-100%)",
+          "creatures": "monster names",
+          "count": 6,
+          "orMore": true,
           "enabled": true,
           "monsters": true,
-          "spell": "exevo gran mas vis",
-          "tooltip": false,
-          "maxHp": 100
+          "mana": 1,
+          "tooltip": false
         },
         {
-          "spell": "spell name",
-          "minHp": 0,
-          "count": 2,
-          "orMore": true,
-          "mana": 1,
           "itemId": 3161,
           "cooldown": 1,
           "patternCategory": 2,
-          "category": 2,
-          "description": "[Ball] 2+ Any Creatures: rune 3161, area (0%-100%)",
           "pattern": 3,
+          "maxHp": 100,
+          "spell": "spell name",
+          "minHp": 0,
           "enabled": true,
-          "monsters": true,
+          "category": 2,
           "creatures": "monster names",
-          "tooltip": false,
-          "maxHp": 100
+          "count": 2,
+          "orMore": true,
+          "description": "[Ball] 2+ Any Creatures: rune 3161, area (0%-100%)",
+          "monsters": true,
+          "mana": 1,
+          "tooltip": false
+        },
+        {
+          "itemId": 0,
+          "cooldown": 1,
+          "enabled": true,
+          "pattern": 3,
+          "description": "[3 Sqm] 1+ Creatures: exori vis, targeted (0%-100%)",
+          "category": 1,
+          "minHp": 0,
+          "maxHp": 100,
+          "patternCategory": 1,
+          "creatures": "ghastly dragon",
+          "count": 1,
+          "orMore": true,
+          "spell": "exori vis",
+          "monsters": [
+            "ghastly dragon"
+          ],
+          "mana": 1,
+          "tooltip": "ghastly dragon"
         }
       ],
-      "name": "Profile #1",
-      "Visible": true,
-      "enabled": true,
-      "Rotate": false,
-      "pvpMode": false,
-      "KillsAmount": 1
-    },
-    {
-      "Cooldown": true,
       "ignoreMana": true,
       "Kills": false,
-      "AntiRsRange": 5,
-      "PvpSafe": true,
+      "Cooldown": true,
+      "PvpSafe": true
+    },
+    {
       "BlackListSafe": false,
-      "attackTable": [
-
-      ],
+      "AntiRsRange": 5,
       "name": "Profile #2",
       "Visible": true,
-      "enabled": false,
-      "Rotate": false,
+      "KillsAmount": 1,
       "pvpMode": false,
-      "KillsAmount": 1
-    },
-    {
-      "Cooldown": true,
-      "ignoreMana": true,
-      "Kills": false,
-      "AntiRsRange": 5,
-      "PvpSafe": true,
-      "BlackListSafe": false,
+      "Rotate": false,
+      "enabled": false,
       "attackTable": [
 
       ],
+      "ignoreMana": true,
+      "Kills": false,
+      "Cooldown": true,
+      "PvpSafe": true
+    },
+    {
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
       "name": "Profile #3",
       "Visible": true,
-      "enabled": false,
-      "Rotate": false,
+      "KillsAmount": 1,
       "pvpMode": false,
-      "KillsAmount": 1
-    },
-    {
-      "Cooldown": true,
-      "ignoreMana": true,
-      "Kills": false,
-      "AntiRsRange": 5,
-      "PvpSafe": true,
-      "BlackListSafe": false,
+      "Rotate": false,
+      "enabled": false,
       "attackTable": [
 
       ],
+      "ignoreMana": true,
+      "Kills": false,
+      "Cooldown": true,
+      "PvpSafe": true
+    },
+    {
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
       "name": "Profile #4",
       "Visible": true,
-      "enabled": false,
-      "Rotate": false,
+      "KillsAmount": 1,
       "pvpMode": false,
-      "KillsAmount": 1
-    },
-    {
-      "Cooldown": true,
-      "ignoreMana": true,
-      "Kills": false,
-      "AntiRsRange": 5,
-      "PvpSafe": true,
-      "BlackListSafe": false,
+      "Rotate": false,
+      "enabled": false,
       "attackTable": [
 
       ],
+      "ignoreMana": true,
+      "Kills": false,
+      "Cooldown": true,
+      "PvpSafe": true
+    },
+    {
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
       "name": "Profile #5",
       "Visible": true,
-      "enabled": false,
-      "Rotate": false,
+      "KillsAmount": 1,
       "pvpMode": false,
-      "KillsAmount": 1
+      "Rotate": false,
+      "enabled": false,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "Cooldown": true,
+      "PvpSafe": true
     }
-  ]
+  ],
+  "currentBotProfile": 1
 }

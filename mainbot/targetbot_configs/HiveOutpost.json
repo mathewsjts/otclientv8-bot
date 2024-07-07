@@ -1,75 +1,75 @@
 {
-  "looting": {
-    "maxDanger": 100,
-    "minCapacity": 0,
-    "containers": [
-
-    ],
-    "items": [
-
-    ],
-    "everyItem": false
-  },
   "targeting": [
     {
-      "rpSafe": false,
-      "maxDistance": 10,
-      "danger": 9,
-      "lure": false,
-      "regex": "^kollos$|^spidris$",
-      "anchor": false,
-      "rePosition": false,
-      "closeLureAmount": 3,
+      "lureMax": 3,
       "lureMin": 1,
       "dynamicLure": false,
       "lureDelay": 250,
-      "closeLure": false,
-      "name": "Kollos, Spidris",
-      "diamondArrows": false,
-      "lureMax": 3,
+      "anchor": false,
+      "closeLureAmount": 3,
+      "regex": "^kollos$|^spidris$",
       "lureCavebot": false,
       "lureCount": 1,
-      "dynamicLureDelay": false,
+      "lure": false,
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "dontLoot": true,
-      "chase": true,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "faceMonster": false,
-      "delayFrom": 2,
-      "priority": 9
-    },
-    {
-      "anchor": false,
-      "maxDistance": 10,
-      "danger": 6,
-      "lure": false,
-      "regex": "^waspoid$|^swarmer$|^spitter$|^crawler$|^insectoid worker$",
       "rpSafe": false,
+      "closeLure": false,
+      "faceMonster": false,
       "diamondArrows": false,
       "rePosition": false,
-      "lureMin": 2,
-      "dynamicLure": true,
-      "lureDelay": 250,
-      "closeLure": false,
-      "name": "Waspoid, Swarmer, Spitter, Crawler, Insectoid Worker",
+      "dynamicLureDelay": false,
+      "chase": true,
+      "priority": 9,
+      "keepDistance": false,
       "avoidAttacks": false,
+      "dontLoot": true,
+      "delayFrom": 2,
+      "name": "Kollos, Spidris",
+      "maxDistance": 10,
+      "danger": 9
+    },
+    {
       "lureMax": 3,
+      "lureMin": 2,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "anchor": false,
+      "closeLureAmount": 3,
+      "regex": "^waspoid$|^swarmer$|^spitter$|^crawler$|^insectoid worker$",
       "lureCavebot": false,
       "lureCount": 1,
-      "dynamicLureDelay": true,
+      "lure": false,
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "dontLoot": true,
-      "chase": false,
+      "rpSafe": false,
+      "closeLure": false,
       "faceMonster": false,
-      "keepDistance": false,
+      "diamondArrows": false,
+      "rePosition": false,
+      "dynamicLureDelay": true,
+      "chase": true,
       "priority": 6,
+      "keepDistance": false,
+      "avoidAttacks": false,
+      "dontLoot": true,
       "delayFrom": 2,
-      "closeLureAmount": 3
+      "name": "Waspoid, Swarmer, Spitter, Crawler, Insectoid Worker",
+      "maxDistance": 10,
+      "danger": 6
     }
-  ]
+  ],
+  "looting": {
+    "items": [
+
+    ],
+    "maxDanger": 100,
+    "containers": [
+
+    ],
+    "minCapacity": 0,
+    "everyItem": false
+  }
 }

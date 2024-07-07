@@ -1,73 +1,72 @@
 {
   "targeting": [
     {
-      "danger": 1,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "name": "Giant Spider, Defiler",
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "lureCavebot": false,
       "lureCount": 1,
-      "regex": "^giant spider$|^defiler$",
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "rpSafe": false,
-      "priority": 1,
-      "rePosition": false,
-      "diamondArrows": false,
+      "name": "Giant Spider, Defiler",
       "faceMonster": false,
-      "anchor": false,
-      "dontLoot": false,
-      "lureMax": 3,
-      "chase": false,
+      "diamondArrows": false,
+      "lure": false,
+      "dontLoot": true,
+      "rpSafe": false,
       "avoidAttacks": false,
       "keepDistance": false,
+      "closeLureAmount": 3,
+      "delayFrom": 2,
+      "closeLure": false,
+      "priority": 1,
+      "maxDistance": 4,
+      "danger": 1,
+      "lureMax": 3,
+      "anchor": false,
+      "lureMin": 1,
       "dynamicLureDelay": false,
       "lureDelay": 250,
-      "delayFrom": 2,
-      "lure": false,
-      "maxDistance": 4
+      "rePosition": false,
+      "regex": "^giant spider$|^defiler$",
+      "dynamicLure": false,
+      "chase": true,
+      "lureCavebot": false
     },
     {
-      "danger": 0,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "name": "Tortoise, Crab, Blood Crab, Thronback Tortoise, Crocodile, Toad, Nomad, Azure Frog, Green Frog, Crimson Frog",
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "lureCavebot": true,
       "lureCount": 5,
-      "maxDistance": 3,
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "lure": true,
-      "priority": 0,
-      "delayFrom": 2,
-      "lureDelay": 250,
+      "name": "Tortoise, Crab, Blood Crab, Thornback Tortoise, Crocodile, Toad, Nomad, Azure Frog, Green Frog, Crimson Frog",
       "faceMonster": false,
-      "anchor": false,
-      "dynamicLureDelay": false,
+      "diamondArrows": false,
+      "lure": true,
       "chase": false,
-      "lureMax": 3,
+      "rpSafe": false,
       "avoidAttacks": false,
       "keepDistance": false,
-      "diamondArrows": false,
       "dontLoot": true,
-      "regex": "^tortoise$|^crab$|^blood crab$|^thronback tortoise$|^crocodile$|^toad$|^nomad$|^azure frog$|^green frog$|^crimson frog$",
+      "delayFrom": 2,
+      "closeLureAmount": 3,
+      "priority": 0,
+      "maxDistance": 3,
+      "danger": 0,
+      "lureMax": 3,
+      "anchor": false,
+      "lureMin": 1,
+      "dynamicLureDelay": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "regex": "^tortoise$|^crab$|^blood crab$|^thornback tortoise$|^crocodile$|^toad$|^nomad$|^azure frog$|^green frog$|^crimson frog$",
       "rePosition": false,
-      "rpSafe": false
+      "dynamicLure": false,
+      "lureCavebot": true
     }
   ],
   "looting": {
-    "maxDanger": 10,
-    "minCapacity": 0,
     "containers": [
 
     ],
-    "everyItem": false,
+    "maxDanger": 100,
+    "minCapacity": 0,
     "items": [
       {
         "count": 1,
@@ -88,7 +87,12 @@
       {
         "count": 1,
         "id": 3038
+      },
+      {
+        "count": 1,
+        "id": 3041
       }
-    ]
+    ],
+    "everyItem": false
   }
 }

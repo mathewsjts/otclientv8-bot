@@ -14,27 +14,27 @@
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "rpSafe": false,
+      "lureMax": 3,
+      "maxDistance": 10,
       "rePosition": false,
       "faceMonster": false,
-      "dontLoot": true,
-      "dynamicLure": false,
-      "avoidAttacks": false,
+      "name": "Ice Golem, Wyvern, Frost Giant, Crystal Spider",
+      "lure": false,
       "chase": true,
-      "anchor": false,
+      "avoidAttacks": false,
       "keepDistance": false,
       "diamondArrows": false,
-      "lure": false,
-      "name": "Ice Golem, Wyvern, Frost Giant, Crystal Spider",
-      "danger": 1,
-      "maxDistance": 10,
-      "lureMax": 3
+      "anchor": false,
+      "dynamicLure": false,
+      "dontLoot": true,
+      "rpSafe": false,
+      "danger": 1
     },
     {
       "regex": "^.*$",
       "delayFrom": 2,
       "dynamicLureDelay": false,
-      "rePosition": false,
+      "lureMin": 0,
       "priority": 0,
       "lureDelay": 250,
       "closeLure": false,
@@ -44,21 +44,21 @@
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "dynamicLure": false,
-      "lureMin": 0,
-      "name": "*",
+      "danger": 0,
+      "maxDistance": 1,
+      "avoidAttacks": false,
       "faceMonster": false,
-      "dontLoot": true,
-      "lureMax": 30,
+      "lure": false,
+      "dynamicLure": false,
       "chase": false,
       "anchor": false,
-      "keepDistance": false,
+      "name": "*",
       "diamondArrows": false,
+      "keepDistance": false,
+      "rePosition": false,
+      "dontLoot": true,
       "rpSafe": false,
-      "lure": false,
-      "avoidAttacks": false,
-      "maxDistance": 1,
-      "danger": 0
+      "lureMax": 30
     }
   ],
   "looting": {
@@ -70,8 +70,12 @@
     ],
     "items": [
       {
-        "count": 0,
-        "id": 3031
+        "count": 1,
+        "id": 9661
+      },
+      {
+        "count": 1,
+        "id": 9644
       }
     ],
     "minCapacity": 0,

@@ -1,0 +1,90 @@
+{
+  "currentBotProfile": 1,
+  "AttackBot": [
+    {
+      "enabled": true,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "name": "Profile #1",
+      "pvpMode": false,
+      "Rotate": false
+    },
+    {
+      "enabled": false,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "name": "Profile #2",
+      "pvpMode": false,
+      "Rotate": false
+    },
+    {
+      "enabled": false,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "name": "Profile #3",
+      "pvpMode": false,
+      "Rotate": false
+    },
+    {
+      "enabled": false,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "name": "Profile #4",
+      "pvpMode": false,
+      "Rotate": false
+    },
+    {
+      "enabled": false,
+      "Cooldown": true,
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "Visible": true,
+      "name": "Profile #5",
+      "pvpMode": false,
+      "Rotate": false
+    }
+  ]
+}

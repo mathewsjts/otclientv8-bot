@@ -3,24 +3,28 @@
     "Killing in the Name of...": {
       "completed": false,
       "missions": {
-        "Paw and Fur: Ice Golems": {
-          "description": "You already hunted 263/300 ice golems.",
-          "completed": false
-        },
-        "Paw and Fur: Wyverns": {
-          "description": "You already hunted 300/300 wyverns.",
-          "completed": true
-        },
-        "Paw and Fur: Ranger": {
-          "description": "You are Ranger of the Paw and Fur hunting elite. You currently have 13 Paw and Fur points.",
-          "completed": false
-        },
         "Paw and Fur: Hide": {
           "description": "Try find its hideout and kill it.",
           "completed": false
         },
+        "Paw and Fur: Wyverns": {
+          "description": "You already hunted 6/300 wyverns.",
+          "completed": false
+        },
+        "Paw and Fur: Ice Golems": {
+          "description": "You already hunted 9/300 ice golems.",
+          "completed": false
+        },
+        "Paw and Fur: Ranger": {
+          "description": "You are Ranger of the Paw and Fur hunting elite. You currently have 17 Paw and Fur points.",
+          "completed": false
+        },
         "Paw and Fur: The Snapper": {
           "description": "Grizzly told you about the Snapper, a crocodile that already killed many citizens of Port Hope. Try find its hideout and kill it.",
+          "completed": false
+        },
+        "Paw and Fur: Shardhead": {
+          "description": "Try find its hideout and kill it.",
           "completed": false
         }
       },

@@ -62,3 +62,5 @@ setDefaultTab("Main")
 UI.Separator()
 UI.Label("Private Scripts:")
 UI.Separator()
+
+dofile("/custom/main.lua")

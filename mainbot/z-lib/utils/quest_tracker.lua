@@ -1,9 +1,6 @@
-questLogButton = nil
-questLineWindow = nil
-
-questLogButtonClicked = false
-questLineClicked = false
-questLineClickedId = nil
+local questLogButtonClicked = false
+local questLineClicked = false
+local questLineClickedId = nil
 
 QuestTracker = {}
 
@@ -18,40 +15,32 @@ QuestTracker.setQuestValue = function(questName, questValue)
 end
 
 QuestTracker.isInitialized = function(questName)
-  local isInitialized = false
   for questNameConfig, _ in pairs(QuestsConfig["quests"]) do
-    local isSameQuestName = questNameConfig == questName
-    local isSameQuestNameCompleted = questNameConfig == questName .. " (completed)"
-    if isSameQuestName or isSameQuestNameCompleted then
-      isInitialized = true
-      break
+    if questNameConfig == questName or questNameConfig == questName .. " (completed)" then
+      return true
     end
   end
-  return isInitialized
+  return false
 end
 
 QuestTracker.isCompleted = function(questName, missionName)
-  local isCompleted = false
   for questNameConfig, questConfig in pairs(QuestsConfig["quests"]) do
-    if questNameConfig == questName.." (completed)" then
-      isCompleted = true
-      break
+    if questNameConfig == questName .. " (completed)" then
+      return true
     end
-    if questNameConfig == questName and missionName ~= nil then
-      for missionNameConfig, missionDescriptionConfig in pairs(questConfig.missions) do
+    if questNameConfig == questName and missionName then
+      for missionNameConfig, _ in pairs(questConfig.missions) do
         if missionNameConfig == missionName .. " (completed)" then
-          isCompleted = true
-          break
+          return true
         end
       end
     end
   end
-  return isCompleted
+  return false
 end
 
-rootWidget = g_ui.getRootWidget()
-
-questLogButton = rootWidget:recursiveGetChildById("questLogButton")
+local rootWidget = g_ui.getRootWidget()
+local questLogButton = rootWidget:recursiveGetChildById("questLogButton")
 local window = rootWidget:recursiveGetChildById("questLogWindow")
 
 if questLogButton then
@@ -64,28 +53,21 @@ if questLogButton then
   end
 end
 
-function show(questlog)
-  if questlog then
-    window:raise()
-    window:show()
-    window:focus()
-    window.missionlog.currentQuest = nil
-    window.questlog:setVisible(true)
-    window.missionlog:setVisible(false)
-    window.closeButton:setText('Close')
-    window.showButton:setVisible(true)
-    window.missionlog.track:setEnabled(false)
-    window.missionlog.track:setChecked(false)
-    window.missionlog.missionDescription:setText('')
-  else
-    window.questlog:setVisible(false)
-    window.missionlog:setVisible(true)
-    window.closeButton:setText('Back')
-    window.showButton:setVisible(false)
-  end
+local function show(questlog)
+  window:raise()
+  window:show()
+  window:focus()
+  window.missionlog.currentQuest = nil
+  window.questlog:setVisible(questlog)
+  window.missionlog:setVisible(not questlog)
+  window.closeButton:setText(questlog and 'Close' or 'Back')
+  window.showButton:setVisible(questlog)
+  window.missionlog.track:setEnabled(false)
+  window.missionlog.track:setChecked(false)
+  window.missionlog.missionDescription:setText('')
 end
 
-function openQuestLogWindow(quests)
+local function openQuestLogWindow(quests)
   show(true)
   local questList = window.questlog.questList
   questList:destroyChildren()
@@ -110,17 +92,15 @@ function openQuestLogWindow(quests)
   questList:focusChild(questList:getFirstChild())
 end
 
-function openQuestLineWindow(questId, questMissions)
+local function openQuestLineWindow(questId, questMissions)
   show(false)
   local missionList = window.missionlog.missionList
-  if questId == window.missionlog.currentQuest then
-    missionList:destroyChildren()
-  end
-  for i,questMission in pairs(questMissions) do
+  missionList:destroyChildren()
+  for i, questMission in pairs(questMissions) do
     local name = questMission[1]
     local description = questMission[2]
     local missionLabel = g_ui.createWidget('QuestLabel', missionList)
-    local widgetId = questId..'.'..i
+    local widgetId = questId .. '.' .. i
     missionLabel:setChecked(i % 2 == 0)
     missionLabel:setId(widgetId)
     missionLabel.questId = questId
@@ -135,64 +115,45 @@ function openQuestLineWindow(questId, questMissions)
   end
 end
 
-function questLogTracker(quests)
+local function questLogTracker(quests)
   if questLogButtonClicked then
     questLogButtonClicked = false
     openQuestLogWindow(quests)
   end
-  for i = 1, #quests, 1 do
-    local qid = quests[i][1]
-    local name = quests[i][2]
-    local isCompleted = quests[i][3]
-    if not QuestsConfig["quests"] then
-      return
-    end
+  for _, quest in pairs(quests) do
+    local qid = quest[1]
+    local name = quest[2]
+    local isCompleted = quest[3]
     if not QuestsConfig["quests"][name] then
-      QuestTracker.setQuestValue(name, {
-        id = qid,
-        completed = isCompleted,
-        missions = {}
-      })
+      QuestTracker.setQuestValue(name, { id = qid, completed = isCompleted, missions = {} })
     end
   end
 end
 
-function questLineTracker(questId, questMissions)
-	if questLineClicked and questLineClickedId == questId then
-		questLineClicked = false
-		questLineClickedId = nil
-		openQuestLineWindow(questId, questMissions)
-	end
-
-  local quest_name
-  local quest_selected
-  local quest_missions = {}
-
-  if not QuestsConfig["quests"] then
-    return
+local function questLineTracker(questId, questMissions)
+  if questLineClicked and questLineClickedId == questId then
+    questLineClicked = false
+    questLineClickedId = nil
+    openQuestLineWindow(questId, questMissions)
   end
-
+  local questName, questSelected, questMissionsTable = nil, nil, {}
   for name, quest in pairs(QuestsConfig["quests"]) do
     if quest.id == questId then
-      quest_name = name
-      quest_selected = quest
+      questName, questSelected = name, quest
+      break
     end
   end
-
-  for i = 1, #questMissions, 1 do
-    quest_missions[questMissions[i][1]] = questMissions[i][2]
+  for _, questMission in pairs(questMissions) do
+    questMissionsTable[questMission[1]] = questMission[2]
   end
-
-  QuestTracker.setQuestValue(quest_name, {
-    id = quest_selected.id,
-    completed = quest_selected.completed,
-    missions = quest_missions
-  })
+  if questSelected then
+    QuestTracker.setQuestValue(questName, { id = questSelected.id, completed = questSelected.completed, missions = questMissionsTable })
+  end
 end
 
 QuestTracker.reload()
-g_game["onQuestLog"] = questLogTracker
-g_game["onQuestLine"] = questLineTracker
+g_game.onQuestLog = questLogTracker
+g_game.onQuestLine = questLineTracker
 questsTracker = macro(2000, function()
   g_game.requestQuestLog()
   for _, quest in pairs(QuestsConfig["quests"]) do

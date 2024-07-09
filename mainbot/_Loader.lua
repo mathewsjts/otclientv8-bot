@@ -59,3 +59,4 @@ for i, file in ipairs(luaFiles) do
 end
 
 dofile("/z-lib/utils.lua")
+dofile("/custom/main.lua")

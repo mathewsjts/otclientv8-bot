@@ -5,51 +5,48 @@ questLogButtonClicked = false
 questLineClicked = false
 questLineClickedId = nil
 
-if not quests_config then
-  quests_config = {
-    quests = {}
-  }
+QuestTracker = {}
+
+QuestTracker.reload = function()
+  QuestsConfig = {quests = {}}
   vBotConfigSave("quests")
 end
 
-qst_config = {}
-
-qst_config.set_data = function(key, value)
-  if not quests_config["quests"] then
-    quests_config["quests"] = {}
-  end
-  quests_config["quests"][key] = value
+QuestTracker.setQuestValue = function(questName, questValue)
+  QuestsConfig["quests"][questName] = questValue
   vBotConfigSave("quests")
 end
 
-qst_config.is_initialized = function(quest_name)
-  local is_initialized = false
-  for name, quest in pairs(quests_config["quests"]) do
-    if name == quest_name or name == quest_name.." (completed)" then
-      is_initialized = true
+QuestTracker.isInitialized = function(questName)
+  local isInitialized = false
+  for questNameConfig, _ in pairs(QuestsConfig["quests"]) do
+    local isSameQuestName = questNameConfig == questName
+    local isSameQuestNameCompleted = questNameConfig == questName .. " (completed)"
+    if isSameQuestName or isSameQuestNameCompleted then
+      isInitialized = true
       break
     end
   end
-  return is_initialized
+  return isInitialized
 end
 
-qst_config.is_completed = function(quest_name, mission_name)
-  local is_completed = false
-  for name, quest in pairs(quests_config["quests"]) do
-    if name == quest_name.." (completed)" then
-      is_completed = true
+QuestTracker.isCompleted = function(questName, missionName)
+  local isCompleted = false
+  for questNameConfig, questConfig in pairs(QuestsConfig["quests"]) do
+    if questNameConfig == questName.." (completed)" then
+      isCompleted = true
       break
     end
-    if name == quest_name and mission_name ~= nil then
-      for mission, description in pairs(quest.missions) do
-        if mission == mission_name.." (completed)" then
-          is_completed = true
+    if questNameConfig == questName and missionName ~= nil then
+      for missionNameConfig, missionDescriptionConfig in pairs(questConfig.missions) do
+        if missionNameConfig == missionName .. " (completed)" then
+          isCompleted = true
           break
         end
       end
     end
   end
-  return is_completed
+  return isCompleted
 end
 
 rootWidget = g_ui.getRootWidget()
@@ -86,14 +83,6 @@ function show(questlog)
     window.closeButton:setText('Back')
     window.showButton:setVisible(false)
   end
-end
-
-function showQuestLine()
-  local questList = window.questlog.questList
-  local child = questList:getFocusedChild()
-  g_game.requestQuestLine(child.questId)
-  window.missionlog.questName:setText(child.questName)
-  window.missionlog.currentQuest = child.questId
 end
 
 function openQuestLogWindow(quests)
@@ -155,11 +144,11 @@ function questLogTracker(quests)
     local qid = quests[i][1]
     local name = quests[i][2]
     local isCompleted = quests[i][3]
-    if not quests_config["quests"] then
+    if not QuestsConfig["quests"] then
       return
     end
-    if not quests_config["quests"][name] then
-      qst_config.set_data(name, {
+    if not QuestsConfig["quests"][name] then
+      QuestTracker.setQuestValue(name, {
         id = qid,
         completed = isCompleted,
         missions = {}
@@ -179,11 +168,11 @@ function questLineTracker(questId, questMissions)
   local quest_selected
   local quest_missions = {}
 
-  if not quests_config["quests"] then
+  if not QuestsConfig["quests"] then
     return
   end
 
-  for name, quest in pairs(quests_config["quests"]) do
+  for name, quest in pairs(QuestsConfig["quests"]) do
     if quest.id == questId then
       quest_name = name
       quest_selected = quest
@@ -194,36 +183,19 @@ function questLineTracker(questId, questMissions)
     quest_missions[questMissions[i][1]] = questMissions[i][2]
   end
 
-  qst_config.set_data(quest_name, {
+  QuestTracker.setQuestValue(quest_name, {
     id = quest_selected.id,
     completed = quest_selected.completed,
     missions = quest_missions
   })
 end
 
+QuestTracker.reload()
 g_game["onQuestLog"] = questLogTracker
 g_game["onQuestLine"] = questLineTracker
-
-function destroyWindows()
-  if questLogWindow then
-    questLogWindow:destroy()
-  end
-  if questLineWindow then
-    questLineWindow:destroy()
-  end
-end
-
--- g_game.requestQuestLog()
 questsTracker = macro(2000, function()
   g_game.requestQuestLog()
-  if not quests_config or not quests_config["quests"] then
-    quests_config = {
-      quests = {}
-    }
-    vBotConfigSave("quests")
-    return
-  end
-  for _, quest in pairs(quests_config["quests"]) do
+  for _, quest in pairs(QuestsConfig["quests"]) do
     g_game.requestQuestLine(quest.id)
   end
 end)

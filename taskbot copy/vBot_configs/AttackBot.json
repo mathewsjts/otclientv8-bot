@@ -1,0 +1,152 @@
+{
+  "AttackBot": [
+    {
+      "enabled": false,
+      "Rotate": false,
+      "Visible": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "attackTable": [
+        {
+          "maxHp": 100,
+          "enabled": true,
+          "count": 1,
+          "monsters": [
+            "terramite",
+            "tarantula",
+            "crocodile",
+            "gnarlhound",
+            "tortoise",
+            "blood crab",
+            "terror bird",
+            "slime"
+          ],
+          "description": "[3 Sqm] 1+ Creatures: exori flam, targeted (0%-100%)",
+          "spell": "exori flam",
+          "category": 1,
+          "tooltip": "terramite, tarantula, crocodile, gnarlhound, tortoise, blood crab, terror bird, slime",
+          "creatures": "terramite, tarantula, crocodile, gnarlhound, tortoise, blood crab, terror bird, slime",
+          "cooldown": 1,
+          "patternCategory": 1,
+          "minHp": 0,
+          "pattern": 3,
+          "itemId": 0,
+          "mana": 40,
+          "orMore": true
+        },
+        {
+          "maxHp": 100,
+          "enabled": true,
+          "count": 1,
+          "monsters": [
+            "tortoise",
+            "crocodile",
+            "blood crab",
+            "centipede",
+            "slime",
+            "bug",
+            "tarantula",
+            "poison spider",
+            "cave rat",
+            "rat",
+            "spider",
+            "swamp troll",
+            "skeleton",
+            "crab",
+            "panda",
+            "wasp",
+            "sandcrawler"
+          ],
+          "description": "[3 Sqm] 1+ Creatures: exori min flam, targeted (0%-100%)",
+          "spell": "exori min flam",
+          "category": 1,
+          "tooltip": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp, sandcrawler",
+          "creatures": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp, sandcrawler",
+          "cooldown": 1,
+          "patternCategory": 1,
+          "minHp": 0,
+          "pattern": 3,
+          "itemId": 0,
+          "mana": 1,
+          "orMore": true
+        }
+      ],
+      "Cooldown": true,
+      "pvpMode": false,
+      "name": "Profile #1",
+      "BlackListSafe": false,
+      "AntiRsRange": 5
+    },
+    {
+      "enabled": false,
+      "Rotate": false,
+      "Visible": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "pvpMode": false,
+      "name": "Profile #2",
+      "BlackListSafe": false,
+      "AntiRsRange": 5
+    },
+    {
+      "enabled": false,
+      "Rotate": false,
+      "Visible": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "pvpMode": false,
+      "name": "Profile #3",
+      "BlackListSafe": false,
+      "AntiRsRange": 5
+    },
+    {
+      "enabled": false,
+      "Rotate": false,
+      "Visible": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "pvpMode": false,
+      "name": "Profile #4",
+      "BlackListSafe": false,
+      "AntiRsRange": 5
+    },
+    {
+      "enabled": false,
+      "Rotate": false,
+      "Visible": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "pvpMode": false,
+      "name": "Profile #5",
+      "BlackListSafe": false,
+      "AntiRsRange": 5
+    }
+  ],
+  "currentBotProfile": 1
+}

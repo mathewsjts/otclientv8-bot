@@ -21,7 +21,7 @@ CaveBot.Extensions.SetQuickloot.setup = function()
     end
     stg_custom.set_data('last_quickloot', value)
 
-    CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping") + ((table_length(item_list) + 2) * default_delay))
+    CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping") + ((#item_list + 2) * default_delay))
     return true
   end)
 

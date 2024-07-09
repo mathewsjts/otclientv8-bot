@@ -1,59 +1,66 @@
 {
   "quests": {
+    "The New Frontier": {
+      "missions": {
+        "Mission 01: New Land (completed)": "You already reported Ongulf your success! Ask Ongulf for new mission!",
+        "Mission 05: Getting Things Busy (completed)": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
+        "Mission 09: Mortal Combat (completed)": "Go back to Farmine and talk to Ongulf about your mission.",
+        "Mission 03: Strangers in the Night (completed)": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
+        "Mission 08: An Offer You Can't Refuse (completed)": "You agreed the Offer.",
+        "Mission 06: Days Of Doom (completed)": "You passed the test of Curos. Return to Ongulf and report your mission!",
+        "Mission 07: Messengers Of Peace (completed)": "You found the Lizards!",
+        "Mission 02: From Kazordoon With Love (completed)": "Return to Ongulf and report your mission!",
+        "Mission 04: The Mine Is Mine (completed)": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
+        "Mission 10: New Horizons (completed)": "You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!"
+      },
+      "id": 52,
+      "completed": false
+    },
+    "The Inquisition": {
+      "missions": {
+        "Mission 3: Vampire Hunt": "Henricus wants you to find the Dwarfish Vampire Hunter, Storkus, located west of the Dwarf Bridge. It's good idea bring your 20 Vampire Dusts with you to save some time.",
+        "Mission 1: Interrogation (completed)": "You investigated all guards in Thais.",
+        "Mission 2: Eclipse (completed)": "You already brought the witches' grimoire to Henricus."
+      },
+      "id": 49,
+      "completed": false
+    },
+    "Children of the Revolution": {
+      "missions": {
+        "Prove Your Worzz!": "Your Mission is to go to a little camp of lizards at north-east of the Dragonblaze Peaks. You have to find and deliver the Tactical map complete the mission."
+      },
+      "id": 9,
+      "completed": false
+    },
     "Forgotten Knowledge": {
       "missions": [
 
       ],
-      "completed": false,
-      "id": 15
-    },
-    "The New Frontier": {
-      "missions": {
-        "Mission 05: Getting Things Busy (completed)": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
-        "Mission 10: New Horizons (completed)": "You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!",
-        "Mission 08: An Offer You Can't Refuse (completed)": "You agreed the Offer.",
-        "Mission 03: Strangers in the Night (completed)": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
-        "Mission 04: The Mine Is Mine (completed)": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
-        "Mission 06: Days Of Doom (completed)": "You passed the test of Curos. Return to Ongulf and report your mission!",
-        "Mission 07: Messengers Of Peace (completed)": "You found the Lizards!",
-        "Mission 02: From Kazordoon With Love (completed)": "Return to Ongulf and report your mission!",
-        "Mission 01: New Land (completed)": "You already reported Ongulf your success! Ask Ongulf for new mission!",
-        "Mission 09: Mortal Combat (completed)": "Go back to Farmine and talk to Ongulf about your mission."
-      },
-      "completed": false,
-      "id": 52
-    },
-    "The Inquisition": {
-      "missions": {
-        "Mission 1: Interrogation (completed)": "You investigated all guards in Thais.",
-        "Mission 3: Vampire Hunt": "Henricus wants you to find the Dwarfish Vampire Hunter, Storkus, located west of the Dwarf Bridge. It's good idea bring your 20 Vampire Dusts with you to save some time.",
-        "Mission 2: Eclipse (completed)": "You already brought the witches' grimoire to Henricus."
-      },
-      "completed": false,
-      "id": 49
+      "id": 15,
+      "completed": false
     },
     "The New Frontier (completed)": {
       "missions": {
-        "Mission 05: Getting Things Busy (completed)": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
-        "Mission 10: New Horizons (completed)": "You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!",
-        "Mission 08: An Offer You Can't Refuse (completed)": "You agreed the Offer.",
         "Mission 01: New Land (completed)": "You already reported Ongulf your success! Ask Ongulf for new mission!",
-        "Mission 04: The Mine Is Mine (completed)": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
+        "Mission 05: Getting Things Busy (completed)": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
+        "Mission 09: Mortal Combat (completed)": "Go back to Farmine and talk to Ongulf about your mission.",
+        "Mission 03: Strangers in the Night (completed)": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
+        "Mission 08: An Offer You Can't Refuse (completed)": "You agreed the Offer.",
         "Mission 06: Days Of Doom (completed)": "You passed the test of Curos. Return to Ongulf and report your mission!",
         "Mission 07: Messengers Of Peace (completed)": "You found the Lizards!",
-        "Mission 02: From Kazordoon With Love (completed)": "Return to Ongulf and report your mission!",
-        "Mission 03: Strangers in the Night (completed)": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
-        "Mission 09: Mortal Combat (completed)": "Go back to Farmine and talk to Ongulf about your mission."
+        "Mission 10: New Horizons (completed)": "You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!",
+        "Mission 04: The Mine Is Mine (completed)": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
+        "Mission 02: From Kazordoon With Love (completed)": "Return to Ongulf and report your mission!"
       },
-      "completed": false,
-      "id": 52
+      "id": 52,
+      "completed": false
     },
     "Threatened Dreams": {
       "missions": {
         "Troubled Animals - Creation of Legends (completed)": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist."
       },
-      "completed": false,
-      "id": 63
+      "id": 63,
+      "completed": false
     }
   }
 }

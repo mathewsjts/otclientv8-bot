@@ -1,0 +1,26 @@
+{
+  "quests": {
+    "Killing in the Name of...": {
+      "id": 23,
+      "completed": false
+    }
+  },
+  "tasks": {
+    "Apes": {
+      "hunted": 0,
+      "total": 300
+    },
+    "Crocodiles": {
+      "hunted": 300,
+      "total": 300
+    },
+    "Tarantulas": {
+      "hunted": 33,
+      "total": 300
+    },
+    "Terramites": {
+      "hunted": 0,
+      "total": 300
+    }
+  }
+}

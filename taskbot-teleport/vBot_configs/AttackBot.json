@@ -1,0 +1,203 @@
+{
+  "currentBotProfile": 1,
+  "AttackBot": [
+    {
+      "AntiRsRange": 5,
+      "attackTable": [
+        {
+          "minHp": 0,
+          "creatures": "brimstone bug, wailing widow, lancer beetle, wyvern, terramite, tarantula, crocodile",
+          "description": "[3 Sqm] 1+ Creatures: exori flam, targeted (0%-100%)",
+          "patternCategory": 1,
+          "cooldown": 1,
+          "monsters": [
+            "brimstone bug",
+            "wailing widow",
+            "lancer beetle",
+            "wyvern",
+            "terramite",
+            "tarantula",
+            "crocodile"
+          ],
+          "orMore": true,
+          "maxHp": 100,
+          "mana": 40,
+          "itemId": 0,
+          "tooltip": "brimstone bug, wailing widow, lancer beetle, wyvern, terramite, tarantula, crocodile",
+          "pattern": 3,
+          "enabled": true,
+          "count": 1,
+          "category": 1,
+          "spell": "exori flam"
+        },
+        {
+          "minHp": 0,
+          "creatures": "merlkin, kongra, sibang",
+          "description": "[3 Sqm] 1+ Creatures: exori frigo, targeted (0%-100%)",
+          "patternCategory": 1,
+          "cooldown": 1,
+          "monsters": [
+            "merlkin",
+            "kongra",
+            "sibang"
+          ],
+          "orMore": true,
+          "maxHp": 100,
+          "mana": 40,
+          "itemId": 0,
+          "tooltip": "merlkin, kongra, sibang",
+          "pattern": 3,
+          "enabled": true,
+          "count": 1,
+          "category": 1,
+          "spell": "exori frigo"
+        },
+        {
+          "minHp": 0,
+          "creatures": "crystal spider, quara hydromancer scout, quara pincher scout, quara predator scout, ice golem, crocodile",
+          "description": "[3 Sqm] 1+ Creatures: exori vis, targeted (0%-100%)",
+          "patternCategory": 1,
+          "cooldown": 1,
+          "monsters": [
+            "crystal spider",
+            "quara hydromancer scout",
+            "quara pincher scout",
+            "quara predator scout",
+            "ice golem",
+            "crocodile"
+          ],
+          "orMore": true,
+          "maxHp": 100,
+          "mana": 40,
+          "itemId": 0,
+          "tooltip": "crystal spider, quara hydromancer scout, quara pincher scout, quara predator scout, ice golem, crocodile",
+          "pattern": 3,
+          "enabled": true,
+          "count": 1,
+          "category": 1,
+          "spell": "exori vis"
+        },
+        {
+          "description": "[3 Sqm] 1+ Creatures: exori min flam, targeted (0%-100%)",
+          "mana": 1,
+          "pattern": 3,
+          "patternCategory": 1,
+          "cooldown": 1,
+          "monsters": [
+            "crocodile"
+          ],
+          "orMore": true,
+          "maxHp": 100,
+          "minHp": 0,
+          "creatures": "crocodile",
+          "tooltip": "crocodile",
+          "itemId": 0,
+          "enabled": true,
+          "count": 1,
+          "category": 1,
+          "spell": "exori min flam"
+        },
+        {
+          "description": "[3 Sqm] 1+ Creatures: exori vis, targeted (0%-100%)",
+          "pattern": 3,
+          "minHp": 0,
+          "patternCategory": 1,
+          "itemId": 0,
+          "cooldown": 1,
+          "orMore": true,
+          "maxHp": 100,
+          "creatures": "quara mantassin scout,quara constrictor scout",
+          "monsters": [
+            "quara mantassin scout",
+            "quara constrictor scout"
+          ],
+          "tooltip": "quara mantassin scout,quara constrictor scout",
+          "mana": 1,
+          "enabled": true,
+          "count": 1,
+          "category": 1,
+          "spell": "exori vis"
+        }
+      ],
+      "pvpMode": false,
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "name": "Profile #1",
+      "Rotate": false,
+      "enabled": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "BlackListSafe": false
+    },
+    {
+      "AntiRsRange": 5,
+      "attackTable": [
+
+      ],
+      "pvpMode": false,
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "name": "Profile #2",
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "BlackListSafe": false
+    },
+    {
+      "AntiRsRange": 5,
+      "attackTable": [
+
+      ],
+      "pvpMode": false,
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "name": "Profile #3",
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "BlackListSafe": false
+    },
+    {
+      "AntiRsRange": 5,
+      "attackTable": [
+
+      ],
+      "pvpMode": false,
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "name": "Profile #4",
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "BlackListSafe": false
+    },
+    {
+      "AntiRsRange": 5,
+      "attackTable": [
+
+      ],
+      "pvpMode": false,
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "name": "Profile #5",
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "BlackListSafe": false
+    }
+  ]
+}

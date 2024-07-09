@@ -1,0 +1,23 @@
+{
+  "quests": {
+    "Killing in the Name of...": {
+      "completed": false,
+      "missions": {
+        "Paw and Fur: Ice Golems": "You already hunted 0/300 ice golems.",
+        "Paw and Fur: Ranger": "You are Ranger of the Paw and Fur hunting elite. You currently have 11 Paw and Fur points.",
+        "Paw and Fur: Wyverns": "You already hunted 0/300 wyverns.",
+        "Paw and Fur: Quara Scouts": "You already hunted 144/400 quara scouts.",
+        "Paw and Fur: Hide": "Try find its hideout and kill it.",
+        "Paw and Fur: The Snapper": "Grizzly told you about the Snapper, a crocodile that already killed many citizens of Port Hope. Try find its hideout and kill it."
+      },
+      "id": 23
+    },
+    "The New Frontier": {
+      "completed": false,
+      "missions": {
+        "Mission 01: New Land": "You have found the passage through the mountains and can report Ongulf about your success."
+      },
+      "id": 52
+    }
+  }
+}

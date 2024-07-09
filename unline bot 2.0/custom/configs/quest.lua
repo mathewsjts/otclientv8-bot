@@ -8,10 +8,6 @@ QuestTracker = {}
 QuestTracker.reload = function()
   QuestConfig = { quests = {} }
   MainConfig.saveConfigFile(questsFile, QuestConfig)
-  g_game.onQuestLog = onQuestLog
-  g_game.onQuestLine = onQuestLine
-  g_game.onTextMessage = onTextMessage
-  g_game.requestQuestLog()
 end
 
 QuestTracker.setQuestValue = function(questName, questValue)
@@ -21,9 +17,9 @@ end
 
 QuestTracker.isCompleted = function(questName, missionName)
   if not missionName then
-    return QuestConfig["quests"][questName].completed
+    return QuestConfig["quests"][questName].completed or false
   end
-  return QuestConfig["quests"][questName].missions[missionName].completed
+  return QuestConfig["quests"][questName].missions[missionName].completed or false
 end
 
 function onQuestLog(quests)
@@ -74,3 +70,7 @@ function onTextMessage(mode, text)
 end
 
 QuestTracker.reload()
+g_game.onQuestLog = onQuestLog
+g_game.onQuestLine = onQuestLine
+g_game.onTextMessage = onTextMessage
+g_game.requestQuestLog()

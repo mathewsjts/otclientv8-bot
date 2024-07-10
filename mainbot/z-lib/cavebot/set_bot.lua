@@ -3,23 +3,21 @@ CaveBot.Extensions.SetBot = {}
 CaveBot.Extensions.SetBot.setup = function()
   CaveBot.registerAction("SetBot", "#ffffff", function(value)
     local data = string.split(value, ",")
-    local active = data[2]:trim()
     local bot = data[1]:trim()
+    local active = data[2]:trim()
 
-    if (bot == "cave") then
-      if active == "on" then
-        CaveBot.setOn()
-      else
-        CaveBot.setOff()
-      end
-    else
-      if active == "on" then
-        TargetBot.setOn()
-      else
-        TargetBot.setOff()
-      end
-    end
+    local actions = {
+      cave = {
+        on = function() CaveBot.setOn() end,
+        off = function() CaveBot.setOff() end
+      },
+      target = {
+        on = function() TargetBot.setOn() end,
+        off = function() TargetBot.setOff() end
+      },
+    }
 
+    actions[bot][active]()
     return true
   end)
 

@@ -1,6 +1,5 @@
 {
   "supplies": {
-    "currentProfile": "Default",
     "Default": {
       "items": {
         "268": {
@@ -9,6 +8,7 @@
           "max": 120
         }
       }
-    }
+    },
+    "currentProfile": "Default"
   }
 }

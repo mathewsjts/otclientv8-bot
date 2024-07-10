@@ -37,5 +37,11 @@ MainConfig.saveConfigFile = function(file, config)
 end
 
 dofile("/custom/configs/attackbot.lua")
+dofile("/custom/configs/healbot.lua")
 dofile("/custom/configs/profile.lua")
 dofile("/custom/configs/quest.lua")
+dofile("/custom/configs/supply.lua")
+
+dofile("/custom/cavebot/deposit_items.lua")
+dofile("/custom/cavebot/start_setup.lua")
+dofile("/custom/cavebot/teleport.lua")

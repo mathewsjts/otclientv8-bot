@@ -3,6 +3,7 @@ local profileFile = "/bot/" .. configName .. "/vBot_configs/".. player:getName()
 
 ProfileConfig = MainConfig.loadConfigFile(profileFile) or {
   currentProfile = "__configuration",
+	activeProfile = "",
 }
 
 ProfileManager = {}
@@ -19,6 +20,10 @@ ProfileManager.setCurrentProfile = function(profile)
   end
   CaveBot.setCurrentProfile(profile)
   MainConfig.saveConfigFile(profileFile, ProfileConfig)
+end
+
+ProfileManager.setActiveProfile = function(profile)
+	ProfileConfig.activeProfile = profile
 end
 
 ProfileManager.reload()

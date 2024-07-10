@@ -7,6 +7,12 @@ macro(250, "Pause CaveBot Without Bless", function()
     return
   end
 
+  local playerIsBlessed = player:getBlessings() > 0
+
+  if playerIsBlessed then
+    return
+  end
+
   local aolCount = 0
   local containers = getContainers()
 
@@ -18,14 +24,8 @@ macro(250, "Pause CaveBot Without Bless", function()
     end
   end
 
-  local playerIsBlessed = player:getBlessings() > 0
-
-  if playerIsBlessed then
-    return
-  end
-
   if aolCount > 0 and getNeck():getId() ~= aolId then
-    g_game.equipItemId(aol_id)
+    g_game.equipItemId(aolId)
   end
 
   CaveBot.setOff()

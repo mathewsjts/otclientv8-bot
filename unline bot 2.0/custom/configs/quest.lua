@@ -17,10 +17,16 @@ end
 
 QuestTracker.isCompleted = function(questName, missionName)
   if not missionName then
-    return QuestConfig["quests"][questName].completed or false
+    return QuestConfig["quests"][questName].completed
   end
-  return QuestConfig["quests"][questName].missions[missionName].completed or false
+  return QuestConfig["quests"][questName].missions[missionName].completed
 end
+
+local originalFunctions = {
+  onQuestLog = g_game.onQuestLog,
+  onQuestLine = g_game.onQuestLine,
+  onTextMessage = g_game.onTextMessage,
+}
 
 function onQuestLog(quests)
   for _, quest in pairs(quests) do
@@ -36,6 +42,7 @@ function onQuestLog(quests)
     end
     g_game.requestQuestLine(questId)
   end
+  return originalFunctions.onQuestLog(quests)
 end
 
 function onQuestLine(questId, questMissions)
@@ -61,12 +68,14 @@ function onQuestLine(questId, questMissions)
       missions = questMissionsTable,
     })
   end
+  return originalFunctions.onQuestLine(questId, questMissions)
 end
 
 function onTextMessage(mode, text)
   if text:find("Your questlog has been updated.") then
     g_game.requestQuestLog()
   end
+  return originalFunctions.onTextMessage(mode, text)
 end
 
 QuestTracker.reload()

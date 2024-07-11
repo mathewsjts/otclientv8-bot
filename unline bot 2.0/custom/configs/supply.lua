@@ -15,5 +15,5 @@ function vBotConfigSave(param)
     MainConfig.saveConfigFile(suppliesFile, SuppliesConfig)
     return
   end
-  originalFunction.vBotConfigSave(param)
+  return originalFunction.vBotConfigSave(param)
 end

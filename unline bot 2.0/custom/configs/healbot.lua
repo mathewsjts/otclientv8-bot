@@ -15,5 +15,5 @@ function vBotConfigSave(param)
     MainConfig.saveConfigFile(healBotFile, HealBotConfig)
     return
   end
-  originalFunction.vBotConfigSave(param)
+  return originalFunction.vBotConfigSave(param)
 end

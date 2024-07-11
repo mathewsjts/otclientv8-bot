@@ -1,6 +1,0 @@
-dofile("/z-lib/cavebot/buy_item.lua")
-dofile("/z-lib/cavebot/change_floor.lua")
-dofile("/z-lib/cavebot/check_task.lua")
-dofile("/z-lib/cavebot/exani_hur.lua")
-dofile("/z-lib/cavebot/npc_talk.lua")
-dofile("/z-lib/cavebot/simple_check.lua")

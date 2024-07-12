@@ -129,10 +129,10 @@ CaveBot.Extensions[title].setup = function()
 		title,
 		title,
 		{
-			value="no",
-			title=title,
-			description="Deposit items, reopen containers?",
-			validation="(yes|no)"
+			value = "no",
+			title = title,
+			description = "Deposit items, reopen containers?",
+			validation = "(yes|no)"
 		}
 	)
 end

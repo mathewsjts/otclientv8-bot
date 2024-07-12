@@ -84,8 +84,8 @@ CaveBot.Extensions[title].setup = function()
 		title, {
 			value = "aurora",
 			title = title,
-			description="Teleport to a city",
-			multiline=false
+			description = "Teleport to a city",
+			multiline = false
 		}
 	)
 end

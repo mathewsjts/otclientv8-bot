@@ -13,7 +13,6 @@ local originalFunction = {
 function vBotConfigSave(param)
   if param == "atk" then
     MainConfig.saveConfigFile(attackBotFile, AttackBotConfig)
-    return
   end
   return originalFunction.vBotConfigSave(param)
 end

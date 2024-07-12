@@ -13,7 +13,6 @@ local originalFunction = {
 function vBotConfigSave(param)
   if param == "supply" then
     MainConfig.saveConfigFile(suppliesFile, SuppliesConfig)
-    return
   end
   return originalFunction.vBotConfigSave(param)
 end

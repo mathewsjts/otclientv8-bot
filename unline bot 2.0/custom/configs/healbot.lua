@@ -13,7 +13,6 @@ local originalFunction = {
 function vBotConfigSave(param)
   if param == "heal" then
     MainConfig.saveConfigFile(healBotFile, HealBotConfig)
-    return
   end
   return originalFunction.vBotConfigSave(param)
 end

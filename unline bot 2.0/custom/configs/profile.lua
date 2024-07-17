@@ -5,6 +5,8 @@ ProfileConfig = MainConfig.loadConfigFile(profileFile) or {
 	activeProfile = "",
   currentProfile = "__configuration",
 	quickloot = "",
+	sellLoot = {},
+	weaponId = "",
 }
 
 ProfileManager = {}
@@ -23,6 +25,10 @@ ProfileManager.setCurrentProfile = function(profile)
   MainConfig.saveConfigFile(profileFile, ProfileConfig)
 end
 
+ProfileManager.getActiveProfile = function()
+	return ProfileConfig.activeProfile
+end
+
 ProfileManager.setActiveProfile = function(profile)
 	ProfileConfig.activeProfile = profile
   MainConfig.saveConfigFile(profileFile, ProfileConfig)
@@ -34,6 +40,20 @@ end
 
 ProfileManager.setQuickloot = function(quickloot)
 	ProfileConfig.quickloot = quickloot
+  MainConfig.saveConfigFile(profileFile, ProfileConfig)
+end
+
+ProfileManager.setSellLoot = function(cities)
+	ProfileConfig.sellLoot = cities
+  MainConfig.saveConfigFile(profileFile, ProfileConfig)
+end
+
+ProfileManager.getWeaponId = function()
+	return ProfileConfig.weaponId
+end
+
+ProfileManager.setWeaponId = function(weaponId)
+	ProfileConfig.weaponId = weaponId
   MainConfig.saveConfigFile(profileFile, ProfileConfig)
 end
 

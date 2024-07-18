@@ -8,7 +8,6 @@ QuestTracker = {}
 QuestTracker.reload = function()
   QuestConfig = { quests = {} }
   MainConfig.saveConfigFile(questsFile, QuestConfig)
-  g_game.requestQuestLog()
 end
 
 QuestTracker.setQuestValue = function(questName, questValue)
@@ -71,3 +70,6 @@ onTextMessage(function(mode, text)
 end)
 
 QuestTracker.reload()
+g_game.onQuestLog = onQuestLog
+g_game.onQuestLine = onQuestLine
+g_game.requestQuestLog()

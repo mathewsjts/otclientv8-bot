@@ -1,5 +1,9 @@
 CaveBot.Extensions.ChangeFloor = {}
 
+local function to_boolean(value)
+  return value == "true"
+end
+
 CaveBot.Extensions.ChangeFloor.setup = function()
   CaveBot.registerAction("ChangeFloor", "#ffffff", function(value, retries)
     local data = regexMatch(value, "\\s*([a-z]+)\\s*,\\s*([a-z]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)")

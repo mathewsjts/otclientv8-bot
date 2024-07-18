@@ -1,0 +1,75 @@
+{
+  "targeting": [
+    {
+      "lureMax": 3,
+      "lureMin": 1,
+      "dynamicLureDelay": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "rpSafe": false,
+      "regex": "^demon$",
+      "lureCount": 1,
+      "lure": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "name": "Demon",
+      "rePosition": false,
+      "faceMonster": false,
+      "diamondArrows": false,
+      "anchor": false,
+      "delayFrom": 2,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "dontLoot": true,
+      "lureCavebot": false,
+      "dynamicLure": false,
+      "priority": 10,
+      "maxDistance": 10,
+      "danger": 10
+    },
+    {
+      "lureMax": 30,
+      "lureMin": 0,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "anchor": false,
+      "closeLureAmount": 3,
+      "regex": "^demon skeleton$|^dark magician$|^monk$|^dragon$|^priestess$|^hero$|^hunter$|^wild warrior$|^minotaur mage$|^minotaur$|^minotaur guard$|^stalker$|^slime$|^ghoul$|^skeleton$|^fire elemental$|^massive fire elemental$",
+      "lureCavebot": true,
+      "lureCount": 5,
+      "lure": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "rpSafe": false,
+      "closeLure": false,
+      "faceMonster": false,
+      "diamondArrows": false,
+      "rePosition": false,
+      "dynamicLureDelay": false,
+      "chase": false,
+      "priority": 0,
+      "keepDistance": false,
+      "avoidAttacks": false,
+      "dontLoot": true,
+      "delayFrom": 2,
+      "name": "Demon Skeleton, Dark Magician, Monk, Dragon, Priestess, Hero, Hunter, Wild Warrior, Minotaur Mage, Minotaur, Minotaur Guard, Stalker, Slime, Ghoul, Skeleton, Fire Elemental, Massive Fire Elemental",
+      "maxDistance": 1,
+      "danger": 0
+    }
+  ],
+  "looting": {
+    "items": [
+
+    ],
+    "maxDanger": 100,
+    "containers": [
+
+    ],
+    "minCapacity": 0,
+    "everyItem": false
+  }
+}

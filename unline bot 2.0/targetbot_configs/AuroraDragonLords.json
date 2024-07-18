@@ -1,0 +1,75 @@
+{
+  "targeting": [
+    {
+      "danger": 9,
+      "regex": "^dragon lord$",
+      "dynamicLure": false,
+      "name": "Dragon Lord",
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "dynamicLureDelay": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "delayFrom": 2,
+      "priority": 9,
+      "lureDelay": 250,
+      "lureMin": 1,
+      "faceMonster": false,
+      "anchor": false,
+      "lure": false,
+      "lureMax": 3,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "diamondArrows": false,
+      "dontLoot": true,
+      "rpSafe": false,
+      "rePosition": false,
+      "maxDistance": 10
+    },
+    {
+      "danger": 6,
+      "lureMin": 3,
+      "dynamicLure": false,
+      "name": "Dragon Lord Hatchling, Wyrm, Elder Bonelord, Giant Spider",
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "dynamicLureDelay": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "lureDelay": 750,
+      "priority": 6,
+      "regex": "^dragon lord hatchling$|^wyrm$|^elder bonelord$|^giant spider$",
+      "lure": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "lureMax": 30,
+      "keepDistance": false,
+      "chase": true,
+      "avoidAttacks": false,
+      "delayFrom": 2,
+      "diamondArrows": false,
+      "maxDistance": 4,
+      "anchor": false,
+      "rePosition": false,
+      "rpSafe": false
+    }
+  ],
+  "looting": {
+    "maxDanger": 10,
+    "minCapacity": 0,
+    "containers": [
+
+    ],
+    "everyItem": false,
+    "items": [
+
+    ]
+  }
+}

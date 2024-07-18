@@ -1,0 +1,75 @@
+{
+  "targeting": [
+    {
+      "keepDistanceRange": 1,
+      "name": "Wereboar, Werefox, Werebear",
+      "faceMonster": false,
+      "dontLoot": true,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "anchor": false,
+      "lureMax": 5,
+      "lure": false,
+      "maxDistance": 10,
+      "danger": 5,
+      "rpSafe": false,
+      "diamondArrows": false,
+      "rePosition": false,
+      "delayFrom": 3,
+      "lureMin": 2,
+      "dynamicLure": true,
+      "priority": 5,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureDelay": 750,
+      "dynamicLureDelay": true,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "regex": "^wereboar$|^werefox$|^werebear$",
+      "rePositionAmount": 5,
+      "anchorRange": 3
+    },
+    {
+      "keepDistanceRange": 1,
+      "name": "Werebadger",
+      "faceMonster": false,
+      "dontLoot": true,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "anchor": false,
+      "lureMax": 3,
+      "lure": false,
+      "maxDistance": 10,
+      "danger": 9,
+      "rpSafe": false,
+      "diamondArrows": false,
+      "rePosition": false,
+      "delayFrom": 2,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "priority": 9,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureDelay": 250,
+      "dynamicLureDelay": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "regex": "^werebadger$",
+      "rePositionAmount": 5,
+      "anchorRange": 3
+    }
+  ],
+  "looting": {
+    "containers": [
+
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "items": [
+
+    ],
+    "everyItem": false
+  }
+}

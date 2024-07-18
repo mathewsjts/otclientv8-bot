@@ -24,7 +24,7 @@ local LOCKER_ACCESSTILE_MODIFIERS = {
 
 local function CaveBotConfigParse()
 	local name = storage["_configs"]["targetbot_configs"]["selected"]
-    if not name then 
+    if not name then
         return warn("[vBot] Please create a new TargetBot config and reset bot")
     end
 	local file = configDir .. "/targetbot_configs/" .. name .. ".json"
@@ -234,7 +234,7 @@ end
 -- @return void(acion) or boolean
 function CaveBot.ReachNPC(name)
     name = name:lower()
-    
+
     local npc = nil
     for i, spec in pairs(getSpectators()) do
         if spec:isNpc() and spec:getName():lower() == name then
@@ -409,8 +409,8 @@ end
 -- Combined for shorthand usage.
 -- @return boolean whether succeed to reach and open depot
 function CaveBot.ReachAndOpenDepot()
-    if CaveBot.ReachDepot() and CaveBot.OpenDepotChest() then 
-        return true 
+    if CaveBot.ReachDepot() and CaveBot.OpenDepotChest() then
+        return true
     end
     return false
 end
@@ -419,8 +419,8 @@ end
 -- Combined for shorthand usage.
 -- @return boolean whether succeed to reach and open depot
 function CaveBot.ReachAndOpenInbox()
-    if CaveBot.ReachDepot() and CaveBot.OpenInbox() then 
-        return true 
+    if CaveBot.ReachDepot() and CaveBot.OpenInbox() then
+        return true
     end
     return false
 end
@@ -472,8 +472,8 @@ function CaveBot.WithdrawItem(id, amount, fromDepot, destination)
         end
     end
 
-    if itemCount >= amount then 
-        return true 
+    if itemCount >= amount then
+        return true
     end
 
     local toMove = amount - itemCount
@@ -500,6 +500,20 @@ function CaveBot.Conversation(...)
         schedule(talkDelay, function() NPC.say(expr) end)
         talkDelay = talkDelay + delay
     end
+end
+
+function CaveBot.ConversationList(expressions)
+  local delay = storage.extras.talkDelay or 1000
+  local talk_delay = 0
+  for i, expression in ipairs(expressions) do
+    schedule(talk_delay, function() NPC.say(expression) end)
+    talk_delay = talk_delay + delay
+  end
+end
+
+function CaveBot.ConversationDelay(amount)
+  local delay = storage.extras.talkDelay or 1000
+  CaveBot.delay(amount * delay)
 end
 
 --- Says hi trade to NPC.

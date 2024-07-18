@@ -1,0 +1,95 @@
+{
+  "quests": {
+    "Threatened Dreams": {
+      "id": 63,
+      "completed": false,
+      "missions": {
+        "Troubled Animals - Creation of Legends": {
+          "completed": true,
+          "description": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist."
+        }
+      }
+    },
+    "Forgotten Knowledge": {
+      "id": 15,
+      "completed": false,
+      "missions": [
+
+      ]
+    },
+    "The Inquisition": {
+      "id": 49,
+      "completed": false,
+      "missions": {
+        "Mission 3: Vampire Hunt": {
+          "completed": false,
+          "description": "Henricus wants you to find the Dwarfish Vampire Hunter, Storkus, located west of the Dwarf Bridge. It's good idea bring your 20 Vampire Dusts with you to save some time."
+        },
+        "Mission 1: Interrogation": {
+          "completed": true,
+          "description": "You investigated all guards in Thais."
+        },
+        "Mission 2: Eclipse": {
+          "completed": true,
+          "description": "You already brought the witches' grimoire to Henricus."
+        }
+      }
+    },
+    "The New Frontier": {
+      "id": 52,
+      "completed": true,
+      "missions": {
+        "Mission 01: New Land": {
+          "completed": true,
+          "description": "You already reported Ongulf your success! Ask Ongulf for new mission!"
+        },
+        "Mission 02: From Kazordoon With Love": {
+          "completed": true,
+          "description": "Return to Ongulf and report your mission!"
+        },
+        "Mission 03: Strangers in the Night": {
+          "completed": true,
+          "description": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!"
+        },
+        "Mission 04: The Mine Is Mine": {
+          "completed": true,
+          "description": "You killed the Shard of Corruption. Return to Ongulf and report your mission!"
+        },
+        "Mission 05: Getting Things Busy": {
+          "completed": true,
+          "description": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!"
+        },
+        "Mission 06: Days Of Doom": {
+          "completed": true,
+          "description": "You passed the test of Curos. Return to Ongulf and report your mission!"
+        },
+        "Mission 07: Messengers Of Peace": {
+          "completed": true,
+          "description": "You found the Lizards!"
+        },
+        "Mission 08: An Offer You Can't Refuse": {
+          "completed": true,
+          "description": "You agreed the Offer."
+        },
+        "Mission 09: Mortal Combat": {
+          "completed": true,
+          "description": "Go back to Farmine and talk to Ongulf about your mission."
+        },
+        "Mission 10: New Horizons": {
+          "completed": true,
+          "description": "You now have permission to use the Magic Carpet on the mountain above Farmine, Cael now accepts more Tomes of Knowledge from you and you got the Warmaster Outfit!"
+        }
+      }
+    },
+    "Children of the Revolution": {
+      "id": 9,
+      "completed": false,
+      "missions": {
+        "Prove Your Worzz!": {
+          "completed": false,
+          "description": "Your Mission is to go to a little camp of lizards at north-east of the Dragonblaze Peaks. You have to find and deliver the Tactical map complete the mission."
+        }
+      }
+    }
+  }
+}

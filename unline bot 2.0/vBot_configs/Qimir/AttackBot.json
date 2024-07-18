@@ -1,0 +1,112 @@
+{
+  "AttackBot": [
+    {
+      "Visible": true,
+      "attackTable": [
+        {
+          "description": "[Adjacent] 2+ Creatures: exori, absolute (0%-100%)",
+          "tooltip": "giant spider,stampor,brimstone bug,killer caiman",
+          "creatures": "giant spider,stampor,brimstone bug,killer caiman",
+          "itemId": 0,
+          "minHp": 0,
+          "pattern": 1,
+          "orMore": true,
+          "mana": 15,
+          "patternCategory": 4,
+          "category": 5,
+          "enabled": true,
+          "monsters": [
+            "giant spider",
+            "stampor",
+            "brimstone bug",
+            "killer caiman"
+          ],
+          "cooldown": 1,
+          "maxHp": 100,
+          "spell": "exori",
+          "count": 2
+        }
+      ],
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "ignoreMana": true,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "pvpMode": false,
+      "enabled": true,
+      "name": "Profile #1",
+      "Kills": false,
+      "PvpSafe": true
+    },
+    {
+      "Visible": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "ignoreMana": true,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "pvpMode": false,
+      "enabled": false,
+      "name": "Profile #2",
+      "Kills": false,
+      "PvpSafe": true
+    },
+    {
+      "Visible": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "ignoreMana": true,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "pvpMode": false,
+      "enabled": false,
+      "name": "Profile #3",
+      "Kills": false,
+      "PvpSafe": true
+    },
+    {
+      "Visible": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "ignoreMana": true,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "pvpMode": false,
+      "enabled": false,
+      "name": "Profile #4",
+      "Kills": false,
+      "PvpSafe": true
+    },
+    {
+      "Visible": true,
+      "attackTable": [
+
+      ],
+      "Cooldown": true,
+      "BlackListSafe": false,
+      "AntiRsRange": 5,
+      "ignoreMana": true,
+      "KillsAmount": 1,
+      "Rotate": false,
+      "pvpMode": false,
+      "enabled": false,
+      "name": "Profile #5",
+      "Kills": false,
+      "PvpSafe": true
+    }
+  ],
+  "currentBotProfile": 1
+}

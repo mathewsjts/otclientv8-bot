@@ -1,0 +1,45 @@
+{
+  "looting": {
+    "items": [
+
+    ],
+    "everyItem": false,
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+
+    ]
+  },
+  "targeting": [
+    {
+      "lureMax": 5,
+      "priority": 5,
+      "lureMin": 4,
+      "chase": false,
+      "lureDelay": 500,
+      "keepDistance": false,
+      "closeLureAmount": 3,
+      "name": "Animated Feather, Icecold Book, Ink Blob, Squid Warden",
+      "maxDistance": 10,
+      "danger": 5,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "closeLure": false,
+      "rpSafe": false,
+      "faceMonster": false,
+      "regex": "^animated feather$|^icecold book$|^ink blob$|^squid warden$",
+      "rePosition": false,
+      "lureCount": 1,
+      "dynamicLureDelay": true,
+      "dontLoot": true,
+      "dynamicLure": true,
+      "avoidAttacks": false,
+      "anchor": false,
+      "lure": false,
+      "lureCavebot": false,
+      "diamondArrows": false,
+      "delayFrom": 2
+    }
+  ]
+}

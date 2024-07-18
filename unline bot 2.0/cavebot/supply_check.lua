@@ -71,7 +71,6 @@ CaveBot.Extensions.SupplyCheck.setup = function()
 
       if storage.caveBot.forceRefill then
         print("CaveBot[SupplyCheck]: User forced, going back on refill. Last round took: " .. round)
-        storage.caveBot.forceRefill = false
         supplyRetries = 0
         missedChecks = 0
         return false
@@ -127,7 +126,7 @@ CaveBot.Extensions.SupplyCheck.setup = function()
     "supply check",
     {
       value = function()
-        return "startHunt," .. posx() .. "," .. posy() .. "," .. posz()
+        return "start-hunt," .. posx() .. "," .. posy() .. "," .. posz()
       end,
       title = "Supply check label",
       description = "Insert here hunting start label",

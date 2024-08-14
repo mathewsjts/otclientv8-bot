@@ -3,21 +3,25 @@
     "Killing in the Name of...": {
       "completed": false,
       "missions": {
-        "Paw and Fur: Wailing Widows": {
-          "completed": false,
-          "description": "You already hunted 352/400 wailing widows."
-        },
         "Paw and Fur: Ranger": {
           "completed": false,
-          "description": "You are Ranger of the Paw and Fur hunting elite. You currently have 18 Paw and Fur points."
+          "description": "You are Ranger of the Paw and Fur hunting elite. You currently have 23 Paw and Fur points."
         },
         "Paw and Fur: Shardhead": {
           "completed": false,
           "description": "Try find its hideout and kill it."
         },
-        "Paw and Fur: Lancer Beetles": {
-          "completed": true,
-          "description": "You already hunted 300/300 lancer beetles."
+        "Paw and Fur: Giant Spiders": {
+          "completed": false,
+          "description": "You already hunted 0/500 giant spiders."
+        },
+        "Paw and Fur: Brimstone Bugs": {
+          "completed": false,
+          "description": "You already hunted 0/500 brimstone bugs."
+        },
+        "Paw and Fur: Stampors": {
+          "completed": false,
+          "description": "You already hunted 0/600 stampors."
         }
       },
       "id": 23

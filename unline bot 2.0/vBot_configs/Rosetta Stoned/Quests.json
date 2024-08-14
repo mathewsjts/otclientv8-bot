@@ -2,11 +2,22 @@
   "quests": {
     "Killing in the Name of...": {
       "missions": {
-        "Paw and Fur: Ice Golems": "You already hunted 57/300 ice golems.",
-        "Paw and Fur: Wyverns": "You already hunted 78/300 wyverns.",
-        "Paw and Fur: Member": "You are member of the Paw and Fur hunting elite. You currently have 8 Paw and Fur points.",
-        "Paw and Fur: Hide": "Try find its hideout and kill it.",
-        "Paw and Fur: Quara Scouts": "You already hunted 18/400 quara scouts."
+        "Paw and Fur: Ice Golems": {
+          "description": "You already hunted 57/300 ice golems.",
+          "completed": false
+        },
+        "Paw and Fur: Member": {
+          "description": "You are member of the Paw and Fur hunting elite. You currently have 8 Paw and Fur points.",
+          "completed": false
+        },
+        "Paw and Fur: Wyverns": {
+          "description": "You already hunted 78/300 wyverns.",
+          "completed": false
+        },
+        "Paw and Fur: Quara Scouts": {
+          "description": "You already hunted 117/400 quara scouts.",
+          "completed": false
+        }
       },
       "id": 23,
       "completed": false

@@ -22,58 +22,6 @@ QuestTracker.isCompleted = function(questName, missionName)
   return QuestConfig["quests"][questName].missions[missionName].completed
 end
 
--- function onQuestLog(quests)
---   for _, quest in pairs(quests) do
---     local questId = quest[1]
---     local questName = string.gsub(quest[2], "%(completed%)", ""):trim()
---     local isCompleted = string.find(quest[2], "%(completed%)") ~= nil
---     if not QuestConfig["quests"][questName] then
---       QuestTracker.setQuestValue(questName, {
---         id = questId,
---         completed = isCompleted,
---         missions = {},
---       })
---     end
---     g_game.requestQuestLine(questId)
---   end
--- end
-
--- function onQuestLine(questId, questMissions)
---   local questName, questSelected, questMissionsTable = nil, nil, {}
---   for name, quest in pairs(QuestConfig["quests"]) do
---     if quest.id == questId then
---       questName, questSelected = name, quest
---       break
---     end
---   end
---   if questName then
---     for _, questMission in pairs(questMissions) do
---       local missionName = string.gsub(questMission[1], "%(completed%)", ""):trim()
---       local isCompleted = string.find(questMission[1], "%(completed%)") ~= nil
---       questMissionsTable[missionName] = {
---         completed = isCompleted,
---         description = questMission[2],
---       }
---     end
---     QuestTracker.setQuestValue(questName, {
---       id = questSelected.id,
---       completed = questSelected.completed,
---       missions = questMissionsTable,
---     })
---   end
--- end
-
--- onTextMessage(function(mode, text)
---   if string.find(text:lower(), "your questlog has been updated") then
---     g_game.requestQuestLog()
---   end
--- end)
-
--- QuestTracker.reload()
--- g_game.onQuestLog = onQuestLog
--- g_game.onQuestLine = onQuestLine
--- g_game.requestQuestLog()
-
 questLogButton = nil
 questLineWindow = nil
 
@@ -180,13 +128,10 @@ function questLogTracker(quests)
     questLogButtonClicked = false
     openQuestLogWindow(quests)
   end
-  for i = 1, #quests, 1 do
-    local questId = quests[i][1]
-    local questName = quests[i][2]
-    local isCompleted = quests[i][3]
-    if not QuestConfig["quests"] then
-      return
-    end
+  for _, quest in pairs(quests) do
+    local questId = quest[1]
+    local questName = string.gsub(quest[2], "%(completed%)", ""):trim()
+    local isCompleted = string.find(quest[2], "%(completed%)") ~= nil
     if not QuestConfig["quests"][questName] then
       QuestTracker.setQuestValue(questName, {
         id = questId,
@@ -194,6 +139,7 @@ function questLogTracker(quests)
         missions = {},
       })
     end
+    g_game.requestQuestLine(questId)
   end
 end
 
@@ -203,32 +149,35 @@ function questLineTracker(questId, questMissions)
 		questLineClickedId = nil
 		openQuestLineWindow(questId, questMissions)
 	end
-  local quest_name
-  local quest_selected
-  local quest_missions = {}
-
-  if not QuestConfig["quests"] then
-    return
-  end
-
+  local questName, questSelected, questMissionsTable = nil, nil, {}
   for name, quest in pairs(QuestConfig["quests"]) do
     if quest.id == questId then
-      quest_name = name
-      quest_selected = quest
+      questName, questSelected = name, quest
+      break
     end
   end
-
-  for i = 1, #questMissions, 1 do
-    quest_missions[questMissions[i][1]] = questMissions[i][2]
+  if questName then
+    for _, questMission in pairs(questMissions) do
+      local missionName = string.gsub(questMission[1], "%(completed%)", ""):trim()
+      local isCompleted = string.find(questMission[1], "%(completed%)") ~= nil
+      questMissionsTable[missionName] = {
+        completed = isCompleted,
+        description = questMission[2],
+      }
+    end
+    QuestTracker.setQuestValue(questName, {
+      id = questSelected.id,
+      completed = questSelected.completed,
+      missions = questMissionsTable,
+    })
   end
-
-
-  QuestTracker.setQuestValue(quest_name, {
-    id = quest_selected.id,
-    completed = quest_selected.completed,
-    missions = quest_missions
-  })
 end
+
+onTextMessage(function(mode, text)
+  if string.find(text:lower(), "your questlog has been updated") then
+    g_game.requestQuestLog()
+  end
+end)
 
 g_game["onQuestLog"] = questLogTracker
 g_game["onQuestLine"] = questLineTracker
@@ -242,17 +191,5 @@ function destroyWindows()
   end
 end
 
+QuestTracker.reload()
 g_game.requestQuestLog()
-questsTracker = macro(2000, function()
-  g_game.requestQuestLog()
-  if not QuestConfig or not QuestConfig["quests"] then
-    QuestConfig = {
-      quests = {}
-    }
-    MainConfig.saveConfigFile(questsFile, QuestConfig)
-    return
-  end
-  for _, quest in pairs(QuestConfig["quests"]) do
-    g_game.requestQuestLine(quest.id)
-  end
-end)

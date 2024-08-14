@@ -1,0 +1,114 @@
+{
+  "targeting": [
+    {
+      "maxDistance": 10,
+      "danger": 1,
+      "rpSafe": false,
+      "name": "Wailing Widow, Lancer Beetle, Brimstone Bug",
+      "faceMonster": false,
+      "dontLoot": true,
+      "priority": 1,
+      "chase": true,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "avoidAttacks": false,
+      "diamondArrows": false,
+      "rePosition": false,
+      "anchor": false,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "regex": "^wailing widow$|^lancer beetle$|^brimstone bug$",
+      "closeLureAmount": 3,
+      "lureMax": 3,
+      "anchorRange": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "lure": false,
+      "rePositionAmount": 5,
+      "keepDistance": false,
+      "keepDistanceRange": 1,
+      "closeLure": false
+    },
+    {
+      "maxDistance": 5,
+      "danger": 0,
+      "regex": "^ice witch$|^winter wolf$|^badger$|^penguin$|^polar bear$|^frost troll$|^deer$|^silver rabbit$|^chakoya toolshaper$|^chakoya windcaller$|^ice golem$|^frost giant$|^wyvern$",
+      "rpSafe": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "lureMax": 30,
+      "avoidAttacks": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rePosition": false,
+      "diamondArrows": false,
+      "name": "Ice Witch, Winter Wolf, Badger, Penguin, Polar Bear, Frost Troll, Deer, Silver Rabbit, Chakoya Toolshaper, Chakoya Windcaller, Ice Golem, Frost Giant, Wyvern",
+      "anchor": false,
+      "lureMin": 0,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "anchorRange": 3,
+      "lure": false,
+      "lureCavebot": true,
+      "lureCount": 5,
+      "chase": false,
+      "rePositionAmount": 5,
+      "keepDistance": false,
+      "keepDistanceRange": 1,
+      "priority": 0
+    }
+  ],
+  "looting": {
+    "everyItem": false,
+    "items": [
+      {
+        "id": 10457,
+        "count": 1
+      },
+      {
+        "id": 3032,
+        "count": 1
+      },
+      {
+        "id": 10455,
+        "count": 1
+      },
+      {
+        "id": 9640,
+        "count": 1
+      },
+      {
+        "id": 10411,
+        "count": 1
+      },
+      {
+        "id": 11702,
+        "count": 1
+      },
+      {
+        "id": 11703,
+        "count": 1
+      },
+      {
+        "id": 3732,
+        "count": 1
+      },
+      {
+        "id": 5904,
+        "count": 1
+      },
+      {
+        "id": 10412,
+        "count": 1
+      }
+    ],
+    "containers": [
+
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0
+  }
+}

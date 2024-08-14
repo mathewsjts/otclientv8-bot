@@ -5,7 +5,7 @@
       "missions": {
         "Paw and Fur: Wailing Widows": {
           "completed": false,
-          "description": "You already hunted 170/400 wailing widows."
+          "description": "You already hunted 289/400 wailing widows."
         },
         "Paw and Fur: Ranger": {
           "completed": false,
@@ -16,8 +16,8 @@
           "description": "Try find its hideout and kill it."
         },
         "Paw and Fur: Lancer Beetles": {
-          "completed": false,
-          "description": "You already hunted 233/300 lancer beetles."
+          "completed": true,
+          "description": "You already hunted 300/300 lancer beetles."
         }
       },
       "id": 23

@@ -1,102 +1,98 @@
 {
+  "targeting": [
+    {
+      "maxDistance": 5,
+      "danger": 1,
+      "regex": "^brimstone bug$|^giant spider$|^stampor$|^killer caiman$",
+      "rpSafe": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "lureMax": 3,
+      "avoidAttacks": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rePosition": false,
+      "diamondArrows": false,
+      "name": "Brimstone Bug, Giant Spider, Stampor, Killer Caiman",
+      "anchor": false,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "anchorRange": 3,
+      "lure": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "chase": true,
+      "rePositionAmount": 5,
+      "keepDistance": false,
+      "keepDistanceRange": 1,
+      "priority": 1
+    },
+    {
+      "maxDistance": 5,
+      "danger": 0,
+      "regex": "^ice witch$|^winter wolf$|^badger$|^penguin$|^polar bear$|^frost troll$|^deer$|^silver rabbit$|^chakoya toolshaper$|^chakoya windcaller$|^ice golem$|^frost giant$|^wyvern$|^wailing widow$|^lancer beetle$",
+      "rpSafe": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "lureMax": 30,
+      "avoidAttacks": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rePosition": false,
+      "diamondArrows": false,
+      "name": "Ice Witch, Winter Wolf, Badger, Penguin, Polar Bear, Frost Troll, Deer, Silver Rabbit, Chakoya Toolshaper, Chakoya Windcaller, Ice Golem, Frost Giant, Wyvern, Wailing Widow, Lancer Beetle",
+      "anchor": false,
+      "lureMin": 29,
+      "dynamicLure": true,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "anchorRange": 3,
+      "lure": false,
+      "lureCavebot": false,
+      "lureCount": 0,
+      "chase": false,
+      "rePositionAmount": 5,
+      "keepDistance": false,
+      "keepDistanceRange": 1,
+      "priority": 0
+    }
+  ],
   "looting": {
     "everyItem": false,
-    "maxDanger": 100,
-    "containers": [
-
-    ],
     "items": [
       {
         "id": 5879,
         "count": 1
       },
       {
-        "id": 12314,
+        "id": 3370,
         "count": 1
       },
       {
-        "id": 12313,
+        "id": 3371,
         "count": 1
       },
       {
-        "id": 11702,
+        "id": 3055,
         "count": 1
       },
       {
-        "id": 11703,
+        "id": 281,
         "count": 1
       },
       {
-        "id": 12312,
-        "count": 1
-      },
-      {
-        "id": 5904,
+        "id": 828,
         "count": 1
       }
     ],
+    "containers": [
+
+    ],
+    "maxDanger": 100,
     "minCapacity": 0
-  },
-  "targeting": [
-    {
-      "lure": false,
-      "chase": false,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "name": "Brimstone Bug, Giant Spider, Stampor, Killer Caiman",
-      "faceMonster": false,
-      "dontLoot": true,
-      "priority": 1,
-      "danger": 1,
-      "diamondArrows": false,
-      "lureMax": 3,
-      "rpSafe": false,
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "maxDistance": 10,
-      "rePosition": false,
-      "keepDistanceRange": 1,
-      "lureMin": 1,
-      "dynamicLure": true,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "anchor": false,
-      "anchorRange": 3,
-      "lureCavebot": false,
-      "lureCount": 1,
-      "regex": "^brimstone bug$|^giant spider$|^stampor$|^killer caiman$",
-      "rePositionAmount": 5
-    },
-    {
-      "anchorRange": 3,
-      "keepDistanceRange": 1,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "name": "Wailing Widow, Lancer Beetle, Frost Troll, Winter Wolf, Silver Rabbit, Ice Witch, Polar Bear, Penguin, Barbarian Bloodwalker",
-      "faceMonster": false,
-      "dontLoot": true,
-      "maxDistance": 1,
-      "danger": 0,
-      "diamondArrows": false,
-      "lureMax": 30,
-      "regex": "^wailing widow$|^lancer beetle$|^frost troll$|^winter wolf$|^silver rabbit$|^ice witch$|^polar bear$|^penguin$|^barbarian bloodwalker$",
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "rpSafe": false,
-      "rePosition": false,
-      "closeLure": false,
-      "lureMin": 29,
-      "dynamicLure": true,
-      "lureDelay": 250,
-      "anchor": false,
-      "closeLureAmount": 3,
-      "chase": false,
-      "lure": false,
-      "lureCavebot": false,
-      "lureCount": 0,
-      "priority": 0,
-      "rePositionAmount": 5
-    }
-  ]
+  }
 }

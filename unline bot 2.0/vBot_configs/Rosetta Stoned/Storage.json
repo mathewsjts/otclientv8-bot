@@ -1,8 +1,8 @@
 {
-  "cavebot_profile": "Svargrond-WailingWidows",
-  "last_quickloot": "beetle necklace, brimstone fangs, brimstone shell, gold coin, green mushroom, lancer beetle shell, magic sulphur, platinum amulet, poisonous slime, small amethyst, small emerald, wailing widow's necklace, widow's mandibles",
+  "cavebot_profile": "SV-BrimstoneBugs",
+  "last_quickloot": "giant shimmering pearl, gold coin, knight armor, knight legs, lightning headband, platinum amulet, platinum coin, small emerald, small topaz, spider silk",
   "loot_seller_cities": [
 
   ],
-  "ingame_hotkeys": "macro(250, \"Eat Food From Ground\", function()\n  local player = g_game.getLocalPlayer()\n\n  if not player then\n      return\n  end\n\n  local playerPos = player:getPosition()\n\n  local tile = g_map.getTile(playerPos)\n  \n  local foodIDs = {3725, 3577, 3578, 3592, 3593, 3594, 3595, 3600, 3606, 3607, 3610, 3611, 3662, 3723, 3725, 3726, 3727}\n\n  if tile then\n    local items = tile:getItems()\n    for _, item in ipairs(items) do\n      if table.contains(foodIDs, item:getId()) then\n        g_game.use(item)\n        return\n      end\n    end\n  end\nend)"
+  "ingame_hotkeys": ""
 }

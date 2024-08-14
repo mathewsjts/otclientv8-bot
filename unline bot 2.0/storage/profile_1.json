@@ -40,7 +40,7 @@
     ],
     "marks": false
   },
-  "checkVersion": 1723606624,
+  "checkVersion": 1723655988,
   "pushmax": {
     "pushMaxKey": "PageUp",
     "pushDelay": 1060,
@@ -80,12 +80,6 @@
   ],
   "autoTradeMessage": "I'm using OTClientV8!",
   "bestHit": 5082,
-  "caveBot": {
-    "backStop": false,
-    "forceRefill": false,
-    "backTrainers": false,
-    "backOffline": false
-  },
   "_macros": {
     "": false,
     "pause no bless + aol": true,
@@ -95,7 +89,7 @@
     "Use Strong Mana Potion": false,
     "Check Killing in the Name of Quest": false,
     "adeta res": true,
-    "Eat Food From Ground": true,
+    "Eat Food From Ground": false,
     "Eat Food": true,
     "Exchange money": true
   },
@@ -1044,9 +1038,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Cave Rat": {
+      "Kreebosh the Exile": {
         "head": 0,
-        "type": 56,
+        "type": 103,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1121,9 +1115,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Goblin Scavenger": {
+      "Terramite": {
         "head": 0,
-        "type": 297,
+        "type": 346,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1143,15 +1137,15 @@
         "body": 0,
         "auxType": 0
       },
-      "Azure Frog": {
-        "head": 69,
-        "type": 226,
+      "Choking Fear": {
+        "head": 0,
+        "type": 586,
         "mount": 0,
         "aura": 0,
         "addons": 0,
-        "feet": 66,
-        "legs": 69,
-        "body": 66,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
         "auxType": 0
       },
       "Insect Swarm": {
@@ -1319,9 +1313,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Undead Gladiator": {
+      "Mutated Rat": {
         "head": 0,
-        "type": 306,
+        "type": 305,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1341,9 +1335,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Kreebosh the Exile": {
+      "Killer Caiman": {
         "head": 0,
-        "type": 103,
+        "type": 358,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1352,9 +1346,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Dragon": {
+      "Orc Warrior": {
         "head": 0,
-        "type": 34,
+        "type": 7,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1418,15 +1412,15 @@
         "body": 0,
         "auxType": 0
       },
-      "Mutated Rat": {
-        "head": 0,
-        "type": 305,
+      "Azure Frog": {
+        "head": 69,
+        "type": 226,
         "mount": 0,
         "aura": 0,
         "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
+        "feet": 66,
+        "legs": 69,
+        "body": 66,
         "auxType": 0
       },
       "Coldheart": {
@@ -1484,9 +1478,9 @@
         "body": 0,
         "aura": 0
       },
-      "Orc Warrior": {
+      "Undead Gladiator": {
         "head": 0,
-        "type": 7,
+        "type": 306,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1506,9 +1500,9 @@
         "body": 3,
         "auxType": 0
       },
-      "Cyclops Smith": {
+      "Dragon": {
         "head": 0,
-        "type": 277,
+        "type": 34,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1561,9 +1555,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Lizard Zaogun": {
+      "Rat Trainer": {
         "head": 0,
-        "type": 343,
+        "type": 21,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -1583,15 +1577,15 @@
         "body": 0,
         "auxType": 0
       },
-      "Faun": {
-        "head": 81,
-        "type": 980,
+      "Lizard Zaogun": {
+        "head": 0,
+        "type": 343,
         "mount": 0,
         "aura": 0,
         "addons": 0,
-        "feet": 81,
-        "legs": 114,
-        "body": 115,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
         "auxType": 0
       },
       "Mutated Tiger": {
@@ -1660,15 +1654,15 @@
         "body": 0,
         "auxType": 0
       },
-      "Thornback Tortoise": {
-        "head": 0,
-        "type": 198,
+      "Faun": {
+        "head": 81,
+        "type": 980,
         "mount": 0,
         "aura": 0,
         "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
+        "feet": 81,
+        "legs": 114,
+        "body": 115,
         "auxType": 0
       },
       "Crocodile": {
@@ -1715,9 +1709,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Rat Trainer": {
+      "Thornback Tortoise": {
         "head": 0,
-        "type": 21,
+        "type": 198,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -2507,9 +2501,9 @@
         "body": 120,
         "auxType": 0
       },
-      "Terramite": {
+      "Cave Rat": {
         "head": 0,
-        "type": 346,
+        "type": 56,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -2518,9 +2512,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Killer Caiman": {
+      "Goblin Scavenger": {
         "head": 0,
-        "type": 358,
+        "type": 297,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -2595,9 +2589,9 @@
         "body": 0,
         "auxType": 0
       },
-      "Choking Fear": {
+      "Cyclops Smith": {
         "head": 0,
-        "type": 586,
+        "type": 277,
         "mount": 0,
         "aura": 0,
         "addons": 0,
@@ -2775,12 +2769,12 @@
   },
   "_configs": {
     "targetbot_configs": {
-      "selected": "DA-DragonLords",
+      "selected": "SV-BrimstoneBugs",
       "enabled": true
     },
     "cavebot_configs": {
-      "selected": "SV-BrimstoneBugs",
-      "enabled": false
+      "selected": "__fast-refill",
+      "enabled": true
     }
   },
   "alarms": {
@@ -2910,5 +2904,10 @@
       }
     ]
   },
-  "time_limit_teleport": 1723648737
+  "caveBot": {
+    "backStop": false,
+    "forceRefill": false,
+    "backTrainers": false,
+    "backOffline": false
+  }
 }

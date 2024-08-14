@@ -9,13 +9,13 @@
       "lureMin": 1,
       "dynamicLureDelay": false,
       "lureDelay": 250,
-      "rePosition": false,
+      "closeLure": false,
       "closeLureAmount": 3,
-      "delayFrom": 2,
+      "name": "Quara Hydromancer Scout, Quara Constrictor Scout, Quara Predator Scout, Quara Mantassin Scout, Quara Pincher Scout",
       "anchor": false,
       "lureCavebot": false,
       "regex": "^quara hydromancer scout$|^quara constrictor scout$|^quara predator scout$|^quara mantassin scout$|^quara pincher scout$",
-      "name": "Quara Hydromancer Scout, Quara Constrictor Scout, Quara Predator Scout, Quara Mantassin Scout, Quara Pincher Scout",
+      "delayFrom": 2,
       "dontLoot": true,
       "anchorRange": 3,
       "keepDistanceRange": 1,
@@ -27,8 +27,8 @@
       "maxDistance": 3,
       "keepDistance": false,
       "rpSafe": false,
-      "closeLure": false,
-      "dynamicLure": false
+      "dynamicLure": false,
+      "rePosition": false
     },
     {
       "lure": false,
@@ -40,12 +40,12 @@
       "dynamicLure": false,
       "lureDelay": 250,
       "maxDistance": 3,
+      "danger": 0,
       "closeLureAmount": 3,
-      "regex": "^rat$|^crab$|^bug$|^centipede$",
       "anchor": false,
       "lureCavebot": true,
+      "regex": "^rat$|^crab$|^bug$|^centipede$",
       "lureCount": 5,
-      "danger": 0,
       "name": "Rat, Crab, Bug, Centipede",
       "anchorRange": 3,
       "keepDistanceRange": 5,
@@ -57,8 +57,8 @@
       "dontLoot": true,
       "delayFrom": 2,
       "rpSafe": false,
-      "rePositionAmount": 5,
-      "lureMax": 3
+      "lureMax": 3,
+      "rePositionAmount": 5
     }
   ],
   "looting": {
@@ -66,16 +66,8 @@
     "minCapacity": 0,
     "items": [
       {
-        "count": 0,
-        "id": 3031
-      },
-      {
         "count": 1,
         "id": 8083
-      },
-      {
-        "count": 1,
-        "id": 3578
       },
       {
         "count": 1,
@@ -83,23 +75,7 @@
       },
       {
         "count": 1,
-        "id": 11487
-      },
-      {
-        "count": 1,
-        "id": 3581
-      },
-      {
-        "count": 1,
-        "id": 11489
-      },
-      {
-        "count": 1,
         "id": 3029
-      },
-      {
-        "count": 1,
-        "id": 11488
       },
       {
         "count": 1,
@@ -107,15 +83,11 @@
       },
       {
         "count": 1,
-        "id": 11491
-      },
-      {
-        "count": 1,
-        "id": 11490
-      },
-      {
-        "count": 1,
         "id": 3028
+      },
+      {
+        "count": 1,
+        "id": 3073
       }
     ],
     "containers": [

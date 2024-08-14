@@ -14,7 +14,7 @@
           "description": "[1 Sqm] 1+ Any Creatures: exori cruentus, targeted (0%-100%)",
           "count": 1,
           "enabled": true,
-          "mana": 80,
+          "mana": 90,
           "orMore": true,
           "category": 1,
           "pattern": 1,

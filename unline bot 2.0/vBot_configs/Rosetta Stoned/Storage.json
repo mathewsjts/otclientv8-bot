@@ -4,5 +4,5 @@
   ],
   "ingame_hotkeys": "macro(250, \"Eat Food From Ground\", function()\n  local player = g_game.getLocalPlayer()\n\n  if not player then\n      return\n  end\n\n  local playerPos = player:getPosition()\n\n  local tile = g_map.getTile(playerPos)\n  \n  local foodIDs = {3725, 3577, 3578, 3592, 3593, 3594, 3595, 3600, 3606, 3607, 3610, 3611, 3662, 3723, 3725, 3726, 3727}\n\n  if tile then\n    local items = tile:getItems()\n    for _, item in ipairs(items) do\n      if table.contains(foodIDs, item:getId()) then\n        g_game.use(item)\n        return\n      end\n    end\n  end\nend)",
   "cavebot_profile": "QuaraScouts",
-  "last_quickloot": "gold coin, platinum coin"
+  "last_quickloot": "black pearl, fish, gold coin, northwind rod, platinum coin, small diamond, small emerald, small ruby, small sapphire, wand of cosmic energy, white pearl"
 }

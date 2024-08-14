@@ -7,15 +7,15 @@
           "completed": false
         },
         "Paw and Fur: Member": {
-          "description": "You are member of the Paw and Fur hunting elite. You currently have 8 Paw and Fur points.",
-          "completed": false
+          "description": "You are member of the Paw and Fur hunting elite. You currently have 10 Paw and Fur points.",
+          "completed": true
         },
         "Paw and Fur: Wyverns": {
           "description": "You already hunted 78/300 wyverns.",
           "completed": false
         },
         "Paw and Fur: Quara Scouts": {
-          "description": "You already hunted 134/400 quara scouts.",
+          "description": "You already hunted 152/400 quara scouts.",
           "completed": false
         }
       },

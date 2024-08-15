@@ -9,9 +9,9 @@
 
         ],
         "item": 2854,
-        "enabled": true,
+        "min": true,
         "value": "main",
-        "min": true
+        "enabled": true
       },
       {
         "items": [
@@ -33,27 +33,27 @@
           }
         ],
         "item": 7343,
-        "enabled": true,
+        "min": true,
         "value": "tools",
-        "min": true
+        "enabled": true
       },
       {
         "items": [
 
         ],
         "item": 23396,
-        "enabled": true,
+        "min": true,
         "value": "purse",
-        "min": true
+        "enabled": true
       },
       {
         "items": [
 
         ],
         "item": 23721,
-        "enabled": true,
+        "min": true,
         "value": "quickloot",
-        "min": true
+        "enabled": true
       }
     ],
     "purse": true,

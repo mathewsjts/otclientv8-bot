@@ -5,11 +5,7 @@
       "missions": {
         "Paw and Fur: Big Game Hunter": {
           "completed": false,
-          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 41 Paw and Fur points."
-        },
-        "Paw and Fur: Stampors": {
-          "completed": false,
-          "description": "You already hunted 186/600 stampors."
+          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 50 Paw and Fur points."
         },
         "Paw and Fur: Shardhead": {
           "completed": false,
@@ -26,14 +22,6 @@
         "Paw and Fur: Sulphur Scuttler": {
           "completed": false,
           "description": "Try find its hideout and kill it."
-        },
-        "Paw and Fur: Brimstone Bugs": {
-          "completed": false,
-          "description": "You already hunted 156/500 brimstone bugs."
-        },
-        "Paw and Fur: Giant Spiders": {
-          "completed": false,
-          "description": "You already hunted 172/500 giant spiders."
         }
       },
       "id": 23

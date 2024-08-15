@@ -40,7 +40,7 @@
     ],
     "marks": false
   },
-  "checkVersion": 1723655988,
+  "checkVersion": 1723727513,
   "pushmax": {
     "pushMaxKey": "PageUp",
     "pushDelay": 1060,
@@ -322,6 +322,17 @@
         "legs": 0,
         "body": 0,
         "aura": 0
+      },
+      "Ogre Shaman": {
+        "auxType": 0,
+        "type": 859,
+        "mount": 0,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "head": 0
       },
       "Cyclops Drone": {
         "head": 0,
@@ -917,6 +928,17 @@
         "body": 0,
         "aura": 0
       },
+      "Ogre Savage": {
+        "auxType": 0,
+        "type": 858,
+        "mount": 0,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "head": 0
+      },
       "Snake": {
         "head": 0,
         "type": 28,
@@ -949,6 +971,17 @@
         "legs": 0,
         "body": 0,
         "aura": 0
+      },
+      "Nightmare Scion": {
+        "auxType": 0,
+        "type": 321,
+        "mount": 0,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "head": 0
       },
       "Dwarf Guard": {
         "head": 0,
@@ -983,6 +1016,17 @@
         "body": 38,
         "aura": 0
       },
+      "Ogre Brute": {
+        "auxType": 0,
+        "type": 857,
+        "mount": 0,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "head": 0
+      },
       "Hide": {
         "head": 0,
         "type": 219,
@@ -1004,6 +1048,17 @@
         "legs": 39,
         "body": 77,
         "aura": 0
+      },
+      "Clomp": {
+        "auxType": 0,
+        "type": 860,
+        "mount": 0,
+        "aura": 0,
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "head": 0
       },
       "Witch": {
         "head": 0,
@@ -1049,9 +1104,9 @@
         "body": 0,
         "aura": 0
       },
-      "Cyclops Smith": {
+      "Cave Rat": {
         "head": 0,
-        "type": 277,
+        "type": 56,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -1126,9 +1181,9 @@
         "body": 0,
         "aura": 0
       },
-      "Killer Caiman": {
+      "Kreebosh the Exile": {
         "head": 0,
-        "type": 358,
+        "type": 103,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -1214,15 +1269,15 @@
         "body": 0,
         "aura": 0
       },
-      "Crimson Frog": {
-        "head": 94,
-        "type": 226,
+      "Cyclops Smith": {
+        "head": 0,
+        "type": 277,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
-        "feet": 78,
-        "legs": 94,
-        "body": 78,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
         "aura": 0
       },
       "Crazed Beggar": {
@@ -1324,15 +1379,15 @@
         "body": 0,
         "aura": 0
       },
-      "Goblin Scavenger": {
-        "head": 0,
-        "type": 297,
+      "Crimson Frog": {
+        "head": 94,
+        "type": 226,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
+        "feet": 78,
+        "legs": 94,
+        "body": 78,
         "aura": 0
       },
       "Lizard Dragon Priest": {
@@ -1346,9 +1401,9 @@
         "body": 0,
         "aura": 0
       },
-      "Cave Rat": {
+      "Killer Caiman": {
         "head": 0,
-        "type": 56,
+        "type": 358,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -1665,9 +1720,9 @@
         "body": 0,
         "aura": 0
       },
-      "Quara Hydromancer Scout": {
+      "Tremorak": {
         "head": 0,
-        "type": 47,
+        "type": 285,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -1720,15 +1775,15 @@
         "body": 0,
         "aura": 0
       },
-      "Gang Member": {
-        "head": 114,
-        "type": 151,
+      "Terror Bird": {
+        "head": 0,
+        "type": 218,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
-        "feet": 20,
-        "legs": 42,
-        "body": 19,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
         "aura": 0
       },
       "Dreadwing": {
@@ -1764,9 +1819,9 @@
         "body": 0,
         "aura": 0
       },
-      "Kollos": {
+      "Goblin Leader": {
         "head": 0,
-        "type": 458,
+        "type": 61,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -1929,15 +1984,15 @@
         "body": 0,
         "aura": 0
       },
-      "Faun": {
-        "head": 81,
-        "type": 980,
+      "Plaguesmith": {
+        "head": 0,
+        "type": 247,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
-        "feet": 81,
-        "legs": 114,
-        "body": 115,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
         "aura": 0
       },
       "Silver Rabbit": {
@@ -1951,9 +2006,9 @@
         "body": 66,
         "aura": 0
       },
-      "Tremorak": {
+      "Quara Hydromancer Scout": {
         "head": 0,
-        "type": 285,
+        "type": 47,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -1984,9 +2039,9 @@
         "body": 0,
         "aura": 0
       },
-      "Thornback Tortoise": {
-        "head": 0,
-        "type": 198,
+      "Miu Furinjis": {
+        "head": 20,
+        "type": 241,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2006,15 +2061,15 @@
         "body": 0,
         "aura": 0
       },
-      "Terror Bird": {
-        "head": 0,
-        "type": 218,
+      "Gang Member": {
+        "head": 114,
+        "type": 151,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
+        "feet": 20,
+        "legs": 42,
+        "body": 19,
         "aura": 0
       },
       "Cat": {
@@ -2028,9 +2083,9 @@
         "body": 0,
         "aura": 0
       },
-      "Goblin Leader": {
+      "Kollos": {
         "head": 0,
-        "type": 61,
+        "type": 458,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2072,9 +2127,9 @@
         "body": 0,
         "aura": 0
       },
-      "Cyclops": {
+      "Skunk Trainer": {
         "head": 0,
-        "type": 22,
+        "type": 106,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2303,9 +2358,9 @@
         "body": 0,
         "aura": 0
       },
-      "Skunk Trainer": {
+      "Cyclops": {
         "head": 0,
-        "type": 106,
+        "type": 22,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2325,9 +2380,9 @@
         "body": 0,
         "aura": 0
       },
-      "Miu Furinjis": {
-        "head": 20,
-        "type": 241,
+      "Thornback Tortoise": {
+        "head": 0,
+        "type": 198,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2347,15 +2402,15 @@
         "body": 0,
         "aura": 0
       },
-      "Plaguesmith": {
-        "head": 0,
-        "type": 247,
+      "Faun": {
+        "head": 81,
+        "type": 980,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
+        "feet": 81,
+        "legs": 114,
+        "body": 115,
         "aura": 0
       },
       "Bog Raider": {
@@ -2512,9 +2567,9 @@
         "body": 0,
         "aura": 0
       },
-      "Choking Fear": {
+      "Goblin Scavenger": {
         "head": 0,
-        "type": 586,
+        "type": 297,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2523,9 +2578,9 @@
         "body": 0,
         "aura": 0
       },
-      "Kreebosh the Exile": {
+      "Hellflayer": {
         "head": 0,
-        "type": 103,
+        "type": 856,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2545,9 +2600,9 @@
         "body": 0,
         "aura": 0
       },
-      "Hellflayer": {
+      "Undead Gladiator": {
         "head": 0,
-        "type": 856,
+        "type": 306,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2600,9 +2655,9 @@
         "body": 0,
         "aura": 0
       },
-      "Undead Gladiator": {
+      "Choking Fear": {
         "head": 0,
-        "type": 306,
+        "type": 586,
         "mount": 0,
         "auxType": 0,
         "addons": 0,
@@ -2781,11 +2836,11 @@
   "_configs": {
     "targetbot_configs": {
       "enabled": true,
-      "selected": "SV-BrimstoneBugs"
+      "selected": "KR-NightmareScions"
     },
     "cavebot_configs": {
-      "enabled": true,
-      "selected": "SV-BrimstoneBugs"
+      "enabled": false,
+      "selected": "KR-NightmareScions"
     }
   },
   "alarms": {

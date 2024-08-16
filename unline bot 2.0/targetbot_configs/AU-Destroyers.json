@@ -1,0 +1,85 @@
+{
+  "looting": {
+    "everyItem": false,
+    "items": [
+      {
+        "count": 1,
+        "id": 3281
+      },
+      {
+        "count": 1,
+        "id": 3029
+      }
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ]
+  },
+  "targeting": [
+    {
+      "rpSafe": false,
+      "name": "Behemoth",
+      "regex": "^behemoth$",
+      "closeLure": false,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "lureMax": 3,
+      "priority": 3,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "maxDistance": 5,
+      "danger": 3,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "lureMin": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "dontLoot": true,
+      "faceMonster": false,
+      "diamondArrows": false,
+      "anchor": false
+    },
+    {
+      "rpSafe": false,
+      "name": "Minotaur Archer, Minotaur Guard, Minotaur Mage, Bandit, Wild Warrior, Wasp, Bear",
+      "regex": "^minotaur archer$|^minotaur guard$|^minotaur mage$|^bandit$|^wild warrior$|^wasp$|^bear$",
+      "anchor": false,
+      "maxDistance": 10,
+      "closeLureAmount": 3,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "lureMax": 30,
+      "priority": 0,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "danger": 0,
+      "dontLoot": true,
+      "lure": false,
+      "lureCavebot": false,
+      "lureCount": 5,
+      "lureMin": 29,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dynamicLure": true,
+      "rePosition": false,
+      "faceMonster": false,
+      "diamondArrows": false,
+      "dynamicLureDelay": false
+    }
+  ]
+}

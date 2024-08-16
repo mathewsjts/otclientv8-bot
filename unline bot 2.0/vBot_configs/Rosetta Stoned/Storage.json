@@ -1,8 +1,9 @@
 {
-  "cavebot_profile": "KR-NightmareScions",
+  "ingame_hotkeys": "",
+  "loot_seller_active": false,
+  "cavebot_profile": "KA-LavaLurkers",
   "last_quickloot": "gold coin",
   "loot_seller_cities": [
 
-  ],
-  "ingame_hotkeys": ""
+  ]
 }

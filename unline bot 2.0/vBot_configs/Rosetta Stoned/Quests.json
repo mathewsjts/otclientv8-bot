@@ -1,31 +1,20 @@
 {
   "quests": {
     "Killing in the Name of...": {
+      "id": 23,
       "completed": false,
       "missions": {
         "Paw and Fur: Tormentor": {
           "completed": false,
           "description": "Try find its hideout and kill it."
         },
-        "Paw and Fur: Sulphur Scuttler": {
-          "completed": false,
-          "description": "Try find its hideout and kill it."
-        },
-        "Paw and Fur: Sea Serpents and Young Sea Serpents": {
-          "completed": false,
-          "description": "You already hunted 0/900 sea serpents and young sea serpents."
-        },
-        "Paw and Fur: Destroyers": {
-          "completed": false,
-          "description": "You already hunted 0/650 destroyers."
-        },
-        "Paw and Fur: Big Game Hunter": {
-          "completed": false,
-          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 57 Paw and Fur points."
-        },
         "Paw and Fur: Behemoths": {
           "completed": false,
           "description": "You already hunted 62/700 behemoths."
+        },
+        "Paw and Fur: Sulphur Scuttler": {
+          "completed": false,
+          "description": "Try find its hideout and kill it."
         },
         "Paw and Fur: Tromphonyte": {
           "completed": false,
@@ -34,9 +23,20 @@
         "Paw and Fur: Leviathan": {
           "completed": false,
           "description": "Try find its hideout and kill it."
+        },
+        "Paw and Fur: Destroyers": {
+          "completed": false,
+          "description": "You already hunted 23/650 destroyers."
+        },
+        "Paw and Fur: Sea Serpents and Young Sea Serpents": {
+          "completed": false,
+          "description": "You already hunted 561/900 sea serpents and young sea serpents."
+        },
+        "Paw and Fur: Big Game Hunter": {
+          "completed": false,
+          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 57 Paw and Fur points."
         }
-      },
-      "id": 23
+      }
     }
   }
 }

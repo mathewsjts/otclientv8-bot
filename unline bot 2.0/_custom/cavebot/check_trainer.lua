@@ -2,7 +2,7 @@ CaveBot.Extensions.CheckTrainer = {}
 
 CaveBot.Extensions.CheckTrainer.setup = function()
   CaveBot.registerAction("CheckTrainer", "#ffffff", function(value)
-    local exercise_list = {34392, 34293, 34294, 34295, 34296, 34297, 34298, 34299, 34300, 34301, 34302, 34303}
+    local exercise_list = {34392, 34293, 34294, 34295, 34296, 34297, 34298, 34299, 34300, 34301, 34302, 34303, 41106}
     local label_to_go = string.split(value, ",")[1]:trim()
     local stamina_limit = 2519
     local label_buy_weapon = "buyexerciseweapon"
@@ -21,25 +21,31 @@ CaveBot.Extensions.CheckTrainer.setup = function()
     end
 
     if getLeft() and getLeft():getId() ~= storage_custom.exercise_id then
-      stg_custom.set_data("weapon_id", getLeft():getId())
-    end
-
-    if getRight() and getRight():getId() == storage_custom.weapon_id and stamina() < stamina_limit then
-      g_game.move(getRight(), {x=65535, y=SlotBack, z=0}, 1)
+      stg_custom.set_data("left_weapon_id", getLeft():getId())
       CaveBot.delay(500)
     end
 
-    if getLeft() and getLeft():getId() == storage_custom.weapon_id and stamina() < stamina_limit then
+    if voc() == 15 and getRight() and getRight():getId() ~= storage_custom.exercise_id then
+      stg_custom.set_data("right_weapon_id", getRight():getId())
+    end
+
+    if getLeft() and getLeft():getId() == storage_custom.left_weapon_id and stamina() < stamina_limit then
       g_game.move(getLeft(), {x=65535, y=SlotBack, z=0}, 1)
+      CaveBot.delay(500)
+    end
+
+    if voc() == 15 and getRight() and getRight():getId() == storage_custom.right_weapon_id and stamina() < stamina_limit then
+      g_game.move(getRight(), {x=65535, y=SlotBack, z=0}, 1)
     end
 
     if stamina() > stamina_limit then
-      if player:getVocation() == 2 then
-        g_game.move(findItem(storage_custom.weapon_id), {x=65535, y=SlotRight, z=0}, 1)
-        CaveBot.delay(500)
+      g_game.move(findItem(storage_custom.left_weapon_id), {x=65535, y=SlotLeft, z=0}, 1)
+      CaveBot.delay(500)
+
+      if voc() == 15 then
+        g_game.move(findItem(storage_custom.right_weapon_id), {x=65535, y=SlotRight, z=0}, 1)
       end
 
-      g_game.move(findItem(storage_custom.weapon_id), {x=65535, y=SlotLeft, z=0}, 1)
       CaveBot.gotoLabel(label_to_go)
     end
 

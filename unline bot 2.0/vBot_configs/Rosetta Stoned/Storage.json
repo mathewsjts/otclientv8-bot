@@ -1,9 +1,12 @@
 {
-  "ingame_hotkeys": "",
   "loot_seller_active": false,
-  "cavebot_profile": "KA-LavaLurkers",
-  "last_quickloot": "gold coin",
+  "cavebot_profile": "AU-Behemoths",
+  "last_quickloot": "giant sword, gold coin, meat, platinum coin, small sapphire, steel boots, titan axe, war axe",
   "loot_seller_cities": [
 
-  ]
+  ],
+  "right_weapon_id": 7384,
+  "left_weapon_id": 3288,
+  "exercise_id": 41106,
+  "ingame_hotkeys": ""
 }

@@ -1,6 +1,7 @@
 if not storage_custom then
   storage_custom = {
-    weapon_id = "",
+    left_weapon_id = "",
+    right_weapon_id = "",
     exercise_id = "",
     ingame_hotkeys = "",
     last_quickloot = "",

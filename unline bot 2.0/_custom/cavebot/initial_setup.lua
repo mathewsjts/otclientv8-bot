@@ -28,7 +28,12 @@ CaveBot.Extensions.InitialSetup.setup = function()
     stg_custom.set_data("loot_seller_cities", loot_seller_cities)
 
     if not getLeft() then
-      g_game.move(findItem(storage_custom.weapon_id), {x=65535, y=SlotLeft, z=0}, 1)
+      g_game.move(findItem(storage_custom.left_weapon_id), {x=65535, y=SlotLeft, z=0}, 1)
+      CaveBot.delay(800)
+    end
+
+    if voc() == 15 and not getRight() then
+      g_game.move(findItem(storage_custom.right_weapon_id), {x=65535, y=SlotRight, z=0}, 1)
     end
 
     TargetBot.setCurrentProfile(CaveBot.getCurrentProfile())

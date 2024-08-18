@@ -1,135 +1,5 @@
 {
-  "currentHealBotProfile": 1,
-  "healbot": [
-    {
-      "spellTable": [
-        {
-          "spell": "exura vita",
-          "origin": "HP%",
-          "cost": 140,
-          "sign": "<",
-          "index": 1,
-          "value": 50,
-          "enabled": true
-        },
-        {
-          "spell": "exura gran",
-          "origin": "HP%",
-          "cost": 70,
-          "sign": "<",
-          "index": 2,
-          "value": 90,
-          "enabled": true
-        },
-        {
-          "spell": "utani hur",
-          "origin": "MP%",
-          "cost": 60,
-          "sign": ">",
-          "index": 3,
-          "value": 95,
-          "enabled": true
-        }
-      ],
-      "name": "Profile #1",
-      "enabled": true,
-      "Delay": true,
-      "Interval": true,
-      "Conditions": true,
-      "itemTable": [
-        {
-          "item": 268,
-          "origin": "MP%",
-          "sign": "<",
-          "index": 1,
-          "value": 50,
-          "enabled": true
-        },
-        {
-          "item": 237,
-          "origin": "MP%",
-          "sign": "<",
-          "index": 2,
-          "value": 50,
-          "enabled": true
-        }
-      ],
-      "Visible": true,
-      "Cooldown": true,
-      "MessageDelay": false
-    },
-    {
-      "spellTable": [
-
-      ],
-      "name": "Profile #2",
-      "enabled": false,
-      "Delay": true,
-      "Interval": true,
-      "Conditions": true,
-      "itemTable": [
-
-      ],
-      "Visible": true,
-      "Cooldown": true,
-      "MessageDelay": false
-    },
-    {
-      "spellTable": [
-
-      ],
-      "name": "Profile #3",
-      "enabled": false,
-      "Delay": true,
-      "Interval": true,
-      "Conditions": true,
-      "itemTable": [
-
-      ],
-      "Visible": true,
-      "Cooldown": true,
-      "MessageDelay": false
-    },
-    {
-      "spellTable": [
-
-      ],
-      "name": "Profile #4",
-      "enabled": false,
-      "Delay": true,
-      "Interval": true,
-      "Conditions": true,
-      "itemTable": [
-
-      ],
-      "Visible": true,
-      "Cooldown": true,
-      "MessageDelay": false
-    },
-    {
-      "spellTable": [
-
-      ],
-      "name": "Profile #5",
-      "enabled": false,
-      "Delay": true,
-      "Interval": true,
-      "Conditions": true,
-      "itemTable": [
-
-      ],
-      "Visible": true,
-      "Cooldown": true,
-      "MessageDelay": false
-    }
-  ],
   "ConditionPanel": {
-    "utanaCost": 440,
-    "holdUtura": false,
-    "uturaType": "",
-    "uturaCost": 100,
-    "ignoreInPz": true,
-    "stopHaste": false,
     "hasteSpell": "utani hur",
     "curePosion": false,
     "poisonCost": 20,
@@ -145,10 +15,140 @@
     "paralyseCost": 40,
     "paralyseSpell": "utani hur",
     "holdHaste": false,
-    "enabled": false,
     "hasteCost": 40,
     "cureCurse": false,
     "utamoCost": 40,
-    "holdUtana": false
-  }
+    "holdUtana": false,
+    "utanaCost": 440,
+    "enabled": false,
+    "holdUtura": false,
+    "uturaType": "",
+    "uturaCost": 100,
+    "ignoreInPz": true,
+    "stopHaste": false
+  },
+  "currentHealBotProfile": 1,
+  "healbot": [
+    {
+      "itemTable": [
+        {
+          "origin": "MP%",
+          "sign": "<",
+          "index": 1,
+          "value": 50,
+          "item": 268,
+          "enabled": true
+        },
+        {
+          "origin": "MP%",
+          "sign": "<",
+          "index": 2,
+          "value": 50,
+          "item": 237,
+          "enabled": true
+        }
+      ],
+      "Visible": true,
+      "MessageDelay": false,
+      "spellTable": [
+        {
+          "origin": "HP%",
+          "enabled": true,
+          "sign": "<",
+          "index": 3,
+          "spell": "exura vita",
+          "value": 70,
+          "cost": 140
+        },
+        {
+          "origin": "HP%",
+          "enabled": true,
+          "sign": "<",
+          "index": 1,
+          "spell": "exura gran",
+          "value": 90,
+          "cost": 70
+        },
+        {
+          "origin": "MP%",
+          "enabled": true,
+          "sign": ">",
+          "cost": 60,
+          "spell": "utani hur",
+          "value": 95,
+          "index": 2
+        }
+      ],
+      "Conditions": true,
+      "enabled": true,
+      "Cooldown": true,
+      "name": "Profile #1",
+      "Delay": true,
+      "Interval": true
+    },
+    {
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "MessageDelay": false,
+      "spellTable": [
+
+      ],
+      "Conditions": true,
+      "enabled": false,
+      "Cooldown": true,
+      "name": "Profile #2",
+      "Delay": true,
+      "Interval": true
+    },
+    {
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "MessageDelay": false,
+      "spellTable": [
+
+      ],
+      "Conditions": true,
+      "enabled": false,
+      "Cooldown": true,
+      "name": "Profile #3",
+      "Delay": true,
+      "Interval": true
+    },
+    {
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "MessageDelay": false,
+      "spellTable": [
+
+      ],
+      "Conditions": true,
+      "enabled": false,
+      "Cooldown": true,
+      "name": "Profile #4",
+      "Delay": true,
+      "Interval": true
+    },
+    {
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "MessageDelay": false,
+      "spellTable": [
+
+      ],
+      "Conditions": true,
+      "enabled": false,
+      "Cooldown": true,
+      "name": "Profile #5",
+      "Delay": true,
+      "Interval": true
+    }
+  ]
 }

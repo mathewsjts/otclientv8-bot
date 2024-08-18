@@ -1,0 +1,78 @@
+{
+  "targeting": [
+    {
+      "lureMax": 3,
+      "lureMin": 1,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "priority": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "diamondArrows": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "name": "Midnight Asura, Dawnfire Asura, Hellspawn, Destroyer, Massive Fire Elemental",
+      "dynamicLureDelay": false,
+      "rePosition": false,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "regex": "^midnight asura$|^dawnfire asura$|^hellspawn$|^destroyer$|^massive fire elemental$",
+      "anchor": false,
+      "rpSafe": false,
+      "dynamicLure": false,
+      "maxDistance": 8,
+      "danger": 3,
+      "faceMonster": false,
+      "dontLoot": true,
+      "lure": false,
+      "keepDistanceRange": 1,
+      "closeLureAmount": 3
+    },
+    {
+      "lureMax": 30,
+      "lureMin": 29,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "priority": 0,
+      "lureCavebot": false,
+      "lureCount": 5,
+      "diamondArrows": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "name": "Crocodile, Elephant, Wasp, Snake, Tiger, Cobra",
+      "dynamicLureDelay": false,
+      "rePosition": false,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "regex": "^crocodile$|^elephant$|^wasp$|^snake$|^tiger$|^cobra$",
+      "anchor": false,
+      "rpSafe": false,
+      "dynamicLure": true,
+      "maxDistance": 10,
+      "danger": 0,
+      "faceMonster": false,
+      "dontLoot": true,
+      "lure": false,
+      "keepDistanceRange": 1,
+      "closeLureAmount": 3
+    }
+  ],
+  "looting": {
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false,
+    "items": [
+
+    ]
+  }
+}

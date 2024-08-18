@@ -1,75 +1,75 @@
 {
-    "looting": {
-      "items": [
-  
-      ],
-      "maxDanger": 100,
-      "minCapacity": 0,
-      "containers": [
-  
-      ],
-      "everyItem": false
+  "looting": {
+    "minCapacity": 0,
+    "everyItem": false,
+    "containers": [
+
+    ],
+    "items": [
+
+    ],
+    "maxDanger": 100
+  },
+  "targeting": [
+    {
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 5,
+      "rePositionAmount": 5,
+      "lureMax": 3,
+      "keepDistanceRange": 1,
+      "delayFrom": 2,
+      "chase": true,
+      "lure": false,
+      "keepDistance": false,
+      "priority": 5,
+      "regex": "^terramite$",
+      "rpSafe": false,
+      "maxDistance": 5,
+      "danger": 5,
+      "rePosition": false,
+      "diamondArrows": false,
+      "dynamicLureDelay": false,
+      "avoidAttacks": false,
+      "anchor": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "anchorRange": 3,
+      "name": "Terramite"
     },
-    "targeting": [
-      {
-        "lureDelay": 250,
-        "lureMin": 1,
-        "maxDistance": 5,
-        "anchorRange": 3,
-        "lureCount": 8,
-        "avoidAttacks": false,
-        "rePositionAmount": 5,
-        "lureMax": 3,
-        "regex": "^terramite$",
-        "chase": false,
-        "priority": 5,
-        "keepDistance": false,
-        "closeLure": false,
-        "danger": 5,
-        "keepDistanceRange": 1,
-        "lure": false,
-        "dynamicLureDelay": false,
-        "dynamicLure": false,
-        "faceMonster": false,
-        "lureCavebot": false,
-        "dontLoot": true,
-        "diamondArrows": false,
-        "delayFrom": 2,
-        "anchor": false,
-        "closeLureAmount": 3,
-        "rePosition": false,
-        "name": "Terramite",
-        "rpSafe": false
-      },
-      {
-        "lureDelay": 250,
-        "lureMin": 1,
-        "maxDistance": 3,
-        "anchorRange": 3,
-        "lureCount": 8,
-        "avoidAttacks": false,
-        "rePositionAmount": 5,
-        "lureMax": 3,
-        "regex": "^hyaena$|^sandcrawler$|^nomad$",
-        "chase": false,
-        "priority": 0,
-        "keepDistance": false,
-        "closeLure": false,
-        "danger": 0,
-        "keepDistanceRange": 5,
-        "lure": false,
-        "dynamicLureDelay": false,
-        "dynamicLure": false,
-        "faceMonster": false,
-        "lureCavebot": true,
-        "dontLoot": true,
-        "diamondArrows": false,
-        "delayFrom": 2,
-        "anchor": false,
-        "closeLureAmount": 3,
-        "rePosition": false,
-        "name": "Hyaena, Sandcrawler, Nomad",
-        "rpSafe": false
-      }
-    ]
-  }
+    {
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": true,
+      "lureCount": 5,
+      "rePositionAmount": 5,
+      "lureMax": 3,
+      "keepDistanceRange": 5,
+      "delayFrom": 2,
+      "chase": false,
+      "lure": false,
+      "keepDistance": false,
+      "priority": 0,
+      "regex": "^hyaena$|^sandcrawler$|^nomad$|^stalker$|^ghoul$|^vampire$|^skeleton$",
+      "rpSafe": false,
+      "maxDistance": 3,
+      "danger": 0,
+      "rePosition": false,
+      "diamondArrows": false,
+      "dynamicLureDelay": false,
+      "avoidAttacks": false,
+      "anchor": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "anchorRange": 3,
+      "name": "Hyaena, Sandcrawler, Nomad, Stalker, Ghoul, Vampire, Skeleton"
+    }
+  ]
+}

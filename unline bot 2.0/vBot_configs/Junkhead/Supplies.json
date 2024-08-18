@@ -1,0 +1,14 @@
+{
+  "supplies": {
+    "currentProfile": "Default",
+    "Default": {
+      "items": {
+        "268": {
+          "max": 250,
+          "min": 100,
+          "avg": 0
+        }
+      }
+    }
+  }
+}

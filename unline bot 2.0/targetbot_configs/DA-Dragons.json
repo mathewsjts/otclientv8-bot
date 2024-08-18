@@ -1,36 +1,59 @@
 {
+  "looting": {
+    "minCapacity": 0,
+    "everyItem": false,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "items": [
+      {
+        "count": 1,
+        "id": 3416
+      },
+      {
+        "count": 1,
+        "id": 3071
+      }
+    ],
+    "maxDanger": 100
+  },
   "targeting": [
     {
+      "lureMin": 1,
+      "dynamicLure": false,
       "lureDelay": 250,
       "closeLure": false,
       "closeLureAmount": 3,
       "lureCavebot": false,
       "lureCount": 1,
       "rePositionAmount": 5,
-      "anchorRange": 3,
-      "chase": true,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "dontLoot": false,
-      "regex": "^dragon$",
+      "lureMax": 3,
       "keepDistanceRange": 1,
+      "delayFrom": 2,
+      "chase": true,
+      "lure": false,
+      "keepDistance": false,
+      "priority": 1,
+      "regex": "^dragon$",
+      "rpSafe": false,
       "maxDistance": 10,
       "danger": 1,
-      "anchor": false,
-      "diamondArrows": false,
-      "priority": 1,
-      "lureMin": 1,
-      "lure": false,
-      "rpSafe": false,
-      "lureMax": 3,
-      "name": "Dragon",
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "faceMonster": false,
       "rePosition": false,
-      "dynamicLure": false
+      "diamondArrows": false,
+      "dynamicLureDelay": false,
+      "avoidAttacks": false,
+      "anchor": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "anchorRange": 3,
+      "name": "Dragon"
     },
     {
+      "lureMin": 1,
+      "dynamicLure": false,
       "lureDelay": 250,
       "closeLure": false,
       "closeLureAmount": 3,
@@ -38,48 +61,25 @@
       "lureCount": 5,
       "rePositionAmount": 5,
       "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "delayFrom": 2,
       "chase": false,
       "avoidAttacks": false,
       "keepDistance": false,
-      "dontLoot": true,
+      "priority": 0,
+      "rePosition": false,
       "regex": "^sandcrawler$|^wasp$|^minotaur$|^minotaur arche$|^lion$|^nomad$",
-      "keepDistanceRange": 1,
       "maxDistance": 5,
       "danger": 0,
-      "anchor": false,
-      "diamondArrows": false,
-      "priority": 0,
-      "lureMin": 1,
-      "lure": false,
-      "rpSafe": false,
-      "lureMax": 3,
-      "name": "Sandcrawler, Wasp, Minotaur, Minotaur Arche, Lion, Nomad",
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
       "faceMonster": false,
-      "rePosition": false,
-      "dynamicLure": false
+      "dynamicLureDelay": false,
+      "name": "Sandcrawler, Wasp, Minotaur, Minotaur Arche, Lion, Nomad",
+      "lureMax": 3,
+      "anchor": false,
+      "rpSafe": false,
+      "lure": false,
+      "diamondArrows": false,
+      "dontLoot": true
     }
-  ],
-  "looting": {
-    "items": [
-      {
-        "id": 3416,
-        "count": 1
-      },
-      {
-        "id": 3071,
-        "count": 1
-      }
-    ],
-    "maxDanger": 100,
-    "minCapacity": 0,
-    "everyItem": false,
-    "containers": [
-      {
-        "id": 2854,
-        "count": 1
-      }
-    ]
-  }
+  ]
 }

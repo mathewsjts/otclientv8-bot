@@ -3,7 +3,6 @@ CaveBot.Extensions.CallPet = {}
 CaveBot.Extensions.CallPet.setup = function()
 	CaveBot.registerAction("CallPet", "#ffffff", function(value)
         local defaultDelay = 800
-
         storage.petOn = true
         NPC.say("!pet")
         

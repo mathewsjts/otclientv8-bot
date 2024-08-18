@@ -37,9 +37,9 @@ dofile("/cavebot/stand_lure.lua")
 
 -- custom files
 dofile("/_custom/cavebot/buy_item.lua")
+dofile("/_custom/cavebot/call_pet.lua")
 dofile("/_custom/cavebot/change_floor.lua")
 dofile("/_custom/cavebot/check_trainer.lua")
--- dofile("/_custom/cavebot/down_floor.lua")
 dofile("/_custom/cavebot/exani_hur.lua")
 -- dofile("/_custom/cavebot/hidden_hole.lua")
 dofile("/_custom/cavebot/initial_setup.lua")
@@ -49,7 +49,6 @@ dofile("/_custom/cavebot/set_profile.lua")
 dofile("/_custom/cavebot/set_quickloot.lua")
 dofile("/_custom/cavebot/simple_check.lua")
 dofile("/_custom/cavebot/teleport_city.lua")
--- dofile("/_custom/cavebot/up_floor.lua")
 dofile("/_custom/cavebot/use_trainer.lua")
 
 -- main cavebot file, must be last

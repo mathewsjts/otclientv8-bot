@@ -1,22 +1,26 @@
 {
   "containers": {
-    "enabled": true,
+    "lootBag": true,
+    "height": 170,
     "sort": true,
+    "enabled": true,
+    "purse": true,
+    "forceOpen": true,
     "list": [
       {
-        "enabled": true,
+        "value": "main",
         "item": 2854,
         "min": true,
-        "value": "main",
+        "enabled": true,
         "items": [
 
         ]
       },
       {
-        "enabled": true,
+        "value": "tools",
         "item": 7343,
         "min": true,
-        "value": "tools",
+        "enabled": true,
         "items": [
           {
             "id": 3723,
@@ -37,27 +41,23 @@
         ]
       },
       {
-        "enabled": true,
+        "value": "purse",
         "item": 23396,
         "min": true,
-        "value": "purse",
+        "enabled": true,
         "items": [
 
         ]
       },
       {
-        "enabled": true,
+        "value": "quickloot",
         "item": 23721,
         "min": true,
-        "value": "quickloot",
+        "enabled": true,
         "items": [
 
         ]
       }
-    ],
-    "lootBag": true,
-    "purse": true,
-    "height": 170,
-    "forceOpen": true
+    ]
   }
 }

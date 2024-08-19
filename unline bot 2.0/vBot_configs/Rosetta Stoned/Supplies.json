@@ -2,7 +2,7 @@
   "supplies": {
     "currentProfile": "Default",
     "Default": {
-      "staminaSwitch": true,
+      "staminaSwitch": false,
       "items": {
         "3723": {
           "avg": 0,

@@ -3,24 +3,20 @@
     "Killing in the Name of...": {
       "id": 23,
       "missions": {
-        "Paw and Fur: Tormentor": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
         "Paw and Fur: Tromphonyte": {
           "description": "Try find its hideout and kill it.",
           "completed": false
         },
-        "Paw and Fur: Leviathan": {
-          "description": "Try find its hideout and kill it.",
+        "Paw and Fur: Behemoths": {
+          "description": "You already hunted 547/700 behemoths.",
           "completed": false
         },
         "Paw and Fur: Destroyers": {
           "description": "You already hunted 59/650 destroyers.",
           "completed": false
         },
-        "Paw and Fur: Behemoths": {
-          "description": "You already hunted 547/700 behemoths.",
+        "Paw and Fur: Tormentor": {
+          "description": "Try find its hideout and kill it.",
           "completed": false
         },
         "Paw and Fur: Big Game Hunter": {
@@ -28,7 +24,7 @@
           "completed": false
         },
         "Paw and Fur: Sea Serpents and Young Sea Serpents": {
-          "description": "You already hunted 561/900 sea serpents and young sea serpents.",
+          "description": "You already hunted 565/900 sea serpents and young sea serpents.",
           "completed": false
         },
         "Paw and Fur: Sulphur Scuttler": {

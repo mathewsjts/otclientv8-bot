@@ -5,18 +5,18 @@
       "staminaSwitch": false,
       "items": {
         "3723": {
-          "avg": 0,
           "min": 0,
+          "avg": 0,
           "max": 200
         },
         "41106": {
-          "avg": 0,
           "min": 0,
+          "avg": 0,
           "max": 1
         },
         "237": {
-          "avg": 0,
           "min": 150,
+          "avg": 0,
           "max": 750
         }
       },

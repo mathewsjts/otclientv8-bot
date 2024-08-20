@@ -1,107 +1,107 @@
 {
-  "currentBotProfile": 1,
   "AttackBot": [
     {
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "BlackListSafe": false,
       "Kills": false,
       "PvpSafe": true,
-      "BlackListSafe": false,
+      "Cooldown": true,
       "AntiRsRange": 5,
-      "enabled": true,
       "attackTable": [
         {
-          "spell": "exori cruentus",
+          "enabled": true,
+          "minHp": 0,
+          "tooltip": false,
           "cooldown": 1,
+          "category": 1,
+          "orMore": true,
+          "mana": 90,
           "description": "[1 Sqm] 1+ Any Creatures: exori cruentus, targeted (0%-100%)",
           "count": 1,
-          "enabled": true,
-          "mana": 90,
-          "orMore": true,
-          "category": 1,
           "pattern": 1,
+          "itemId": 0,
+          "monsters": true,
+          "spell": "exori cruentus",
           "patternCategory": 1,
           "maxHp": 100,
-          "creatures": "monster names",
-          "minHp": 0,
-          "monsters": true,
-          "itemId": 0,
-          "tooltip": false
+          "creatures": "monster names"
         }
       ],
-      "Rotate": false,
+      "enabled": true,
       "name": "Profile #1",
-      "KillsAmount": 1,
       "pvpMode": false,
       "Visible": true,
-      "Cooldown": true,
-      "ignoreMana": true
+      "Rotate": false
     },
     {
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "BlackListSafe": false,
       "Kills": false,
       "PvpSafe": true,
-      "BlackListSafe": false,
+      "Cooldown": true,
       "AntiRsRange": 5,
-      "enabled": false,
       "attackTable": [
 
       ],
-      "Rotate": false,
+      "enabled": false,
       "name": "Profile #2",
-      "KillsAmount": 1,
       "pvpMode": false,
       "Visible": true,
-      "Cooldown": true,
-      "ignoreMana": true
+      "Rotate": false
     },
     {
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "BlackListSafe": false,
       "Kills": false,
       "PvpSafe": true,
-      "BlackListSafe": false,
+      "Cooldown": true,
       "AntiRsRange": 5,
-      "enabled": false,
       "attackTable": [
 
       ],
-      "Rotate": false,
+      "enabled": false,
       "name": "Profile #3",
-      "KillsAmount": 1,
       "pvpMode": false,
       "Visible": true,
-      "Cooldown": true,
-      "ignoreMana": true
+      "Rotate": false
     },
     {
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "BlackListSafe": false,
       "Kills": false,
       "PvpSafe": true,
-      "BlackListSafe": false,
+      "Cooldown": true,
       "AntiRsRange": 5,
-      "enabled": false,
       "attackTable": [
 
       ],
-      "Rotate": false,
+      "enabled": false,
       "name": "Profile #4",
-      "KillsAmount": 1,
       "pvpMode": false,
       "Visible": true,
-      "Cooldown": true,
-      "ignoreMana": true
+      "Rotate": false
     },
     {
+      "KillsAmount": 1,
+      "ignoreMana": true,
+      "BlackListSafe": false,
       "Kills": false,
       "PvpSafe": true,
-      "BlackListSafe": false,
+      "Cooldown": true,
       "AntiRsRange": 5,
-      "enabled": false,
       "attackTable": [
 
       ],
-      "Rotate": false,
+      "enabled": false,
       "name": "Profile #5",
-      "KillsAmount": 1,
       "pvpMode": false,
       "Visible": true,
-      "Cooldown": true,
-      "ignoreMana": true
+      "Rotate": false
     }
-  ]
+  ],
+  "currentBotProfile": 1
 }

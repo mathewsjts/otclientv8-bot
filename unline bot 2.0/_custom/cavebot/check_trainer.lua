@@ -7,11 +7,9 @@ CaveBot.Extensions.CheckTrainer.setup = function()
     local stamina_limit = 2519
     local label_buy_weapon = "buyexerciseweapon"
 
-    if not storage_custom.exercise_id or storage_custom.exercise_id == "" then
-      for item_id, _ in pairs(SuppliesConfig.supplies[SuppliesConfig.supplies.currentProfile].items) do
-        if table.find(exercise_list, tonumber(item_id)) then
-          stg_custom.set_data("exercise_id", tonumber(item_id))
-        end
+    for item_id, _ in pairs(SuppliesConfig.supplies[SuppliesConfig.supplies.currentProfile].items) do
+      if table.find(exercise_list, tonumber(item_id)) then
+        stg_custom.set_data("exercise_id", tonumber(item_id))
       end
     end
 

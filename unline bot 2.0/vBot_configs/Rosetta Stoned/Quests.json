@@ -1,38 +1,26 @@
 {
   "quests": {
     "Killing in the Name of...": {
-      "id": 23,
+      "completed": false,
       "missions": {
-        "Paw and Fur: Tromphonyte": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
-        "Paw and Fur: Behemoths": {
-          "description": "You already hunted 547/700 behemoths.",
-          "completed": false
-        },
         "Paw and Fur: Destroyers": {
-          "description": "You already hunted 59/650 destroyers.",
-          "completed": false
-        },
-        "Paw and Fur: Tormentor": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
-        "Paw and Fur: Big Game Hunter": {
-          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 57 Paw and Fur points.",
-          "completed": false
-        },
-        "Paw and Fur: Sea Serpents and Young Sea Serpents": {
-          "description": "You already hunted 565/900 sea serpents and young sea serpents.",
+          "description": "You already hunted 275/650 destroyers.",
           "completed": false
         },
         "Paw and Fur: Sulphur Scuttler": {
           "description": "Try find its hideout and kill it.",
           "completed": false
+        },
+        "Paw and Fur: Big Game Hunter": {
+          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 65 Paw and Fur points.",
+          "completed": false
+        },
+        "Paw and Fur: Tromphonyte": {
+          "description": "Try find its hideout and kill it.",
+          "completed": false
         }
       },
-      "completed": false
+      "id": 23
     }
   }
 }

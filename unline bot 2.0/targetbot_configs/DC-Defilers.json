@@ -1,0 +1,82 @@
+{
+  "looting": {
+    "everyItem": false,
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "items": [
+      {
+        "count": 1,
+        "id": 6499
+      },
+      {
+        "count": 1,
+        "id": 3034
+      }
+    ],
+    "containers": [
+
+    ]
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "priority": 1,
+      "diamondArrows": false,
+      "chase": true,
+      "lure": false,
+      "rpSafe": false,
+      "lureMin": 1,
+      "regex": "^giant spider$|^defiler$",
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "rePosition": false,
+      "dynamicLureDelay": false,
+      "lureMax": 3,
+      "anchor": false,
+      "maxDistance": 10,
+      "danger": 1,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "delayFrom": 2,
+      "dynamicLure": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "name": "Giant Spider, Defiler",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dontLoot": true
+    },
+    {
+      "faceMonster": false,
+      "priority": 0,
+      "diamondArrows": false,
+      "chase": false,
+      "lure": true,
+      "rpSafe": false,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "anchor": false,
+      "dynamicLureDelay": false,
+      "lureMax": 3,
+      "delayFrom": 2,
+      "maxDistance": 3,
+      "danger": 0,
+      "lureDelay": 250,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "closeLure": false,
+      "regex": "^tortoise$|^crab$|^blood crab$|^thornback tortoise$|^crocodile$|^toad$|^nomad$|^azure frog$|^green frog$|^crimson frog$|^orchid frog$|^hyaena$|^scorpion$|^poison spider$",
+      "lureCavebot": true,
+      "lureCount": 5,
+      "name": "Tortoise, Crab, Blood Crab, Thornback Tortoise, Crocodile, Toad, Nomad, Azure Frog, Green Frog, Crimson Frog, Orchid Frog, Hyaena, Scorpion, Poison Spider",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dontLoot": true
+    }
+  ]
+}

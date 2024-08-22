@@ -1,45 +1,45 @@
 {
-  "targeting": [
-    {
-      "lureCount": 1,
-      "rePositionAmount": 5,
-      "anchorRange": 3,
-      "keepDistanceRange": 1,
-      "name": "Wolf, Bear, Fox, Wisp, Wasp, Snake, Sandcrawler, Lion, Skeleton, Bat, Minotaur Mage, Minotaur, Minotaur Archer, Minotaur Guard, War Wolf, Gloom Wolf, Poacher, Hunter, Deer, Rabbit, Scorpion, Cobra, Ghost Wolf, Boar, Amazon, Orc, Troll, Orc Leader, Orc Shaman, Orc Berserker, Orc Spearman, Orc Warrior, Starving Wolf",
-      "faceMonster": false,
-      "diamondArrows": false,
-      "lure": false,
-      "regex": "^wolf$|^bear$|^fox$|^wisp$|^wasp$|^snake$|^sandcrawler$|^lion$|^skeleton$|^bat$|^minotaur mage$|^minotaur$|^minotaur archer$|^minotaur guard$|^war wolf$|^gloom wolf$|^poacher$|^hunter$|^deer$|^rabbit$|^scorpion$|^cobra$|^ghost wolf$|^boar$|^amazon$|^orc$|^troll$|^orc leader$|^orc shaman$|^orc berserker$|^orc spearman$|^orc warrior$|^starving wolf$",
-      "chase": false,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "rpSafe": false,
-      "closeLure": false,
-      "dynamicLureDelay": false,
-      "priority": 0,
-      "maxDistance": 3,
-      "danger": 0,
-      "lureMax": 30,
-      "anchor": false,
-      "lureMin": 29,
-      "dynamicLure": true,
-      "lureDelay": 250,
-      "rePosition": false,
-      "closeLureAmount": 3,
-      "delayFrom": 2,
-      "dontLoot": true,
-      "lureCavebot": false
-    }
-  ],
   "looting": {
-    "containers": [
-
-    ],
+    "everyItem": false,
     "maxDanger": 100,
     "minCapacity": 0,
     "items": [
 
     ],
-    "everyItem": false
-  }
+    "containers": [
+
+    ]
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "priority": 0,
+      "diamondArrows": false,
+      "chase": false,
+      "lure": false,
+      "rpSafe": false,
+      "regex": "^wolf$|^bear$|^fox$|^wisp$|^wasp$|^snake$|^sandcrawler$|^lion$|^skeleton$|^bat$|^minotaur mage$|^minotaur$|^minotaur archer$|^minotaur guard$|^war wolf$|^gloom wolf$|^poacher$|^hunter$|^deer$|^rabbit$|^scorpion$|^cobra$|^ghost wolf$|^boar$|^amazon$|^orc$|^troll$|^orc leader$|^orc shaman$|^orc berserker$|^orc spearman$|^orc warrior$|^starving wolf$|^badger$",
+      "closeLure": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "lureMax": 30,
+      "dynamicLure": true,
+      "lureMin": 29,
+      "anchor": false,
+      "lureDelay": 250,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "danger": 0,
+      "maxDistance": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "name": "Wolf, Bear, Fox, Wisp, Wasp, Snake, Sandcrawler, Lion, Skeleton, Bat, Minotaur Mage, Minotaur, Minotaur Archer, Minotaur Guard, War Wolf, Gloom Wolf, Poacher, Hunter, Deer, Rabbit, Scorpion, Cobra, Ghost Wolf, Boar, Amazon, Orc, Troll, Orc Leader, Orc Shaman, Orc Berserker, Orc Spearman, Orc Warrior, Starving Wolf, Badger",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dontLoot": true
+    }
+  ]
 }

@@ -1,26 +1,43 @@
 {
   "quests": {
     "Killing in the Name of...": {
+      "id": 23,
       "completed": false,
       "missions": {
         "Paw and Fur: Destroyers": {
-          "description": "You already hunted 275/650 destroyers.",
-          "completed": false
-        },
-        "Paw and Fur: Sulphur Scuttler": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
+          "completed": false,
+          "description": "You already hunted 275/650 destroyers."
         },
         "Paw and Fur: Big Game Hunter": {
-          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 65 Paw and Fur points.",
-          "completed": false
+          "completed": false,
+          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 65 Paw and Fur points."
+        },
+        "Paw and Fur: Sulphur Scuttler": {
+          "completed": false,
+          "description": "Try find its hideout and kill it."
         },
         "Paw and Fur: Tromphonyte": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
+          "completed": false,
+          "description": "Try find its hideout and kill it."
         }
-      },
-      "id": 23
+      }
+    },
+    "Forgotten Knowledge": {
+      "id": 15,
+      "completed": false,
+      "missions": [
+
+      ]
+    },
+    "Threatened Dreams": {
+      "id": 63,
+      "completed": false,
+      "missions": {
+        "Troubled Animals - Creation of Legends": {
+          "completed": true,
+          "description": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist."
+        }
+      }
     }
   }
 }

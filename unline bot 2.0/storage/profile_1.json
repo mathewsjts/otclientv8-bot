@@ -7,7 +7,7 @@
     "height": 380
   },
   "petOn": true,
-  "checkVersion": 1724153222,
+  "checkVersion": 1724243503,
   "cavebotSell": [
 
   ],
@@ -98,14 +98,14 @@
         "enabled": true
       },
       {
-        "health": true,
         "name": "Health Item",
-        "enabled": true
+        "enabled": true,
+        "health": true
       },
       {
-        "mana": true,
         "name": "Mana Item",
-        "enabled": true
+        "enabled": true,
+        "mana": true
       }
     ]
   },
@@ -173,6 +173,16 @@
     "serverLeaderTarget": false,
     "attackSpellEnabled": false
   },
+  "BOTserver": {
+    "manaInfo": true,
+    "mwallInfo": true,
+    "broadcasts": true,
+    "vocation": true,
+    "outfit": false,
+    "mwalls": [
+
+    ]
+  },
   "autoEquip": [
     {
       "title": "Auto Equip",
@@ -189,16 +199,6 @@
       "on": false
     }
   ],
-  "BOTserver": {
-    "manaInfo": true,
-    "mwallInfo": true,
-    "broadcasts": true,
-    "vocation": true,
-    "outfit": false,
-    "mwalls": [
-
-    ]
-  },
   "_macros": {
     "": false,
     "adeta res": true,
@@ -253,12 +253,12 @@
   },
   "_configs": {
     "targetbot_configs": {
-      "selected": "RA-GloothBandits",
+      "selected": "DC-Defilers",
       "enabled": true
     },
     "cavebot_configs": {
-      "selected": "RA-GloothBandits",
-      "enabled": false
+      "selected": "DC-Defilers",
+      "enabled": true
     }
   },
   "foodItems": [
@@ -427,6 +427,17 @@
         "legs": 0,
         "body": 0,
         "type": 218,
+        "auxType": 0,
+        "addons": 0
+      },
+      "Shangoo": {
+        "type": 355,
+        "head": 0,
+        "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "aura": 0,
         "auxType": 0,
         "addons": 0
       },
@@ -1024,6 +1035,17 @@
         "auxType": 0,
         "addons": 0
       },
+      "Skunk": {
+        "type": 106,
+        "head": 0,
+        "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "aura": 0,
+        "auxType": 0,
+        "addons": 0
+      },
       "Barbarian Headsplitter": {
         "aura": 0,
         "head": 115,
@@ -1112,6 +1134,17 @@
         "auxType": 0,
         "addons": 0
       },
+      "Swan Maiden": {
+        "type": 138,
+        "head": 0,
+        "mount": 0,
+        "feet": 97,
+        "legs": 114,
+        "body": 0,
+        "aura": 0,
+        "auxType": 0,
+        "addons": 0
+      },
       "Novice of the Cult": {
         "type": 133,
         "head": 114,
@@ -1119,6 +1152,17 @@
         "feet": 114,
         "legs": 114,
         "body": 95,
+        "aura": 0,
+        "auxType": 0,
+        "addons": 0
+      },
+      "Pixie": {
+        "type": 982,
+        "head": 0,
+        "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
         "aura": 0,
         "auxType": 0,
         "addons": 0
@@ -1131,6 +1175,17 @@
         "legs": 0,
         "body": 0,
         "type": 219,
+        "auxType": 0,
+        "addons": 0
+      },
+      "Enfeebled Silencer": {
+        "type": 585,
+        "head": 0,
+        "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "aura": 0,
         "auxType": 0,
         "addons": 0
       },
@@ -2476,25 +2531,25 @@
         "auxType": 0,
         "addons": 0
       },
-      "The Old Widow": {
-        "aura": 0,
+      "Frost Dragon": {
+        "type": 248,
         "head": 0,
         "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "type": 208,
+        "aura": 0,
         "auxType": 0,
         "addons": 0
       },
-      "Enlightened of the Cult": {
-        "type": 193,
+      "Minotaur Archer": {
+        "aura": 0,
         "head": 0,
         "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "aura": 0,
+        "type": 24,
         "auxType": 0,
         "addons": 0
       },
@@ -2608,6 +2663,17 @@
         "auxType": 0,
         "addons": 0
       },
+      "Boogy": {
+        "type": 981,
+        "head": 0,
+        "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "aura": 0,
+        "auxType": 0,
+        "addons": 0
+      },
       "Badger": {
         "aura": 0,
         "head": 0,
@@ -2685,6 +2751,17 @@
         "auxType": 0,
         "addons": 0
       },
+      "Tragatucuo": {
+        "type": 241,
+        "head": 20,
+        "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "aura": 0,
+        "auxType": 0,
+        "addons": 0
+      },
       "Ghost Wolf": {
         "aura": 0,
         "head": 0,
@@ -2693,6 +2770,17 @@
         "legs": 0,
         "body": 0,
         "type": 730,
+        "auxType": 0,
+        "addons": 0
+      },
+      "Weakened Frazzlemaw": {
+        "type": 594,
+        "head": 0,
+        "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "aura": 0,
         "auxType": 0,
         "addons": 0
       },
@@ -2707,14 +2795,14 @@
         "auxType": 0,
         "addons": 0
       },
-      "Destroyer": {
+      "Frost Troll": {
         "aura": 0,
         "head": 0,
         "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "type": 236,
+        "type": 53,
         "auxType": 0,
         "addons": 0
       },
@@ -2740,16 +2828,16 @@
         "auxType": 0,
         "addons": 0
       },
-      "Cult Believer": {
+      "Minotaur": {
         "aura": 0,
-        "head": 98,
-        "mount": 0,
-        "feet": 57,
-        "legs": 39,
-        "body": 77,
-        "type": 132,
+        "head": 0,
         "auxType": 0,
-        "addons": 1
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "type": 25,
+        "mount": 0,
+        "addons": 0
       },
       "Wolf": {
         "aura": 0,
@@ -2773,15 +2861,15 @@
         "auxType": 0,
         "addons": 0
       },
-      "Werehyaena": {
+      "Carniphila": {
         "aura": 0,
-        "head": 57,
-        "auxType": 0,
-        "feet": 1,
-        "legs": 1,
-        "body": 77,
-        "type": 1304,
+        "head": 0,
         "mount": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "type": 120,
+        "auxType": 0,
         "addons": 0
       },
       "Skeleton": {
@@ -2839,15 +2927,15 @@
         "auxType": 0,
         "addons": 0
       },
-      "Gargoyle": {
-        "type": 95,
-        "head": 0,
-        "mount": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
+      "Werehyaena": {
         "aura": 0,
+        "head": 57,
         "auxType": 0,
+        "feet": 1,
+        "legs": 1,
+        "body": 77,
+        "type": 1304,
+        "mount": 0,
         "addons": 0
       },
       "Dog": {
@@ -2883,15 +2971,15 @@
         "auxType": 0,
         "addons": 0
       },
-      "Minotaur": {
+      "Terramite": {
         "aura": 0,
         "head": 0,
-        "auxType": 0,
+        "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "type": 25,
-        "mount": 0,
+        "type": 346,
+        "auxType": 0,
         "addons": 0
       },
       "Guzzlemaw": {
@@ -2927,15 +3015,15 @@
         "auxType": 0,
         "addons": 0
       },
-      "High Voltage Elemental": {
+      "Destroyer": {
         "aura": 0,
         "head": 0,
-        "auxType": 0,
+        "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "type": 293,
-        "mount": 0,
+        "type": 236,
+        "auxType": 0,
         "addons": 0
       },
       "Waspoid": {
@@ -3026,14 +3114,14 @@
         "auxType": 0,
         "addons": 0
       },
-      "Frost Dragon": {
-        "type": 248,
+      "The Old Widow": {
+        "aura": 0,
         "head": 0,
         "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "aura": 0,
+        "type": 208,
         "auxType": 0,
         "addons": 0
       },
@@ -3279,14 +3367,14 @@
         "auxType": 0,
         "addons": 0
       },
-      "Minotaur Archer": {
-        "aura": 0,
+      "Enlightened of the Cult": {
+        "type": 193,
         "head": 0,
         "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "type": 24,
+        "aura": 0,
         "auxType": 0,
         "addons": 0
       },
@@ -3301,15 +3389,15 @@
         "auxType": 0,
         "addons": 0
       },
-      "Frost Troll": {
+      "High Voltage Elemental": {
         "aura": 0,
         "head": 0,
-        "mount": 0,
+        "auxType": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "type": 53,
-        "auxType": 0,
+        "type": 293,
+        "mount": 0,
         "addons": 0
       },
       "The Dark Dancer": {
@@ -3334,14 +3422,14 @@
         "auxType": 0,
         "addons": 0
       },
-      "Carniphila": {
-        "aura": 0,
+      "Gargoyle": {
+        "type": 95,
         "head": 0,
         "mount": 0,
         "feet": 0,
         "legs": 0,
         "body": 0,
-        "type": 120,
+        "aura": 0,
         "auxType": 0,
         "addons": 0
       },
@@ -3356,16 +3444,16 @@
         "auxType": 0,
         "addons": 0
       },
-      "Terramite": {
+      "Cult Believer": {
         "aura": 0,
-        "head": 0,
+        "head": 98,
         "mount": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "type": 346,
+        "feet": 57,
+        "legs": 39,
+        "body": 77,
+        "type": 132,
         "auxType": 0,
-        "addons": 0
+        "addons": 1
       },
       "Lion": {
         "aura": 0,

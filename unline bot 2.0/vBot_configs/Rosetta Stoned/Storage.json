@@ -1,12 +1,12 @@
 {
-  "loot_seller_active": false,
-  "ingame_hotkeys": "macro(250, \"Eat Food From Ground\", function()\n  local player = g_game.getLocalPlayer()\n\n  if not player then\n      return\n  end\n\n  local playerPos = player:getPosition()\n\n  local tile = g_map.getTile(playerPos)\n  \n  local foodIDs = {3725, 3577, 3578, 3592, 3593, 3594, 3595, 3600, 3606, 3607, 3610, 3611, 3662, 3723, 3725, 3726, 3727}\n\n  if tile then\n    local items = tile:getItems()\n    for _, item in ipairs(items) do\n      if table.contains(foodIDs, item:getId()) then\n        g_game.use(item)\n        return\n      end\n    end\n  end\nend)",
-  "last_quickloot": "blue gem, death ring, demonic essence, gold coin, green gem, monster egg, platinum coin, red gem, small diamond, small emerald, small ruby, small sapphire, talon, yellow gem",
   "exercise_id": 34303,
-  "right_weapon_id": 7384,
+  "cavebot_profile": "DC-Defilers",
+  "ingame_hotkeys": "macro(250, \"Eat Food From Ground\", function()\n  local player = g_game.getLocalPlayer()\n\n  if not player then\n      return\n  end\n\n  local playerPos = player:getPosition()\n\n  local tile = g_map.getTile(playerPos)\n  \n  local foodIDs = {3725, 3577, 3578, 3592, 3593, 3594, 3595, 3600, 3606, 3607, 3610, 3611, 3662, 3723, 3725, 3726, 3727}\n\n  if tile then\n    local items = tile:getItems()\n    for _, item in ipairs(items) do\n      if table.contains(foodIDs, item:getId()) then\n        g_game.use(item)\n        return\n      end\n    end\n  end\nend)",
+  "left_weapon_id": 3288,
   "loot_seller_cities": [
 
   ],
-  "left_weapon_id": 3288,
-  "cavebot_profile": "DC-Defilers"
+  "right_weapon_id": 7384,
+  "loot_seller_active": false,
+  "last_quickloot": "blue gem, death ring, demonic essence, gold coin, green gem, monster egg, platinum coin, red gem, small diamond, small emerald, small ruby, small sapphire, talon, yellow gem"
 }

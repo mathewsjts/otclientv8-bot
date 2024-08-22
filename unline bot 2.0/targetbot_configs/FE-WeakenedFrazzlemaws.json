@@ -1,0 +1,78 @@
+{
+  "looting": {
+    "everyItem": false,
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "items": [
+      {
+        "count": 1,
+        "id": 20200
+      }
+    ],
+    "containers": [
+
+    ]
+  },
+  "targeting": [
+    {
+      "faceMonster": false,
+      "priority": 5,
+      "diamondArrows": false,
+      "chase": true,
+      "lure": false,
+      "rpSafe": false,
+      "regex": "^weakened frazzlemaw$|^enfeebled silencer$",
+      "closeLure": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "lureMax": 3,
+      "dynamicLure": false,
+      "lureMin": 1,
+      "anchor": false,
+      "lureDelay": 250,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "danger": 5,
+      "maxDistance": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "name": "Weakened Frazzlemaw, Enfeebled Silencer",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dontLoot": true
+    },
+    {
+      "faceMonster": false,
+      "priority": 0,
+      "diamondArrows": false,
+      "chase": false,
+      "lure": false,
+      "rpSafe": false,
+      "regex": "^swan maiden$|^boogy$|^pixie$|^faun$|^dark faun$",
+      "closeLure": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "lureMax": 30,
+      "dynamicLure": true,
+      "lureMin": 29,
+      "anchor": false,
+      "lureDelay": 250,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "danger": 0,
+      "maxDistance": 5,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "name": "Swan Maiden, Boogy, Pixie, Faun, Dark Faun",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dontLoot": true
+    }
+  ]
+}

@@ -1,43 +1,121 @@
 {
   "quests": {
-    "Killing in the Name of...": {
-      "id": 23,
-      "completed": false,
+    "The Explorer Society": {
       "missions": {
-        "Paw and Fur: Destroyers": {
-          "completed": false,
-          "description": "You already hunted 275/650 destroyers."
-        },
-        "Paw and Fur: Big Game Hunter": {
-          "completed": false,
-          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 65 Paw and Fur points."
-        },
-        "Paw and Fur: Sulphur Scuttler": {
-          "completed": false,
-          "description": "Try find its hideout and kill it."
-        },
-        "Paw and Fur: Tromphonyte": {
-          "completed": false,
-          "description": "Try find its hideout and kill it."
+        "Joining the Explorers": {
+          "description": "Bring the pickaxe back to the Explorer Society representative.",
+          "completed": true
         }
-      }
-    },
-    "Forgotten Knowledge": {
-      "id": 15,
-      "completed": false,
-      "missions": [
-
-      ]
+      },
+      "id": 45,
+      "completed": false
     },
     "Threatened Dreams": {
-      "id": 63,
-      "completed": false,
       "missions": {
         "Troubled Animals - Creation of Legends": {
-          "completed": true,
-          "description": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist."
+          "description": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist.",
+          "completed": true
         }
-      }
+      },
+      "id": 63,
+      "completed": false
+    },
+    "In Service of Yalahar": {
+      "missions": {
+        "Darashia": {
+          "description": "Karith might establish a route to Darashia as soon as he sees five cities as worthy.",
+          "completed": true
+        },
+        "Carlin": {
+          "description": "Karith might establish a route to Carlin as soon as he sees five cities as worthy.",
+          "completed": true
+        },
+        "LibertyBay": {
+          "description": "Karith might establish a route to LibertyBay as soon as he sees five cities as worthy.",
+          "completed": true
+        },
+        "Venore": {
+          "description": "Karith might establish a route to Venore as soon as he sees five cities as worthy.",
+          "completed": true
+        },
+        "Searoutes Around Yalahar": {
+          "description": "You convicend Captain Karith of five cities which it might be worth estabilishing a ship route to and he will now sail you to seven cities in total in hope of profit.",
+          "completed": true
+        },
+        "The Way to Yalahar": {
+          "description": "You have delivered the research notes to Wyrdin",
+          "completed": true
+        },
+        "Ab'Dendriel": {
+          "description": "Karith might establish a route to Ab'Dendriel as soon as he sees five cities as worthy.",
+          "completed": true
+        }
+      },
+      "id": 22,
+      "completed": false
+    },
+    "Cults of Tibia": {
+      "missions": {
+        "Zathroth Remmants": {
+          "description": "You reported your victory to Gerimor.",
+          "completed": false
+        }
+      },
+      "id": 10,
+      "completed": false
+    },
+    "Bigfoot's Burden": {
+      "missions": {
+        "Recruitment": {
+          "description": "You are now a true member of the Bigfoot company.",
+          "completed": true
+        },
+        "Gnome Reputation": {
+          "description": "Your reputation in the eyes of gnomekind is 510.\nYour standing rises at: \nReputation   30 - I \nReputation  120 - II \nReputation  480 - III \nReputation 1440 - IV \n",
+          "completed": false
+        }
+      },
+      "id": 7,
+      "completed": false
+    },
+    "Within the Tides": {
+      "missions": {
+        "Of Feathers and Flowers": {
+          "description": "You discovered Marapur, the realm of the nagas. New  secrets and mysteries are waiting to be unveiled.",
+          "completed": true
+        }
+      },
+      "id": 69,
+      "completed": false
+    },
+    "Killing in the Name of...": {
+      "missions": {
+        "Paw and Fur: Big Game Hunter": {
+          "description": "You are Big Game Hunter in the Paw and Fur hunting elite. You currently have 65 Paw and Fur points.",
+          "completed": false
+        },
+        "Paw and Fur: Tromphonyte": {
+          "description": "Try find its hideout and kill it.",
+          "completed": false
+        },
+        "Paw and Fur: Destroyers": {
+          "description": "You already hunted 650/650 destroyers.",
+          "completed": true
+        },
+        "Paw and Fur: Sulphur Scuttler": {
+          "description": "Try find its hideout and kill it.",
+          "completed": false
+        }
+      },
+      "id": 23,
+      "completed": false
+    },
+    "Forgotten Knowledge": {
+      "missions": [
+
+      ],
+      "id": 15,
+      "completed": false
     }
   }
 }

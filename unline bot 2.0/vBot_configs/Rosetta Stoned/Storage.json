@@ -1,12 +1,12 @@
 {
   "exercise_id": 34303,
-  "cavebot_profile": "DC-Defilers",
-  "ingame_hotkeys": "macro(250, \"Eat Food From Ground\", function()\n  local player = g_game.getLocalPlayer()\n\n  if not player then\n      return\n  end\n\n  local playerPos = player:getPosition()\n\n  local tile = g_map.getTile(playerPos)\n  \n  local foodIDs = {3725, 3577, 3578, 3592, 3593, 3594, 3595, 3600, 3606, 3607, 3610, 3611, 3662, 3723, 3725, 3726, 3727}\n\n  if tile then\n    local items = tile:getItems()\n    for _, item in ipairs(items) do\n      if table.contains(foodIDs, item:getId()) then\n        g_game.use(item)\n        return\n      end\n    end\n  end\nend)",
-  "left_weapon_id": 3288,
+  "last_quickloot": "gold coin",
+  "cavebot_profile": "KA-LavaLurkers",
+  "right_weapon_id": 7384,
   "loot_seller_cities": [
 
   ],
-  "right_weapon_id": 7384,
-  "loot_seller_active": false,
-  "last_quickloot": "blue gem, death ring, demonic essence, gold coin, green gem, monster egg, platinum coin, red gem, small diamond, small emerald, small ruby, small sapphire, talon, yellow gem"
+  "ingame_hotkeys": "macro(30000, \"Shadow\", function()\n  if not isInPz() then\n    cast(\"exiva ocultus\")\n  end\nend)\n\n\nmacro(120000, \"Paranoid Reflexes\", function()\n  if not isInPz() then\n    cast(\"utani evado\")\n  end\nend)\n\nlocal petBodies = {10221,10222,10223,10224}\n\nmacro(500, \"Revive Pet\", function()\n  if not isInPz() then\n    for i, tile in ipairs(g_map.getTiles(posz())) do\n      for u, item in ipairs(tile:getItems()) do\n        if table.find(petBodies, item:getId()) and findItem(34234) then\n          useWith(34234, item)\n        end\n      end\n    end\n  end\nend)\n\n",
+  "left_weapon_id": 3288,
+  "loot_seller_active": false
 }

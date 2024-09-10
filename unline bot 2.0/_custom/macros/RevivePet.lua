@@ -1,11 +1,15 @@
 local petBodies = {10221,10222,10223,10224}
+local reviveHerbId = 34234
 
 macro(500, "Revive Pet", function()
   if not isInPz() then
+    if itemAmount(reviveHerbId) < 1 then
+      return
+    end
     for i, tile in ipairs(g_map.getTiles(posz())) do
       for u, item in ipairs(tile:getItems()) do
-        if table.find(petBodies, item:getId()) and findItem(34234) then
-          useWith(34234, item)
+        if table.find(petBodies, item:getId()) and findItem(reviveHerbId) then
+          useWith(reviveHerbId, item)
         end
       end
     end

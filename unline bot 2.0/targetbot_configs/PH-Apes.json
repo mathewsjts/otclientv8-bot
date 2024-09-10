@@ -1,0 +1,82 @@
+{
+  "targeting": [
+    {
+      "faceMonster": false,
+      "dontLoot": true,
+      "rpSafe": false,
+      "diamondArrows": false,
+      "name": "Sibang, Kongra, Merlkin",
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "anchor": false,
+      "lureMax": 3,
+      "maxDistance": 5,
+      "danger": 5,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "rePosition": false,
+      "dynamicLure": false,
+      "lureCavebot": false,
+      "lureCount": 8,
+      "lureMin": 1,
+      "regex": "^sibang$|^kongra$|^merlkin$",
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "priority": 5,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "rePositionAmount": 5
+    },
+    {
+      "faceMonster": false,
+      "dontLoot": true,
+      "rpSafe": false,
+      "diamondArrows": false,
+      "name": "Spider, Bug, Wasp, Centipede, Tarantula, Crocodile, Tiger, Terror Bird, Bat, Poison Spider, Carniphila, Snake",
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "anchor": false,
+      "lureMax": 3,
+      "maxDistance": 3,
+      "danger": 0,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "rePosition": false,
+      "rePositionAmount": 5,
+      "lureCavebot": true,
+      "lureCount": 8,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "anchorRange": 3,
+      "keepDistanceRange": 5,
+      "priority": 0,
+      "lure": false,
+      "regex": "^spider$|^bug$|^wasp$|^centipede$|^tarantula$|^crocodile$|^tiger$|^terror bird$|^bat$|^poison spider$|^carniphila$|^snake$",
+      "dynamicLureDelay": false
+    }
+  ],
+  "looting": {
+    "containers": [
+
+    ],
+    "items": [
+      {
+        "count": 1,
+        "id": 1781
+      },
+      {
+        "count": 1,
+        "id": 5883
+      }
+    ],
+    "everyItem": false,
+    "maxDanger": 100,
+    "minCapacity": 0
+  }
+}

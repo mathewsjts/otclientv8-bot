@@ -6,10 +6,7 @@
 
     ],
     "containers": [
-      {
-        "id": 2854,
-        "count": 1
-      }
+
     ],
     "everyItem": false
   },
@@ -21,13 +18,13 @@
       "keepDistance": false,
       "dynamicLureDelay": false,
       "rePosition": false,
-      "maxDistance": 8,
-      "lureMin": 1,
+      "maxDistance": 10,
+      "lureMin": 5,
       "dynamicLure": false,
-      "lureDelay": 250,
+      "lureDelay": 500,
       "closeLure": false,
       "closeLureAmount": 3,
-      "regex": "^midnight asura$|^dawnfire asura$|^hellspawn$|^destroyer$|^massive fire elemental$|^frost flower asura$",
+      "regex": "^skeleton elite warrior$|^undead elite gladiator$",
       "lureCavebot": false,
       "lureCount": 1,
       "rpSafe": false,
@@ -35,44 +32,44 @@
       "anchorRange": 3,
       "keepDistanceRange": 1,
       "anchor": false,
-      "danger": 3,
+      "danger": 5,
       "lure": false,
-      "priority": 3,
+      "priority": 5,
       "faceMonster": false,
       "dontLoot": true,
-      "name": "Midnight Asura, Dawnfire Asura, Hellspawn, Destroyer, Massive Fire Elemental, Frost Flower Asura",
-      "delayFrom": 2,
-      "lureMax": 3
+      "name": "Skeleton Elite Warrior, Undead Elite Gladiator",
+      "delayFrom": 1,
+      "lureMax": 6
     },
     {
       "diamondArrows": false,
-      "lureMax": 30,
+      "chase": false,
       "avoidAttacks": false,
-      "delayFrom": 2,
+      "keepDistance": false,
       "dynamicLureDelay": false,
       "rePosition": false,
-      "maxDistance": 10,
-      "lureMin": 29,
-      "dynamicLure": true,
+      "maxDistance": 1,
+      "lureMin": 0,
+      "dynamicLure": false,
       "lureDelay": 250,
       "closeLure": false,
       "closeLureAmount": 3,
-      "regex": "^crocodile$|^elephant$|^wasp$|^snake$|^tiger$|^cobra$",
-      "lureCavebot": false,
+      "regex": "^lion$|^sandcrawler$|^deer$|^necromancer$|^skeleton$|^ghoul$|^vampire$",
+      "lureCavebot": true,
       "lureCount": 5,
-      "lure": false,
+      "rpSafe": false,
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
       "anchor": false,
-      "rpSafe": false,
       "danger": 0,
+      "lure": false,
       "priority": 0,
       "faceMonster": false,
       "dontLoot": true,
-      "keepDistance": false,
-      "name": "Crocodile, Elephant, Wasp, Snake, Tiger, Cobra",
-      "chase": false
+      "name": "Lion, Sandcrawler, Deer, Necromancer, Skeleton, Ghoul, Vampire",
+      "delayFrom": 2,
+      "lureMax": 30
     }
   ]
 }

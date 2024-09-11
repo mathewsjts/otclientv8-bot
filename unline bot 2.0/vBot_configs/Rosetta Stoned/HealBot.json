@@ -1,8 +1,7 @@
 {
+  "currentHealBotProfile": 1,
   "ConditionPanel": {
-    "holdUtura": false,
-    "uturaType": "",
-    "uturaCost": 100,
+    "enabled": true,
     "ignoreInPz": true,
     "stopHaste": false,
     "hasteSpell": "utani hur",
@@ -25,137 +24,129 @@
     "utamoCost": 40,
     "holdUtana": false,
     "utanaCost": 440,
-    "enabled": true
+    "holdUtura": false,
+    "uturaType": "",
+    "uturaCost": 100
   },
-  "currentHealBotProfile": 1,
   "healbot": [
     {
       "enabled": true,
-      "Conditions": true,
-      "MessageDelay": false,
-      "spellTable": [
-        {
-          "value": 80,
-          "sign": "<",
-          "origin": "HP%",
-          "cost": 140,
-          "spell": "exura vita",
-          "enabled": true,
-          "index": 1
-        },
-        {
-          "value": 98,
-          "sign": ">",
-          "origin": "MP%",
-          "cost": 60,
-          "spell": "utani hur",
-          "enabled": true,
-          "index": 2
-        }
-      ],
-      "name": "Profile #1",
       "Visible": true,
-      "Cooldown": true,
       "itemTable": [
         {
-          "value": 50,
+          "enabled": true,
+          "origin": "MP%",
           "sign": "<",
           "index": 1,
-          "enabled": true,
           "item": 268,
-          "origin": "MP%"
+          "value": 50
         },
         {
-          "value": 50,
+          "enabled": true,
+          "origin": "MP%",
           "sign": "<",
           "index": 2,
-          "enabled": true,
           "item": 237,
-          "origin": "MP%"
+          "value": 50
         },
         {
-          "value": 100,
           "enabled": true,
-          "origin": "MP%",
+          "index": 3,
           "sign": "<",
+          "origin": "MP%",
           "item": 238,
-          "index": 3
+          "value": 100
         },
         {
-          "value": 50,
+          "enabled": true,
+          "index": 4,
           "sign": "<",
           "origin": "MP%",
-          "enabled": true,
           "item": 23374,
-          "index": 4
+          "value": 50
         }
       ],
       "Delay": true,
-      "Interval": true
+      "Conditions": true,
+      "MessageDelay": false,
+      "spellTable": [
+        {
+          "enabled": true,
+          "index": 1,
+          "cost": 140,
+          "sign": "<",
+          "origin": "HP%",
+          "spell": "exura vita",
+          "value": 80
+        }
+      ],
+      "Interval": true,
+      "name": "Profile #1",
+      "Cooldown": true
     },
     {
       "enabled": false,
+      "Visible": true,
+      "itemTable": [
+
+      ],
+      "Delay": true,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
+      "Interval": true,
       "name": "Profile #2",
+      "Cooldown": true
+    },
+    {
+      "enabled": false,
       "Visible": true,
-      "Cooldown": true,
       "itemTable": [
 
       ],
       "Delay": true,
-      "Interval": true
-    },
-    {
-      "enabled": false,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
+      "Interval": true,
       "name": "Profile #3",
+      "Cooldown": true
+    },
+    {
+      "enabled": false,
       "Visible": true,
-      "Cooldown": true,
       "itemTable": [
 
       ],
       "Delay": true,
-      "Interval": true
-    },
-    {
-      "enabled": false,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
+      "Interval": true,
       "name": "Profile #4",
+      "Cooldown": true
+    },
+    {
+      "enabled": false,
       "Visible": true,
-      "Cooldown": true,
       "itemTable": [
 
       ],
       "Delay": true,
-      "Interval": true
-    },
-    {
-      "enabled": false,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
+      "Interval": true,
       "name": "Profile #5",
-      "Visible": true,
-      "Cooldown": true,
-      "itemTable": [
-
-      ],
-      "Delay": true,
-      "Interval": true
+      "Cooldown": true
     }
   ]
 }

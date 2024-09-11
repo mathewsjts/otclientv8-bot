@@ -2,7 +2,7 @@ local throwingStarId = 3287
 local viperStarId = 7366
 local assassinStarId = 7368
 local smallStoneId = 1781
-local minStars = 10
+local minStars = 5
 local minManaPercent = 80
 
 macro(1000, "Create Massacre Bombs", function()
@@ -16,15 +16,15 @@ macro(1000, "Create Massacre Bombs", function()
     return
   end
   
-  if itemAmount(throwingStarId) < minStars and manapercent() >= minManaPercent then
+  if itemAmount(throwingStarId) < minStars and freecap() >= 10 and manapercent() >= minManaPercent then
     cast("exevo morir")
   end
   
-  if itemAmount(viperStarId) < minStars and manapercent() >= minManaPercent then
+  if itemAmount(viperStarId) < minStars and freecap() >= 10 and manapercent() >= minManaPercent then
     cast("exevo pox morir")
   end
   
-  if itemAmount(assassinStarId) < minStars and manapercent() >= minManaPercent then
+  if itemAmount(assassinStarId) < minStars and freecap() >= 10 and manapercent() >= minManaPercent then
     cast("exevo mas morir")
   end
 

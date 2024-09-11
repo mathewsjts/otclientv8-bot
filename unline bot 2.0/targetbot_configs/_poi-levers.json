@@ -1,0 +1,75 @@
+{
+  "looting": {
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "everyItem": false,
+    "items": [
+
+    ],
+    "containers": [
+
+    ]
+  },
+  "targeting": [
+    {
+      "regex": "^defiler$|^plaguesmith$|^lost soul$|^destroyer$|^hellfire fighter$|^diabolic imp$|^blightwalker$",
+      "diamondArrows": false,
+      "lureMax": 30,
+      "rpSafe": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "rePosition": false,
+      "closeLure": false,
+      "lureMin": 29,
+      "dynamicLure": true,
+      "lureDelay": 250,
+      "chase": false,
+      "closeLureAmount": 3,
+      "keepDistance": false,
+      "avoidAttacks": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "priority": 10,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "name": "Defiler, Plaguesmith, Lost Soul, Destroyer, Hellfire Fighter, Diabolic Imp, Blightwalker",
+      "danger": 10,
+      "dontLoot": true,
+      "maxDistance": 10,
+      "faceMonster": false,
+      "anchor": false
+    },
+    {
+      "regex": "^spectre$",
+      "diamondArrows": false,
+      "lureMax": 30,
+      "rpSafe": false,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "rePosition": false,
+      "closeLure": false,
+      "lureMin": 29,
+      "dynamicLure": true,
+      "lureDelay": 250,
+      "chase": false,
+      "closeLureAmount": 3,
+      "keepDistance": false,
+      "avoidAttacks": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "priority": 0,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "name": "Spectre",
+      "danger": 0,
+      "dontLoot": true,
+      "maxDistance": 10,
+      "faceMonster": false,
+      "anchor": false
+    }
+  ]
+}

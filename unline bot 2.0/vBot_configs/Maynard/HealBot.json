@@ -1,21 +1,10 @@
 {
   "currentHealBotProfile": 1,
   "ConditionPanel": {
-    "enabled": true,
-    "ignoreInPz": true,
-    "stopHaste": false,
-    "hasteSpell": "utani hur",
-    "curePosion": false,
-    "poisonCost": 20,
-    "holdUtamo": false,
-    "curseCost": 80,
-    "cureBleed": false,
-    "bleedCost": 45,
-    "cureBurn": false,
     "burnCost": 30,
     "cureElectrify": false,
     "electrifyCost": 22,
-    "cureParalyse": true,
+    "enabled": true,
     "paralyseCost": 40,
     "paralyseSpell": "utani hur",
     "holdHaste": true,
@@ -26,127 +15,138 @@
     "utanaCost": 440,
     "holdUtura": false,
     "uturaType": "",
-    "uturaCost": 100
+    "uturaCost": 100,
+    "cureParalyse": true,
+    "ignoreInPz": true,
+    "stopHaste": false,
+    "hasteSpell": "utani hur",
+    "curePosion": false,
+    "poisonCost": 20,
+    "holdUtamo": false,
+    "curseCost": 80,
+    "cureBleed": false,
+    "bleedCost": 45,
+    "cureBurn": false
   },
   "healbot": [
     {
-      "enabled": true,
       "Visible": true,
       "itemTable": [
         {
-          "enabled": true,
-          "origin": "MP%",
-          "sign": "<",
           "index": 1,
+          "enabled": true,
+          "value": 50,
+          "sign": "<",
           "item": 268,
-          "value": 50
+          "origin": "MP%"
         },
         {
-          "enabled": true,
-          "origin": "MP%",
-          "sign": "<",
           "index": 2,
+          "enabled": true,
+          "value": 50,
+          "sign": "<",
           "item": 237,
-          "value": 50
+          "origin": "MP%"
         },
         {
-          "enabled": true,
           "index": 3,
-          "sign": "<",
           "origin": "MP%",
+          "value": 100,
+          "sign": "<",
           "item": 238,
-          "value": 100
+          "enabled": true
         },
         {
-          "enabled": true,
           "index": 4,
-          "sign": "<",
           "origin": "MP%",
+          "value": 50,
+          "sign": "<",
           "item": 23374,
-          "value": 50
+          "enabled": true
         }
       ],
-      "Delay": true,
-      "Conditions": true,
+      "enabled": true,
+      "Conditions": false,
       "MessageDelay": false,
       "spellTable": [
         {
-          "enabled": true,
           "index": 1,
           "cost": 140,
-          "sign": "<",
-          "origin": "HP%",
           "spell": "exura vita",
-          "value": 80
+          "enabled": true,
+          "sign": "<",
+          "value": 80,
+          "origin": "HP%"
         }
       ],
       "Interval": true,
+      "Cooldown": true,
       "name": "Profile #1",
-      "Cooldown": true
+      "Delay": true
     },
     {
-      "enabled": false,
       "Visible": true,
       "itemTable": [
 
       ],
-      "Delay": true,
+      "enabled": false,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
       "Interval": true,
+      "Cooldown": true,
       "name": "Profile #2",
-      "Cooldown": true
+      "Delay": true
     },
     {
-      "enabled": false,
       "Visible": true,
       "itemTable": [
 
       ],
-      "Delay": true,
+      "enabled": false,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
       "Interval": true,
+      "Cooldown": true,
       "name": "Profile #3",
-      "Cooldown": true
+      "Delay": true
     },
     {
-      "enabled": false,
       "Visible": true,
       "itemTable": [
 
       ],
-      "Delay": true,
+      "enabled": false,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
       "Interval": true,
+      "Cooldown": true,
       "name": "Profile #4",
-      "Cooldown": true
+      "Delay": true
     },
     {
-      "enabled": false,
       "Visible": true,
       "itemTable": [
 
       ],
-      "Delay": true,
+      "enabled": false,
       "Conditions": true,
       "MessageDelay": false,
       "spellTable": [
 
       ],
       "Interval": true,
+      "Cooldown": true,
       "name": "Profile #5",
-      "Cooldown": true
+      "Delay": true
     }
   ]
 }

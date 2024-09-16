@@ -1,0 +1,78 @@
+{
+  "looting": {
+    "everyItem": false,
+    "containers": [
+
+    ],
+    "items": [
+      {
+        "id": 9633,
+        "count": 1
+      }
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0
+  },
+  "targeting": [
+    {
+      "regex": "^arachnophobica$|^insane siren$|^thanatursus$|^crazed summer rearguard$",
+      "name": "Arachnophobica, Insane Siren, Thanatursus, Crazed Summer Rearguard",
+      "delayFrom": 3,
+      "dontLoot": true,
+      "lure": false,
+      "anchor": false,
+      "maxDistance": 10,
+      "lureMax": 4,
+      "priority": 5,
+      "diamondArrows": false,
+      "danger": 5,
+      "lureDelay": 750,
+      "closeLure": false,
+      "rpSafe": false,
+      "chase": true,
+      "avoidAttacks": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "anchorRange": 3,
+      "rePositionAmount": 5,
+      "dynamicLureDelay": true,
+      "keepDistanceRange": 1,
+      "rePosition": false,
+      "keepDistance": false,
+      "lureMin": 2,
+      "dynamicLure": false,
+      "faceMonster": false,
+      "closeLureAmount": 3
+    },
+    {
+      "regex": "^faun$|^pixie$|^boogy$|^dark faun$|^swan maiden$|^pooka$",
+      "name": "Faun, Pixie, Boogy, Dark Faun, Swan Maiden, Pooka",
+      "delayFrom": 2,
+      "dontLoot": true,
+      "lure": false,
+      "anchor": false,
+      "maxDistance": 1,
+      "lureMax": 30,
+      "priority": 0,
+      "diamondArrows": false,
+      "danger": 0,
+      "lureDelay": 250,
+      "closeLure": false,
+      "rpSafe": false,
+      "chase": false,
+      "avoidAttacks": false,
+      "lureCavebot": false,
+      "lureCount": 5,
+      "anchorRange": 3,
+      "rePositionAmount": 5,
+      "dynamicLureDelay": false,
+      "keepDistanceRange": 1,
+      "rePosition": false,
+      "keepDistance": false,
+      "lureMin": 29,
+      "dynamicLure": true,
+      "faceMonster": false,
+      "closeLureAmount": 3
+    }
+  ]
+}

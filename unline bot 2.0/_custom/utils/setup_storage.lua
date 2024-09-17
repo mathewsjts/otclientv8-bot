@@ -3,6 +3,7 @@ if not storage_custom then
     left_weapon_id = "",
     right_weapon_id = "",
     exercise_id = "",
+    outfit = "",
     ingame_hotkeys = "",
     last_quickloot = "",
     cavebot_profile = "",

@@ -198,7 +198,7 @@
       "completed": false,
       "missions": {
         "Paw and Fur: Trophy Hunter": {
-          "description": "You are Trophy Hunter in the Paw and Fur hunting elite. You currently have 77 Paw and Fur points. Ask Grizzly Adams for 'special task' he might have something for you.",
+          "description": "You are Trophy Hunter in the Paw and Fur hunting elite. You currently have 90 Paw and Fur points. Ask Grizzly Adams for 'special task' he might have something for you.",
           "completed": false
         },
         "Paw and Fur: The Noxious Spawn": {
@@ -209,8 +209,8 @@
           "description": "Try find its hideout and kill it.",
           "completed": false
         },
-        "Paw and Fur: Behemoths": {
-          "description": "You already hunted 0/700 behemoths.",
+        "Paw and Fur: Gorgo": {
+          "description": "Try find its hideout and kill it.",
           "completed": false
         },
         "Paw and Fur: Bretzecutioner": {
@@ -221,16 +221,16 @@
           "description": "Try find its hideout and kill it.",
           "completed": false
         },
+        "Paw and Fur: Serpent Spawns": {
+          "description": "You already hunted 800/800 serpent spawns.",
+          "completed": true
+        },
         "Paw and Fur: Tromphonyte": {
           "description": "Try find its hideout and kill it.",
           "completed": false
         },
-        "Paw and Fur: Serpent Spawns": {
-          "description": "You already hunted 0/800 serpent spawns.",
-          "completed": false
-        },
         "Paw and Fur: Medusas": {
-          "description": "You already hunted 421/500 medusas.",
+          "description": "You already hunted 420/500 medusas.",
           "completed": false
         }
       }

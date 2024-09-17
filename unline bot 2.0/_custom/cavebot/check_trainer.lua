@@ -6,11 +6,24 @@ CaveBot.Extensions.CheckTrainer.setup = function()
     local label_to_go = string.split(value, ",")[1]:trim()
     local stamina_limit = 2519
     local label_buy_weapon = "buyexerciseweapon"
+    local player = g_game.getLocalPlayer()
+    local currentOutfit =  player:getOutfit()
 
     for item_id, _ in pairs(SuppliesConfig.supplies[SuppliesConfig.supplies.currentProfile].items) do
       if table.find(exercise_list, tonumber(item_id)) then
         stg_custom.set_data("exercise_id", tonumber(item_id))
       end
+    end
+
+    if player:getOutfit().type ~= 1186 then
+      stg_custom.set_data("outfit", tonumber(player:getOutfit().type))
+      currentOutfit.type = 1186
+      currentOutfit.head = 1
+      currentOutfit.body = 114
+      currentOutfit.legs = 114
+      currentOutfit.feet = 114
+      g_game.changeOutfit(currentOutfit)
+      CaveBot.delay(500)
     end
 
     if itemAmount(storage_custom.exercise_id) < 1 then
@@ -42,6 +55,16 @@ CaveBot.Extensions.CheckTrainer.setup = function()
 
       if voc() == 15 then
         g_game.move(findItem(storage_custom.right_weapon_id), {x=65535, y=SlotRight, z=0}, 1)
+        CaveBot.delay(500)
+      end
+
+      if player:getOutfit().type == 1186 then
+        currentOutfit.type = storage_custom.outfit
+        currentOutfit.head = 1
+        currentOutfit.body = 114
+        currentOutfit.legs = 114
+        currentOutfit.feet = 114
+        g_game.changeOutfit(currentOutfit)
       end
 
       CaveBot.gotoLabel(label_to_go)

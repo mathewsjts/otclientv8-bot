@@ -34,7 +34,7 @@ CaveBot.Extensions.TeleportCity.setup = function()
     end
     local city_coordinate = cities_coordinates[city_name]
     local player_position = player:getPosition()
-    local max_distance = 120
+    local max_distance = 30
     local time_limit = 240
 
     if isPoisioned() and canCast("exana pox") then

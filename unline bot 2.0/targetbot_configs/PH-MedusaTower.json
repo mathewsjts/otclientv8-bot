@@ -1,0 +1,78 @@
+{
+  "looting": {
+    "everyItem": false,
+    "containers": [
+
+    ],
+    "items": [
+      {
+        "id": 33075,
+        "count": 1
+      }
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0
+  },
+  "targeting": [
+    {
+      "regex": "^serpent spawn$|^medusa$|^behemoth$",
+      "name": "Serpent Spawn, Medusa, Behemoth",
+      "rpSafe": false,
+      "dontLoot": true,
+      "lureCavebot": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "diamondArrows": false,
+      "maxDistance": 10,
+      "lureDelay": 750,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "lureCount": 1,
+      "priority": 5,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "danger": 5,
+      "rePosition": false,
+      "lureMax": 4,
+      "lureMin": 2,
+      "anchor": false,
+      "faceMonster": false,
+      "delayFrom": 1
+    },
+    {
+      "regex": "^snake$|^spider$|^centipede$|^tarantula$|^terror bird$|^bug$|^stone golem$|^clay guardian$|^slime$|^omnivora$|^carniphila$|^gargoyle$",
+      "name": "Snake, Spider, Centipede, Tarantula, Terror Bird, Bug, Stone Golem, Clay Guardian, Slime, Omnivora, Carniphila, Gargoyle",
+      "rpSafe": false,
+      "dontLoot": true,
+      "lureCavebot": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": true,
+      "diamondArrows": false,
+      "maxDistance": 10,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "lureCount": 5,
+      "priority": 0,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "danger": 0,
+      "rePosition": false,
+      "lureMax": 30,
+      "lureMin": 29,
+      "anchor": false,
+      "faceMonster": false,
+      "delayFrom": 2
+    }
+  ]
+}

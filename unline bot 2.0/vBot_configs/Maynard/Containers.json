@@ -57,6 +57,18 @@
         ],
         "enabled": true,
         "item": 23721
+      },
+      {
+        "min": true,
+        "value": "supplies",
+        "items": [
+          {
+            "id": 1781,
+            "count": 1
+          }
+        ],
+        "enabled": true,
+        "item": 9602
       }
     ],
     "purse": true,

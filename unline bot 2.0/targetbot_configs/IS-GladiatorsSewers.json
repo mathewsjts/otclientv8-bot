@@ -1,0 +1,75 @@
+{
+  "looting": {
+    "everyItem": false,
+    "containers": [
+
+    ],
+    "items": [
+
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0
+  },
+  "targeting": [
+    {
+      "regex": "^black sphinx acolyte$|^burning gladiator$|^priestess of the wild sun$",
+      "name": "Black Sphinx Acolyte, Burning Gladiator,  Priestess Of The Wild Sun",
+      "rpSafe": false,
+      "dontLoot": true,
+      "lureCavebot": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "diamondArrows": false,
+      "maxDistance": 10,
+      "lureDelay": 750,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "lureCount": 1,
+      "priority": 5,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "danger": 5,
+      "rePosition": false,
+      "lureMax": 4,
+      "lureMin": 2,
+      "anchor": false,
+      "faceMonster": false,
+      "delayFrom": 3
+    },
+    {
+      "regex": "^seagull$",
+      "name": "Seagull",
+      "rpSafe": false,
+      "dontLoot": true,
+      "lureCavebot": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": true,
+      "diamondArrows": false,
+      "maxDistance": 1,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "lureCount": 5,
+      "priority": 0,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "danger": 0,
+      "rePosition": false,
+      "lureMax": 30,
+      "lureMin": 29,
+      "anchor": false,
+      "faceMonster": false,
+      "delayFrom": 2
+    }
+  ]
+}

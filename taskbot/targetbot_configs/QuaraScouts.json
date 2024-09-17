@@ -1,0 +1,75 @@
+{
+  "looting": {
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "items": [
+
+    ],
+    "containers": [
+
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "rpSafe": false,
+      "priority": 5,
+      "regex": "^quara hydromancer scout$|^quara constrictor scout$|^quara predator scout$|^quara mantassin scout$|^quara pincher scout$",
+      "dynamicLure": false,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "lure": false,
+      "anchor": false,
+      "lureMin": 1,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "maxDistance": 3,
+      "danger": 5,
+      "dontLoot": true,
+      "lureCavebot": false,
+      "lureCount": 8,
+      "name": "Quara Hydromancer Scout, Quara Constrictor Scout, Quara Predator Scout, Quara Mantassin Scout, Quara Pincher Scout",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "diamondArrows": false,
+      "lureMax": 3,
+      "faceMonster": false,
+      "dynamicLureDelay": false
+    },
+    {
+      "rpSafe": false,
+      "priority": 0,
+      "regex": "^rat$|^crab$|^bug$|^centipede$",
+      "avoidAttacks": false,
+      "rePosition": false,
+      "dontLoot": true,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": true,
+      "chase": false,
+      "lureMax": 30,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "maxDistance": 3,
+      "danger": 0,
+      "name": "Rat, Crab, Bug, Centipede",
+      "anchor": false,
+      "lureCount": 8,
+      "lureCavebot": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 5,
+      "diamondArrows": false,
+      "lureMin": 29,
+      "faceMonster": false,
+      "closeLureAmount": 3
+    }
+  ]
+}

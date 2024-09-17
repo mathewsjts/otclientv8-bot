@@ -1,0 +1,198 @@
+{
+  "currentBotProfile": 1,
+  "AttackBot": [
+    {
+      "AntiRsRange": 5,
+      "BlackListSafe": false,
+      "pvpMode": false,
+      "name": "Profile #1",
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "attackTable": [
+        {
+          "monsters": [
+            "quara pincher scout",
+            "quara predator scout",
+            "quara mantassin scout",
+            "quara constrictor scout",
+            "quara hydromancer scout"
+          ],
+          "orMore": true,
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "itemId": 0,
+          "creatures": "quara pincher scout,quara predator scout,quara mantassin scout,quara constrictor scout,quara hydromancer scout",
+          "category": 1,
+          "mana": 1,
+          "description": "[3 Sqm] 1+ Creatures: exori vis, targeted (0%-100%)",
+          "patternCategory": 1,
+          "cooldown": 1,
+          "enabled": true,
+          "spell": "exori vis",
+          "pattern": 3,
+          "tooltip": "quara pincher scout,quara predator scout,quara mantassin scout,quara constrictor scout,quara hydromancer scout"
+        },
+        {
+          "monsters": [
+            "kongra",
+            "sibang",
+            "merlkin"
+          ],
+          "orMore": true,
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "itemId": 0,
+          "creatures": "kongra,sibang,merlkin",
+          "category": 1,
+          "mana": 1,
+          "description": "[3 Sqm] 1+ Creatures: exori frigo, targeted (0%-100%)",
+          "patternCategory": 1,
+          "cooldown": 1,
+          "enabled": true,
+          "spell": "exori frigo",
+          "pattern": 3,
+          "tooltip": "kongra,sibang,merlkin"
+        },
+        {
+          "monsters": [
+            "terramite",
+            "tarantula",
+            "crocodile",
+            "gnarlhound",
+            "tortoise",
+            "blood crab",
+            "terror bird",
+            "slime"
+          ],
+          "itemId": 0,
+          "category": 1,
+          "count": 1,
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "terramite, tarantula, crocodile, gnarlhound, tortoise, blood crab, terror bird, slime",
+          "orMore": true,
+          "maxHp": 100,
+          "description": "[3 Sqm] 1+ Creatures: exori flam, targeted (0%-100%)",
+          "mana": 40,
+          "cooldown": 1,
+          "enabled": true,
+          "spell": "exori flam",
+          "pattern": 3,
+          "tooltip": "terramite, tarantula, crocodile, gnarlhound, tortoise, blood crab, terror bird, slime"
+        },
+        {
+          "monsters": [
+            "tortoise",
+            "crocodile",
+            "blood crab",
+            "centipede",
+            "slime",
+            "bug",
+            "tarantula",
+            "poison spider",
+            "cave rat",
+            "rat",
+            "spider",
+            "swamp troll",
+            "skeleton",
+            "crab",
+            "panda",
+            "wasp",
+            "sandcrawler"
+          ],
+          "itemId": 0,
+          "category": 1,
+          "count": 1,
+          "minHp": 0,
+          "patternCategory": 1,
+          "creatures": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp, sandcrawler",
+          "orMore": true,
+          "maxHp": 100,
+          "description": "[3 Sqm] 1+ Creatures: exori min flam, targeted (0%-100%)",
+          "mana": 1,
+          "cooldown": 1,
+          "enabled": true,
+          "spell": "exori min flam",
+          "pattern": 3,
+          "tooltip": "tortoise, crocodile, blood crab, centipede, slime, bug, tarantula, poison spider, cave rat, rat, spider, swamp troll, skeleton, crab, panda, wasp, sandcrawler"
+        }
+      ],
+      "Rotate": false,
+      "enabled": true,
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "AntiRsRange": 5,
+      "BlackListSafe": false,
+      "pvpMode": false,
+      "name": "Profile #2",
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "AntiRsRange": 5,
+      "BlackListSafe": false,
+      "pvpMode": false,
+      "name": "Profile #3",
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "AntiRsRange": 5,
+      "BlackListSafe": false,
+      "pvpMode": false,
+      "name": "Profile #4",
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "AntiRsRange": 5,
+      "BlackListSafe": false,
+      "pvpMode": false,
+      "name": "Profile #5",
+      "Visible": true,
+      "Cooldown": true,
+      "PvpSafe": true,
+      "attackTable": [
+
+      ],
+      "Rotate": false,
+      "enabled": false,
+      "ignoreMana": true,
+      "Kills": false,
+      "KillsAmount": 1
+    }
+  ]
+}

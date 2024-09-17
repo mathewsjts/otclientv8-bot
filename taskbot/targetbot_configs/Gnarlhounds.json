@@ -1,0 +1,75 @@
+{
+  "looting": {
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "items": [
+
+    ],
+    "containers": [
+
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "rpSafe": false,
+      "priority": 5,
+      "regex": "^gnarlhound$",
+      "avoidAttacks": false,
+      "rePosition": false,
+      "dontLoot": true,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": false,
+      "chase": false,
+      "lureMax": 3,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "maxDistance": 4,
+      "danger": 5,
+      "name": "Gnarlhound",
+      "anchor": false,
+      "lureCount": 8,
+      "lureCavebot": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "diamondArrows": false,
+      "lureMin": 1,
+      "faceMonster": false,
+      "closeLureAmount": 3
+    },
+    {
+      "rpSafe": false,
+      "priority": 0,
+      "regex": "^sandcrawler$|^orc$|^orc spearman$|^orc warrior$|^insect swarm$",
+      "avoidAttacks": false,
+      "rePosition": false,
+      "dontLoot": true,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": true,
+      "chase": false,
+      "lureMax": 30,
+      "keepDistance": false,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "maxDistance": 3,
+      "danger": 0,
+      "name": "Sandcrawler, Orc, Orc Spearman, Orc Warrior, Insect Swarm",
+      "anchor": false,
+      "lureCount": 8,
+      "lureCavebot": false,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 5,
+      "diamondArrows": false,
+      "lureMin": 29,
+      "faceMonster": false,
+      "closeLureAmount": 3
+    }
+  ]
+}

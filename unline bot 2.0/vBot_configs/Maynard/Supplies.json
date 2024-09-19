@@ -3,7 +3,7 @@
     "Default": {
       "capValue": "90",
       "staminaValue": "2340",
-      "staminaSwitch": true,
+      "imbues": true,
       "items": {
         "34298": {
           "min": 0,
@@ -26,8 +26,8 @@
           "avg": 0
         }
       },
-      "capSwitch": true,
-      "imbues": true
+      "capSwitch": false,
+      "staminaSwitch": false
     },
     "currentProfile": "Default"
   }

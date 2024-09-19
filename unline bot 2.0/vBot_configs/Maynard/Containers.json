@@ -9,8 +9,8 @@
         "items": [
 
         ],
-        "enabled": true,
-        "item": 2854
+        "item": 2854,
+        "enabled": true
       },
       {
         "min": true,
@@ -37,8 +37,8 @@
             "count": 1
           }
         ],
-        "enabled": true,
-        "item": 7343
+        "item": 7343,
+        "enabled": true
       },
       {
         "min": true,
@@ -46,8 +46,8 @@
         "items": [
 
         ],
-        "enabled": true,
-        "item": 23396
+        "item": 23396,
+        "enabled": true
       },
       {
         "min": true,
@@ -55,8 +55,8 @@
         "items": [
 
         ],
-        "enabled": true,
-        "item": 23721
+        "item": 23721,
+        "enabled": true
       },
       {
         "min": true,
@@ -67,12 +67,12 @@
             "count": 1
           }
         ],
-        "enabled": true,
-        "item": 9602
+        "item": 9602,
+        "enabled": true
       }
     ],
-    "purse": true,
     "height": 170,
+    "purse": true,
     "lootBag": true,
     "enabled": true
   }

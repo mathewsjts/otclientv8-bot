@@ -1,8 +1,8 @@
-local petBodies = {10221,10222,10223,10224}
-local reviveHerbId = 34234
-
 macro(500, "Revive Pet", function()
   if not isInPz() then
+		local reviveHerbId = 34234
+		local petBodies = {10221,10222,10223,10224}
+
     if itemAmount(reviveHerbId) < 1 then
       return
     end

@@ -25,7 +25,7 @@
         }
       },
       "imbues": false,
-      "staminaSwitch": true,
+      "staminaSwitch": false,
       "capSwitch": false,
       "capValue": "90"
     },

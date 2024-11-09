@@ -1,307 +1,375 @@
 {
   "quests": {
-    "Kilmaresh": {
-      "id": 24,
-      "completed": false,
+    "The Dream Courts": {
+      "id": 44,
       "missions": {
-        "Fafnar's Wrath": {
-          "description": "The Empress was very pleased to hear that Issavi, the Golden City is safe again. Henceforth, you can be sure to be held in high esteem by the Anuma.",
-          "completed": true
-        },
-        "Gifts for Moe": {
-          "description": "You found ten sphinx feathers for Moe. Now the sibang will steal the Ring of Secret Thoughts for you.",
-          "completed": true
-        },
-        "The Revenge of the Ogres": {
-          "description": "When you have opened the grave you have faced a gaping void. It looks like some grave robbers have been here.",
-          "completed": false
+        "The Dream Courts": {
+          "completed": false,
+          "description": "You talked to Wanys of the Summer Court. She asked you to charge eight wardstones that will weaken the Nightmare Beast. You charged 0 of 8 wardstones."
         }
-      }
-    },
-    "Ferumbras' Ascendant": {
-      "id": 14,
-      "completed": false,
-      "missions": {
-        "Ferumbras' Ascendant - A Weapon to kill a god": {
-          "description": "Find the seven parts of the godbreaker, guarded by the minions of the Rusthless Seven.",
-          "completed": false
-        }
-      }
-    },
-    "The Explorer Society": {
-      "id": 45,
-      "completed": false,
-      "missions": {
-        "Joining the Explorers": {
-          "description": "Bring the pickaxe back to the Explorer Society representative.",
-          "completed": true
-        }
-      }
-    },
-    "Grave Danger": {
-      "id": 17,
-      "completed": false,
-      "missions": {
-        "03 The grave in Ghostlands": {
-          "description": "Find the grave in Ghostlands.",
-          "completed": false
-        },
-        "12 The grave on the southern ice islands": {
-          "description": "Find the grave on the southern ice islands.",
-          "completed": false
-        },
-        "01 The grave in Edron": {
-          "description": "Find the grave in Edron's north.",
-          "completed": false
-        },
-        "07 The grave in Kilmaresh": {
-          "description": "Find the grave in Kilmaresh.",
-          "completed": false
-        },
-        "* Grave Danger - The Lich Knights": {
-          "description": "Prevent the raising of twelve lich knights.\nSanctify the graves yet untouched and destroy any lich knights that might have been raised.\nGraves explored: 0/12",
-          "completed": false
-        },
-        "09 The grave in Darashia": {
-          "description": "Find the grave in Darashia.",
-          "completed": false
-        },
-        "11 The grave at the orclands entrance": {
-          "description": "Find the grave at the entrance to the Orclands.",
-          "completed": false
-        },
-        "05 The grave in the Femor Hills": {
-          "description": "Find the grave in the Femor Hills.",
-          "completed": false
-        },
-        "10 The grave in the old Thais temple": {
-          "description": "Find the grave in the old Thais temple.",
-          "completed": false
-        },
-        "08 The grave in Vengoth": {
-          "description": "Find the grave in Vengoth.",
-          "completed": false
-        },
-        "02 The grave in the Dark cathedral": {
-          "description": "Find the grave in the Dark cathedral.",
-          "completed": false
-        },
-        "04 The grave in Cormaya": {
-          "description": "Find the grave in Cormaya.",
-          "completed": false
-        },
-        "06 The grave on an isle NE of Ankrahmun": {
-          "description": "Find the grave on an isle north-east of Ankrahmun.",
-          "completed": false
-        }
-      }
-    },
-    "Bigfoot's Burden": {
-      "id": 7,
-      "completed": false,
-      "missions": {
-        "Gnome Reputation": {
-          "description": "Your reputation in the eyes of gnomekind is 510.\nYour standing rises at: \nReputation   30 - I \nReputation  120 - II \nReputation  480 - III \nReputation 1440 - IV \n",
-          "completed": false
-        },
-        "Recruitment": {
-          "description": "You are now a true member of the Bigfoot company.",
-          "completed": true
-        }
-      }
-    },
-    "Forgotten Knowledge": {
-      "id": 15,
-      "completed": false,
-      "missions": [
-
-      ]
-    },
-    "In Service of Yalahar": {
-      "id": 22,
-      "completed": false,
-      "missions": {
-        "Darashia": {
-          "description": "Karith might establish a route to Darashia as soon as he sees five cities as worthy.",
-          "completed": true
-        },
-        "The Way to Yalahar": {
-          "description": "You have delivered the research notes to Wyrdin",
-          "completed": true
-        },
-        "Carlin": {
-          "description": "Karith might establish a route to Carlin as soon as he sees five cities as worthy.",
-          "completed": true
-        },
-        "Searoutes Around Yalahar": {
-          "description": "You convicend Captain Karith of five cities which it might be worth estabilishing a ship route to and he will now sail you to seven cities in total in hope of profit.",
-          "completed": true
-        },
-        "LibertyBay": {
-          "description": "Karith might establish a route to LibertyBay as soon as he sees five cities as worthy.",
-          "completed": true
-        },
-        "Ab'Dendriel": {
-          "description": "Karith might establish a route to Ab'Dendriel as soon as he sees five cities as worthy.",
-          "completed": true
-        },
-        "Venore": {
-          "description": "Karith might establish a route to Venore as soon as he sees five cities as worthy.",
-          "completed": true
-        }
-      }
+      },
+      "completed": false
     },
     "Cults of Tibia": {
       "id": 10,
-      "completed": false,
       "missions": {
         "Zathroth Remmants": {
-          "description": "You reported your victory to Gerimor.",
-          "completed": false
+          "completed": false,
+          "description": "You reported your victory to Gerimor."
         }
-      }
-    },
-    "Threatened Dreams": {
-      "id": 63,
-      "completed": false,
-      "missions": {
-        "Troubled Animals - Creation of Legends": {
-          "description": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist.",
-          "completed": true
-        }
-      }
-    },
-    "The Secret Library": {
-      "id": 57,
-      "completed": false,
-      "missions": {
-        "Asuri - The Lament": {
-          "description": "Ao pegar missao com Dedoras",
-          "completed": false
-        },
-        "The Path of Defiances": {
-          "description": "You have entered the path of deciances.",
-          "completed": false
-        },
-        "The Order of the Falcon": {
-          "description": "It is said that an ancient order of knights once resided in Edron. The knights disappeared a long time ago but their abandoned outpost is still there. The place may yet hold some surprises.",
-          "completed": false
-        },
-        "Liquid Death": {
-          "description": "A large scout party of ancestors of the Njey have to deal with two enemy parties. Try to win the Deeplings over temporarity by restoring their idols: 0/9",
-          "completed": false
-        }
-      }
+      },
+      "completed": false
     },
     "Killing in the Name of...": {
       "id": 23,
-      "completed": false,
       "missions": {
-        "Paw and Fur: Trophy Hunter": {
-          "description": "You are Trophy Hunter in the Paw and Fur hunting elite. You currently have 90 Paw and Fur points. Ask Grizzly Adams for 'special task' he might have something for you.",
-          "completed": false
-        },
-        "Paw and Fur: The Noxious Spawn": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
-        "Paw and Fur: Stonecracker": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
-        "Paw and Fur: Gorgo": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
-        "Paw and Fur: Bretzecutioner": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
-        "Paw and Fur: Sulphur Scuttler": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
-        },
-        "Paw and Fur: Serpent Spawns": {
-          "description": "You already hunted 800/800 serpent spawns.",
-          "completed": true
-        },
         "Paw and Fur: Tromphonyte": {
-          "description": "Try find its hideout and kill it.",
-          "completed": false
+          "completed": false,
+          "description": "Try find its hideout and kill it."
         },
         "Paw and Fur: Medusas": {
-          "description": "You already hunted 420/500 medusas.",
-          "completed": false
+          "completed": false,
+          "description": "You already hunted 420/500 medusas."
+        },
+        "Paw and Fur: Trophy Hunter": {
+          "completed": false,
+          "description": "You are Trophy Hunter in the Paw and Fur hunting elite. You currently have 90 Paw and Fur points. Ask Grizzly Adams for 'special task' he might have something for you."
+        },
+        "Paw and Fur: The Noxious Spawn": {
+          "completed": false,
+          "description": "Try find its hideout and kill it."
+        },
+        "Paw and Fur: Stonecracker": {
+          "completed": false,
+          "description": "Try find its hideout and kill it."
+        },
+        "Paw and Fur: Gorgo": {
+          "completed": false,
+          "description": "Try find its hideout and kill it."
+        },
+        "Paw and Fur: Bretzecutioner": {
+          "completed": false,
+          "description": "Try find its hideout and kill it."
+        },
+        "Paw and Fur: Sulphur Scuttler": {
+          "completed": false,
+          "description": "Try find its hideout and kill it."
+        },
+        "Paw and Fur: Serpent Spawns": {
+          "completed": true,
+          "description": "You already hunted 800/800 serpent spawns."
         }
-      }
-    },
-    "The Inquisition": {
-      "id": 49,
-      "completed": false,
-      "missions": {
-        "Mission 2: Eclipse": {
-          "description": "You already brought the witches' grimoire to Henricus.",
-          "completed": true
-        },
-        "Mission 4: The Haunted Ruin": {
-          "description": "You already cleaned the abandoned and haunted house in Liberty, ask Henricus for mission.",
-          "completed": true
-        },
-        "Mission 7: The Shadow Nexus": {
-          "description": "Your mission is to go to the Demon Forge and slay seven of The Ruthless Seven Minions. The Demon Forge is located in the Edron Hero Cave, through a portal after the Vampire Shield Quest.",
-          "completed": false
-        },
-        "Mission 6: The Demon Ungreez": {
-          "description": "You got the the first addon of Demon Hunter Outfit! Ask Henricus for mission to unlock more addons.",
-          "completed": true
-        },
-        "Mission 5: Essential Gathering": {
-          "description": "You got the Demon Hunter Outfit! Ask Henricus for mission to unlock more addons.",
-          "completed": true
-        },
-        "Mission 1: Interrogation": {
-          "description": "You investigated all guards in Thais.",
-          "completed": true
-        },
-        "Mission 3: Vampire Hunt": {
-          "description": "Get back to Thais and report your mission to Henricus.",
-          "completed": true
-        }
-      }
-    },
-    "The Dream Courts": {
-      "id": 44,
-      "completed": false,
-      "missions": {
-        "The Dream Courts": {
-          "description": "You talked to Wanys of the Summer Court. She asked you to charge eight wardstones that will weaken the Nightmare Beast. You charged 0 of 8 wardstones.",
-          "completed": false
-        }
-      }
+      },
+      "completed": false
     },
     "Liquid Black Quest": {
       "id": 26,
-      "completed": false,
       "missions": {
         "The First Visitor": {
-          "description": "Go back to a gray island and go down a grand staircase to Fiehonja.",
-          "completed": false
+          "completed": false,
+          "description": "Go back to a gray island and go down a grand staircase to Fiehonja."
         }
-      }
+      },
+      "completed": false
+    },
+    "The Explorer Society": {
+      "id": 45,
+      "missions": {
+        "Joining the Explorers": {
+          "completed": true,
+          "description": "Bring the pickaxe back to the Explorer Society representative."
+        }
+      },
+      "completed": false
     },
     "Within the Tides": {
       "id": 69,
-      "completed": false,
       "missions": {
-        "Coastal Concerns": {
-          "description": "You killed enough foam stalkers and two-headed turtles to guarantee Silvertides' safety. But there is one last, big problem: The wise philosopher Timira was corrupted by the asuri. Seek her out and try to save her, if possible.",
-          "completed": false
-        },
         "Of Feathers and Flowers": {
-          "description": "You discovered Marapur, the realm of the nagas. New  secrets and mysteries are waiting to be unveiled.",
-          "completed": true
+          "completed": true,
+          "description": "You discovered Marapur, the realm of the nagas. New  secrets and mysteries are waiting to be unveiled."
+        },
+        "Coastal Concerns": {
+          "completed": false,
+          "description": "You killed enough foam stalkers and two-headed turtles to guarantee Silvertides' safety. But there is one last, big problem: The wise philosopher Timira was corrupted by the asuri. Seek her out and try to save her, if possible."
         }
-      }
+      },
+      "completed": false
+    },
+    "Heart of Destruction": {
+      "id": 19,
+      "missions": {
+        "Killed the Rupture": {
+          "completed": true,
+          "description": "You have killed the Rupture. A minion of the World Devourer."
+        },
+        "Killed the Outburst": {
+          "completed": true,
+          "description": "You have killed the Outburst. A minion of the World Devourer."
+        },
+        "Killed the Anomaly": {
+          "completed": true,
+          "description": "You have killed the Anomaly. A minion of the World Devourer."
+        },
+        "Killed the Eradicator": {
+          "completed": true,
+          "description": "You have killed the Eradicator. A minion of the World Devourer."
+        },
+        "Killed the Realityquake": {
+          "completed": true,
+          "description": "You have killed the Realityquake. A minion of the World Devourer."
+        },
+        "Destruction Destabilizer": {
+          "completed": false,
+          "description": "You have to kill all of the most potent minios of destruction to gain access to the heart. To challenge the devourer you also need 5 charge. You gained 9 of five destructive charges."
+        }
+      },
+      "completed": false
+    },
+    "Ferumbras' Ascendant": {
+      "id": 14,
+      "missions": {
+        "Ferumbras' Ascendant - A Weapon to kill a god": {
+          "completed": false,
+          "description": "Find the seven parts of the godbreaker, guarded by the minions of the Rusthless Seven."
+        }
+      },
+      "completed": false
+    },
+    "Bigfoot's Burden": {
+      "id": 7,
+      "missions": {
+        "Gnome Reputation": {
+          "completed": false,
+          "description": "Your reputation in the eyes of gnomekind is 1510.\nYour standing rises at: \nReputation   30 - I \nReputation  120 - II \nReputation  480 - III \nReputation 1440 - IV \n"
+        },
+        "Gnomish War Hero (Warzone 1)": {
+          "completed": false,
+          "description": "Deliver the Deathstrike's snippet to gnomission to enter the first warzone for free."
+        },
+        "Recruitment": {
+          "completed": true,
+          "description": "You are now a true member of the Bigfoot company."
+        }
+      },
+      "completed": false
+    },
+    "The Secret Library": {
+      "id": 57,
+      "missions": {
+        "Liquid Death": {
+          "completed": false,
+          "description": "A large scout party of ancestors of the Njey have to deal with two enemy parties. Try to win the Deeplings over temporarity by restoring their idols: 0/9"
+        },
+        "Asuri - The Lament": {
+          "completed": false,
+          "description": "Ao pegar missao com Dedoras"
+        },
+        "The Order of the Falcon": {
+          "completed": false,
+          "description": "It is said that an ancient order of knights once resided in Edron. The knights disappeared a long time ago but their abandoned outpost is still there. The place may yet hold some surprises."
+        },
+        "The Path of Defiances": {
+          "completed": false,
+          "description": "You have entered the path of deciances."
+        }
+      },
+      "completed": false
+    },
+    "Oramond": {
+      "id": 27,
+      "missions": {
+        "To Take Roots": {
+          "completed": false,
+          "description": "Five Juicy roots from the outskirts of Rathleton may already help feed the poor. Try to find a city official to deliver them to or go to the Rathleton poor house.\nRoots harvested: 1/5"
+        }
+      },
+      "completed": false
+    },
+    "Grave Danger": {
+      "id": 17,
+      "missions": {
+        "01 The grave in Edron": {
+          "completed": true,
+          "description": "The Edron grave was visited."
+        },
+        "06 The grave on an isle NE of Ankrahmun": {
+          "completed": false,
+          "description": "Find the grave on an isle north-east of Ankrahmun."
+        },
+        "02 The grave in the Dark cathedral": {
+          "completed": false,
+          "description": "Find the grave in the Dark cathedral."
+        },
+        "08 The grave in Vengoth": {
+          "completed": false,
+          "description": "Find the grave in Vengoth."
+        },
+        "05 The grave in the Femor Hills": {
+          "completed": false,
+          "description": "Find the grave in the Femor Hills."
+        },
+        "07 The grave in Kilmaresh": {
+          "completed": false,
+          "description": "Find the grave in Kilmaresh."
+        },
+        "* Grave Danger - The Lich Knights": {
+          "completed": false,
+          "description": "Prevent the raising of twelve lich knights.\nSanctify the graves yet untouched and destroy any lich knights that might have been raised.\nGraves explored: 5/12"
+        },
+        "04 The grave in Cormaya": {
+          "completed": true,
+          "description": "The Cormaya grave was visited."
+        },
+        "10 The grave in the old Thais temple": {
+          "completed": true,
+          "description": "The old Thais temple grave was visited."
+        },
+        "12 The grave on the southern ice islands": {
+          "completed": false,
+          "description": "Find the grave on the southern ice islands."
+        },
+        "The Order of the Cobra": {
+          "completed": false,
+          "description": "You have reached a secluded island where an abandoned bastion stands tall. What surprises will this place hold in store, you ask yourself. And what may be the price the curious will have to pay..."
+        },
+        "03 The grave in Ghostlands": {
+          "completed": true,
+          "description": "The Ghostlands grave was visited."
+        },
+        "11 The grave at the orclands entrance": {
+          "completed": false,
+          "description": "Find the grave at the entrance to the Orclands."
+        },
+        "09 The grave in Darashia": {
+          "completed": true,
+          "description": "The Darashia grave was visited."
+        }
+      },
+      "completed": false
+    },
+    "Kilmaresh": {
+      "id": 24,
+      "missions": {
+        "The Revenge of the Ogres": {
+          "completed": false,
+          "description": "When you have opened the grave you have faced a gaping void. It looks like some grave robbers have been here."
+        },
+        "Fafnar's Wrath": {
+          "completed": true,
+          "description": "The Empress was very pleased to hear that Issavi, the Golden City is safe again. Henceforth, you can be sure to be held in high esteem by the Anuma."
+        },
+        "Gifts for Moe": {
+          "completed": true,
+          "description": "You found ten sphinx feathers for Moe. Now the sibang will steal the Ring of Secret Thoughts for you."
+        }
+      },
+      "completed": false
+    },
+    "Threatened Dreams": {
+      "id": 63,
+      "missions": {
+        "Troubled Animals - Creation of Legends": {
+          "completed": true,
+          "description": "Aklestios was very happy about your support. You earned the Fae's trust and may now enter their secret realm. Search for an elemental shrine of ice, fire earth or energy to reach Feyrist."
+        }
+      },
+      "completed": false
+    },
+    "Forgotten Knowledge": {
+      "id": 15,
+      "missions": [
+
+      ],
+      "completed": false
+    },
+    "In Service of Yalahar": {
+      "id": 22,
+      "missions": {
+        "Ab'Dendriel": {
+          "completed": true,
+          "description": "Karith might establish a route to Ab'Dendriel as soon as he sees five cities as worthy."
+        },
+        "Carlin": {
+          "completed": true,
+          "description": "Karith might establish a route to Carlin as soon as he sees five cities as worthy."
+        },
+        "Searoutes Around Yalahar": {
+          "completed": true,
+          "description": "You convicend Captain Karith of five cities which it might be worth estabilishing a ship route to and he will now sail you to seven cities in total in hope of profit."
+        },
+        "Venore": {
+          "completed": true,
+          "description": "Karith might establish a route to Venore as soon as he sees five cities as worthy."
+        },
+        "Darashia": {
+          "completed": true,
+          "description": "Karith might establish a route to Darashia as soon as he sees five cities as worthy."
+        },
+        "The Way to Yalahar": {
+          "completed": true,
+          "description": "You have delivered the research notes to Wyrdin"
+        },
+        "LibertyBay": {
+          "completed": true,
+          "description": "Karith might establish a route to LibertyBay as soon as he sees five cities as worthy."
+        }
+      },
+      "completed": false
+    },
+    "The Order of the Lion": {
+      "id": 53,
+      "missions": {
+        "The Order of the Lion": {
+          "completed": false,
+          "description": "After a rather turbulent boat ride you arrived at a small island. A larger ship lays at anchor nor far from you. It is heavilly guarded. Maybe you can find someone to explain what is going on here."
+        }
+      },
+      "completed": false
+    },
+    "The Inquisition": {
+      "id": 49,
+      "missions": {
+        "Mission 4: The Haunted Ruin": {
+          "completed": true,
+          "description": "You already cleaned the abandoned and haunted house in Liberty, ask Henricus for mission."
+        },
+        "Mission 7: The Shadow Nexus": {
+          "completed": false,
+          "description": "Your mission is to go to the Demon Forge and slay seven of The Ruthless Seven Minions. The Demon Forge is located in the Edron Hero Cave, through a portal after the Vampire Shield Quest."
+        },
+        "Mission 5: Essential Gathering": {
+          "completed": true,
+          "description": "You got the Demon Hunter Outfit! Ask Henricus for mission to unlock more addons."
+        },
+        "Mission 6: The Demon Ungreez": {
+          "completed": true,
+          "description": "You got the the first addon of Demon Hunter Outfit! Ask Henricus for mission to unlock more addons."
+        },
+        "Mission 1: Interrogation": {
+          "completed": true,
+          "description": "You investigated all guards in Thais."
+        },
+        "Mission 2: Eclipse": {
+          "completed": true,
+          "description": "You already brought the witches' grimoire to Henricus."
+        },
+        "Mission 3: Vampire Hunt": {
+          "completed": true,
+          "description": "Get back to Thais and report your mission to Henricus."
+        }
+      },
+      "completed": false
+    },
+    "Sam's Old Backpack": {
+      "id": 32,
+      "missions": {
+        "Dwarven Armor Quest": {
+          "completed": true,
+          "description": "You have completed Dwarven Armor Quest!"
+        }
+      },
+      "completed": true
     }
   }
 }

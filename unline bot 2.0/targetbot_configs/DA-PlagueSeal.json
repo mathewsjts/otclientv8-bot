@@ -1,0 +1,48 @@
+{
+  "looting": {
+    "containers": [
+
+    ],
+    "everyItem": false,
+    "items": [
+      {
+        "id": 22730,
+        "count": 1
+      }
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0
+  },
+  "targeting": [
+    {
+      "anchor": false,
+      "lureMin": 3,
+      "delayFrom": 2,
+      "lureDelay": 500,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureMax": 6,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "lure": false,
+      "rePositionAmount": 5,
+      "chase": true,
+      "keepDistanceRange": 1,
+      "keepDistance": false,
+      "anchorRange": 3,
+      "faceMonster": false,
+      "dontLoot": true,
+      "regex": "^grimeleech$|^vexclaw$|^defiler$|^plaguesmith$|^hellflayer$",
+      "danger": 5,
+      "diamondArrows": false,
+      "dynamicLure": false,
+      "avoidAttacks": false,
+      "priority": 5,
+      "rpSafe": false,
+      "maxDistance": 10,
+      "dynamicLureDelay": false,
+      "name": "Grimeleech, Vexclaw, Defiler, Plaguesmith, Hellflayer",
+      "rePosition": false
+    }
+  ]
+}

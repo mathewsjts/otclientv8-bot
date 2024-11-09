@@ -1,0 +1,18 @@
+{
+  "quests": {
+    "Tibia Tales": {
+      "missions": {
+        "Hidden Threats": {
+          "description": "You have met Corym Servant. He told you the true story of enslaved corym working under terrible conditions. You have agreed to help him planing a riot. First you have to liberate his comrades.",
+          "completed": false
+        },
+        "Lion's Rock": {
+          "description": "You have passed the three tests of Lion's Rock and thus lit the three mystical pyramids. You may enterthe inner sanctum now. - What other secrets could be hidden down there?",
+          "completed": false
+        }
+      },
+      "id": 64,
+      "completed": false
+    }
+  }
+}

@@ -1,79 +1,86 @@
 {
   "containers": {
-    "forceOpen": true,
+    "purse": true,
     "sort": true,
+    "lootBag": true,
+    "forceOpen": true,
+    "height": 170,
     "list": [
       {
         "min": true,
-        "value": "main",
         "items": [
-
+          {
+            "id": 22730,
+            "count": 2
+          }
         ],
+        "value": "main",
         "item": 2854,
         "enabled": true
       },
       {
         "min": true,
-        "value": "tools",
         "items": [
           {
-            "id": 3723,
-            "count": 1
+            "count": 1,
+            "id": 3723
           },
           {
-            "id": 34234,
-            "count": 1
+            "count": 1,
+            "id": 34234
           },
           {
-            "id": 3003,
-            "count": 1
+            "count": 1,
+            "id": 3003
           },
           {
-            "id": 3457,
-            "count": 1
+            "count": 1,
+            "id": 3457
           },
           {
-            "id": 3456,
-            "count": 1
+            "count": 1,
+            "id": 3456
           }
         ],
+        "value": "tools",
         "item": 7343,
         "enabled": true
       },
       {
         "min": true,
-        "value": "purse",
         "items": [
 
         ],
+        "value": "purse",
         "item": 23396,
         "enabled": true
       },
       {
         "min": true,
-        "value": "quickloot",
         "items": [
 
         ],
+        "value": "quickloot",
         "item": 23721,
         "enabled": true
       },
       {
         "min": true,
-        "value": "supplies",
         "items": [
           {
             "id": 1781,
             "count": 1
+          },
+          {
+            "id": 23374,
+            "count": 72
           }
         ],
+        "value": "supplies",
         "item": 9602,
         "enabled": true
       }
     ],
-    "height": 170,
-    "purse": true,
-    "lootBag": true,
     "enabled": true
   }
 }

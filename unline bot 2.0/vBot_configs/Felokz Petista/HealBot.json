@@ -1,0 +1,137 @@
+{
+  "ConditionPanel": {
+    "uturaCost": 100,
+    "ignoreInPz": true,
+    "stopHaste": false,
+    "enabled": false,
+    "curePosion": false,
+    "poisonCost": 20,
+    "cureCurse": false,
+    "curseCost": 80,
+    "cureBleed": false,
+    "bleedCost": 45,
+    "cureBurn": false,
+    "burnCost": 30,
+    "cureElectrify": false,
+    "electrifyCost": 22,
+    "cureParalyse": false,
+    "paralyseCost": 40,
+    "paralyseSpell": "utani hur",
+    "holdHaste": false,
+    "hasteCost": 40,
+    "hasteSpell": "utani hur",
+    "holdUtamo": false,
+    "utamoCost": 40,
+    "holdUtana": false,
+    "utanaCost": 440,
+    "holdUtura": false,
+    "uturaType": ""
+  },
+  "healbot": [
+    {
+      "Conditions": true,
+      "Delay": true,
+      "itemTable": [
+        {
+          "value": 50,
+          "enabled": true,
+          "origin": "MP%",
+          "index": 1,
+          "item": 268,
+          "sign": "<"
+        }
+      ],
+      "Visible": true,
+      "Interval": true,
+      "MessageDelay": false,
+      "enabled": true,
+      "Cooldown": true,
+      "spellTable": [
+        {
+          "value": 65,
+          "enabled": true,
+          "cost": 140,
+          "origin": "HP%",
+          "index": 2,
+          "spell": "exura vita",
+          "sign": "<"
+        },
+        {
+          "value": 90,
+          "enabled": true,
+          "cost": 20,
+          "origin": "HP%",
+          "index": 1,
+          "sign": "<",
+          "spell": "exura"
+        }
+      ],
+      "name": "Profile #1"
+    },
+    {
+      "Conditions": true,
+      "Delay": true,
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true,
+      "MessageDelay": false,
+      "enabled": false,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "name": "Profile #2"
+    },
+    {
+      "Conditions": true,
+      "Delay": true,
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true,
+      "MessageDelay": false,
+      "enabled": false,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "name": "Profile #3"
+    },
+    {
+      "Conditions": true,
+      "Delay": true,
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true,
+      "MessageDelay": false,
+      "enabled": false,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "name": "Profile #4"
+    },
+    {
+      "Conditions": true,
+      "Delay": true,
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true,
+      "MessageDelay": false,
+      "enabled": false,
+      "Cooldown": true,
+      "spellTable": [
+
+      ],
+      "name": "Profile #5"
+    }
+  ],
+  "currentHealBotProfile": 1
+}

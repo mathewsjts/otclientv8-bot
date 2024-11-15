@@ -1,13 +1,68 @@
 {
+  "targeting": [
+    {
+      "rpSafe": false,
+      "priority": 0,
+      "dynamicLure": true,
+      "avoidAttacks": false,
+      "rePosition": false,
+      "diamondArrows": false,
+      "dynamicLureDelay": false,
+      "regex": "^crab$|^centipede$|^slime$|^bug$|^terror bird$|^snake$|^wasp$|^toad$|^spider$|^poison spider$|^panda$|^tiger$|^elephant$|^lizard sentinel$|^crocodile$|^poison spider$",
+      "lureMax": 30,
+      "lureMin": 29,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "chase": false,
+      "lure": false,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "lureCount": 5,
+      "dontLoot": true,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "maxDistance": 1,
+      "anchor": false,
+      "faceMonster": false,
+      "danger": 0,
+      "name": "Crab, Centipede, Slime, Bug, Terror Bird, Snake, Wasp, Toad, Spider, Poison Spider, Panda, Tiger, Elephant, Lizard Sentinel, Crocodile, Poison Spider",
+      "closeLureAmount": 3
+    },
+    {
+      "rpSafe": false,
+      "priority": 3,
+      "name": "Tarantula",
+      "anchorRange": 3,
+      "avoidAttacks": false,
+      "faceMonster": false,
+      "rePosition": false,
+      "regex": "^tarantula$",
+      "lureMax": 3,
+      "lureMin": 1,
+      "delayFrom": 2,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lure": false,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "dontLoot": true,
+      "rePositionAmount": 5,
+      "danger": 3,
+      "keepDistanceRange": 1,
+      "dynamicLureDelay": false,
+      "anchor": false,
+      "diamondArrows": false,
+      "maxDistance": 7,
+      "dynamicLure": false,
+      "chase": true
+    }
+  ],
   "looting": {
-    "minCapacity": 0,
     "everyItem": false,
-    "containers": [
-      {
-        "count": 1,
-        "id": 2854
-      }
-    ],
     "items": [
       {
         "count": 1,
@@ -18,68 +73,13 @@
         "id": 3035
       }
     ],
-    "maxDanger": 100
-  },
-  "targeting": [
-    {
-      "lureMin": 1,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "lureCavebot": true,
-      "lureCount": 5,
-      "rePositionAmount": 5,
-      "lureMax": 3,
-      "keepDistanceRange": 1,
-      "delayFrom": 2,
-      "chase": false,
-      "lure": false,
-      "keepDistance": false,
-      "priority": 0,
-      "regex": "^crab$|^centipede$|^slime$|^bug$|^terror bird$|^snake$|^wasp$|^toad$|^spider$|^poison spider$|^panda$|^tiger$|^elephant$|^lizard sentinel$|^crocodile$|^poison spider$",
-      "rpSafe": false,
-      "maxDistance": 1,
-      "danger": 0,
-      "rePosition": false,
-      "diamondArrows": false,
-      "dynamicLureDelay": false,
-      "avoidAttacks": false,
-      "anchor": false,
-      "faceMonster": false,
-      "dontLoot": true,
-      "anchorRange": 3,
-      "name": "Crab, Centipede, Slime, Bug, Terror Bird, Snake, Wasp, Toad, Spider, Poison Spider, Panda, Tiger, Elephant, Lizard Sentinel, Crocodile, Poison Spider"
-    },
-    {
-      "lureMin": 1,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "lureCavebot": false,
-      "lureCount": 1,
-      "rePositionAmount": 5,
-      "lureMax": 3,
-      "keepDistanceRange": 1,
-      "delayFrom": 2,
-      "chase": true,
-      "lure": false,
-      "keepDistance": false,
-      "priority": 3,
-      "regex": "^tarantula$",
-      "rpSafe": false,
-      "maxDistance": 7,
-      "danger": 3,
-      "rePosition": false,
-      "diamondArrows": false,
-      "dynamicLureDelay": false,
-      "avoidAttacks": false,
-      "anchor": false,
-      "faceMonster": false,
-      "dontLoot": true,
-      "anchorRange": 3,
-      "name": "Tarantula"
-    }
-  ]
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "maxDanger": 100,
+    "minCapacity": 0
+  }
 }

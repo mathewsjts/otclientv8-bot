@@ -2,10 +2,7 @@
   "looting": {
     "everyItem": false,
     "items": [
-      {
-        "id": 22730,
-        "count": 1
-      }
+
     ],
     "containers": [
 
@@ -18,35 +15,35 @@
       "maxDistance": 10,
       "danger": 5,
       "lure": false,
-      "lureMax": 6,
-      "lureMin": 3,
-      "delayFrom": 2,
+      "lureMax": 5,
+      "lureMin": 4,
+      "delayFrom": 1,
       "lureDelay": 500,
       "closeLure": false,
       "closeLureAmount": 3,
-      "rpSafe": false,
+      "priority": 5,
       "lureCavebot": false,
       "lureCount": 1,
-      "regex": "^grimeleech$|^plaguesmith$|^hellflayer$",
+      "regex": "^draken spellweaver$|^draken warmaster$|^ghastly dragon$|^lizard zaogun$",
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "rePosition": false,
+      "dontLoot": true,
       "diamondArrows": false,
       "faceMonster": false,
-      "dynamicLureDelay": false,
+      "name": "Draken Spellweaver, Draken Warmaster, Ghastly Dragon, Lizard Zaogun",
       "dynamicLure": false,
       "anchor": false,
-      "avoidAttacks": false,
+      "dynamicLureDelay": false,
       "chase": true,
-      "name": "Grimeleech, Plaguesmith, Hellflayer",
+      "avoidAttacks": false,
       "keepDistance": false,
-      "dontLoot": true,
-      "priority": 5
+      "rePosition": false,
+      "rpSafe": false
     },
     {
-      "maxDistance": 10,
-      "danger": 1,
+      "maxDistance": 4,
+      "danger": 0,
       "lure": false,
       "lureMax": 30,
       "lureMin": 29,
@@ -56,8 +53,8 @@
       "closeLureAmount": 3,
       "rpSafe": false,
       "lureCavebot": false,
-      "lureCount": 1,
-      "regex": "^sandcrawler$|^demon$|^vexclaw$|^hellflayer$",
+      "lureCount": 5,
+      "regex": "^sandcrawler$|^gnarlhound$|^insect swarm$|^hyaena$|^snake$|^orc shaman$|^orc spearman$|^orc warrior$|^orc berserker$|^orc$|^dragon$|^lizard legionnaire$|^dragon hatchling$|^lizard dragon priest$|^lizard high guard$",
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
@@ -69,10 +66,10 @@
       "anchor": false,
       "avoidAttacks": false,
       "chase": false,
-      "name": "Sandcrawler, Demon, Vexclaw, Hellflayer",
+      "name": "Sandcrawler, Gnarlhound, Insect Swarm, Hyaena, Snake, Orc Shaman, Orc Spearman, Orc Warrior, Orc Berserker, Orc, Dragon, Lizard Legionnaire, Dragon Hatchling, Lizard Dragon Priest, Lizard High Guard",
       "keepDistance": false,
       "dontLoot": true,
-      "priority": 1
+      "priority": 0
     }
   ]
 }

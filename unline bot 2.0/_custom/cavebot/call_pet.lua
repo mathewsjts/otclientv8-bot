@@ -26,6 +26,8 @@ end
 onTalk(function(name, level, mode, text, channelId, pos)
     if text:find("Your pet is dead") then
         storage.petOn = false
+    elseif text:find("You don't have a pet") then
+        storage.petOn = false
     elseif text:find("Your pet is going to sleep") then
         storage.petOn = false
     elseif text:find("Your pet is sleeping") then

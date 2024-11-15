@@ -1,165 +1,183 @@
 {
+  "currentBotProfile": 1,
   "AttackBot": [
     {
-      "Cooldown": true,
-      "AntiRsRange": 5,
-      "KillsAmount": 1,
-      "BlackListSafe": false,
-      "Rotate": false,
-      "enabled": true,
-      "pvpMode": false,
-      "Visible": true,
-      "name": "Profile #1",
-      "Kills": false,
-      "PvpSafe": true,
       "ignoreMana": true,
       "attackTable": [
         {
-          "creatures": "monster names",
-          "pattern": 5,
-          "category": 4,
-          "orMore": true,
-          "minHp": 0,
-          "patternCategory": 3,
-          "monsters": true,
-          "enabled": true,
-          "cooldown": 1,
           "tooltip": false,
-          "count": 1,
+          "cooldown": 1,
+          "creatures": "monster names",
+          "monsters": true,
+          "orMore": true,
+          "enabled": true,
+          "patternCategory": 3,
           "maxHp": 100,
+          "spell": "utito tempo",
+          "itemId": 0,
+          "count": 1,
+          "category": 4,
           "description": "[5 Sqm Range] 1+ Any Creatures: utito tempo, empowerment (0%-100%)",
           "mana": 80,
-          "itemId": 0,
-          "spell": "utito tempo"
+          "pattern": 5,
+          "minHp": 0
         },
         {
-          "creatures": "burning gladiator,black sphinx acolyte,priestess of the wild sun",
-          "pattern": 3,
+          "tooltip": false,
+          "cooldown": 1,
           "itemId": 33075,
+          "monsters": true,
           "orMore": true,
           "minHp": 0,
           "patternCategory": 2,
+          "maxHp": 100,
+          "creatures": "monster names",
+          "category": 2,
+          "count": 3,
+          "description": "[Ball] 3+ Any Creatures: rune 33075, area (0%-100%)",
+          "enabled": true,
+          "mana": 1,
+          "pattern": 3,
+          "spell": "spell name"
+        },
+        {
+          "tooltip": "black sphinx acolyte,burning gladiator,priestess of the wild sun",
+          "cooldown": 1,
+          "itemId": 33074,
           "monsters": [
-            "burning gladiator",
             "black sphinx acolyte",
+            "burning gladiator",
             "priestess of the wild sun"
           ],
-          "enabled": true,
-          "cooldown": 1,
-          "tooltip": "burning gladiator,black sphinx acolyte,priestess of the wild sun",
-          "count": 3,
-          "category": 2,
-          "description": "[Ball] 3+ Creatures: rune 33075, area (0%-100%)",
-          "spell": "spell name",
-          "mana": 1,
-          "maxHp": 100
-        },
-        {
-          "creatures": "monster names",
-          "pattern": 1,
-          "category": 1,
           "orMore": true,
           "minHp": 0,
-          "patternCategory": 1,
-          "monsters": true,
-          "enabled": true,
-          "cooldown": 1,
-          "tooltip": false,
-          "count": 1,
+          "patternCategory": 2,
           "maxHp": 100,
+          "description": "[Ball] 2+ Creatures: rune 33074, area (0%-100%)",
+          "spell": "spell name",
+          "category": 2,
+          "count": 2,
+          "enabled": true,
+          "mana": 1,
+          "pattern": 3,
+          "creatures": "black sphinx acolyte,burning gladiator,priestess of the wild sun"
+        },
+        {
+          "tooltip": false,
+          "cooldown": 1,
+          "creatures": "monster names",
+          "monsters": true,
+          "orMore": true,
+          "enabled": true,
+          "patternCategory": 1,
+          "maxHp": 100,
+          "spell": "exori mas cruentus",
+          "itemId": 0,
+          "count": 1,
+          "category": 1,
           "description": "[1 Sqm] 1+ Any Creatures: exori mas cruentus, targeted (0%-100%)",
           "mana": 98,
-          "itemId": 0,
-          "spell": "exori mas cruentus"
+          "pattern": 1,
+          "minHp": 0
         },
         {
-          "creatures": "monster names",
-          "pattern": 1,
-          "category": 1,
-          "orMore": true,
-          "minHp": 0,
-          "patternCategory": 1,
-          "monsters": true,
-          "enabled": true,
-          "cooldown": 1,
           "tooltip": false,
-          "count": 1,
+          "cooldown": 1,
+          "creatures": "monster names",
+          "monsters": true,
+          "orMore": true,
+          "enabled": true,
+          "patternCategory": 1,
           "maxHp": 100,
-          "description": "[1 Sqm] 1+ Any Creatures: exori cruentus, targeted (0%-100%)",
+          "spell": "exori cruentus",
           "itemId": 0,
+          "count": 1,
+          "category": 1,
+          "description": "[1 Sqm] 1+ Any Creatures: exori cruentus, targeted (0%-100%)",
           "mana": 90,
-          "spell": "exori cruentus"
+          "pattern": 1,
+          "minHp": 0
         }
-      ]
-    },
-    {
+      ],
+      "enabled": true,
+      "Visible": true,
       "Cooldown": true,
+      "Rotate": false,
+      "pvpMode": false,
+      "name": "Profile #1",
       "AntiRsRange": 5,
       "KillsAmount": 1,
       "BlackListSafe": false,
-      "Rotate": false,
+      "Kills": false,
+      "PvpSafe": true
+    },
+    {
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
       "enabled": false,
-      "pvpMode": false,
       "Visible": true,
+      "Cooldown": true,
+      "Rotate": false,
+      "pvpMode": false,
       "name": "Profile #2",
-      "Kills": false,
-      "PvpSafe": true,
-      "ignoreMana": true,
-      "attackTable": [
-
-      ]
-    },
-    {
-      "Cooldown": true,
       "AntiRsRange": 5,
       "KillsAmount": 1,
       "BlackListSafe": false,
-      "Rotate": false,
+      "Kills": false,
+      "PvpSafe": true
+    },
+    {
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
       "enabled": false,
-      "pvpMode": false,
       "Visible": true,
+      "Cooldown": true,
+      "Rotate": false,
+      "pvpMode": false,
       "name": "Profile #3",
-      "Kills": false,
-      "PvpSafe": true,
-      "ignoreMana": true,
-      "attackTable": [
-
-      ]
-    },
-    {
-      "Cooldown": true,
       "AntiRsRange": 5,
       "KillsAmount": 1,
       "BlackListSafe": false,
-      "Rotate": false,
+      "Kills": false,
+      "PvpSafe": true
+    },
+    {
+      "ignoreMana": true,
+      "attackTable": [
+
+      ],
       "enabled": false,
-      "pvpMode": false,
       "Visible": true,
+      "Cooldown": true,
+      "Rotate": false,
+      "pvpMode": false,
       "name": "Profile #4",
-      "Kills": false,
-      "PvpSafe": true,
-      "ignoreMana": true,
-      "attackTable": [
-
-      ]
-    },
-    {
-      "Cooldown": true,
       "AntiRsRange": 5,
       "KillsAmount": 1,
       "BlackListSafe": false,
-      "Rotate": false,
-      "enabled": false,
-      "pvpMode": false,
-      "Visible": true,
-      "name": "Profile #5",
       "Kills": false,
-      "PvpSafe": true,
+      "PvpSafe": true
+    },
+    {
       "ignoreMana": true,
       "attackTable": [
 
-      ]
+      ],
+      "enabled": false,
+      "Visible": true,
+      "Cooldown": true,
+      "Rotate": false,
+      "pvpMode": false,
+      "name": "Profile #5",
+      "AntiRsRange": 5,
+      "KillsAmount": 1,
+      "BlackListSafe": false,
+      "Kills": false,
+      "PvpSafe": true
     }
-  ],
-  "currentBotProfile": 1
+  ]
 }

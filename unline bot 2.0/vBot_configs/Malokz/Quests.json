@@ -1,18 +1,42 @@
 {
   "quests": {
-    "Tibia Tales": {
+    "The New Frontier": {
+      "completed": false,
       "missions": {
-        "Hidden Threats": {
-          "description": "You have met Corym Servant. He told you the true story of enslaved corym working under terrible conditions. You have agreed to help him planing a riot. First you have to liberate his comrades.",
+        "Mission 01: New Land": {
+          "description": "You already reported Ongulf your success! Ask Ongulf for new mission!",
+          "completed": true
+        },
+        "Mission 07: Messengers Of Peace": {
+          "description": "You found the Lizards!",
+          "completed": true
+        },
+        "Mission 04: The Mine Is Mine": {
+          "description": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
+          "completed": true
+        },
+        "Mission 08: An Offer You Can't Refuse": {
+          "description": "Take the boat at the northern of Dragonblaze Peaks to tournament Isle. Ask Zurak for a passage. There you'll learn anything you need to know about the great tournament. Ask there Chrak for the battle.",
           "completed": false
         },
-        "Lion's Rock": {
-          "description": "You have passed the three tests of Lion's Rock and thus lit the three mystical pyramids. You may enterthe inner sanctum now. - What other secrets could be hidden down there?",
-          "completed": false
+        "Mission 02: From Kazordoon With Love": {
+          "description": "Return to Ongulf and report your mission!",
+          "completed": true
+        },
+        "Mission 06: Days Of Doom": {
+          "description": "You passed the test of Curos. Return to Ongulf and report your mission!",
+          "completed": true
+        },
+        "Mission 03: Strangers in the Night": {
+          "description": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
+          "completed": true
+        },
+        "Mission 05: Getting Things Busy": {
+          "description": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
+          "completed": true
         }
       },
-      "id": 64,
-      "completed": false
+      "id": 52
     }
   }
 }

@@ -2,41 +2,41 @@
   "quests": {
     "The New Frontier": {
       "completed": false,
+      "id": 52,
       "missions": {
+        "Mission 05: Getting Things Busy": {
+          "completed": true,
+          "description": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!"
+        },
         "Mission 01: New Land": {
-          "description": "You already reported Ongulf your success! Ask Ongulf for new mission!",
-          "completed": true
-        },
-        "Mission 07: Messengers Of Peace": {
-          "description": "You found the Lizards!",
-          "completed": true
-        },
-        "Mission 04: The Mine Is Mine": {
-          "description": "You killed the Shard of Corruption. Return to Ongulf and report your mission!",
-          "completed": true
-        },
-        "Mission 08: An Offer You Can't Refuse": {
-          "description": "Take the boat at the northern of Dragonblaze Peaks to tournament Isle. Ask Zurak for a passage. There you'll learn anything you need to know about the great tournament. Ask there Chrak for the battle.",
-          "completed": false
-        },
-        "Mission 02: From Kazordoon With Love": {
-          "description": "Return to Ongulf and report your mission!",
-          "completed": true
-        },
-        "Mission 06: Days Of Doom": {
-          "description": "You passed the test of Curos. Return to Ongulf and report your mission!",
-          "completed": true
+          "completed": true,
+          "description": "You already reported Ongulf your success! Ask Ongulf for new mission!"
         },
         "Mission 03: Strangers in the Night": {
-          "description": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!",
-          "completed": true
+          "completed": true,
+          "description": "You already reported Ongulf about primitive humans! Ask Ongulf for new mission!"
         },
-        "Mission 05: Getting Things Busy": {
-          "description": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!",
-          "completed": true
+        "Mission 08: An Offer You Can't Refuse": {
+          "completed": false,
+          "description": "Take the boat at the northern of Dragonblaze Peaks to tournament Isle. Ask Zurak for a passage. There you'll learn anything you need to know about the great tournament. Ask there Chrak for the battle."
+        },
+        "Mission 04: The Mine Is Mine": {
+          "completed": true,
+          "description": "You killed the Shard of Corruption. Return to Ongulf and report your mission!"
+        },
+        "Mission 07: Messengers Of Peace": {
+          "completed": true,
+          "description": "You found the Lizards!"
+        },
+        "Mission 02: From Kazordoon With Love": {
+          "completed": true,
+          "description": "Return to Ongulf and report your mission!"
+        },
+        "Mission 06: Days Of Doom": {
+          "completed": true,
+          "description": "You passed the test of Curos. Return to Ongulf and report your mission!"
         }
-      },
-      "id": 52
+      }
     }
   }
 }

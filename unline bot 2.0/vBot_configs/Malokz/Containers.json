@@ -1,45 +1,45 @@
 {
   "containers": {
+    "height": 170,
+    "purse": true,
     "list": [
       {
         "enabled": true,
+        "item": 2854,
         "value": "main",
         "items": [
 
         ],
-        "min": true,
-        "item": 2854
+        "min": true
       },
       {
         "enabled": true,
+        "item": 2864,
         "value": "tools",
         "items": [
 
         ],
-        "min": true,
-        "item": 2864
+        "min": true
       },
       {
         "enabled": true,
+        "item": 23396,
         "value": "purse",
         "items": [
 
         ],
-        "min": true,
-        "item": 23396
+        "min": true
       },
       {
         "enabled": true,
+        "item": 23721,
         "value": "quickloot",
         "items": [
 
         ],
-        "min": true,
-        "item": 23721
+        "min": true
       }
     ],
-    "purse": true,
-    "enabled": true,
-    "height": 170
+    "enabled": true
   }
 }

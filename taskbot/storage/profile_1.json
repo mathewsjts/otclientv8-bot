@@ -1,5 +1,5 @@
 {
-  "bestHit": 135,
+  "bestHit": 197,
   "playerList": {
     "outfits": false,
     "blackList": [
@@ -61,53 +61,15 @@
 
   ],
   "specialDeposit": {
+    "height": 380,
     "items": [
 
-    ],
-    "height": 380
-  },
-  "renameContainers": {
-    "enabled": true,
-    "height": 170,
-    "purse": false,
-    "list": [
-      {
-        "value": "rookgaard",
-        "min": true,
-        "items": [
-
-        ],
-        "item": 2853,
-        "enabled": true
-      },
-      {
-        "value": "newbie set",
-        "min": true,
-        "items": [
-
-        ],
-        "item": 2854,
-        "enabled": true
-      },
-      {
-        "value": "main",
-        "min": true,
-        "items": [
-
-        ],
-        "item": 10324,
-        "enabled": true
-      },
-      {
-        "value": "tools",
-        "min": true,
-        "items": [
-
-        ],
-        "item": 10325,
-        "enabled": true
-      }
     ]
+  },
+  "_macros": {
+    "": true,
+    "Eat Food": true,
+    "Exchange money": true
   },
   "foodItems": [
     {
@@ -161,54 +123,100 @@
   ],
   "bestHeal": 480,
   "_configs": {
-    "cavebot_configs": {
-      "enabled": true,
-      "selected": "QuaraScouts"
-    },
     "targetbot_configs": {
-      "enabled": true,
-      "selected": "QuaraScouts"
+      "selected": "-TaskBotManager",
+      "enabled": true
+    },
+    "cavebot_configs": {
+      "selected": "-TaskBotManager",
+      "enabled": true
     }
   },
-  "BotServerChannel": "5168279401865",
+  "renameContainers": {
+    "list": [
+      {
+        "value": "rookgaard",
+        "min": true,
+        "items": [
+
+        ],
+        "item": 2853,
+        "enabled": true
+      },
+      {
+        "value": "newbie set",
+        "min": true,
+        "items": [
+
+        ],
+        "item": 2854,
+        "enabled": true
+      },
+      {
+        "value": "main",
+        "min": true,
+        "items": [
+
+        ],
+        "item": 10324,
+        "enabled": true
+      },
+      {
+        "value": "tools",
+        "min": true,
+        "items": [
+
+        ],
+        "item": 10325,
+        "enabled": true
+      }
+    ],
+    "height": 170,
+    "enabled": true,
+    "purse": false
+  },
   "teleporterStarted": 1718652302,
-  "combobot": {
-    "attackSpellEnabled": false,
-    "shootLeader": "",
-    "onShootEnabled": false,
-    "commandsEnabled": true,
-    "sayPhrase": "",
-    "attackLeaderTargetEnabled": false,
-    "onSayEnabled": false,
-    "serverTriggers": true,
-    "attackItemToggle": false,
-    "followLeaderEnabled": false,
-    "serverLeader": "",
-    "enabled": false,
-    "item": 3155,
-    "spell": "",
-    "attack": "",
-    "follow": "",
-    "castLeader": "",
-    "sayLeader": "",
-    "serverLeaderTarget": false,
-    "serverEnabled": false,
-    "onCastEnabled": false
+  "caveBotTasker": {
+    "count": 0,
+    "max": 0,
+    "inProgress": false,
+    "monster": "",
+    "taskName": ""
   },
   "newHealer": {
-    "customPlayers": [
-
+    "enabled": false,
+    "priorities": [
+      {
+        "enabled": false,
+        "name": "Custom Spell",
+        "custom": true
+      },
+      {
+        "strong": true,
+        "enabled": true,
+        "name": "Exura Gran Sio"
+      },
+      {
+        "enabled": true,
+        "name": "Exura Sio",
+        "normal": true
+      },
+      {
+        "area": true,
+        "enabled": true,
+        "name": "Exura Gran Mas Res"
+      },
+      {
+        "health": true,
+        "enabled": true,
+        "name": "Health Item"
+      },
+      {
+        "mana": true,
+        "enabled": true,
+        "name": "Mana Item"
+      }
     ],
-    "conditions": {
-      "druids": false,
-      "sorcerers": false,
-      "guild": false,
-      "botserver": false,
-      "friends": false,
-      "knights": true,
-      "paladins": true,
-      "party": true
-    },
     "settings": [
       {
         "value": 268,
@@ -254,51 +262,33 @@
     "vocations": [
 
     ],
-    "priorities": [
-      {
-        "enabled": false,
-        "name": "Custom Spell",
-        "custom": true
-      },
-      {
-        "strong": true,
-        "enabled": true,
-        "name": "Exura Gran Sio"
-      },
-      {
-        "enabled": true,
-        "name": "Exura Sio",
-        "normal": true
-      },
-      {
-        "area": true,
-        "enabled": true,
-        "name": "Exura Gran Mas Res"
-      },
-      {
-        "health": true,
-        "enabled": true,
-        "name": "Health Item"
-      },
-      {
-        "mana": true,
-        "enabled": true,
-        "name": "Mana Item"
-      }
-    ],
     "groups": [
 
     ],
-    "enabled": false
+    "conditions": {
+      "druids": false,
+      "sorcerers": false,
+      "guild": false,
+      "botserver": false,
+      "friends": false,
+      "knights": true,
+      "paladins": true,
+      "party": true
+    },
+    "customPlayers": [
+
+    ]
   },
   "alarms": {
     "lowHealth": {
       "value": 20
     },
-    "creatureName": {
+    "customMessage": {
       "value": ""
     },
-    "enabled": false,
+    "ignoreFriends": [
+
+    ],
     "defaultMsg": [
 
     ],
@@ -314,15 +304,13 @@
     "playerDetected": [
 
     ],
-    "customMessage": {
+    "creatureName": {
       "value": ""
     },
     "privateMsg": [
 
     ],
-    "ignoreFriends": [
-
-    ],
+    "enabled": false,
     "creatureDetected": [
 
     ],
@@ -330,34 +318,13 @@
 
     ]
   },
-  "_macros": {
-    "": true,
-    "Eat Food": true,
-    "Exchange money": true
+  "pushmax": {
+    "pushDelay": 1060,
+    "pushMaxKey": "PageUp",
+    "mwallBlockId": 2128,
+    "enabled": false,
+    "pushMaxRuneId": 3188
   },
-  "caveBotTasker": {
-    "count": 0,
-    "max": 0,
-    "inProgress": false,
-    "monster": "",
-    "taskName": ""
-  },
-  "autoEquip": [
-    {
-      "item2": 0,
-      "slot": 9,
-      "item1": 0,
-      "on": false,
-      "title": "Auto Equip"
-    },
-    {
-      "item2": 0,
-      "slot": 0,
-      "item1": 0,
-      "on": false,
-      "title": "Auto Equip"
-    }
-  ],
   "extras": {
     "separatePm": true,
     "rope": 3003,
@@ -367,7 +334,7 @@
     "scythe": 3453,
     "title": false,
     "useAll": "space",
-    "oberon": true,
+    "joinBot": false,
     "timers": true,
     "killUnder": 1,
     "reachable": false,
@@ -386,11 +353,28 @@
     "highlightTarget": true,
     "shovel": 3457,
     "antiKick": true,
-    "joinBot": false,
+    "oberon": true,
     "machete": 3308,
     "bless": false,
     "autoOpenDoors": true
   },
+  "autoEquip": [
+    {
+      "item2": 0,
+      "slot": 9,
+      "item1": 0,
+      "on": false,
+      "title": "Auto Equip"
+    },
+    {
+      "item2": 0,
+      "slot": 0,
+      "item1": 0,
+      "on": false,
+      "title": "Auto Equip"
+    }
+  ],
+  "autoTradeMessage": "",
   "analyzers": {
     "outfits": {
       "Bonebeast": {
@@ -844,7 +828,7 @@
         "type": 425,
         "aura": 0
       },
-      "Tarantula": {
+      "Centipede": {
         "addons": 0,
         "feet": 0,
         "legs": 0,
@@ -852,128 +836,7 @@
         "mount": 0,
         "head": 0,
         "auxType": 0,
-        "type": 219,
-        "aura": 0
-      },
-      "Swamp Troll": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 76,
-        "aura": 0
-      },
-      "Wolf": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 27,
-        "aura": 0
-      },
-      "Lizard Sentinel": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 114,
-        "aura": 0
-      },
-      "Sibang": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 118,
-        "aura": 0
-      },
-      "Gnarlhound": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 341,
-        "aura": 0
-      },
-      "Cat": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 276,
-        "aura": 0
-      },
-      "Blood Crab": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 200,
-        "aura": 0
-      },
-      "Dwarf Soldier": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 71,
-        "aura": 0
-      },
-      "Corym Vanguard": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 101,
-        "body": 0,
-        "mount": 0,
-        "head": 101,
-        "auxType": 0,
-        "type": 534,
-        "aura": 0
-      },
-      "Quara Predator Scout": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 20,
-        "aura": 0
-      },
-      "Toad": {
-        "addons": 0,
-        "feet": 0,
-        "legs": 0,
-        "body": 0,
-        "mount": 0,
-        "head": 0,
-        "auxType": 0,
-        "type": 222,
+        "type": 124,
         "aura": 0
       },
       "Chicken": {
@@ -987,7 +850,7 @@
         "type": 111,
         "aura": 0
       },
-      "Centipede": {
+      "Wolf": {
         "addons": 0,
         "feet": 0,
         "legs": 0,
@@ -995,7 +858,128 @@
         "mount": 0,
         "head": 0,
         "auxType": 0,
-        "type": 124,
+        "type": 27,
+        "aura": 0
+      },
+      "Toad": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 222,
+        "aura": 0
+      },
+      "Quara Predator Scout": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 20,
+        "aura": 0
+      },
+      "Corym Vanguard": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 101,
+        "body": 0,
+        "mount": 0,
+        "head": 101,
+        "auxType": 0,
+        "type": 534,
+        "aura": 0
+      },
+      "Dwarf Soldier": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 71,
+        "aura": 0
+      },
+      "Blood Crab": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 200,
+        "aura": 0
+      },
+      "Cat": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 276,
+        "aura": 0
+      },
+      "Gnarlhound": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 341,
+        "aura": 0
+      },
+      "Sibang": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 118,
+        "aura": 0
+      },
+      "Lizard Sentinel": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 114,
+        "aura": 0
+      },
+      "Swamp Troll": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 76,
+        "aura": 0
+      },
+      "Tarantula": {
+        "addons": 0,
+        "feet": 0,
+        "legs": 0,
+        "body": 0,
+        "mount": 0,
+        "head": 0,
+        "auxType": 0,
+        "type": 219,
         "aura": 0
       }
     },
@@ -1021,15 +1005,31 @@
     ],
     "broadcasts": true
   },
-  "pushmax": {
-    "pushDelay": 1060,
-    "pushMaxKey": "PageUp",
-    "mwallBlockId": 2128,
+  "combobot": {
+    "attackSpellEnabled": false,
+    "shootLeader": "",
+    "onShootEnabled": false,
+    "commandsEnabled": true,
+    "sayPhrase": "",
+    "attackLeaderTargetEnabled": false,
+    "onSayEnabled": false,
+    "serverTriggers": true,
+    "attackItemToggle": false,
+    "followLeaderEnabled": false,
+    "serverLeader": "",
     "enabled": false,
-    "pushMaxRuneId": 3188
+    "item": 3155,
+    "spell": "",
+    "castLeader": "",
+    "serverLeaderTarget": false,
+    "attack": "",
+    "sayLeader": "",
+    "follow": "",
+    "serverEnabled": false,
+    "onCastEnabled": false
   },
   "checkVersion": 1731609918,
-  "autoTradeMessage": "",
+  "BotServerChannel": "5168279401865",
   "caveBot": {
     "backOffline": false,
     "backStop": false,

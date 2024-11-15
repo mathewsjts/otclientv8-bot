@@ -1,13 +1,14 @@
-onTextMessage(function(mode, text)
-  if string.find(text:lower(), "you are dead") then
-    schedule(500, function()
-      modules.game_cooldown.cooldown = {}
-      modules.game_cooldown.cooldowns = {}
-      modules.game_cooldown.groupCooldown = {}
-    end)
-  end
-end)
+local function resetCooldowns()
+	modules.game_cooldown.cooldown = {}
+	modules.game_cooldown.cooldowns = {}
+	modules.game_cooldown.groupCooldown = {}
+end
 
-modules.game_cooldown.cooldown = {}
-modules.game_cooldown.cooldowns = {}
-modules.game_cooldown.groupCooldown = {}
+resetCooldowns()
+
+onTextMessage(function(mode, text)
+	local lowerText = text:lower()
+	if lowerText:find("you are dead") or lowerText:find("momentum was triggered") then
+		schedule(100, resetCooldowns)
+	end
+end)

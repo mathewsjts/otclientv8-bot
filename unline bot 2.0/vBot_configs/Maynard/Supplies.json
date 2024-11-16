@@ -1,38 +1,38 @@
 {
   "supplies": {
     "Default": {
-      "capSwitch": false,
-      "staminaSwitch": false,
-      "imbues": false,
-      "capValue": "90",
       "staminaValue": "2340",
+      "capValue": "90",
+      "capSwitch": false,
       "items": {
         "1781": {
+          "max": 1000,
           "avg": 0,
-          "min": 0,
-          "max": 1000
-        },
-        "3723": {
-          "avg": 0,
-          "min": 0,
-          "max": 100
-        },
-        "23374": {
-          "avg": 0,
-          "min": 75,
-          "max": 800
+          "min": 0
         },
         "34298": {
+          "max": 1,
           "avg": 0,
-          "min": 0,
-          "max": 1
+          "min": 0
         },
         "34234": {
+          "max": 30,
           "avg": 0,
-          "min": 0,
-          "max": 30
+          "min": 0
+        },
+        "3723": {
+          "max": 100,
+          "avg": 0,
+          "min": 0
+        },
+        "23374": {
+          "max": 800,
+          "avg": 0,
+          "min": 75
         }
-      }
+      },
+      "staminaSwitch": true,
+      "imbues": false
     },
     "currentProfile": "Default"
   }

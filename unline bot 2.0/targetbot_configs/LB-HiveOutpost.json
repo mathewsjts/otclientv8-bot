@@ -1,75 +1,101 @@
 {
+  "targeting": [
+    {
+      "keepDistanceRange": 1,
+      "chase": true,
+      "avoidAttacks": false,
+      "anchor": false,
+      "faceMonster": false,
+      "dontLoot": true,
+      "lureMax": 3,
+      "maxDistance": 10,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "rpSafe": false,
+      "keepDistance": false,
+      "rePosition": false,
+      "dynamicLure": false,
+      "priority": 9,
+      "lure": false,
+      "lureMin": 1,
+      "regex": "^kollos$|^spidris$",
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "rePositionAmount": 5,
+      "danger": 9,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "diamondArrows": false,
+      "name": "Kollos, Spidris",
+      "anchorRange": 3
+    },
+    {
+      "keepDistanceRange": 1,
+      "chase": false,
+      "dontLoot": true,
+      "anchor": false,
+      "regex": "^waspoid$|^swarmer$|^spitter$|^crawler$|^insectoid worker$",
+      "rpSafe": false,
+      "lureMax": 3,
+      "maxDistance": 10,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "name": "Waspoid, Swarmer, Spitter, Crawler, Insectoid Worker",
+      "diamondArrows": false,
+      "rePosition": false,
+      "faceMonster": false,
+      "priority": 6,
+      "avoidAttacks": false,
+      "lureMin": 2,
+      "dynamicLure": true,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lure": false,
+      "keepDistance": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "danger": 6,
+      "rePositionAmount": 5,
+      "anchorRange": 3
+    }
+  ],
   "looting": {
-    "containers": [
-
-    ],
     "maxDanger": 100,
     "minCapacity": 0,
     "items": [
-
+      {
+        "count": 47,
+        "id": 3031
+      },
+      {
+        "count": 2,
+        "id": 3035
+      },
+      {
+        "count": 1,
+        "id": 14083
+      },
+      {
+        "count": 1,
+        "id": 14079
+      },
+      {
+        "count": 1,
+        "id": 14081
+      },
+      {
+        "count": 1,
+        "id": 14080
+      }
     ],
-    "everyItem": false
-  },
-  "targeting": [
-    {
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "lureCavebot": false,
-      "lureCount": 1,
-      "anchor": false,
-      "maxDistance": 10,
-      "anchorRange": 3,
-      "keepDistanceRange": 1,
-      "faceMonster": false,
-      "lureMax": 3,
-      "name": "Kollos, Spidris",
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "closeLureAmount": 3,
-      "rePosition": false,
-      "diamondArrows": false,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "regex": "^kollos$|^spidris$",
-      "rePositionAmount": 5,
-      "danger": 9,
-      "priority": 9,
-      "dontLoot": true,
-      "lure": false,
-      "rpSafe": false,
-      "chase": true
-    },
-    {
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "lureCavebot": false,
-      "lureCount": 1,
-      "anchor": false,
-      "maxDistance": 10,
-      "anchorRange": 3,
-      "keepDistanceRange": 1,
-      "faceMonster": false,
-      "lureMax": 3,
-      "name": "Waspoid, Swarmer, Spitter, Crawler, Insectoid Worker",
-      "delayFrom": 2,
-      "dynamicLureDelay": false,
-      "regex": "^waspoid$|^swarmer$|^spitter$|^crawler$|^insectoid worker$",
-      "rePosition": false,
-      "diamondArrows": false,
-      "lureMin": 2,
-      "dynamicLure": false,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "rpSafe": false,
-      "lure": false,
-      "dontLoot": true,
-      "priority": 6,
-      "danger": 6,
-      "rePositionAmount": 5,
-      "chase": true
-    }
-  ]
+    "everyItem": false,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ]
+  }
 }

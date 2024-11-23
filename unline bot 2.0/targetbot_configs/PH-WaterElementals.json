@@ -1,76 +1,69 @@
 {
   "targeting": [
     {
-      "danger": 0,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "name": "Quara Mantassin Scout",
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "lureCavebot": true,
-      "lureCount": 5,
-      "regex": "^quara mantassin scout$",
-      "rePositionAmount": 5,
-      "anchorRange": 3,
       "keepDistanceRange": 1,
+      "faceMonster": false,
+      "avoidAttacks": false,
+      "anchor": false,
+      "dontLoot": true,
+      "rePositionAmount": 5,
+      "lureMax": 30,
+      "maxDistance": 4,
+      "diamondArrows": false,
+      "dynamicLureDelay": false,
+      "danger": 0,
+      "chase": false,
+      "rePosition": false,
       "rpSafe": false,
       "priority": 0,
-      "rePosition": false,
-      "diamondArrows": false,
-      "faceMonster": false,
-      "anchor": false,
-      "dontLoot": true,
-      "lureMax": 3,
-      "chase": false,
-      "avoidAttacks": false,
       "keepDistance": false,
-      "dynamicLureDelay": false,
+      "lureMin": 29,
+      "regex": "^quara mantassin scout$",
       "lureDelay": 250,
-      "delayFrom": 2,
-      "lure": false,
-      "maxDistance": 1
-    },
-    {
-      "danger": 3,
-      "lureMin": 1,
-      "dynamicLure": false,
-      "name": "Water Elemental",
       "closeLure": false,
       "closeLureAmount": 3,
+      "lure": false,
+      "dynamicLure": true,
+      "lureCavebot": false,
+      "lureCount": 5,
+      "delayFrom": 2,
+      "name": "Quara Mantassin Scout",
+      "anchorRange": 3
+    },
+    {
+      "keepDistanceRange": 1,
+      "chase": true,
+      "dontLoot": true,
+      "anchor": false,
+      "regex": "^water elemental$",
+      "rpSafe": false,
+      "lureMax": 3,
+      "maxDistance": 6,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "name": "Water Elemental",
+      "diamondArrows": false,
+      "rePosition": false,
+      "faceMonster": false,
+      "priority": 10,
+      "avoidAttacks": false,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lure": false,
+      "keepDistance": false,
       "lureCavebot": false,
       "lureCount": 1,
-      "regex": "^water elemental$",
+      "danger": 10,
       "rePositionAmount": 5,
-      "anchorRange": 3,
-      "keepDistanceRange": 1,
-      "rpSafe": false,
-      "priority": 3,
-      "rePosition": false,
-      "diamondArrows": false,
-      "faceMonster": false,
-      "anchor": false,
-      "dontLoot": true,
-      "lureMax": 3,
-      "chase": true,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "dynamicLureDelay": false,
-      "lureDelay": 250,
-      "delayFrom": 2,
-      "lure": false,
-      "maxDistance": 6
+      "anchorRange": 3
     }
   ],
   "looting": {
     "maxDanger": 100,
     "minCapacity": 0,
-    "containers": [
-      {
-        "count": 1,
-        "id": 2854
-      }
-    ],
-    "everyItem": false,
     "items": [
       {
         "count": 1,
@@ -107,6 +100,13 @@
       {
         "count": 1,
         "id": 3052
+      }
+    ],
+    "everyItem": false,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
       }
     ]
   }

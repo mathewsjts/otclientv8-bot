@@ -7,63 +7,63 @@
         {
           "sign": "<",
           "value": 50,
-          "enabled": true,
           "index": 1,
+          "spell": "exura vita",
           "cost": 140,
           "origin": "HP%",
-          "spell": "exura vita"
+          "enabled": true
         },
         {
           "sign": "<",
           "value": 80,
-          "enabled": true,
           "index": 2,
-          "cost": 20,
+          "enabled": true,
+          "cost": 70,
           "origin": "HP%",
-          "spell": "exura"
+          "spell": "exura gran"
         },
         {
           "sign": ">",
           "value": 98,
-          "enabled": true,
           "index": 3,
+          "spell": "UTANI GRAN HUR",
           "cost": 100,
           "origin": "MP%",
-          "spell": "UTANI GRAN HUR"
+          "enabled": true
         }
       ],
       "Conditions": true,
-      "name": "Profile #1",
-      "Cooldown": true,
-      "Visible": true,
-      "Interval": true,
-      "MessageDelay": false,
       "itemTable": [
         {
           "sign": "<",
           "value": 50,
-          "index": 3,
           "enabled": true,
+          "item": 238,
           "origin": "MP%",
-          "item": 238
-        },
-        {
-          "sign": "<",
-          "value": 50,
-          "index": 2,
-          "enabled": true,
-          "origin": "MP%",
-          "item": 237
+          "index": 3
         },
         {
           "sign": "<",
           "value": 50,
           "enabled": true,
+          "item": 237,
+          "origin": "MP%",
+          "index": 2
+        },
+        {
+          "sign": "<",
+          "value": 50,
           "index": 1,
+          "origin": "MP%",
           "item": 268,
-          "origin": "MP%"
+          "enabled": true
         }
-      ]
+      ],
+      "Cooldown": true,
+      "Visible": true,
+      "Interval": true,
+      "name": "Profile #1",
+      "MessageDelay": false
     },
     {
       "Delay": true,
@@ -72,14 +72,14 @@
 
       ],
       "Conditions": true,
+      "itemTable": [
+
+      ],
+      "Cooldown": true,
+      "Visible": true,
+      "Interval": true,
       "name": "Profile #2",
-      "Cooldown": true,
-      "Visible": true,
-      "Interval": true,
-      "MessageDelay": false,
-      "itemTable": [
-
-      ]
+      "MessageDelay": false
     },
     {
       "Delay": true,
@@ -88,14 +88,14 @@
 
       ],
       "Conditions": true,
+      "itemTable": [
+
+      ],
+      "Cooldown": true,
+      "Visible": true,
+      "Interval": true,
       "name": "Profile #3",
-      "Cooldown": true,
-      "Visible": true,
-      "Interval": true,
-      "MessageDelay": false,
-      "itemTable": [
-
-      ]
+      "MessageDelay": false
     },
     {
       "Delay": true,
@@ -104,14 +104,14 @@
 
       ],
       "Conditions": true,
+      "itemTable": [
+
+      ],
+      "Cooldown": true,
+      "Visible": true,
+      "Interval": true,
       "name": "Profile #4",
-      "Cooldown": true,
-      "Visible": true,
-      "Interval": true,
-      "MessageDelay": false,
-      "itemTable": [
-
-      ]
+      "MessageDelay": false
     },
     {
       "Delay": true,
@@ -120,14 +120,14 @@
 
       ],
       "Conditions": true,
-      "name": "Profile #5",
+      "itemTable": [
+
+      ],
       "Cooldown": true,
       "Visible": true,
       "Interval": true,
-      "MessageDelay": false,
-      "itemTable": [
-
-      ]
+      "name": "Profile #5",
+      "MessageDelay": false
     }
   ],
   "currentHealBotProfile": 1,

@@ -1,11 +1,11 @@
 {
+  "left_weapon_id": 33051,
+  "outfit": 128,
   "exercise_id": 34303,
   "cavebot_profile": "ED-HeroesCave",
   "loot_seller_active": false,
   "loot_seller_cities": [
 
   ],
-  "last_quickloot": "platinum coin",
-  "outfit": 128,
-  "left_weapon_id": 33051
+  "last_quickloot": "platinum coin"
 }

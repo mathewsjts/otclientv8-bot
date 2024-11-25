@@ -1,11 +1,10 @@
 {
   "quests": {
     "The New Frontier": {
-      "id": 52,
       "missions": {
-        "Mission 07: Messengers Of Peace": {
+        "Mission 05: Getting Things Busy": {
           "completed": true,
-          "description": "You found the Lizards!"
+          "description": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!"
         },
         "Mission 08: An Offer You Can't Refuse": {
           "completed": false,
@@ -19,33 +18,34 @@
           "completed": true,
           "description": "You passed the test of Curos. Return to Ongulf and report your mission!"
         },
+        "Mission 04: The Mine Is Mine": {
+          "completed": true,
+          "description": "You killed the Shard of Corruption. Return to Ongulf and report your mission!"
+        },
+        "Mission 07: Messengers Of Peace": {
+          "completed": true,
+          "description": "You found the Lizards!"
+        },
         "Mission 02: From Kazordoon With Love": {
           "completed": true,
           "description": "Return to Ongulf and report your mission!"
         },
-        "Mission 05: Getting Things Busy": {
-          "completed": true,
-          "description": "You got support from all needed people to help farmine! Return to Ongulf and report your mission!"
-        },
         "Mission 01: New Land": {
           "completed": true,
           "description": "You already reported Ongulf your success! Ask Ongulf for new mission!"
-        },
-        "Mission 04: The Mine Is Mine": {
-          "completed": true,
-          "description": "You killed the Shard of Corruption. Return to Ongulf and report your mission!"
         }
       },
+      "id": 52,
       "completed": false
     },
     "Cults of Tibia": {
-      "id": 10,
       "missions": {
         "Zathroth Remmants": {
           "completed": false,
           "description": "A remnant cult of Zathroth has formed in a forbidden temple beneath Carlin. Find out what's behind this and stop it in time.\nTemporarily vaporised souls:\n10 Decaying\n10 Withering"
         }
       },
+      "id": 10,
       "completed": false
     }
   }

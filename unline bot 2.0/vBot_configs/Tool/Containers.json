@@ -4,42 +4,42 @@
       {
         "value": "main",
         "item": 2854,
+        "min": true,
+        "enabled": true,
         "items": [
 
-        ],
-        "enabled": true,
-        "min": true
+        ]
       },
       {
         "value": "tools",
         "item": 2864,
+        "min": true,
+        "enabled": true,
         "items": [
 
-        ],
-        "enabled": true,
-        "min": true
+        ]
       },
       {
         "value": "purse",
         "item": 23396,
+        "min": true,
+        "enabled": true,
         "items": [
 
-        ],
-        "enabled": true,
-        "min": true
+        ]
       },
       {
         "value": "quickloot",
         "item": 23721,
+        "min": true,
+        "enabled": true,
         "items": [
 
-        ],
-        "enabled": true,
-        "min": true
+        ]
       }
     ],
+    "height": 170,
     "purse": true,
-    "enabled": true,
-    "height": 170
+    "enabled": true
   }
 }

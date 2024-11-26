@@ -39,7 +39,7 @@ CaveBot.Extensions.ChangeFloor2.setup = function()
     return true
   end)
 
-  CaveBot.Editor.registerAction("changefloor2", "change floor", {
+  CaveBot.Editor.registerAction("changefloor2", "change floor2", {
     value=function() return "up,"..posx()..","..posy()..","..posz() end,
     title="Change floor",
     description="up/down,x,y,z",

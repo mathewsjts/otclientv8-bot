@@ -1,0 +1,128 @@
+{
+  "currentHealBotProfile": 1,
+  "healbot": [
+    {
+      "spellTable": [
+        {
+          "origin": "HP%",
+          "spell": "exura",
+          "value": 80,
+          "index": 1,
+          "cost": 20,
+          "enabled": true,
+          "sign": "<"
+        }
+      ],
+      "Interval": true,
+      "itemTable": [
+        {
+          "origin": "MP%",
+          "sign": "<",
+          "index": 1,
+          "value": 50,
+          "enabled": true,
+          "item": 268
+        }
+      ],
+      "name": "Profile #1",
+      "Delay": true,
+      "enabled": true,
+      "Conditions": true,
+      "Cooldown": true,
+      "Visible": true,
+      "MessageDelay": false
+    },
+    {
+      "spellTable": [
+
+      ],
+      "Interval": true,
+      "itemTable": [
+
+      ],
+      "name": "Profile #2",
+      "Delay": true,
+      "enabled": false,
+      "Conditions": true,
+      "Cooldown": true,
+      "Visible": true,
+      "MessageDelay": false
+    },
+    {
+      "spellTable": [
+
+      ],
+      "Interval": true,
+      "itemTable": [
+
+      ],
+      "name": "Profile #3",
+      "Delay": true,
+      "enabled": false,
+      "Conditions": true,
+      "Cooldown": true,
+      "Visible": true,
+      "MessageDelay": false
+    },
+    {
+      "spellTable": [
+
+      ],
+      "Interval": true,
+      "itemTable": [
+
+      ],
+      "name": "Profile #4",
+      "Delay": true,
+      "enabled": false,
+      "Conditions": true,
+      "Cooldown": true,
+      "Visible": true,
+      "MessageDelay": false
+    },
+    {
+      "spellTable": [
+
+      ],
+      "Interval": true,
+      "itemTable": [
+
+      ],
+      "name": "Profile #5",
+      "Delay": true,
+      "enabled": false,
+      "Conditions": true,
+      "Cooldown": true,
+      "Visible": true,
+      "MessageDelay": false
+    }
+  ],
+  "ConditionPanel": {
+    "holdUtana": false,
+    "utanaCost": 440,
+    "paralyseSpell": "utani hur",
+    "holdUtura": false,
+    "uturaType": "",
+    "uturaCost": 100,
+    "ignoreInPz": true,
+    "stopHaste": false,
+    "curePosion": false,
+    "poisonCost": 20,
+    "cureCurse": false,
+    "curseCost": 80,
+    "cureBleed": false,
+    "cureElectrify": false,
+    "bleedCost": 45,
+    "cureBurn": false,
+    "burnCost": 30,
+    "holdUtamo": false,
+    "electrifyCost": 22,
+    "cureParalyse": false,
+    "paralyseCost": 40,
+    "holdHaste": false,
+    "hasteCost": 40,
+    "hasteSpell": "utani hur",
+    "enabled": false,
+    "utamoCost": 40
+  }
+}

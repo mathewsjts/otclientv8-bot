@@ -13,8 +13,8 @@
             "count": 2
           }
         ],
-        "min": true,
-        "value": "main"
+        "value": "main",
+        "min": true
       },
       {
         "item": 7343,
@@ -41,8 +41,8 @@
             "count": 1
           }
         ],
-        "min": true,
-        "value": "tools"
+        "value": "tools",
+        "min": true
       },
       {
         "item": 23396,
@@ -50,8 +50,8 @@
         "items": [
 
         ],
-        "min": true,
-        "value": "purse"
+        "value": "purse",
+        "min": true
       },
       {
         "item": 23721,
@@ -59,8 +59,8 @@
         "items": [
 
         ],
-        "min": true,
-        "value": "quickloot"
+        "value": "quickloot",
+        "min": true
       },
       {
         "item": 9602,
@@ -75,8 +75,8 @@
             "count": 72
           }
         ],
-        "min": true,
-        "value": "supplies"
+        "value": "supplies",
+        "min": true
       }
     ],
     "sort": true,

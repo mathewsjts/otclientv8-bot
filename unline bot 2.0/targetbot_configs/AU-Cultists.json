@@ -1,75 +1,7 @@
 {
-  "targeting": [
-    {
-      "keepDistanceRange": 1,
-      "faceMonster": false,
-      "anchorRange": 3,
-      "lure": false,
-      "dontLoot": false,
-      "lureCount": 1,
-      "lureDelay": 250,
-      "diamondArrows": false,
-      "chase": true,
-      "avoidAttacks": false,
-      "anchor": false,
-      "rpSafe": false,
-      "priority": 9,
-      "lureMax": 3,
-      "maxDistance": 10,
-      "danger": 9,
-      "dynamicLureDelay": false,
-      "dynamicLure": false,
-      "rePosition": false,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "delayFrom": 2,
-      "keepDistance": false,
-      "lureCavebot": false,
-      "name": "Novice of the Cult, Adept of the Cult, Acolyte of the Cult, Enlightened of the Cult",
-      "lureMin": 1,
-      "rePositionAmount": 5,
-      "regex": "^novice of the cult$|^adept of the cult$|^acolyte of the cult$|^enlightened of the cult$"
-    },
-    {
-      "keepDistanceRange": 1,
-      "dontLoot": true,
-      "regex": "^chicken$|^bug$|^dog$|^skeleton$|^crypt shambler$|^ghoul$|^scorpion$|^rat$",
-      "lure": false,
-      "dynamicLureDelay": false,
-      "faceMonster": false,
-      "rePosition": false,
-      "diamondArrows": false,
-      "chase": false,
-      "avoidAttacks": false,
-      "anchor": false,
-      "rpSafe": false,
-      "priority": 0,
-      "lureMax": 30,
-      "maxDistance": 5,
-      "danger": 0,
-      "lureMin": 29,
-      "dynamicLure": true,
-      "lureDelay": 250,
-      "closeLure": false,
-      "closeLureAmount": 3,
-      "delayFrom": 2,
-      "keepDistance": false,
-      "lureCavebot": false,
-      "name": "Chicken, Bug, Dog, Skeleton, Crypt Shambler, Ghoul, Scorpion, Rat",
-      "lureCount": 5,
-      "rePositionAmount": 5,
-      "anchorRange": 3
-    }
-  ],
   "looting": {
-    "maxDanger": 100,
     "minCapacity": 0,
-    "containers": [
-      {
-        "id": 2854,
-        "count": 1
-      }
-    ],
+    "everyItem": false,
     "items": [
       {
         "id": 11492,
@@ -80,6 +12,74 @@
         "count": 1
       }
     ],
-    "everyItem": false
-  }
+    "containers": [
+      {
+        "id": 2854,
+        "count": 1
+      }
+    ],
+    "maxDanger": 100
+  },
+  "targeting": [
+    {
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "chase": true,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false,
+      "diamondArrows": false,
+      "maxDistance": 10,
+      "danger": 9,
+      "priority": 9,
+      "regex": "^novice of the cult$|^adept of the cult$|^acolyte of the cult$|^enlightened of the cult$",
+      "lure": false,
+      "rpSafe": false,
+      "anchor": false,
+      "closeLure": false,
+      "dynamicLureDelay": false,
+      "dontLoot": true,
+      "delayFrom": 2,
+      "keepDistanceRange": 1,
+      "lureMax": 3,
+      "name": "Novice of the Cult, Adept of the Cult, Acolyte of the Cult, Enlightened of the Cult"
+    },
+    {
+      "lureMin": 29,
+      "regex": "^chicken$|^bug$|^dog$|^skeleton$|^crypt shambler$|^ghoul$|^scorpion$|^rat$",
+      "lureDelay": 250,
+      "rePosition": false,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 5,
+      "dontLoot": true,
+      "anchorRange": 3,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false,
+      "diamondArrows": false,
+      "maxDistance": 5,
+      "danger": 0,
+      "rpSafe": false,
+      "rePositionAmount": 5,
+      "lure": false,
+      "name": "Chicken, Bug, Dog, Skeleton, Crypt Shambler, Ghoul, Scorpion, Rat",
+      "anchor": false,
+      "delayFrom": 2,
+      "closeLure": false,
+      "dynamicLure": true,
+      "priority": 0,
+      "keepDistanceRange": 1,
+      "lureMax": 30,
+      "dynamicLureDelay": false
+    }
+  ]
 }

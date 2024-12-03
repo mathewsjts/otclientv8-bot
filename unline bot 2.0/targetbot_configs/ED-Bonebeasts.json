@@ -13,7 +13,7 @@
   "targeting": [
     {
       "lureMin": 4,
-      "dynamicLure": true,
+      "dynamicLure": false,
       "lureDelay": 500,
       "rePosition": false,
       "closeLureAmount": 3,
@@ -21,7 +21,7 @@
       "lureCount": 1,
       "rePositionAmount": 5,
       "anchorRange": 3,
-      "chase": false,
+      "chase": true,
       "avoidAttacks": false,
       "keepDistance": false,
       "faceMonster": false,
@@ -29,7 +29,7 @@
       "maxDistance": 10,
       "danger": 10,
       "priority": 10,
-      "regex": "^hero$|^vicious squire$|^vile grandmaster$|^renegade knight$|^lich$|^bonebeast$|^necromancer$",
+      "regex": "^vicious squire$|^bonebeast$|^necromancer$",
       "lure": false,
       "rpSafe": false,
       "anchor": false,
@@ -39,7 +39,7 @@
       "delayFrom": 1,
       "keepDistanceRange": 1,
       "lureMax": 5,
-      "name": "Hero, Vicious Squire, Vile Grandmaster, Renegade Knight, Lich, Bonebeast, Necromancer"
+      "name": "Vicious Squire, Bonebeast, Necromancer"
     },
     {
       "lureMin": 29,
@@ -59,17 +59,17 @@
       "maxDistance": 10,
       "danger": 0,
       "priority": 0,
-      "name": "Bat, Bear, Poacher, Hunter, Wyvern, Skeleton, Ghoul, Wolf, Wisp, Rabbit, Blood Priest",
+      "regex": "^bat$|^bear$|^poacher$|^hunter$|^wyvern$|^skeleton$|^ghoul$|^wolf$|^wisp$|^rabbit$",
       "lure": false,
       "rpSafe": false,
       "anchor": false,
-      "keepDistanceRange": 1,
-      "delayFrom": 2,
-      "dontLoot": true,
-      "dynamicLureDelay": false,
       "closeLure": false,
+      "dynamicLureDelay": false,
+      "dontLoot": true,
+      "delayFrom": 2,
+      "keepDistanceRange": 1,
       "lureMax": 30,
-      "regex": "^bat$|^bear$|^poacher$|^hunter$|^wyvern$|^skeleton$|^ghoul$|^wolf$|^wisp$|^rabbit$|^blood priest$"
+      "name": "Bat, Bear, Poacher, Hunter, Wyvern, Skeleton, Ghoul, Wolf, Wisp, Rabbit"
     }
   ]
 }

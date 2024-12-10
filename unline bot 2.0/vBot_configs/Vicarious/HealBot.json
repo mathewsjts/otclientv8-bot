@@ -10,20 +10,20 @@
     "uturaCost": 100,
     "ignoreInPz": true,
     "stopHaste": false,
-    "enabled": false,
-    "curePosion": false,
-    "curseCost": 80,
-    "cureCurse": false,
-    "poisonCost": 20,
+    "burnCost": 30,
+    "electrifyCost": 22,
+    "paralyseSpell": "utani hur",
+    "paralyseCost": 40,
+    "cureParalyse": false,
     "cureBleed": false,
     "bleedCost": 45,
     "cureBurn": false,
-    "burnCost": 30,
+    "enabled": false,
     "cureElectrify": false,
-    "electrifyCost": 22,
-    "cureParalyse": false,
-    "paralyseCost": 40,
-    "paralyseSpell": "utani hur",
+    "curePosion": false,
+    "poisonCost": 20,
+    "cureCurse": false,
+    "curseCost": 80,
     "holdHaste": false,
     "hasteCost": 40
   },
@@ -38,16 +38,32 @@
       "spellTable": [
         {
           "value": 90,
-          "spell": "exura",
+          "spell": "exura san",
           "enabled": true,
           "origin": "HP%",
           "sign": "<",
-          "cost": 20,
+          "cost": 80,
           "index": 1
+        },
+        {
+          "value": 99,
+          "spell": "utani hur",
+          "enabled": true,
+          "origin": "MP%",
+          "sign": ">",
+          "cost": 60,
+          "index": 2
         }
       ],
       "itemTable": [
-
+        {
+          "value": 50,
+          "item": 237,
+          "origin": "MP%",
+          "sign": "<",
+          "enabled": true,
+          "index": 1
+        }
       ],
       "Visible": true,
       "Interval": true

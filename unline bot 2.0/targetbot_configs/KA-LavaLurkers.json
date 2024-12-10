@@ -1,45 +1,45 @@
 {
-    "looting": {
-      "maxDanger": 100,
-      "minCapacity": 0,
-      "items": [
-  
-      ],
-      "everyItem": false,
-      "containers": [
-  
-      ]
-    },
-    "targeting": [
-      {
-        "maxDistance": 10,
-        "danger": 5,
-        "priority": 5,
-        "regex": "^ravenous lava lurker$",
-        "lureMax": 4,
-        "lureMin": 2,
-        "delayFrom": 1,
-        "lureDelay": 650,
-        "closeLure": false,
-        "closeLureAmount": 3,
-        "rpSafe": false,
-        "rePosition": false,
-        "lureCavebot": false,
-        "lureCount": 1,
-        "dontLoot": true,
-        "rePositionAmount": 5,
-        "anchor": false,
-        "keepDistanceRange": 1,
-        "dynamicLureDelay": false,
-        "dynamicLure": false,
-        "faceMonster": false,
-        "diamondArrows": false,
-        "lure": false,
-        "chase": true,
-        "avoidAttacks": false,
-        "keepDistance": false,
-        "anchorRange": 3,
-        "name": "Ravenous Lava Lurker"
-      }
-    ]
-  }
+  "looting": {
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "items": [
+
+    ],
+    "containers": [
+
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "maxDistance": 10,
+      "danger": 5,
+      "lureMin": 2,
+      "dynamicLure": true,
+      "lureDelay": 650,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "priority": 5,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "dynamicLureDelay": true,
+      "delayFrom": 1,
+      "rePosition": false,
+      "dontLoot": true,
+      "lure": false,
+      "regex": "^ravenous lava lurker$",
+      "anchor": false,
+      "faceMonster": false,
+      "name": "Ravenous Lava Lurker",
+      "diamondArrows": false,
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "rpSafe": false,
+      "lureMax": 3
+    }
+  ]
+}

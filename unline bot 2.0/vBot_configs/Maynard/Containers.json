@@ -1,85 +1,85 @@
 {
   "containers": {
-    "purse": true,
     "height": 170,
-    "list": [
-      {
-        "value": "main",
-        "min": true,
-        "enabled": true,
-        "items": [
-          {
-            "id": 22730,
-            "count": 2
-          }
-        ],
-        "item": 2854
-      },
-      {
-        "value": "tools",
-        "min": true,
-        "enabled": true,
-        "items": [
-          {
-            "id": 3723,
-            "count": 1
-          },
-          {
-            "id": 34234,
-            "count": 1
-          },
-          {
-            "id": 3003,
-            "count": 1
-          },
-          {
-            "id": 3457,
-            "count": 1
-          },
-          {
-            "id": 3456,
-            "count": 1
-          }
-        ],
-        "item": 7343
-      },
-      {
-        "value": "purse",
-        "min": true,
-        "enabled": true,
-        "items": [
-
-        ],
-        "item": 23396
-      },
-      {
-        "value": "quickloot",
-        "min": true,
-        "enabled": true,
-        "items": [
-
-        ],
-        "item": 23721
-      },
-      {
-        "value": "supplies",
-        "min": true,
-        "enabled": true,
-        "items": [
-          {
-            "id": 1781,
-            "count": 1
-          },
-          {
-            "id": 23374,
-            "count": 72
-          }
-        ],
-        "item": 9602
-      }
-    ],
     "sort": true,
     "lootBag": true,
+    "list": [
+      {
+        "min": true,
+        "items": [
+          {
+            "count": 2,
+            "id": 22730
+          }
+        ],
+        "value": "main",
+        "item": 2854,
+        "enabled": true
+      },
+      {
+        "min": true,
+        "items": [
+          {
+            "count": 1,
+            "id": 3723
+          },
+          {
+            "count": 1,
+            "id": 34234
+          },
+          {
+            "count": 1,
+            "id": 3003
+          },
+          {
+            "count": 1,
+            "id": 3457
+          },
+          {
+            "count": 1,
+            "id": 3456
+          }
+        ],
+        "value": "tools",
+        "item": 7343,
+        "enabled": true
+      },
+      {
+        "min": true,
+        "items": [
+
+        ],
+        "value": "purse",
+        "item": 23396,
+        "enabled": true
+      },
+      {
+        "min": true,
+        "items": [
+
+        ],
+        "value": "quickloot",
+        "item": 23721,
+        "enabled": true
+      },
+      {
+        "min": true,
+        "items": [
+          {
+            "count": 1,
+            "id": 1781
+          },
+          {
+            "count": 72,
+            "id": 23374
+          }
+        ],
+        "value": "supplies",
+        "item": 9602,
+        "enabled": true
+      }
+    ],
+    "purse": true,
     "forceOpen": true,
     "enabled": true
   }

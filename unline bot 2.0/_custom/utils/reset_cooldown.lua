@@ -8,7 +8,9 @@ resetCooldowns()
 
 onTextMessage(function(mode, text)
 	local lowerText = text:lower()
-	if lowerText:find("you are dead") then
+	local dead = lowerText:find("you are dead")
+	local mommentum = lowerText:find("momentum was triggered")
+	if dead or mommentum then
 		schedule(100, resetCooldowns)
 	end
 end)

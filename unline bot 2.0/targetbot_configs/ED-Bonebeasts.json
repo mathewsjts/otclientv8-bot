@@ -1,75 +1,75 @@
 {
-  "looting": {
-    "minCapacity": 0,
-    "everyItem": false,
-    "items": [
-
-    ],
-    "containers": [
-
-    ],
-    "maxDanger": 100
-  },
   "targeting": [
     {
+      "chase": true,
+      "lureMax": 5,
+      "keepDistance": false,
       "lureMin": 4,
       "dynamicLure": false,
       "lureDelay": 500,
-      "rePosition": false,
-      "closeLureAmount": 3,
-      "lureCavebot": false,
-      "lureCount": 1,
-      "rePositionAmount": 5,
-      "anchorRange": 3,
-      "chase": true,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "faceMonster": false,
-      "diamondArrows": false,
       "maxDistance": 10,
       "danger": 10,
-      "priority": 10,
       "regex": "^vicious squire$|^bonebeast$|^necromancer$",
-      "lure": false,
-      "rpSafe": false,
+      "lureCavebot": false,
+      "lureCount": 1,
       "anchor": false,
-      "closeLure": false,
-      "dynamicLureDelay": false,
-      "dontLoot": true,
-      "delayFrom": 1,
+      "rePositionAmount": 5,
+      "anchorRange": 3,
       "keepDistanceRange": 1,
-      "lureMax": 5,
-      "name": "Vicious Squire, Bonebeast, Necromancer"
+      "name": "Vicious Squire, Bonebeast, Necromancer",
+      "closeLure": false,
+      "dontLoot": true,
+      "rePosition": false,
+      "avoidAttacks": false,
+      "lure": false,
+      "priority": 10,
+      "dynamicLureDelay": false,
+      "diamondArrows": true,
+      "faceMonster": false,
+      "delayFrom": 1,
+      "closeLureAmount": 3,
+      "rpSafe": false
     },
     {
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
       "lureMin": 29,
       "dynamicLure": true,
       "lureDelay": 250,
       "rePosition": false,
-      "closeLureAmount": 3,
+      "danger": 0,
+      "name": "Bat, Bear, Poacher, Hunter, Wyvern, Skeleton, Ghoul, Wolf, Wisp, Rabbit",
       "lureCavebot": false,
       "lureCount": 5,
+      "anchor": false,
       "rePositionAmount": 5,
       "anchorRange": 3,
-      "chase": false,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "faceMonster": false,
-      "diamondArrows": false,
-      "maxDistance": 10,
-      "danger": 0,
-      "priority": 0,
-      "regex": "^bat$|^bear$|^poacher$|^hunter$|^wyvern$|^skeleton$|^ghoul$|^wolf$|^wisp$|^rabbit$",
-      "lure": false,
-      "rpSafe": false,
-      "anchor": false,
-      "closeLure": false,
-      "dynamicLureDelay": false,
-      "dontLoot": true,
-      "delayFrom": 2,
       "keepDistanceRange": 1,
       "lureMax": 30,
-      "name": "Bat, Bear, Poacher, Hunter, Wyvern, Skeleton, Ghoul, Wolf, Wisp, Rabbit"
+      "delayFrom": 2,
+      "faceMonster": false,
+      "dontLoot": true,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "priority": 0,
+      "closeLure": false,
+      "diamondArrows": false,
+      "closeLureAmount": 3,
+      "regex": "^bat$|^bear$|^poacher$|^hunter$|^wyvern$|^skeleton$|^ghoul$|^wolf$|^wisp$|^rabbit$",
+      "maxDistance": 10,
+      "rpSafe": false
     }
-  ]
+  ],
+  "looting": {
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "everyItem": false,
+    "containers": [
+
+    ],
+    "items": [
+
+    ]
+  }
 }

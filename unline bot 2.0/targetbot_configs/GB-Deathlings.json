@@ -1,75 +1,78 @@
 {
-  "looting": {
-    "maxDanger": 100,
-    "minCapacity": 0,
-    "items": [
-
-    ],
-    "containers": [
-
-    ],
-    "everyItem": false
-  },
   "targeting": [
     {
-      "diamondArrows": false,
-      "chase": true,
-      "avoidAttacks": false,
-      "keepDistance": false,
-      "dynamicLureDelay": false,
-      "rePosition": false,
       "maxDistance": 10,
+      "danger": 5,
+      "regex": "^deathling scout$|^deathling spellsinger$",
       "lureMin": 2,
       "dynamicLure": false,
       "lureDelay": 750,
       "closeLure": false,
       "closeLureAmount": 3,
-      "regex": "^deathling scout$|^deathling spellsinger$",
+      "anchor": false,
+      "lureMax": 4,
       "lureCavebot": false,
       "lureCount": 1,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "rePosition": false,
+      "diamondArrows": false,
+      "name": "Deathling Scout, Deathling Spellsinger",
+      "dontLoot": true,
+      "priority": 5,
       "rpSafe": false,
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "anchor": false,
-      "danger": 5,
-      "lure": false,
-      "priority": 5,
-      "faceMonster": false,
-      "dontLoot": true,
-      "name": "Deathling Scout, Deathling Spellsinger",
-      "delayFrom": 2,
-      "lureMax": 4
-    },
-    {
-      "diamondArrows": false,
-      "chase": false,
+      "chase": true,
       "avoidAttacks": false,
       "keepDistance": false,
-      "dynamicLureDelay": false,
-      "rePosition": false,
+      "faceMonster": false
+    },
+    {
       "maxDistance": 5,
+      "danger": 0,
+      "regex": "^deepling scout$|^northern pike$|^fish$|^calamary$|^deepling warrior$",
       "lureMin": 29,
       "dynamicLure": true,
       "lureDelay": 250,
       "closeLure": false,
       "closeLureAmount": 3,
-      "regex": "^deepling scout$|^northern pike$|^fish$|^calamary$|^deepling warrior$",
+      "anchor": false,
+      "lureMax": 30,
       "lureCavebot": false,
       "lureCount": 5,
+      "delayFrom": 2,
+      "dynamicLureDelay": false,
+      "lure": false,
+      "rePosition": false,
+      "diamondArrows": false,
+      "name": "Deepling Scout, Northern Pike, Fish, Calamary, Deepling Warrior",
+      "dontLoot": true,
+      "priority": 0,
       "rpSafe": false,
       "rePositionAmount": 5,
       "anchorRange": 3,
       "keepDistanceRange": 1,
-      "anchor": false,
-      "danger": 0,
-      "lure": false,
-      "priority": 0,
-      "faceMonster": false,
-      "dontLoot": true,
-      "name": "Deepling Scout, Northern Pike, Fish, Calamary, Deepling Warrior",
-      "delayFrom": 2,
-      "lureMax": 30
+      "chase": false,
+      "avoidAttacks": false,
+      "keepDistance": false,
+      "faceMonster": false
     }
-  ]
+  ],
+  "looting": {
+    "maxDanger": 100,
+    "minCapacity": 0,
+    "items": [
+      {
+        "id": 33075,
+        "count": 1
+      }
+    ],
+    "containers": [
+
+    ],
+    "everyItem": false
+  }
 }

@@ -1,0 +1,62 @@
+{
+  "containers": {
+    "sort": true,
+    "list": [
+      {
+        "min": true,
+        "value": "main",
+        "items": [
+
+        ],
+        "enabled": true,
+        "item": 2854
+      },
+      {
+        "min": true,
+        "value": "tools",
+        "items": [
+          {
+            "id": 3723,
+            "count": 78
+          }
+        ],
+        "enabled": true,
+        "item": 2864
+      },
+      {
+        "min": true,
+        "value": "purse",
+        "items": [
+
+        ],
+        "enabled": true,
+        "item": 23396
+      },
+      {
+        "min": true,
+        "value": "quickloot",
+        "items": [
+
+        ],
+        "enabled": true,
+        "item": 23721
+      },
+      {
+        "min": true,
+        "items": [
+          {
+            "id": 25757,
+            "count": 92
+          }
+        ],
+        "item": 34334,
+        "enabled": true,
+        "value": "quiver"
+      }
+    ],
+    "purse": true,
+    "forceOpen": true,
+    "enabled": true,
+    "height": 170
+  }
+}

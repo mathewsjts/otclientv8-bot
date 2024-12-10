@@ -1,0 +1,86 @@
+{
+  "containers": {
+    "purse": true,
+    "list": [
+      {
+        "items": [
+          {
+            "count": 2,
+            "id": 22730
+          }
+        ],
+        "min": true,
+        "enabled": true,
+        "value": "main",
+        "item": 2854
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": 3723
+          },
+          {
+            "count": 1,
+            "id": 34234
+          },
+          {
+            "count": 1,
+            "id": 3003
+          },
+          {
+            "count": 1,
+            "id": 3457
+          },
+          {
+            "count": 1,
+            "id": 3456
+          }
+        ],
+        "min": true,
+        "enabled": true,
+        "value": "tools",
+        "item": 7343
+      },
+      {
+        "items": [
+
+        ],
+        "min": true,
+        "enabled": true,
+        "value": "purse",
+        "item": 23396
+      },
+      {
+        "items": [
+
+        ],
+        "min": true,
+        "enabled": true,
+        "value": "quickloot",
+        "item": 23721
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": 1781
+          },
+          {
+            "count": 72,
+            "id": 23374
+          }
+        ],
+        "min": true,
+        "enabled": true,
+        "value": "supplies",
+        "item": 9602
+      }
+    ],
+    "sort": true,
+    "forceOpen": true,
+    "lootBag": true,
+    "enabled": true,
+    "height": 170
+  }
+}

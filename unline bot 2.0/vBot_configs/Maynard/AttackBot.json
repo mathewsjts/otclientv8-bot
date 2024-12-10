@@ -1,0 +1,184 @@
+{
+  "AttackBot": [
+    {
+      "attackTable": [
+        {
+          "count": 1,
+          "monsters": true,
+          "enabled": true,
+          "itemId": 0,
+          "description": "[5 Sqm Range] 1+ Any Creatures: utito tempo, empowerment (0%-100%)",
+          "patternCategory": 3,
+          "tooltip": false,
+          "maxHp": 100,
+          "minHp": 0,
+          "creatures": "monster names",
+          "category": 4,
+          "spell": "utito tempo",
+          "mana": 80,
+          "pattern": 5,
+          "orMore": true,
+          "cooldown": 1
+        },
+        {
+          "count": 2,
+          "monsters": [
+            "arachnophobica",
+            "insane siren",
+            "thanatursus",
+            "crazed summer rearguard"
+          ],
+          "orMore": true,
+          "itemId": 33074,
+          "description": "[Ball] 2+ Creatures: rune 33074, area (0%-100%)",
+          "patternCategory": 2,
+          "tooltip": "arachnophobica,insane siren,thanatursus,crazed summer rearguard",
+          "maxHp": 100,
+          "minHp": 0,
+          "creatures": "arachnophobica,insane siren,thanatursus,crazed summer rearguard",
+          "category": 2,
+          "spell": "spell name",
+          "mana": 1,
+          "pattern": 3,
+          "enabled": true,
+          "cooldown": 1
+        },
+        {
+          "count": 2,
+          "monsters": true,
+          "cooldown": 1,
+          "itemId": 33075,
+          "description": "[Ball] 2+ Any Creatures: rune 33075, area (0%-100%)",
+          "patternCategory": 2,
+          "orMore": true,
+          "maxHp": 100,
+          "minHp": 0,
+          "creatures": "monster names",
+          "mana": 1,
+          "spell": "spell name",
+          "category": 2,
+          "pattern": 3,
+          "tooltip": false,
+          "enabled": true
+        },
+        {
+          "count": 1,
+          "monsters": true,
+          "enabled": true,
+          "itemId": 0,
+          "description": "[1 Sqm] 1+ Any Creatures: exori mas cruentus, targeted (0%-100%)",
+          "patternCategory": 1,
+          "tooltip": false,
+          "maxHp": 100,
+          "minHp": 0,
+          "creatures": "monster names",
+          "category": 1,
+          "spell": "exori mas cruentus",
+          "mana": 98,
+          "pattern": 1,
+          "orMore": true,
+          "cooldown": 1
+        },
+        {
+          "count": 1,
+          "monsters": true,
+          "enabled": true,
+          "itemId": 0,
+          "description": "[1 Sqm] 1+ Any Creatures: exori cruentus, targeted (0%-100%)",
+          "patternCategory": 1,
+          "tooltip": false,
+          "maxHp": 100,
+          "minHp": 0,
+          "creatures": "monster names",
+          "category": 1,
+          "spell": "exori cruentus",
+          "mana": 90,
+          "pattern": 1,
+          "orMore": true,
+          "cooldown": 1
+        }
+      ],
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": true,
+      "name": "Profile #1",
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": false,
+      "name": "Profile #2",
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": false,
+      "name": "Profile #3",
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": false,
+      "name": "Profile #4",
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1
+    },
+    {
+      "attackTable": [
+
+      ],
+      "ignoreMana": true,
+      "PvpSafe": true,
+      "BlackListSafe": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": false,
+      "name": "Profile #5",
+      "AntiRsRange": 5,
+      "pvpMode": false,
+      "Visible": true,
+      "Kills": false,
+      "KillsAmount": 1
+    }
+  ],
+  "currentBotProfile": 1
+}

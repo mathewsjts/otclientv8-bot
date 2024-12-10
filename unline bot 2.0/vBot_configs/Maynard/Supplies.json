@@ -2,15 +2,15 @@
   "supplies": {
     "Default": {
       "capValue": "90",
-      "staminaSwitch": true,
+      "imbues": false,
       "items": {
-        "1781": {
-          "max": 1000,
+        "34298": {
+          "max": 1,
           "avg": 0,
           "min": 0
         },
-        "3723": {
-          "max": 100,
+        "1781": {
+          "max": 1000,
           "avg": 0,
           "min": 0
         },
@@ -24,15 +24,15 @@
           "avg": 0,
           "min": 75
         },
-        "34298": {
-          "max": 1,
+        "3723": {
+          "max": 100,
           "avg": 0,
           "min": 0
         }
       },
       "staminaValue": "2340",
       "capSwitch": false,
-      "imbues": false
+      "staminaSwitch": true
     },
     "currentProfile": "Default"
   }

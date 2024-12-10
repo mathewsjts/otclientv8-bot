@@ -1,0 +1,121 @@
+{
+  "ConditionPanel": {
+    "hasteSpell": "utani hur",
+    "holdUtamo": false,
+    "utamoCost": 40,
+    "holdUtana": false,
+    "utanaCost": 440,
+    "holdUtura": false,
+    "uturaType": "",
+    "uturaCost": 100,
+    "ignoreInPz": true,
+    "stopHaste": false,
+    "enabled": false,
+    "curePosion": false,
+    "curseCost": 80,
+    "cureCurse": false,
+    "poisonCost": 20,
+    "cureBleed": false,
+    "bleedCost": 45,
+    "cureBurn": false,
+    "burnCost": 30,
+    "cureElectrify": false,
+    "electrifyCost": 22,
+    "cureParalyse": false,
+    "paralyseCost": 40,
+    "paralyseSpell": "utani hur",
+    "holdHaste": false,
+    "hasteCost": 40
+  },
+  "healbot": [
+    {
+      "MessageDelay": false,
+      "Cooldown": true,
+      "Delay": true,
+      "Conditions": true,
+      "enabled": true,
+      "name": "Profile #1",
+      "spellTable": [
+        {
+          "value": 90,
+          "spell": "exura",
+          "enabled": true,
+          "origin": "HP%",
+          "sign": "<",
+          "cost": 20,
+          "index": 1
+        }
+      ],
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true
+    },
+    {
+      "MessageDelay": false,
+      "Cooldown": true,
+      "Delay": true,
+      "Conditions": true,
+      "enabled": false,
+      "name": "Profile #2",
+      "spellTable": [
+
+      ],
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true
+    },
+    {
+      "MessageDelay": false,
+      "Cooldown": true,
+      "Delay": true,
+      "Conditions": true,
+      "enabled": false,
+      "name": "Profile #3",
+      "spellTable": [
+
+      ],
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true
+    },
+    {
+      "MessageDelay": false,
+      "Cooldown": true,
+      "Delay": true,
+      "Conditions": true,
+      "enabled": false,
+      "name": "Profile #4",
+      "spellTable": [
+
+      ],
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true
+    },
+    {
+      "MessageDelay": false,
+      "Cooldown": true,
+      "Delay": true,
+      "Conditions": true,
+      "enabled": false,
+      "name": "Profile #5",
+      "spellTable": [
+
+      ],
+      "itemTable": [
+
+      ],
+      "Visible": true,
+      "Interval": true
+    }
+  ],
+  "currentHealBotProfile": 1
+}

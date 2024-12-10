@@ -22,6 +22,7 @@ CaveBot.Extensions.CheckTrainer.setup = function()
       currentOutfit.body = 114
       currentOutfit.legs = 114
       currentOutfit.feet = 114
+			currentOutfit.addons = 3
       g_game.changeOutfit(currentOutfit)
       CaveBot.delay(500)
     end
@@ -64,6 +65,7 @@ CaveBot.Extensions.CheckTrainer.setup = function()
         currentOutfit.body = 114
         currentOutfit.legs = 114
         currentOutfit.feet = 114
+				currentOutfit.addons = 3
         g_game.changeOutfit(currentOutfit)
       end
 

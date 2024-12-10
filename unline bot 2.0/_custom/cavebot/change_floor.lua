@@ -1,15 +1,10 @@
 CaveBot.Extensions.ChangeFloor = {}
 
-local function to_boolean(value)
-  return value == "true"
-end
-
 CaveBot.Extensions.ChangeFloor.setup = function()
   CaveBot.registerAction("ChangeFloor", "#ffffff", function(value, retries)
-    local data = regexMatch(value, "\\s*([a-z]+)\\s*,\\s*([a-z]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)")
+    local data = regexMatch(value, "\\s*([a-z]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)")
     local direction = data[1][2]
-    local useItem = to_boolean(data[1][3])
-    local tilePosition = {x=tonumber(data[1][4]), y=tonumber(data[1][5]), z=tonumber(data[1][6])}
+    local tilePosition = {x=tonumber(data[1][3]), y=tonumber(data[1][4]), z=tonumber(data[1][5])}
     local playerPosition = player:getPosition()
 
     if retries > 10 then
@@ -25,18 +20,21 @@ CaveBot.Extensions.ChangeFloor.setup = function()
       local tile = g_map.getTile(tilePosition)
       local topUseThing = tile:getTopUseThing()
 
-      if useItem then
-        if direction == "up" then
-          useWith(storage.extras.rope, topUseThing)
-        else
-          useWith(storage.extras.shovel, topUseThing)
-          CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
-          autoWalk(tilePosition, 100, {precision=0})
-        end
-      else
-        use(topUseThing)
+      if direction == "up" then
+				autoWalk(tilePosition, 100, {precision=0})
+				CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
+				use(topUseThing)
+        CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
+        cast("exani tera")
+        return "retry"
+      elseif direction == "down" then
+				useWith(storage.extras.shovel, topUseThing)
+				CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
+				use(topUseThing)
+				CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
+        autoWalk(tilePosition, 100, {precision=0})
+        return "retry"
       end
-      return "retry"
     end
 
     CaveBot.delay(CaveBot.Config.get("useDelay") + CaveBot.Config.get("ping"))
@@ -44,10 +42,10 @@ CaveBot.Extensions.ChangeFloor.setup = function()
   end)
 
   CaveBot.Editor.registerAction("changefloor", "change floor", {
-    value=function() return "up,true,"..posx()..","..posy()..","..posz() end,
+    value=function() return "up,"..posx()..","..posy()..","..posz() end,
     title="Change floor",
-    description="up/down, use rope/shovel, x, y, z",
+    description="up/down,x,y,z",
     multiline=false,
-    validation="^\\s*([a-z]+)\\s*,\\s*([a-z]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)$"
+    validation="^\\s*([a-z]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)\\s*,\\s*([0-9]+)$"
   })
 end

@@ -387,7 +387,7 @@ onCreatureDisappear(function(creature)
   local tilePos = tile:getPosition()
   local pPos = player:getPosition()
 
-  if not tile or not tilePos then return end
+  if not tilePos or not pPos then return end
   if math.abs(pPos.x-tilePos.x) >= 6 or math.abs(pPos.y-tilePos.y) >= 6 then return end
 
   local cd = bossData[name]

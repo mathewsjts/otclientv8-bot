@@ -1,8 +1,11 @@
 {
+  "last_quickloot": "crown armor, crown helmet, crown legs, crown shield, fire sword, gold coin, guardian shield, knight legs, piggy bank, platinum coin, warrior helmet",
+  "cavebot_profile": "ED-HeroesCave",
+  "left_weapon_id": 3350,
   "loot_seller_cities": [
 
   ],
-  "last_quickloot": "crown armor, crown helmet, crown legs, crown shield, fire sword, gold coin, guardian shield, knight legs, piggy bank, platinum coin, warrior helmet",
-  "cavebot_profile": "ED-HeroesCave",
+  "outfit": 128,
+  "exercise_id": 34301,
   "loot_seller_active": false
 }

@@ -1,62 +1,62 @@
 {
   "containers": {
-    "sort": true,
+    "forceOpen": true,
+    "height": 170,
+    "enabled": true,
+    "purse": true,
     "list": [
       {
         "min": true,
+        "item": 2854,
+        "enabled": true,
         "value": "main",
         "items": [
 
-        ],
-        "enabled": true,
-        "item": 2854
+        ]
       },
       {
         "min": true,
+        "item": 2864,
+        "enabled": true,
         "value": "tools",
         "items": [
           {
-            "id": 3723,
-            "count": 78
+            "count": 78,
+            "id": 3723
           }
-        ],
-        "enabled": true,
-        "item": 2864
+        ]
       },
       {
         "min": true,
+        "item": 23396,
+        "enabled": true,
         "value": "purse",
         "items": [
 
-        ],
-        "enabled": true,
-        "item": 23396
+        ]
       },
       {
         "min": true,
+        "item": 23721,
+        "enabled": true,
         "value": "quickloot",
         "items": [
 
-        ],
-        "enabled": true,
-        "item": 23721
+        ]
       },
       {
         "min": true,
-        "items": [
-          {
-            "id": 25757,
-            "count": 92
-          }
-        ],
         "item": 34334,
         "enabled": true,
-        "value": "quiver"
+        "value": "quiver",
+        "items": [
+          {
+            "count": 92,
+            "id": 25757
+          }
+        ]
       }
     ],
-    "purse": true,
-    "forceOpen": true,
-    "enabled": true,
-    "height": 170
+    "sort": true
   }
 }
